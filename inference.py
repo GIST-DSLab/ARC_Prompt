@@ -9,9 +9,9 @@ from tqdm import tqdm
 
 load_dotenv()
 
-openai.organization = "org-D9qOzGt4FPdshUSreOCpEyXZ"
+#openai.organization = ""
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-openai.api_key = "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"
+#openai.api_key = "키 값을 넣어주세요"
 prompt_sentence = []
 label_sentence = []
 data = []
