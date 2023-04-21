@@ -3,6 +3,7 @@ import json
 from collections import OrderedDict
 from tqdm import tqdm
 
+# ARC dataset 파일 경로
 train_path = './data/training/'
 evaluation_path = './data/evaluation/'
 
@@ -37,6 +38,7 @@ training_completion_sentence = []
 evaluation_prompt_sentence = []
 evaluation_completion_sentence = []
 
+# prompt에 사용할 format 
 start_prompt_sentence = "I give you some questions below forms.\n\n" \
                  "<example 1>\n\n" \
                  "<example 2>\n\n" \
