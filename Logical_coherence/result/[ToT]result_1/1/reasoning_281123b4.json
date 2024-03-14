@@ -1,0 +1,139 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9."
+                ],
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9."
+                ],
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9."
+                ]
+            ],
+            "values": [
+                0,
+                2,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in each quadrant of the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: "
+                ],
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: "
+                ],
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: "
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in each quadrant of the grid.",
+                "Q3: Identify the number with the highest frequency in each quadrant."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: "
+                ],
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: "
+                ],
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: "
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in each quadrant of the grid.",
+                "Q3: Identify the number with the highest frequency in each quadrant.",
+                "Q4: Create a new 4x4 grid where each quadrant is filled with the number that had the highest frequency in the corresponding quadrant of the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: \nA4: "
+                ],
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: \nA4: "
+                ],
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: \nA4: "
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: \nA4: "
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in each quadrant of the grid.",
+                "Q3: Identify the number with the highest frequency in each quadrant.",
+                "Q4: Create a new 4x4 grid where each quadrant is filled with the number that had the highest frequency in the corresponding quadrant of the input grid.",
+                "Q5: If there is a tie in the frequency count, fill the quadrant with the number that comes first when reading the grid from left to right, top to bottom."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: \nA4: \nA5: \n\nTo solve the quiz.\n\nQ1: Identify the unique numbers in the grid.\nA1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\n\nQ2: Count the frequency of each unique number in each quadrant of the grid.\nA2: \n\nTop-left quadrant: 8 appears 7 times, 0 appears 4 times, 3 appears 4 times, 5 appears 4 times.\nTop-right quadrant: 5 appears 7 times, 3 appears 4 times, 0 appears 3 times, 9 appears 2 times.\nBottom-left quadrant: 8 appears 4 times, 0 appears 5 times, 3 appears 4 times, 5 appears 3 times, 4 appears 2 times.\nBottom-right quadrant: 0 appears 6 times, 3 appears 4 times, 9 appears 4 times, 4 appears 3 times.\n\nQ3: Identify the number with the highest frequency in each quadrant.\nA3: \n\nTop-left quadrant: 8\nTop-right quadrant: 5\nBottom-left quadrant: 0\nBottom-right quadrant: 0\n\nQ4: Create a new 4x4 grid where each quadrant is filled with the number that had the highest frequency in the corresponding quadrant of the input grid.\nA4: \n\n[[8, 8, 5, 5], \n [8, 8, 5, 5], \n [0, 0, 0, 0], \n [0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: \nA4: \nA5: \n\nTo solve the quiz.\n\nQ1: Identify the unique numbers in the grid.\nA1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\n\nQ2: Count the frequency of each unique number in each quadrant of the grid.\nA2: \n\nTop-left quadrant: 8 appears 7 times, 0 appears 4 times, 3 appears 4 times, 5 appears 4 times.\nTop-right quadrant: 5 appears 7 times, 3 appears 4 times, 0 appears 3 times, 9 appears 2 times.\nBottom-left quadrant: 8 appears 4 times, 0 appears 5 times, 3 appears 4 times, 5 appears 3 times, 4 appears 2 times.\nBottom-right quadrant: 0 appears 6 times, 3 appears 4 times, 9 appears 4 times, 4 appears 3 times.\n\nQ3: Identify the number with the highest frequency in each quadrant.\nA3: \n\nTop-left quadrant: 8\nTop-right quadrant: 5\nBottom-left quadrant: 0\nBottom-right quadrant: 0\n\nQ4: Create a new 4x4 grid where each quadrant is filled with the number that had the highest frequency in the corresponding quadrant of the input grid.\nA4: \n\n[[8, 8, 5, 5], \n [8, 8, 5, 5], \n [0, 0, 0, 0], \n [0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: \nA4: \nA5: \n\nTo solve the quiz.\n\nQ1: Identify the unique numbers in the grid.\nA1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\n\nQ2: Count the frequency of each unique number in each quadrant of the grid.\nA2: \n\nTop-left quadrant: 8 appears 7 times, 0 appears 4 times, 3 appears 4 times, 5 appears 4 times.\nTop-right quadrant: 5 appears 7 times, 3 appears 4 times, 0 appears 3 times, 9 appears 2 times.\nBottom-left quadrant: 8 appears 4 times, 0 appears 5 times, 3 appears 4 times, 5 appears 3 times, 4 appears 2 times.\nBottom-right quadrant: 0 appears 6 times, 3 appears 4 times, 9 appears 4 times, 4 appears 4 times.\n\nQ3: Identify the number with the highest frequency in each quadrant.\nA3: \n\nTop-left quadrant: 8\nTop-right quadrant: 5\nBottom-left quadrant: 0\nBottom-right quadrant: 0\n\nQ4: Create a new 4x4 grid where each quadrant is filled with the number that had the highest frequency in the corresponding quadrant of the input grid.\nA4: \n\n[[8, 8, 5, 5], \n [8, 8, 5, 5], \n [0, 0, 0, 0], \n [0, 0, 0, 0]]\n\nQ5: If there is a tie in the frequency count, fill the quadrant with the number that comes first when reading the grid from left to right, top to bottom.\nA5: There was no tie in the frequency count in this case."
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\nA2: \nA3: \nA4: \nA5: \n\nTo solve the quiz.\n\nQ1: Identify the unique numbers in the grid.\nA1: The unique numbers in the grid are 0, 3, 4, 5, 8, and 9.\n\nQ2: Count the frequency of each unique number in each quadrant of the grid.\nA2: \n\nTop-left quadrant: 8 appears 7 times, 0 appears 4 times, 3 appears 4 times, 5 appears 4 times.\nTop-right quadrant: 5 appears 7 times, 3 appears 4 times, 0 appears 3 times, 9 appears 2 times.\nBottom-left quadrant: 8 appears 4 times, 0 appears 5 times, 3 appears 4 times, 5 appears 3 times, 4 appears 2 times.\nBottom-right quadrant: 0 appears 6 times, 3 appears 4 times, 9 appears 4 times, 4 appears 4 times.\n\nQ3: Identify the number with the highest frequency in each quadrant.\nA3: \n\nTop-left quadrant: 8\nTop-right quadrant: 5\nBottom-left quadrant: 0\nBottom-right quadrant: 0\n\nQ4: Create a new 4x4 grid where each quadrant is filled with the number that had the highest frequency in the corresponding quadrant of the input grid.\nA4: \n\n[[8, 8, 5, 5], \n [8, 8, 5, 5], \n [0, 0, 0, 0], \n [0, 0, 0, 0]]\n\nQ5: If there is a tie in the frequency count, fill the quadrant with the number that comes first when reading the grid from left to right, top to bottom.\nA5: There was no tie in the frequency count in this case."
+            ]
+        }
+    ]
+}

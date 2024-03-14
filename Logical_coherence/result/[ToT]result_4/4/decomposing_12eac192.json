@@ -1,0 +1,36 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells in the input grid that are surrounded by 1s on the left and right side.",
+                    "Q2: Change the value of the cells identified in Q1 to 3.",
+                    "Q3: Repeat the process for each row in the input grid."
+                ],
+                [
+                    "Q1: Identify the cells in the input grid that are surrounded by 1s on the left and right side.",
+                    "Q2: Change the value of the cells identified in Q1 to 3.",
+                    "Q3: Identify the cells in the input grid that are surrounded by 1s on the top and bottom side.",
+                    "Q4: Change the value of the cells identified in Q3 to 3.",
+                    "Q5: Identify the cells in the input grid that are surrounded by 1s on the diagonal sides.",
+                    "Q6: Change the value of the cells identified in Q5 to 3."
+                ],
+                [
+                    "Q1: Identify the cells in the input grid that are surrounded by 1s on the left and right side.",
+                    "Q2: Change the value of the cells identified in Q1 to 3.",
+                    "Q3: Repeat the process for each row in the input grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells in the input grid that are surrounded by 1s on the left and right side.",
+                "Q2: Change the value of the cells identified in Q1 to 3.",
+                "Q3: Repeat the process for each row in the input grid."
+            ]
+        }
+    ]
+}

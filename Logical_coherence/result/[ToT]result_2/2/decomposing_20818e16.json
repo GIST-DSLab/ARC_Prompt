@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the different colors in the grid and their corresponding numbers.",
+                    "Q2: Identify the pattern of the different colors in the grid.",
+                    "Q3: Identify the areas where the colors are grouped together.",
+                    "Q4: Identify the transformation from the input grid to the output grid in the examples.",
+                    "Q5: Identify the size and shape of the output grid in relation to the input grid.",
+                    "Q6: Apply the transformation identified in Q4 to the input grid of the quiz.",
+                    "Q7: Resize the transformed grid to match the size and shape identified in Q5."
+                ],
+                [
+                    "Q1: Identify the different regions in the grid, each region is a group of cells with the same color.",
+                    "Q2: Determine the order of the regions from top to bottom, and from left to right.",
+                    "Q3: Remove the cells that are not part of any region.",
+                    "Q4: Resize the grid to fit the remaining cells.",
+                    "Q5: Reassign the colors of the regions according to the order determined in Q2. The first region should be assigned the color 1, the second region the color 2, and so on."
+                ],
+                [
+                    "Q1: Identify the different colors in the grid and their corresponding numbers.",
+                    "Q2: Identify the pattern of the different colors in the grid.",
+                    "Q3: Identify the areas where the colors are grouped together.",
+                    "Q4: Identify the transformation from the input grid to the output grid in the examples.",
+                    "Q5: Identify the size and shape of the output grid in relation to the input grid.",
+                    "Q6: Apply the transformation identified in Q4 to the input grid of the quiz.",
+                    "Q7: Resize the transformed grid to match the size and shape identified in Q5."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the different regions in the grid, each region is a group of cells with the same color.",
+                "Q2: Determine the order of the regions from top to bottom, and from left to right.",
+                "Q3: Remove the cells that are not part of any region.",
+                "Q4: Resize the grid to fit the remaining cells.",
+                "Q5: Reassign the colors of the regions according to the order determined in Q2. The first region should be assigned the color 1, the second region the color 2, and so on."
+            ]
+        }
+    ]
+}

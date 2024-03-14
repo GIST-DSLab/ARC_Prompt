@@ -1,0 +1,139 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the input grid that are not zero."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3."
+                ],
+                [
+                    "A1: The unique numbers in the input grid that are not zero are [8, 2, 1, 3]."
+                ],
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the input grid that are not zero.",
+                "Q2: Find the row and column in which each unique number is located."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10. "
+                ],
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10."
+                ],
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located in the third row and fourth column. The number 2 is located in the fifth row and seventh column. The number 1 is located in the tenth row and twelfth column. The number 3 is located in the thirteenth row and tenth column. "
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the input grid that are not zero.",
+                "Q2: Find the row and column in which each unique number is located.",
+                "Q3: For each unique number, draw a box around the number, filling the box with the number. The box should stretch from the first row/column to the last row/column of the grid, and be enclosed by the closest other unique number box (if any) or the grid boundary."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: "
+                ],
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: Following the pattern, our output grid will be:"
+                ],
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: For number 8, the box will be from row 1 to row 4 and column 1 to column 15. For number 2, the box will be from row 5 to row 10 and column 1 to column 15. For number 1, the box will be from row 11 to row 13 and column 1 to column 15. For number 3, the box will be from row 14 to row 15 and column 1 to column 15."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: Following the pattern, our output grid will be:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the input grid that are not zero.",
+                "Q2: Find the row and column in which each unique number is located.",
+                "Q3: For each unique number, draw a box around the number, filling the box with the number. The box should stretch from the first row/column to the last row/column of the grid, and be enclosed by the closest other unique number box (if any) or the grid boundary.",
+                "Q4: If the unique number is not surrounded by another unique number box on any side, fill up to the grid boundary."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: Following the pattern, our output grid will be:\nA4: Yes, if a unique number is not surrounded by another unique number box on any side, we fill up to the grid boundary."
+                ],
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: Following the pattern, our output grid will be:\nA4: Following the pattern, our output grid will be:"
+                ],
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: Following the pattern, our output grid will be:\nA4: Yes, if a unique number is not surrounded by another unique number box on any side, it should fill up to the grid boundary. "
+                ]
+            ],
+            "values": [
+                1,
+                0,
+                2
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: Following the pattern, our output grid will be:\nA4: Yes, if a unique number is not surrounded by another unique number box on any side, it should fill up to the grid boundary. "
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the input grid that are not zero.",
+                "Q2: Find the row and column in which each unique number is located.",
+                "Q3: For each unique number, draw a box around the number, filling the box with the number. The box should stretch from the first row/column to the last row/column of the grid, and be enclosed by the closest other unique number box (if any) or the grid boundary.",
+                "Q4: If the unique number is not surrounded by another unique number box on any side, fill up to the grid boundary.",
+                "Q5: Repeat steps Q3 and Q4 for each unique number in ascending order."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: Following the pattern, our output grid will be:\nA4: Yes, if a unique number is not surrounded by another unique number box on any side, it should fill up to the grid boundary. \nA5: The output will be like this:\n\n[[8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], \n [8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8], \n [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], \n [8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8], \n [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], \n [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], \n [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], \n [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], \n [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], \n [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], \n [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3], \n [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], \n [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3], \n [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]]."
+                ],
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: Following the pattern, our output grid will be:\nA4: Yes, if a unique number is not surrounded by another unique number box on any side, it should fill up to the grid boundary. \nA5: Repeating steps Q3 and Q4 for each unique number in ascending order, we get the output grid as:\n[[8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]]"
+                ],
+                [
+                    "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: Following the pattern, our output grid will be:\nA4: Yes, if a unique number is not surrounded by another unique number box on any side, it should fill up to the grid boundary. \nA5: Repeating steps Q3 and Q4 for each unique number in ascending order, the output grid would be:\n\n[[8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8],\n [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8],\n [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8],\n [8, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8],\n [8, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8],\n [8, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 8],\n [8, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 8],\n [8, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 8],\n [8, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 8],\n [3, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 3],\n [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],\n [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],\n [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],\n [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],\n [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]]"
+                ]
+            ],
+            "values": [
+                20.0,
+                60.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the input grid that are not zero are 8, 2, 1, and 3.\nA2: The number 8 is located at row 3, column 4. The number 2 is located at row 5, column 7. The number 1 is located at row 10, column 12. The number 3 is located at row 13, column 10.\nA3: Following the pattern, our output grid will be:\nA4: Yes, if a unique number is not surrounded by another unique number box on any side, it should fill up to the grid boundary. \nA5: Repeating steps Q3 and Q4 for each unique number in ascending order, we get the output grid as:\n[[8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]]"
+            ]
+        }
+    ]
+}

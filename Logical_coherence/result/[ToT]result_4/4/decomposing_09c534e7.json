@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Determine the color of the cell that is surrounded by 1s. If the color is 4 or 6, keep it as it is. If the color is 1, change it to 2.",
+                    "Q3: Identify the cells that are not surrounded by 1s but have the color 1. Change their color to 0.",
+                    "Q4: Identify the cells that are not surrounded by 1s but have the color 4 or 6. Keep their color as it is.",
+                    "Q5: For all other cells, keep their color as it is."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Determine the value of the surrounded cells. If the cell value is 4 or 8, it should be changed to 3. If the cell value is 3, it should be changed to 2. If the cell value is 1, it should be changed to 4.",
+                    "Q3: Apply the changes to the input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Determine the value of the surrounded cells. If the cell value is 4 or 8, it should be changed to 3. If the cell value is 3, it should be changed to 2. If the cell value is 1, it should be changed to 4.",
+                    "Q3: Apply the changes to the input grid to generate the output grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                "Q2: Determine the color of the cell that is surrounded by 1s. If the color is 4 or 6, keep it as it is. If the color is 1, change it to 2.",
+                "Q3: Identify the cells that are not surrounded by 1s but have the color 1. Change their color to 0.",
+                "Q4: Identify the cells that are not surrounded by 1s but have the color 4 or 6. Keep their color as it is.",
+                "Q5: For all other cells, keep their color as it is."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the row that contains the number 6 in the input grid.",
+                    "Q2: Identify the row that contains the number 3 in the input grid.",
+                    "Q3: Identify the numbers that are adjacent to the number 6 in the identified row.",
+                    "Q4: Identify the numbers that are adjacent to the number 3 in the identified row.",
+                    "Q5: Create a new grid that extends the numbers adjacent to the number 6 to the right until they reach the end of the grid.",
+                    "Q6: Create a new grid that extends the numbers adjacent to the number 3 downwards until they reach the end of the grid.",
+                    "Q7: Combine the two new grids created in Q5 and Q6 to form the final output grid."
+                ],
+                [
+                    "Q1: Identify the row that contains the number 6 in the input grid.",
+                    "Q2: Identify the row that contains the number 3 in the input grid.",
+                    "Q3: Identify the pattern of numbers in the row containing the number 6.",
+                    "Q4: Identify the pattern of numbers in the row containing the number 3.",
+                    "Q5: Determine how the pattern of numbers in the row containing the number 6 is transformed in the output grid.",
+                    "Q6: Determine how the pattern of numbers in the row containing the number 3 is transformed in the output grid.",
+                    "Q7: Apply the transformation rules identified in Q5 and Q6 to the input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the row that contains the number 6 in the input grid.",
+                    "Q2: Identify the row that contains the number 3 in the input grid.",
+                    "Q3: Identify the pattern of numbers in the row containing the number 6.",
+                    "Q4: Identify the pattern of numbers in the row containing the number 3.",
+                    "Q5: Determine how the pattern of numbers in the row containing the number 6 is transformed in the output grid.",
+                    "Q6: Determine how the pattern of numbers in the row containing the number 3 is transformed in the output grid.",
+                    "Q7: Apply the transformation rules identified in Q5 and Q6 to the input grid to generate the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the row that contains the number 6 in the input grid.",
+                "Q2: Identify the row that contains the number 3 in the input grid.",
+                "Q3: Identify the numbers that are adjacent to the number 6 in the identified row.",
+                "Q4: Identify the numbers that are adjacent to the number 3 in the identified row.",
+                "Q5: Create a new grid that extends the numbers adjacent to the number 6 to the right until they reach the end of the grid.",
+                "Q6: Create a new grid that extends the numbers adjacent to the number 3 downwards until they reach the end of the grid.",
+                "Q7: Combine the two new grids created in Q5 and Q6 to form the final output grid."
+            ]
+        }
+    ]
+}

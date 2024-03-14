@@ -1,0 +1,47 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is always 6 rows and 4 columns, regardless of the size of the input grid.",
+                    "Q3: Identify the role of the number 7 in the input grid. It seems to act as a separator between the top and bottom halves of the grid.",
+                    "Q4: Identify the transformation rules for the numbers 2 and 6 in the input grid. In the output grid, some 2s in the input grid are transformed into 8s, and all 6s are removed.",
+                    "Q5: Determine the specific conditions under which a 2 in the input grid is transformed into an 8 in the output grid.",
+                    "Q6: Notice that the position of 8 in the output grid seems to be related to the position of 2 in the input grid above the row of 7s.",
+                    "Q7: Formulate a rule to generate the output grid based on the observations from Q1 to Q6."
+                ],
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is always 6 rows and 4 columns, regardless of the size of the input grid.",
+                    "Q3: Identify the role of the number 7 row in the input grid.",
+                    "Q4: Notice that the output grid is a transformation of the rows above the number 7 row in the input grid.",
+                    "Q5: Identify the transformation rule from the number 2 and 0 in the input grid to the number 8 and 0 in the output grid.",
+                    "Q6: Apply the transformation rule to the rows above the number 7 row in the quiz input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is always 6 rows and 4 columns, regardless of the size of the input grid.",
+                    "Q3: Identify the role of the number 7 in the input grid. It seems to act as a separator between the top and bottom halves of the grid.",
+                    "Q4: Identify the transformation rules for the numbers 2 and 6 in the input grid. In the output grid, some 2s in the input grid are transformed into 8s, and all 6s are removed.",
+                    "Q5: Determine the specific conditions under which a 2 in the input grid is transformed into an 8 in the output grid.",
+                    "Q6: Notice that the position of 8 in the output grid seems to be related to the position of 2 in the input grid above the row of 7s.",
+                    "Q7: Formulate a rule to generate the output grid based on the observations from Q1 to Q6."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                "Q2: Notice that the output grid is always 6 rows and 4 columns, regardless of the size of the input grid.",
+                "Q3: Identify the role of the number 7 row in the input grid.",
+                "Q4: Notice that the output grid is a transformation of the rows above the number 7 row in the input grid.",
+                "Q5: Identify the transformation rule from the number 2 and 0 in the input grid to the number 8 and 0 in the output grid.",
+                "Q6: Apply the transformation rule to the rows above the number 7 row in the quiz input grid to generate the output grid."
+            ]
+        }
+    ]
+}

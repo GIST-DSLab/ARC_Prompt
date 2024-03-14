@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, find the topmost and leftmost cell.",
+                    "Q3: For each color, find the bottommost and rightmost cell.",
+                    "Q4: For each color, create a new grid that only includes the cells within the boundaries identified in Q2 and Q3.",
+                    "Q5: For each color, if the new grid created in Q4 is a rectangle filled with the color, add it to the output grid.",
+                    "Q6: Arrange the rectangles in the output grid in the order of their topmost cell's row index and then their leftmost cell's column index. If two rectangles have the same topmost cell's row index, the one with the smaller leftmost cell's column index comes first."
+                ],
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, find the topmost and leftmost cell.",
+                    "Q3: For each color, find the bottommost and rightmost cell.",
+                    "Q4: For each color, create a new grid that only includes the cells within the boundaries identified in Q2 and Q3.",
+                    "Q5: For each color, if the new grid created in Q4 is a rectangle filled with the color, add it to the output grid.",
+                    "Q6: Arrange the rectangles in the output grid in the order of their appearance from top to bottom and left to right in the input grid."
+                ],
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, find the topmost and leftmost cell.",
+                    "Q3: For each color, find the bottommost and rightmost cell.",
+                    "Q4: For each color, create a new grid that only includes the cells within the boundaries identified in Q2 and Q3.",
+                    "Q5: For each color, if the new grid created in Q4 is a rectangle filled with the color, add it to the output grid.",
+                    "Q6: Arrange the rectangles in the output grid in the order of their topmost cell's row index and then their leftmost cell's column index. If two rectangles have the same topmost cell's row index, the one with the smaller leftmost cell's column index comes first."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: For each color, find the topmost and leftmost cell.",
+                "Q3: For each color, find the bottommost and rightmost cell.",
+                "Q4: For each color, create a new grid that only includes the cells within the boundaries identified in Q2 and Q3.",
+                "Q5: For each color, if the new grid created in Q4 is a rectangle filled with the color, add it to the output grid.",
+                "Q6: Arrange the rectangles in the output grid in the order of their appearance from top to bottom and left to right in the input grid."
+            ]
+        }
+    ]
+}

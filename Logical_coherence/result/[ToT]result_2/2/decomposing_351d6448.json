@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each row identified in Q1, find the row above it that contains the number 2.",
+                    "Q3: For each row identified in Q2, find the maximum number of consecutive 2s.",
+                    "Q4: Create a new grid with the same number of columns as the input grid but only three rows.",
+                    "Q5: Fill the first and third rows of the new grid with 0s.",
+                    "Q6: Fill the second row of the new grid with the maximum number of consecutive 2s found in Q3, starting from the fifth column. Fill the rest of the row with 0s."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each row identified in Q1, find the row above it that contains the number 2.",
+                    "Q3: For each row identified in Q2, find the maximum number of consecutive 2s.",
+                    "Q4: Create a new grid with the same number of columns as the input grid but only three rows.",
+                    "Q5: Fill the first and third rows of the new grid with 0s.",
+                    "Q6: In the second row of the new grid, starting from the left, fill with the number of consecutive 2s found in Q3, and fill the rest of the row with 0s."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each row identified in Q1, find the row above it that contains the number 2.",
+                    "Q3: For each row identified in Q2, find the maximum number of consecutive 2s.",
+                    "Q4: Create a new grid with the same number of columns as the input grid but only three rows.",
+                    "Q5: Fill the first and third rows of the new grid with 0s.",
+                    "Q6: Fill the second row of the new grid with the maximum number of consecutive 2s found in Q3, starting from the fifth column. Fill the rest of the row with 0s."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each row identified in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row identified in Q2, find the maximum number of consecutive 2s.",
+                "Q4: Create a new grid with the same number of columns as the input grid but only three rows.",
+                "Q5: Fill the first and third rows of the new grid with 0s.",
+                "Q6: In the second row of the new grid, starting from the left, fill with the number of consecutive 2s found in Q3, and fill the rest of the row with 0s."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the transformation of the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a 4x4 grid, which is a quarter of the size of the input grid. This suggests that the input grid is divided into four equal parts and each part is transformed into one cell in the output grid.",
+                    "Q3: Identify the rule for transforming each part of the input grid into a cell in the output grid. From the examples, it seems that the rule is to take the most frequent non-zero number in each part.",
+                    "Q4: Apply the rule identified in Q3 to each part of the input grid in the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern of the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a 4x4 grid, which is a quarter of the size of the input grid. This suggests that each 4x4 section of the input grid corresponds to one cell in the output grid.",
+                    "Q3: Identify the rule for transforming each 4x4 section of the input grid into a single cell in the output grid. From the examples, it seems that the cell in the output grid takes the value of the most frequent non-zero cell in the corresponding 4x4 section of the input grid.",
+                    "Q4: Apply the rule identified in Q3 to each 4x4 section of the input grid in the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern of the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a 4x4 grid, which is a quarter of the size of the input grid. Determine how the input grid is divided into 4 sections.",
+                    "Q3: Identify the rule for transforming the values in each section of the input grid to a single value in the output grid.",
+                    "Q4: Apply the transformation rule to each section of the input grid in the quiz to generate the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern of the transformation from the input grid to the output grid in the examples.",
+                "Q2: Notice that the output grid is a 4x4 grid, which is a quarter of the size of the input grid. This suggests that each 4x4 section of the input grid corresponds to one cell in the output grid.",
+                "Q3: Identify the rule for transforming each 4x4 section of the input grid into a single cell in the output grid. From the examples, it seems that the cell in the output grid takes the value of the most frequent non-zero cell in the corresponding 4x4 section of the input grid.",
+                "Q4: Apply the rule identified in Q3 to each 4x4 section of the input grid in the quiz to generate the output grid."
+            ]
+        }
+    ]
+}

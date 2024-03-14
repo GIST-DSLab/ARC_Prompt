@@ -1,0 +1,44 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows that are filled with 5s and 0s in the input grid.",
+                    "Q2: Identify the rows that are filled with only 0s in the input grid.",
+                    "Q3: In the rows identified in Q1, replace the 0s that are surrounded by 5s on both sides with 2s.",
+                    "Q4: In the rows identified in Q2, replace the 0s that are surrounded by 2s on both sides with 1s.",
+                    "Q5: In the rows identified in Q2, replace the remaining 0s that are surrounded by 1s on both sides with 1s."
+                ],
+                [
+                    "Q1: Identify the rows that are filled with 5s and 0s in the input grid.",
+                    "Q2: Identify the rows that are filled with only 0s in the input grid.",
+                    "Q3: In the rows identified in Q1, replace the 0s that are surrounded by 5s on both sides with 2s.",
+                    "Q4: In the rows identified in Q2, replace the 0s that are surrounded by 2s on both sides with 1s.",
+                    "Q5: In the rows identified in Q2, replace the remaining 0s with 1s if they are adjacent to a 2.",
+                    "Q6: Apply the changes from Q3, Q4, and Q5 to the input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the rows that are filled with 5s and 0s in the input grid.",
+                    "Q2: Identify the rows that are filled with only 0s in the input grid.",
+                    "Q3: In the rows identified in Q1, replace the 0s that are surrounded by 5s on both sides with 2s.",
+                    "Q4: In the rows identified in Q2, replace the 0s that are surrounded by 2s on both sides with 1s.",
+                    "Q5: In the rows identified in Q2, replace the remaining 0s with 1s if they are adjacent to a 2.",
+                    "Q6: Apply the changes from Q3, Q4, and Q5 to the input grid to generate the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows that are filled with 5s and 0s in the input grid.",
+                "Q2: Identify the rows that are filled with only 0s in the input grid.",
+                "Q3: In the rows identified in Q1, replace the 0s that are surrounded by 5s on both sides with 2s.",
+                "Q4: In the rows identified in Q2, replace the 0s that are surrounded by 2s on both sides with 1s.",
+                "Q5: In the rows identified in Q2, replace the remaining 0s with 1s if they are adjacent to a 2.",
+                "Q6: Apply the changes from Q3, Q4, and Q5 to the input grid to generate the output grid."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the color and position of the outer square in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column."
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column."
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the color and position of the outer square in the input grid.",
+                "Q2: Identify the color and position of the inner square in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column."
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column."
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the color and position of the outer square in the input grid.",
+                "Q2: Identify the color and position of the inner square in the input grid.",
+                "Q3: Determine the color that fills the rest of the grid outside the outer square."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The color that fills the rest of the grid outside the outer square is 0."
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0."
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The color that fills the rest of the grid outside the outer square is 0."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the color and position of the outer square in the input grid.",
+                "Q2: Identify the color and position of the inner square in the input grid.",
+                "Q3: Determine the color that fills the rest of the grid outside the outer square.",
+                "Q4: Create a new grid of the same size as the input grid and fill it with the color identified in Q3."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:"
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:"
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:"
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the color and position of the outer square in the input grid.",
+                "Q2: Identify the color and position of the inner square in the input grid.",
+                "Q3: Determine the color that fills the rest of the grid outside the outer square.",
+                "Q4: Create a new grid of the same size as the input grid and fill it with the color identified in Q3.",
+                "Q5: Draw the outer square identified in Q1 on the new grid with the same color."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:"
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:"
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:"
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the color and position of the outer square in the input grid.",
+                "Q2: Identify the color and position of the inner square in the input grid.",
+                "Q3: Determine the color that fills the rest of the grid outside the outer square.",
+                "Q4: Create a new grid of the same size as the input grid and fill it with the color identified in Q3.",
+                "Q5: Draw the outer square identified in Q1 on the new grid with the same color.",
+                "Q6: Draw the inner square identified in Q2 on the new grid with the same color."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:\nA6: The new grid with the inner square drawn in color 8 would look like this:"
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:\nA6: The new grid with the inner square drawn in color 8 would look like this:"
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:\nA6: The new grid with the inner square drawn in color 8 would look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:\nA6: The new grid with the inner square drawn in color 8 would look like this:"
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the color and position of the outer square in the input grid.",
+                "Q2: Identify the color and position of the inner square in the input grid.",
+                "Q3: Determine the color that fills the rest of the grid outside the outer square.",
+                "Q4: Create a new grid of the same size as the input grid and fill it with the color identified in Q3.",
+                "Q5: Draw the outer square identified in Q1 on the new grid with the same color.",
+                "Q6: Draw the inner square identified in Q2 on the new grid with the same color.",
+                "Q7: Fill the area between the outer and inner squares with the color of the outer square."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:\nA6: The new grid with the inner square drawn in color 8 would look like this:\nA7: The area between the outer and inner squares is filled with the color 3. The final output grid would look like this:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:\nA6: The new grid with the inner square drawn in color 8 would look like this:\nA7: The area between the outer and inner squares is filled with the color 3. The final output grid would look like this:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:\nA6: The new grid with the inner square drawn in color 8 would look like this:\nA7: The area between the outer and inner squares is filled with the color 3. The final output grid would look like this:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The color of the outer square is 3 and it is positioned from the 7th row and 6th column to the 12th row and 11th column.\nA2: The color of the inner square is 8 and it is positioned from the 8th row and 7th column to the 11th row and 10th column.\nA3: The rest of the grid outside the outer square is filled with the color 0.\nA4: The new grid filled with the color 0 would look like this:\nA5: The new grid with the outer square drawn in color 3 would look like this:\nA6: The new grid with the inner square drawn in color 8 would look like this:\nA7: The area between the outer and inner squares is filled with the color 3. The final output grid would look like this:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 8, 8, 8, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

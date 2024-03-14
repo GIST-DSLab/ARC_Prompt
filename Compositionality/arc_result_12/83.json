@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "rotate_right_obj(state, object1)",
+                "obj_color(state, object7, 2)",
+                "obj_color(state, object1, 6)"
+            ],
+            "values": [
+                1.0,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "rotate_right_obj(state, object1)",
+                "obj_color(state, object7, 2)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "rotate_right_obj(state, object1)",
+                "obj_color(state, object7, 2)"
+            ],
+            "new_dsl_ys": [
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(state, object3)",
+                "obj_color(state, object7, 2)->obj_color(state, object3, 2)"
+            ],
+            "values": [
+                0.001,
+                0.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)",
+                "obj_color(state, object7, 2)->obj_color(state, object3, 2)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)",
+                "obj_color(state, object7, 2)->obj_color(state, object3, 2)"
+            ],
+            "new_dsl_ys": [
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)",
+                "obj_color(state, object7, 2)->obj_color(state, object3, 2)->obj_color(state, object1, 2)"
+            ],
+            "values": [
+                0.001,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object7, 2)->obj_color(state, object3, 2)->obj_color(state, object1, 2)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "obj_color(state, object7, 2)->obj_color(state, object3, 2)->obj_color(state, object1, 2)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)"
+            ],
+            "new_dsl_ys": [
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)"
+            ],
+            "values": [
+                20.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)"
+            ],
+            "new_dsl_ys": [
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object4)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object4)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)",
+                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object2)->rotate_right_obj(current_state, object3)"
+            ]
+        }
+    ]
+}

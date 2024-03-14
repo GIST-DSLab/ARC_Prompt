@@ -1,0 +1,39 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by the number 8 in the input grid.",
+                    "Q2: Replace the identified cells with the number 3.",
+                    "Q3: Identify the 3x3 grid in the input that matches the pattern of the output in the examples.",
+                    "Q4: Extract the 3x3 grid from the input that matches the pattern identified in Q3."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by the number 8 in the input grid.",
+                    "Q2: Replace the identified cells with the number 3.",
+                    "Q3: Identify the cells that are surrounded by the number 3 in the updated grid.",
+                    "Q4: Replace the identified cells with the number 8.",
+                    "Q5: Repeat the process until no more cells can be replaced.",
+                    "Q6: Extract a 3x3 grid from the center of the final grid."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by the number 8 in the input grid.",
+                    "Q2: Replace the identified cells with the number 3.",
+                    "Q3: Identify the 3x3 grid in the input that matches the pattern of the output in the examples.",
+                    "Q4: Extract the 3x3 grid from the input that matches the pattern identified in Q3."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by the number 8 in the input grid.",
+                "Q2: Replace the identified cells with the number 3.",
+                "Q3: Identify the 3x3 grid in the input that matches the pattern of the output in the examples.",
+                "Q4: Extract the 3x3 grid from the input that matches the pattern identified in Q3."
+            ]
+        }
+    ]
+}

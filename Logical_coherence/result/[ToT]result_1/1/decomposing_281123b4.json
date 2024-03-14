@@ -1,0 +1,44 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in each quadrant of the grid.",
+                    "Q3: Identify the number with the highest frequency in each quadrant.",
+                    "Q4: Create a new 4x4 grid where each quadrant is filled with the number that had the highest frequency in the corresponding quadrant of the input grid.",
+                    "Q5: If there is a tie in the frequency count, fill the quadrant with the number that comes first when reading the grid from left to right, top to bottom."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in each row.",
+                    "Q3: Identify the number with the highest frequency in each row.",
+                    "Q4: Replace the number with the highest frequency with the number that has the second highest frequency in the same row.",
+                    "Q5: If there is a tie for the highest frequency, replace the number with the highest value.",
+                    "Q6: If there is a tie for the second highest frequency, replace the number with the lowest value.",
+                    "Q7: Repeat the process for each row to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in each quadrant of the grid.",
+                    "Q3: Identify the number with the highest frequency in each quadrant.",
+                    "Q4: Create a new 4x4 grid where each quadrant is filled with the number identified in Q3.",
+                    "Q5: If there is a tie in the frequency count in Q3, fill the quadrant with the number that appears first in the reading order (top to bottom, left to right).",
+                    "Q6: If a quadrant does not contain any numbers (only zeros), fill it with zeros in the output grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in each quadrant of the grid.",
+                "Q3: Identify the number with the highest frequency in each quadrant.",
+                "Q4: Create a new 4x4 grid where each quadrant is filled with the number that had the highest frequency in the corresponding quadrant of the input grid.",
+                "Q5: If there is a tie in the frequency count, fill the quadrant with the number that comes first when reading the grid from left to right, top to bottom."
+            ]
+        }
+    ]
+}

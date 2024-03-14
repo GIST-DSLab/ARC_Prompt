@@ -1,0 +1,240 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 5s on the top and bottom, and 0s on the left and right."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), and (8,8).",
+                    "A2: We should change these cells to 1.",
+                    "A3: The output grid will be:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).",
+                    "A2: We should change these cells to 1.",
+                    "A3: The output grid will be:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), and (8,8).",
+                    "A2: We should change these cells to 1.",
+                    "A3: The output grid will be:"
+                ]
+            ],
+            "values": [
+                0,
+                2,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).",
+                "A2: We should change these cells to 1.",
+                "A3: The output grid will be:"
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 5s on the top and bottom, and 0s on the left and right.",
+                "Q2: Replace these identified cells with 1s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:"
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 5s on the top and bottom, and 0s on the left and right.",
+                "Q2: Replace these identified cells with 1s.",
+                "Q3: Identify the cells that are surrounded by 5s on the left and right, and 0s on the top and bottom."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3)."
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3)."
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3)."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3)."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 5s on the top and bottom, and 0s on the left and right.",
+                "Q2: Replace these identified cells with 1s.",
+                "Q3: Identify the cells that are surrounded by 5s on the left and right, and 0s on the top and bottom.",
+                "Q4: Replace these identified cells with 1s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:"
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 5s on the top and bottom, and 0s on the left and right.",
+                "Q2: Replace these identified cells with 1s.",
+                "Q3: Identify the cells that are surrounded by 5s on the left and right, and 0s on the top and bottom.",
+                "Q4: Replace these identified cells with 1s.",
+                "Q5: Identify the cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0)."
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0)."
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0)."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0)."
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 5s on the top and bottom, and 0s on the left and right.",
+                "Q2: Replace these identified cells with 1s.",
+                "Q3: Identify the cells that are surrounded by 5s on the left and right, and 0s on the top and bottom.",
+                "Q4: Replace these identified cells with 1s.",
+                "Q5: Identify the cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left.",
+                "Q6: Replace these identified cells with 1s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:"
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 5s on the top and bottom, and 0s on the left and right.",
+                "Q2: Replace these identified cells with 1s.",
+                "Q3: Identify the cells that are surrounded by 5s on the left and right, and 0s on the top and bottom.",
+                "Q4: Replace these identified cells with 1s.",
+                "Q5: Identify the cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left.",
+                "Q6: Replace these identified cells with 1s.",
+                "Q7: Identify the cells that are surrounded by 5s on the top, bottom, and left, and 0s on the right."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:\nA7: The cells that are surrounded by 5s on the top, bottom, and left, and 0s on the right are (2,0), (4,8)."
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:\nA7: The cells that are surrounded by 5s on the top, bottom, and left, and 0s on the right are (2,0), (4,8)."
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:\nA7: The cells that are surrounded by 5s on the top, bottom, and left, and 0s on the right are (2,0), (4,8)."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:\nA7: The cells that are surrounded by 5s on the top, bottom, and left, and 0s on the right are (2,0), (4,8)."
+            ]
+        },
+        {
+            "step": 7,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 5s on the top and bottom, and 0s on the left and right.",
+                "Q2: Replace these identified cells with 1s.",
+                "Q3: Identify the cells that are surrounded by 5s on the left and right, and 0s on the top and bottom.",
+                "Q4: Replace these identified cells with 1s.",
+                "Q5: Identify the cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left.",
+                "Q6: Replace these identified cells with 1s.",
+                "Q7: Identify the cells that are surrounded by 5s on the top, bottom, and left, and 0s on the right.",
+                "Q8: Replace these identified cells with 1s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:\nA7: The cells that are surrounded by 5s on the top, bottom, and left, and 0s on the right are (2,0), (4,8).\nA8: After replacing the identified cells with 1s, the output grid will be:\n\n[[5, 0, 0, 0, 1, 0, 5, 0, 5, 0], \n [5, 0, 0, 1, 0, 1, 1, 0, 0, 0], \n [1, 5, 0, 5, 1, 0, 0, 5, 1, 0], \n [5, 0, 0, 0, 0, 0, 0, 1, 0, 0], \n [5, 0, 0, 0, 1, 5, 0, 0, 1, 5], \n [0, 0, 0, 0, 0, 0, 1, 5, 0, 0], \n [0, 0, 1, 5, 0, 0, 1, 5, 0, 0], \n [1, 0, 1, 0, 5, 0, 5, 0, 0, 5], \n [0, 5, 5, 0, 1, 0, 0, 5, 1, 5], \n [0, 0, 0, 1, 5, 5, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:\nA7: The cells that are surrounded by 5s on the top, bottom, and left, and 0s on the right are (2,0), (4,8).\nA8: After replacing the identified cells with 1s, the output grid will be:\n\n[[5, 0, 0, 0, 1, 0, 5, 0, 5, 0], \n [5, 0, 0, 1, 0, 1, 1, 0, 0, 0], \n [1, 5, 0, 5, 1, 0, 0, 5, 1, 0], \n [5, 0, 0, 0, 0, 0, 0, 1, 0, 0], \n [5, 0, 0, 0, 1, 5, 0, 0, 1, 5], \n [0, 0, 0, 0, 0, 0, 1, 5, 0, 0], \n [0, 0, 1, 5, 0, 0, 1, 5, 0, 0], \n [1, 0, 1, 0, 5, 0, 5, 0, 0, 5], \n [0, 5, 5, 0, 1, 0, 0, 5, 1, 5], \n [0, 0, 0, 1, 5, 5, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:\nA7: The cells that are surrounded by 5s on the top, bottom, and left, and 0s on the right are (2,0), (4,8).\nA8: After replacing the identified cells with 1s, the output grid will be:\n\n[[5, 0, 0, 0, 1, 0, 5, 0, 5, 0], \n [5, 0, 0, 1, 0, 1, 1, 0, 0, 0], \n [1, 5, 0, 5, 1, 0, 0, 5, 1, 0], \n [5, 0, 0, 0, 0, 0, 0, 1, 0, 0], \n [5, 0, 0, 0, 1, 5, 0, 0, 1, 5], \n [0, 0, 0, 0, 0, 0, 1, 5, 0, 0], \n [0, 0, 1, 5, 0, 0, 1, 5, 0, 0], \n [1, 0, 1, 0, 5, 0, 5, 0, 0, 5], \n [0, 5, 5, 0, 1, 0, 0, 5, 1, 5], \n [0, 0, 0, 1, 5, 5, 0, 0, 0, 0]]"
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 5s on the top and bottom, and 0s on the left and right are (0,4), (2,4), (2,8), (4,4), (6,2), (6,6), (8,4), (8,8).\nA2: After replacing the identified cells with 1s, the output grid will be:\nA3: The cells that are surrounded by 5s on the left and right, and 0s on the top and bottom are (1,3), (3,7), (5,6), (7,2), (9,3).\nA4: After replacing the identified cells with 1s, the output grid will be:\nA5: The cells that are surrounded by 5s on the top, bottom, and right, and 0s on the left are (1,6), (7,0).\nA6: After replacing the identified cells with 1s, the output grid will be:\nA7: The cells that are surrounded by 5s on the top, bottom, and left, and 0s on the right are (2,0), (4,8).\nA8: After replacing the identified cells with 1s, the output grid will be:\n\n[[5, 0, 0, 0, 1, 0, 5, 0, 5, 0], \n [5, 0, 0, 1, 0, 1, 1, 0, 0, 0], \n [1, 5, 0, 5, 1, 0, 0, 5, 1, 0], \n [5, 0, 0, 0, 0, 0, 0, 1, 0, 0], \n [5, 0, 0, 0, 1, 5, 0, 0, 1, 5], \n [0, 0, 0, 0, 0, 0, 1, 5, 0, 0], \n [0, 0, 1, 5, 0, 0, 1, 5, 0, 0], \n [1, 0, 1, 0, 5, 0, 5, 0, 0, 5], \n [0, 5, 5, 0, 1, 0, 0, 5, 1, 5], \n [0, 0, 0, 1, 5, 5, 0, 0, 0, 0]]"
+            ]
+        }
+    ]
+}

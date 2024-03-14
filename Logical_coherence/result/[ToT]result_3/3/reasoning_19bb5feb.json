@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the different colors present in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8."
+                ],
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8."
+                ],
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the different colors present in the grid.",
+                "Q2: Count the number of cells filled with each color."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells."
+                ],
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells."
+                ],
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 78 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 66 cells. "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the different colors present in the grid.",
+                "Q2: Count the number of cells filled with each color.",
+                "Q3: Identify the colors that are surrounded by color 8."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells.\nA3: The colors that are surrounded by color 8 are 1, 2, 3, and 6."
+                ],
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells.\nA3: The colors that are surrounded by color 8 are 1, 2, 3, and 6."
+                ],
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells.\nA3: The colors that are surrounded by color 8 are 1, 2, 3, and 6."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells.\nA3: The colors that are surrounded by color 8 are 1, 2, 3, and 6."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the different colors present in the grid.",
+                "Q2: Count the number of cells filled with each color.",
+                "Q3: Identify the colors that are surrounded by color 8.",
+                "Q4: Create a new grid with the count of cells of each color identified in Q3."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells.\nA3: The colors that are surrounded by color 8 are 1, 2, 3, and 6.\nA4: The new grid with the count of cells of each color identified in Q3 is [[2, 6], [1, 3]]."
+                ],
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells.\nA3: The colors that are surrounded by color 8 are 1, 2, 3, and 6.\nA4: The new grid with the count of cells of each color identified in Q3 is [[2, 6], [1, 3]]."
+                ],
+                [
+                    "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells.\nA3: The colors that are surrounded by color 8 are 1, 2, 3, and 6.\nA4: The new grid with the count of cells of each color identified in Q3 is [[2, 6], [1, 3]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: The different colors present in the grid are 0, 1, 2, 3, 6, and 8.\nA2: The number of cells filled with each color are as follows: 0 - 42 cells, 1 - 4 cells, 2 - 4 cells, 3 - 4 cells, 6 - 4 cells, 8 - 42 cells.\nA3: The colors that are surrounded by color 8 are 1, 2, 3, and 6.\nA4: The new grid with the count of cells of each color identified in Q3 is [[2, 6], [1, 3]]."
+            ]
+        }
+    ]
+}

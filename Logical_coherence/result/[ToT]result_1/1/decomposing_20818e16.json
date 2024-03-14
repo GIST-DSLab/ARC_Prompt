@@ -1,0 +1,44 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the different colors in the grid.",
+                    "Q2: Determine the boundaries of each color region.",
+                    "Q3: Identify the smallest rectangle that can contain each color region.",
+                    "Q4: Remove the parts of the rectangle that are not part of the color region.",
+                    "Q5: Arrange the resulting rectangles from top to bottom and left to right according to their position in the original grid.",
+                    "Q6: Combine these rectangles into a single grid."
+                ],
+                [
+                    "Q1: Identify the different colors in the grid.",
+                    "Q2: Determine the boundaries of each color region.",
+                    "Q3: Identify the smallest rectangle that can contain each color region.",
+                    "Q4: Crop the grid to only include the rectangles identified in Q3.",
+                    "Q5: Arrange the cropped rectangles from top to bottom and left to right based on their original positions in the input grid."
+                ],
+                [
+                    "Q1: Identify the different colors in the grid.",
+                    "Q2: Determine the boundaries of each color region.",
+                    "Q3: Identify the smallest rectangle that can contain each color region.",
+                    "Q4: Remove the parts of the rectangle that are not part of the color region.",
+                    "Q5: Arrange the resulting rectangles from top to bottom and left to right according to their position in the original grid.",
+                    "Q6: Combine these rectangles into a single grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the different colors in the grid.",
+                "Q2: Determine the boundaries of each color region.",
+                "Q3: Identify the smallest rectangle that can contain each color region.",
+                "Q4: Remove the parts of the rectangle that are not part of the color region.",
+                "Q5: Arrange the resulting rectangles from top to bottom and left to right according to their position in the original grid.",
+                "Q6: Combine these rectangles into a single grid."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, create a 3x3 grid with the non-zero element at the center.",
+                    "Q3: For each 3x3 grid, fill the remaining cells with the non-zero element based on the pattern in the examples.",
+                    "Q4: Combine all 3x3 grids to form the output grid."
+                ],
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, create a 3x3 grid with the non-zero element at the center.",
+                    "Q3: For each 3x3 grid, fill the remaining cells with the non-zero element based on the pattern in the examples.",
+                    "Q4: Combine all 3x3 grids to form the output grid."
+                ],
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, create a 3x3 grid with the non-zero element at the center.",
+                    "Q3: For each 3x3 grid, fill the remaining cells according to the pattern in the examples. The pattern is that the non-zero element is mirrored along both the vertical and horizontal axes.",
+                    "Q4: Combine all the 3x3 grids to form the final output grid. The position of each 3x3 grid in the final output grid corresponds to the position of the non-zero element in the input grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the non-zero elements in the input grid and their positions.",
+                "Q2: For each non-zero element, create a 3x3 grid with the non-zero element at the center.",
+                "Q3: For each 3x3 grid, fill the remaining cells according to the pattern in the examples. The pattern is that the non-zero element is mirrored along both the vertical and horizontal axes.",
+                "Q4: Combine all the 3x3 grids to form the final output grid. The position of each 3x3 grid in the final output grid corresponds to the position of the non-zero element in the input grid."
+            ]
+        }
+    ]
+}

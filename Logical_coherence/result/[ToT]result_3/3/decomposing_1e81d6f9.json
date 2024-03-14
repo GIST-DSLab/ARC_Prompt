@@ -1,0 +1,50 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that contain the number 5 in the input grid.",
+                    "Q2: Check if the cells in the same row as the cells identified in Q1 contain any other numbers.",
+                    "Q3: If there are other numbers in the same row, remove these numbers and replace them with 0.",
+                    "Q4: Repeat the process for all rows that contain the number 5.",
+                    "Q5: Check if the cells in the same column as the cells identified in Q1 contain any other numbers.",
+                    "Q6: If there are other numbers in the same column, remove these numbers and replace them with 0.",
+                    "Q7: Repeat the process for all columns that contain the number 5.",
+                    "Q8: The final output grid should be the result of the operations performed in Q3 and Q7."
+                ],
+                [
+                    "Q1: Identify the cells that contain the number 5 in the input grid.",
+                    "Q2: Check if the cells in the same row as the cells identified in Q1 contain any other numbers.",
+                    "Q3: If there are other numbers in the same row, remove these numbers and replace them with 0.",
+                    "Q4: Repeat the process for all rows containing the number 5.",
+                    "Q5: Check if the cells in the same column as the cells identified in Q1 contain any other numbers.",
+                    "Q6: If there are other numbers in the same column, remove these numbers and replace them with 0.",
+                    "Q7: Repeat the process for all columns containing the number 5.",
+                    "Q8: The final grid after all these steps will be the output grid."
+                ],
+                [
+                    "Q1: Identify the cells that contain the number 5 in the input grid.",
+                    "Q2: Check if the cells in the same row as the cells identified in Q1 contain any other numbers.",
+                    "Q3: If the cells contain other numbers, leave them as they are.",
+                    "Q4: If the cells do not contain other numbers, replace them with 0.",
+                    "Q5: Repeat the process for all the rows in the grid."
+                ]
+            ],
+            "values": [
+                2,
+                1,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that contain the number 5 in the input grid.",
+                "Q2: Check if the cells in the same row as the cells identified in Q1 contain any other numbers.",
+                "Q3: If there are other numbers in the same row, remove these numbers and replace them with 0.",
+                "Q4: Repeat the process for all rows that contain the number 5.",
+                "Q5: Check if the cells in the same column as the cells identified in Q1 contain any other numbers.",
+                "Q6: If there are other numbers in the same column, remove these numbers and replace them with 0.",
+                "Q7: Repeat the process for all columns that contain the number 5.",
+                "Q8: The final output grid should be the result of the operations performed in Q3 and Q7."
+            ]
+        }
+    ]
+}

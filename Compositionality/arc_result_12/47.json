@@ -1,0 +1,55 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "rotate_left_obj(state, object4)",
+                "`move_right(state, object3)`",
+                "`complete(state)`"
+            ],
+            "values": [
+                0.0,
+                0.001,
+                20.0
+            ],
+            "select_new_ys": [
+                "`complete(state)`",
+                "`move_right(state, object3)`"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "`complete(state)`",
+                "`move_right(state, object3)`"
+            ],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        },
+        {
+            "step": 2,
+            "dsl_ys": [],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        },
+        {
+            "step": 3,
+            "dsl_ys": [],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        },
+        {
+            "step": 4,
+            "dsl_ys": [],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        }
+    ]
+}

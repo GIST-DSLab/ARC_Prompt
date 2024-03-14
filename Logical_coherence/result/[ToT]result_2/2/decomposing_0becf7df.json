@@ -1,0 +1,73 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells in the input grid that contain the number 9.",
+                    "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                    "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                    "Q4: Identify the cells in the input grid that contain the number 8.",
+                    "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                    "Q6: If the cells below contain the number 8, replace the number 8 with the number 2.",
+                    "Q7: Identify the cells in the input grid that contain the number 2.",
+                    "Q8: Check if the cells to the right of the cells identified in Q7 contain the number 4.",
+                    "Q9: If the cells to the right contain the number 4, replace the number 4 with the number 9.",
+                    "Q10: Check if the cells below the cells identified in Q7 contain the number 4.",
+                    "Q11: If the cells below contain the number 4, replace the number 4 with the number 9.",
+                    "Q12: Apply the changes identified in Q3, Q6, Q9, and Q11 to the input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the cells in the input grid that contain the number 9.",
+                    "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                    "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                    "Q4: Identify the cells in the input grid that contain the number 2.",
+                    "Q5: Check if the cells below the cells identified in Q4 contain the number 2.",
+                    "Q6: If the cells below contain the number 2, replace the number 2 with the number 4.",
+                    "Q7: Identify the cells in the input grid that contain the number 4.",
+                    "Q8: Check if the cells to the right of the cells identified in Q7 contain the number 2.",
+                    "Q9: If the cells to the right contain the number 2, replace the number 2 with the number 4.",
+                    "Q10: Check if the cells below the cells identified in Q7 contain the number 2.",
+                    "Q11: If the cells below contain the number 2, replace the number 2 with the number 4.",
+                    "Q12: Identify the cells in the input grid that contain the number 8.",
+                    "Q13: Check if the cells to the right of the cells identified in Q12 contain the number 8.",
+                    "Q14: If the cells to the right contain the number 8, replace the number 8 with the number 4.",
+                    "Q15: Check if the cells below the cells identified in Q12 contain the number 8.",
+                    "Q16: If the cells below contain the number 8, replace the number 8 with the number 4."
+                ],
+                [
+                    "Q1: Identify the cells in the input grid that contain the number 9.",
+                    "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                    "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                    "Q4: Identify the cells in the input grid that contain the number 8.",
+                    "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                    "Q6: If the cells below contain the number 8, replace the number 8 with the number 2.",
+                    "Q7: Identify the cells in the input grid that contain the number 2.",
+                    "Q8: Check if the cells to the right of the cells identified in Q7 contain the number 4.",
+                    "Q9: If the cells to the right contain the number 4, replace the number 4 with the number 9.",
+                    "Q10: Check if the cells below the cells identified in Q7 contain the number 4.",
+                    "Q11: If the cells below contain the number 4, replace the number 4 with the number 9.",
+                    "Q12: Apply the changes identified in Q3, Q6, Q9, and Q11 to the input grid to generate the output grid."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8.",
+                "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                "Q6: If the cells below contain the number 8, replace the number 8 with the number 2.",
+                "Q7: Identify the cells in the input grid that contain the number 2.",
+                "Q8: Check if the cells to the right of the cells identified in Q7 contain the number 4.",
+                "Q9: If the cells to the right contain the number 4, replace the number 4 with the number 9.",
+                "Q10: Check if the cells below the cells identified in Q7 contain the number 4.",
+                "Q11: If the cells below contain the number 4, replace the number 4 with the number 9.",
+                "Q12: Apply the changes identified in Q3, Q6, Q9, and Q11 to the input grid to generate the output grid."
+            ]
+        }
+    ]
+}

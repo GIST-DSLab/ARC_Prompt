@@ -1,0 +1,51 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                    "Q3: Check if the rows found in Q2 contain the number 2.",
+                    "Q4: If the rows contain the number 2, count the number of 2s in each row.",
+                    "Q5: Create a new grid with the same number of columns as the input grid but only three rows.",
+                    "Q6: Fill the first and last row of the new grid with 0s.",
+                    "Q7: In the middle row of the new grid, fill the cells with the number 2, the number of times it was counted in Q4, starting from the fifth cell.",
+                    "Q8: Fill the remaining cells in the middle row with 0s."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                    "Q3: Check if the rows found in Q2 contain the number 2.",
+                    "Q4: If the rows contain the number 2, count the number of 2s in each row.",
+                    "Q5: Create a new grid with the same number of columns as the input grid but only three rows.",
+                    "Q6: Fill the first and last row of the new grid with 0s.",
+                    "Q7: Fill the middle row of the new grid with the number of 2s found in Q4, starting from the left. The rest of the row should be filled with 0s."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                    "Q3: Check if the rows found in Q2 contain the number 2.",
+                    "Q4: If the rows contain the number 2, count the number of 2s in each row.",
+                    "Q5: Create a new grid with the same number of columns as the input grid but only three rows.",
+                    "Q6: Fill the first and last row of the new grid with 0s.",
+                    "Q7: Fill the middle row of the new grid with the number of 2s counted in Q4, starting from the left. The rest of the row should be filled with 0s."
+                ]
+            ],
+            "values": [
+                1,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                "Q3: Check if the rows found in Q2 contain the number 2.",
+                "Q4: If the rows contain the number 2, count the number of 2s in each row.",
+                "Q5: Create a new grid with the same number of columns as the input grid but only three rows.",
+                "Q6: Fill the first and last row of the new grid with 0s.",
+                "Q7: In the middle row of the new grid, fill the cells with the number 2, the number of times it was counted in Q4, starting from the fifth cell.",
+                "Q8: Fill the remaining cells in the middle row with 0s."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,407 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3)."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3)."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5)."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5)."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8.",
+                "Q5: Check if the cells below the cells identified in Q4 contain the number 8."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8."
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8.",
+                "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                "Q6: If the cells below contain the number 8, replace the number 8 with the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2."
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8.",
+                "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                "Q6: If the cells below contain the number 8, replace the number 8 with the number 2.",
+                "Q7: Identify the cells in the input grid that contain the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3)."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3)."
+            ]
+        },
+        {
+            "step": 7,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8.",
+                "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                "Q6: If the cells below contain the number 8, replace the number 8 with the number 2.",
+                "Q7: Identify the cells in the input grid that contain the number 2.",
+                "Q8: Check if the cells to the right of the cells identified in Q7 contain the number 4."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4)."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4)."
+            ]
+        },
+        {
+            "step": 8,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8.",
+                "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                "Q6: If the cells below contain the number 8, replace the number 8 with the number 2.",
+                "Q7: Identify the cells in the input grid that contain the number 2.",
+                "Q8: Check if the cells to the right of the cells identified in Q7 contain the number 4.",
+                "Q9: If the cells to the right contain the number 4, replace the number 4 with the number 9."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. "
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. "
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. "
+            ]
+        },
+        {
+            "step": 9,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8.",
+                "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                "Q6: If the cells below contain the number 8, replace the number 8 with the number 2.",
+                "Q7: Identify the cells in the input grid that contain the number 2.",
+                "Q8: Check if the cells to the right of the cells identified in Q7 contain the number 4.",
+                "Q9: If the cells to the right contain the number 4, replace the number 4 with the number 9.",
+                "Q10: Check if the cells below the cells identified in Q7 contain the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3)."
+                ]
+            ],
+            "values": [
+                1,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3)."
+            ]
+        },
+        {
+            "step": 10,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8.",
+                "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                "Q6: If the cells below contain the number 8, replace the number 8 with the number 2.",
+                "Q7: Identify the cells in the input grid that contain the number 2.",
+                "Q8: Check if the cells to the right of the cells identified in Q7 contain the number 4.",
+                "Q9: If the cells to the right contain the number 4, replace the number 4 with the number 9.",
+                "Q10: Check if the cells below the cells identified in Q7 contain the number 2.",
+                "Q11: If the cells below contain the number 2, replace the number 2 with the number 4."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4."
+            ]
+        },
+        {
+            "step": 11,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8.",
+                "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                "Q6: If the cells below contain the number 8, replace the number 8 with the number 2.",
+                "Q7: Identify the cells in the input grid that contain the number 2.",
+                "Q8: Check if the cells to the right of the cells identified in Q7 contain the number 4.",
+                "Q9: If the cells to the right contain the number 4, replace the number 4 with the number 9.",
+                "Q10: Check if the cells below the cells identified in Q7 contain the number 2.",
+                "Q11: If the cells below contain the number 2, replace the number 2 with the number 4.",
+                "Q12: Check if the cells below the cells identified in Q7 contain the number 4."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4.\nA12: The cells below the cells identified in Q7 that contain the number 4 are: (4, 3), (5, 3), (6, 3), (7, 3)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4.\nA12: The cells below the cells identified in Q7 that contain the number 4 are: (4, 3), (5, 3), (6, 3), (7, 3)."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4.\nA12: The cells below the cells identified in Q7 that contain the number 4 are: (4, 3), (5, 3), (6, 3), (7, 3)."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4.\nA12: The cells below the cells identified in Q7 that contain the number 4 are: (4, 3), (5, 3), (6, 3), (7, 3)."
+            ]
+        },
+        {
+            "step": 12,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 9.",
+                "Q2: Check if the cells to the right of the cells identified in Q1 contain the number 9.",
+                "Q3: If the cells to the right contain the number 9, replace the number 9 with the number 4.",
+                "Q4: Identify the cells in the input grid that contain the number 8.",
+                "Q5: Check if the cells below the cells identified in Q4 contain the number 8.",
+                "Q6: If the cells below contain the number 8, replace the number 8 with the number 2.",
+                "Q7: Identify the cells in the input grid that contain the number 2.",
+                "Q8: Check if the cells to the right of the cells identified in Q7 contain the number 4.",
+                "Q9: If the cells to the right contain the number 4, replace the number 4 with the number 9.",
+                "Q10: Check if the cells below the cells identified in Q7 contain the number 2.",
+                "Q11: If the cells below contain the number 2, replace the number 2 with the number 4.",
+                "Q12: Check if the cells below the cells identified in Q7 contain the number 4.",
+                "Q13: If the cells below contain the number 4, replace the number 4 with the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4.\nA12: The cells below the cells identified in Q7 that contain the number 4 are: (4, 3), (5, 3), (6, 3), (7, 3).\nA13: The cells below the cells identified in Q7 that contain the number 4 are replaced with the number 2.\n\nAfter applying all these rules, the output grid will be:\n\n[[8, 9, 0, 0, 0, 0, 0, 0, 0, 0], [2, 9, 0, 0, 0, 9, 9, 0, 0, 0], [0, 0, 0, 8, 8, 8, 9, 0, 0, 0], [0, 0, 0, 2, 8, 8, 9, 0, 0, 0], [0, 0, 0, 4, 9, 2, 0, 0, 0, 0], [0, 0, 0, 2, 9, 4, 0, 0, 0, 0], [0, 0, 0, 2, 9, 4, 0, 0, 0, 0], [0, 0, 0, 2, 4, 4, 0, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4.\nA12: The cells below the cells identified in Q7 that contain the number 4 are: (4, 3), (5, 3), (6, 3), (7, 3).\nA13: The cells below the cells identified in Q7 that contain the number 4 are replaced with the number 2.\n\nAfter applying all these rules, the output grid will be:\n\n[[8, 9, 0, 0, 0, 0, 0, 0, 0, 0], [2, 9, 0, 0, 0, 4, 4, 0, 0, 0], [0, 0, 0, 2, 2, 2, 4, 0, 0, 0], [0, 0, 0, 4, 2, 2, 4, 0, 0, 0], [0, 0, 0, 2, 9, 2, 0, 0, 0, 0], [0, 0, 0, 2, 2, 9, 0, 0, 0, 0], [0, 0, 0, 2, 9, 9, 0, 0, 0, 0], [0, 0, 0, 9, 2, 2, 0, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4.\nA12: The cells below the cells identified in Q7 that contain the number 4 are: (4, 3), (5, 3), (6, 3), (7, 3).\nA13: The cells below the cells identified in Q7 that contain the number 4 are replaced with the number 2.\n\nAfter applying all these rules, the output grid will be:\n\n[[8, 9, 0, 0, 0, 0, 0, 0, 0, 0], [2, 9, 0, 0, 0, 4, 4, 0, 0, 0], [0, 0, 0, 2, 2, 2, 4, 0, 0, 0], [0, 0, 0, 4, 2, 2, 4, 0, 0, 0], [0, 0, 0, 2, 9, 2, 0, 0, 0, 0], [0, 0, 0, 2, 2, 9, 0, 0, 0, 0], [0, 0, 0, 2, 9, 9, 0, 0, 0, 0], [0, 0, 0, 9, 4, 4, 0, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The cells that contain the number 9 in the input grid are: (1, 5), (1, 6), (2, 6), (3, 6), (7, 3).\nA2: The cells to the right of the cells identified in Q1 do not contain the number 9.\nA3: Since the cells to the right of the cells identified in Q1 do not contain the number 9, there is no need to replace the number 9 with the number 4.\nA4: The cells that contain the number 8 in the input grid are: (0, 0), (2, 3), (2, 4), (2, 5), (3, 3), (3, 4), (3, 5).\nA5: The cells below the cells identified in Q4 do not contain the number 8.\nA6: Since the cells below the cells identified in Q4 do not contain the number 8, there is no need to replace the number 8 with the number 2.\nA7: The cells that contain the number 2 in the input grid are: (1, 0), (3, 3), (4, 3), (5, 3), (6, 3).\nA8: The cells to the right of the cells identified in Q7 that contain the number 4 are: (1, 1), (4, 4), (5, 4), (6, 4).\nA9: The cells to the right of the cells identified in Q7 that contain the number 4 are replaced with the number 9. \nA10: The cells below the cells identified in Q7 that contain the number 2 are: (3, 3), (4, 3), (5, 3), (6, 3).\nA11: The cells below the cells identified in Q7 that contain the number 2 are replaced with the number 4.\nA12: The cells below the cells identified in Q7 that contain the number 4 are: (4, 3), (5, 3), (6, 3), (7, 3).\nA13: The cells below the cells identified in Q7 that contain the number 4 are replaced with the number 2.\n\nAfter applying all these rules, the output grid will be:\n\n[[8, 9, 0, 0, 0, 0, 0, 0, 0, 0], [2, 9, 0, 0, 0, 9, 9, 0, 0, 0], [0, 0, 0, 8, 8, 8, 9, 0, 0, 0], [0, 0, 0, 2, 8, 8, 9, 0, 0, 0], [0, 0, 0, 4, 9, 2, 0, 0, 0, 0], [0, 0, 0, 2, 9, 4, 0, 0, 0, 0], [0, 0, 0, 2, 9, 4, 0, 0, 0, 0], [0, 0, 0, 2, 4, 4, 0, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

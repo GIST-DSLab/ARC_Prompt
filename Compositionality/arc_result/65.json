@@ -1,0 +1,122 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "`vertical_flip(state)`",
+                "`obj_color(input_grid, object1, 1)`"
+            ],
+            "values": [
+                0.001,
+                1.0
+            ],
+            "select_new_ys": [
+                "`obj_color(input_grid, object1, 1)`",
+                "`vertical_flip(state)`"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "`obj_color(input_grid, object1, 1)`",
+                "`vertical_flip(state)`"
+            ],
+            "new_dsl_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 2)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`",
+                "`obj_color(input_grid, object1, 1)`->obj_color(current_state, object2, 2)"
+            ],
+            "values": [
+                0.001,
+                21.001,
+                1.0
+            ],
+            "select_new_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`",
+                "`obj_color(input_grid, object1, 1)`->obj_color(current_state, object2, 2)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`",
+                "`obj_color(input_grid, object1, 1)`->obj_color(current_state, object2, 2)"
+            ],
+            "new_dsl_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`",
+                "`obj_color(input_grid, object1, 1)`->obj_color(current_state, object2, 2)->obj_color(current_state, object2, 2)",
+                "`obj_color(input_grid, object1, 1)`->obj_color(current_state, object2, 2)->obj_color(current_state, object2, 2)",
+                "`obj_color(input_grid, object1, 1)`->obj_color(current_state, object2, 2)->obj_color(current_state, object2, 2)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`"
+            ],
+            "new_dsl_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)->obj_color(current_state, object3, 1)",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)->`obj_color(current_state, object3, 1)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)->`obj_color(current_state, object3, 1)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object5, 2)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object3, 1)`"
+            ],
+            "values": [
+                0.001,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object5, 2)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)->obj_color(current_state, object3, 1)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object5, 2)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)->obj_color(current_state, object3, 1)"
+            ],
+            "new_dsl_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object5, 2)`->`obj_color(current_state, object3, 2)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object5, 2)`->obj_color(current_state, object3, 1)",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object5, 2)`->`obj_color(current_state, object3, 1)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)->obj_color(current_state, object3, 1)->`obj_color(current_state, object5, 1)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)->obj_color(current_state, object3, 1)->`obj_color(current_state, object5, 1)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->obj_color(current_state, object2, 1)->obj_color(current_state, object3, 1)->`obj_color(current_state, object5, 1)`"
+            ],
+            "values": [
+                1.0,
+                0.001,
+                21.001,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object5, 2)`->`obj_color(current_state, object3, 1)`",
+                "`obj_color(input_grid, object1, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object2, 1)`->`obj_color(current_state, object5, 2)`->`obj_color(current_state, object3, 2)`"
+            ]
+        }
+    ]
+}

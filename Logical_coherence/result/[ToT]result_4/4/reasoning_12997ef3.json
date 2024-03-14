@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the pattern of 1s in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall."
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is located at the top left corner of the grid."
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the pattern of 1s in the input grid.",
+                "Q2: Identify the pattern of other numbers in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right. "
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right."
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced out evenly with 0s in between. The numbers are 2, 8, 3, and 6."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the pattern of 1s in the input grid.",
+                "Q2: Identify the pattern of other numbers in the input grid.",
+                "Q3: Determine the relationship between the pattern of 1s and the pattern of other numbers."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right.\nA3: The pattern of 1s seems to serve as a template for the pattern of other numbers. The other numbers are placed in the same shape as the pattern of 1s, but are spread out across the grid. Each number is repeated in the same pattern as the 1s."
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right.\nA3: The pattern of 1s seems to serve as a template for the pattern of other numbers. The other numbers are placed in the same shape as the pattern of 1s, but are spread out across the grid. Each number is repeated in the same pattern as the 1s."
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right.\nA3: The pattern of 1s seems to serve as a template for the pattern of other numbers. The other numbers are placed in the same shape as the pattern of 1s, but are spread out across the grid. Each number is repeated in the same pattern as the 1s."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right.\nA3: The pattern of 1s seems to serve as a template for the pattern of other numbers. The other numbers are placed in the same shape as the pattern of 1s, but are spread out across the grid. Each number is repeated in the same pattern as the 1s."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the pattern of 1s in the input grid.",
+                "Q2: Identify the pattern of other numbers in the input grid.",
+                "Q3: Determine the relationship between the pattern of 1s and the pattern of other numbers.",
+                "Q4: Apply the relationship to the quiz input grid to generate the output grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right.\nA3: The pattern of 1s seems to serve as a template for the pattern of other numbers. The other numbers are placed in the same shape as the pattern of 1s, but are spread out across the grid. Each number is repeated in the same pattern as the 1s.\nA4: The pattern of 1s in the quiz input grid is a square shape in the top left corner. The square is 3 cells wide and 2 cells tall. The pattern of other numbers in the quiz input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right. Applying the relationship, the output grid should be:\n\n[[0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6], \n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0], \n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6], \n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0], \n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6]]"
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right.\nA3: The pattern of 1s seems to serve as a template for the pattern of other numbers. The other numbers are placed in the same shape as the pattern of 1s, but are spread out across the grid. Each number is repeated in the same pattern as the 1s.\nA4: The pattern of 1s in the quiz input grid is a square shape in the top left corner. The square is 3 cells wide and 2 cells tall. The pattern of other numbers in the quiz input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right. Applying the relationship, the output grid should be:\n\n[[0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6], \n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0], \n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6], \n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0], \n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6]]"
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right.\nA3: The pattern of 1s seems to serve as a template for the pattern of other numbers. The other numbers are placed in the same shape as the pattern of 1s, but are spread out across the grid. Each number is repeated in the same pattern as the 1s.\nA4: The pattern of 1s in the quiz input grid is a square shape in the top left corner. The square is 3 cells wide and 2 cells tall. The pattern of other numbers is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right. Applying the relationship, the output grid should be:\n\n[[0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6], \n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0], \n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6], \n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0], \n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6]]"
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of 1s in the input grid forms a square shape in the top left corner. The square is 2 cells wide and 2 cells tall.\nA2: The pattern of other numbers in the input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right.\nA3: The pattern of 1s seems to serve as a template for the pattern of other numbers. The other numbers are placed in the same shape as the pattern of 1s, but are spread out across the grid. Each number is repeated in the same pattern as the 1s.\nA4: The pattern of 1s in the quiz input grid is a square shape in the top left corner. The square is 3 cells wide and 2 cells tall. The pattern of other numbers in the quiz input grid is a single row in the middle of the grid. The numbers are spaced evenly apart and increase in value from left to right. Applying the relationship, the output grid should be:\n\n[[0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6], \n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0], \n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6], \n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0], \n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6]]"
+            ]
+        }
+    ]
+}

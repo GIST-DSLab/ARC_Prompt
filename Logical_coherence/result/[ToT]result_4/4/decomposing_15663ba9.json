@@ -1,0 +1,38 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by '3's on all four sides in the input grid.",
+                    "Q2: For the cells identified in Q1, check if they are part of a larger square or rectangle of '3's.",
+                    "Q3: If they are part of a larger square or rectangle, replace the outermost layer of '3's with '4's and the next layer with '2's.",
+                    "Q4: If they are not part of a larger square or rectangle, replace the cell with '4'."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by '3's on all four sides in the input grid.",
+                    "Q2: For the cells identified in Q1, check if they are part of a larger square or rectangle of '3's.",
+                    "Q3: If they are part of a larger square or rectangle, fill the cell with '4'.",
+                    "Q4: If they are not part of a larger square or rectangle, fill the cell with '2'.",
+                    "Q5: Repeat this process for all cells in the grid."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by '3's on all four sides in the input grid.",
+                    "Q2: For the cells identified in Q1, check if they are part of a larger square or rectangle of '3's.",
+                    "Q3: If they are part of a larger square or rectangle, replace the outermost layer of '3's with '4's and the next layer with '2's.",
+                    "Q4: If they are not part of a larger square or rectangle, replace the cell with '4'."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by '3's on all four sides in the input grid.",
+                "Q2: For the cells identified in Q1, check if they are part of a larger square or rectangle of '3's.",
+                "Q3: If they are part of a larger square or rectangle, replace the outermost layer of '3's with '4's and the next layer with '2's.",
+                "Q4: If they are not part of a larger square or rectangle, replace the cell with '4'."
+            ]
+        }
+    ]
+}

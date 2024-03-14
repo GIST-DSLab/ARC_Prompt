@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the row that is filled with the same number (in this case, 1)."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row."
+                ],
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row."
+                ],
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The row that is filled with the same number (1) is the 8th row."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the row that is filled with the same number (in this case, 1).",
+                "Q2: Remove all rows above and below the identified row."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:"
+                ],
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:"
+                ],
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:"
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the row that is filled with the same number (in this case, 1).",
+                "Q2: Remove all rows above and below the identified row.",
+                "Q3: Remove all columns to the left of the identified row."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:\nA3: After removing all columns to the left of the identified row, the remaining grid is:"
+                ],
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:\nA3: After removing all columns to the left of the identified row, the remaining grid is:"
+                ],
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:\nA3: After removing all columns to the left of the identified row, the remaining grid is:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:\nA3: After removing all columns to the left of the identified row, the remaining grid is:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the row that is filled with the same number (in this case, 1).",
+                "Q2: Remove all rows above and below the identified row.",
+                "Q3: Remove all columns to the left of the identified row.",
+                "Q4: Identify the pattern of the remaining grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:\nA3: After removing all columns to the left of the identified row, the remaining grid is:\nA4: The pattern of the remaining grid is that it contains a series of numbers (2, 3, 4, 6) that are arranged in a specific pattern. Each number forms a shape or pattern within its own row and column. \n\nQ5: Apply the pattern to the quiz input.\nA5: Applying the pattern to the quiz input, the output grids would be:\n\n[[2, 2, 0, 3, 3, 3], [2, 0, 0, 0, 3, 3], [2, 0, 2, 3, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 4, 0, 0], [6, 6, 0, 4, 0, 4], [6, 0, 6, 0, 4, 0], [6, 6, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:\nA3: After removing all columns to the left of the identified row, the remaining grid is:\nA4: The pattern of the remaining grid is that it contains a series of numbers (2, 3, 4, 6) that are arranged in a specific pattern. Each number forms a shape that is mirrored on both sides of the grid. \n\nQ5: Apply the pattern to the quiz input.\nA5: Applying the pattern to the quiz input, the output grids should be:\n\n[[2, 2, 0, 3, 3, 3], [2, 0, 0, 0, 3, 3], [2, 0, 2, 3, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 4, 0, 0], [6, 6, 0, 0, 4, 0], [6, 0, 6, 4, 0, 4], [6, 6, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:\nA3: After removing all columns to the left of the identified row, the remaining grid is:\nA4: The pattern of the remaining grid is that it contains a series of numbers (2, 3, 4, 6) arranged in a specific pattern. Each number has its own unique arrangement.\n\nQ5: Apply the pattern to the quiz's input.\nA5: Applying the pattern to the quiz's input, the output grid is:\n\n[[2, 2, 0, 3, 3, 3], [2, 0, 0, 0, 3, 3], [0, 2, 0, 3, 0, 0], [0, 0, 6, 0, 4, 0], [6, 0, 6, 4, 0, 4], [6, 6, 0, 0, 4, 0]]"
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The row that is filled with the same number (1) is the 8th row.\nA2: After removing all rows above and below the identified row, the remaining grid is:\nA3: After removing all columns to the left of the identified row, the remaining grid is:\nA4: The pattern of the remaining grid is that it contains a series of numbers (2, 3, 4, 6) that are arranged in a specific pattern. Each number forms a shape or pattern within its own row and column. \n\nQ5: Apply the pattern to the quiz input.\nA5: Applying the pattern to the quiz input, the output grids would be:\n\n[[2, 2, 0, 3, 3, 3], [2, 0, 0, 0, 3, 3], [2, 0, 2, 3, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 4, 0, 0], [6, 6, 0, 4, 0, 4], [6, 0, 6, 0, 4, 0], [6, 6, 0, 0, 0, 0]]"
+            ]
+        }
+    ]
+}

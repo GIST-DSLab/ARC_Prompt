@@ -1,0 +1,299 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions."
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions."
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions."
+                ]
+            ],
+            "values": [
+                0,
+                2,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The two different numbers in the first row of the input grid are located at the first and second positions."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                "Q2: Determine the larger number and the smaller number between the two identified numbers."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2."
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2."
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the first row where the smaller number (2) is located. "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). "
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                "Q4: Draw a horizontal line from the end of the vertical line to the smaller number."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). "
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                "Q4: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                "Q5: Fill the inside of the rectangle formed by the lines with the smaller number."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). "
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). "
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                "Q4: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                "Q5: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                "Q6: Identify the location of the number 1 in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column."
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column."
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column."
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                "Q4: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                "Q5: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                "Q6: Identify the location of the number 1 in the input grid.",
+                "Q7: Draw a vertical line up from the number 1 until it reaches the same row as the smaller number."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). "
+            ]
+        },
+        {
+            "step": 7,
+            "current_subquestions": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                "Q4: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                "Q5: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                "Q6: Identify the location of the number 1 in the input grid.",
+                "Q7: Draw a vertical line up from the number 1 until it reaches the same row as the smaller number.",
+                "Q8: Draw a horizontal line from the end of the vertical line to the smaller number."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). "
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). "
+            ]
+        },
+        {
+            "step": 8,
+            "current_subquestions": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                "Q4: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                "Q5: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                "Q6: Identify the location of the number 1 in the input grid.",
+                "Q7: Draw a vertical line up from the number 1 until it reaches the same row as the smaller number.",
+                "Q8: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                "Q9: Fill the inside of the rectangle formed by the lines with the smaller number."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). \nA9: The inside of the rectangle formed by the lines will be filled with the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). \nA9: The inside of the rectangle formed by the lines will be filled with the smaller number (2). "
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). \nA9: The inside of the rectangle formed by the lines will be filled with the smaller number (2). "
+                ]
+            ],
+            "values": [
+                0,
+                1,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). \nA9: The inside of the rectangle formed by the lines will be filled with the smaller number (2). "
+            ]
+        },
+        {
+            "step": 9,
+            "current_subquestions": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                "Q4: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                "Q5: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                "Q6: Identify the location of the number 1 in the input grid.",
+                "Q7: Draw a vertical line up from the number 1 until it reaches the same row as the smaller number.",
+                "Q8: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                "Q9: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                "Q10: The remaining cells should be filled with 0."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). \nA9: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA10: The remaining cells that are not filled with the smaller number (2) will be filled with 0.\n\nSo, the output grids will be:\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 2, 2, 2, 2, 2, 2, 8, 0, 8, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 2, 2, 1, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 2, 2, 2, 2, 0, 8, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 8, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). \nA9: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA10: The remaining cells that are not filled with the smaller number (2) will be filled with 0.\n\nSo, the output grids will be:\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 2, 2, 2, 2, 2, 2, 8, 0, 8, 0, 0, 0], [0, 8, 0, 0, 0, 0, 1, 8, 0, 8, 0, 0, 0], [0, 8, 0, 2, 2, 2, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 2, 2, 2, 2, 0, 8, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 8, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). \nA9: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA10: The remaining cells that are not filled with the smaller number (2) will be filled with 0.\n\nSo, the output grids will be:\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 2, 2, 2, 2, 2, 2, 8, 0, 8, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 2, 2, 1, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 2, 2, 2, 2, 0, 8, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 8, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The two different numbers in the first row of the input grid are located at the first and second positions.\nA2: The larger number is 8 and the smaller number is 2.\nA3: The vertical line down from the larger number (8) will pass through the cells in the second column until it reaches the same row as the smaller number (2). \nA4: The horizontal line from the end of the vertical line will pass through the cells in the sixth row until it reaches the smaller number (2). \nA5: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA6: The number 1 in the input grid is located at the sixth row and seventh column.\nA7: The vertical line up from the number 1 will pass through the cells in the seventh column until it reaches the same row as the smaller number (2). \nA8: The horizontal line from the end of the vertical line will pass through the cells in the first row until it reaches the smaller number (2). \nA9: The inside of the rectangle formed by the lines will be filled with the smaller number (2). \nA10: The remaining cells that are not filled with the smaller number (2) will be filled with 0.\n\nSo, the output grids will be:\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 2, 2, 2, 2, 2, 2, 2, 2, 8, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 2, 2, 2, 2, 2, 2, 8, 0, 8, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 2, 2, 1, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 8, 0, 8, 2, 2, 2, 2, 0, 8, 0, 0, 0], [0, 8, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 8, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

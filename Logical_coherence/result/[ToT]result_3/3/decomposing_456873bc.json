@@ -1,0 +1,40 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the input grid. The pattern seems to be a series of 2s forming a shape, separated by a row of 0s, followed by a series of 3s forming the same shape, and then another row of 0s.",
+                    "Q2: Identify the changes between the input and output grids in the examples. The changes seem to be that the first and last 2 in each row of 2s are replaced with 8s.",
+                    "Q3: Determine if the changes in the examples apply to all cases. In the examples, the changes seem to apply to all rows of 2s that are at the top or bottom of the grid, or that are directly above or below a row of 3s.",
+                    "Q4: Formulate a rule based on the identified pattern and changes. The rule seems to be: replace the first and last 2 in each row of 2s that is at the top or bottom of the grid, or that is directly above or below a row of 3s, with 8s.",
+                    "Q5: Apply the rule to the input grid in the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grid. The pattern seems to be a series of 2s forming a shape, separated by a row of 0s, followed by a series of 3s forming the same shape, and then another row of 0s.",
+                    "Q2: Identify the changes between the input and output grids in the examples. The changes seem to be that the first and last 2 in each row of 2s are replaced with 8s.",
+                    "Q3: Determine if the changes in the examples apply to all cases. In the examples, the changes seem to apply to all rows of 2s that are at the top or bottom of the grid, or that are directly above or below a row of 3s.",
+                    "Q4: Formulate a rule based on the identified pattern and changes. The rule seems to be: replace the first and last 2 in each row of 2s that is at the top or bottom of the grid, or that is directly above or below a row of 3s, with 8s.",
+                    "Q5: Apply the rule to the input grid in the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grid. The pattern seems to be a series of 2s forming a shape, separated by a row of 0s, followed by a series of 3s forming the same shape, and then another row of 0s.",
+                    "Q2: Identify the changes between the input and output grids in the examples. The changes seem to be that the first and last 2s in each row of 2s are replaced with 8s.",
+                    "Q3: Determine the rule for when a 2 should be replaced with an 8. It seems that a 2 should be replaced with an 8 if it is the first or last 2 in a row of 2s.",
+                    "Q4: Apply the rule from Q3 to the input grid of the quiz to generate the output grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the input grid. The pattern seems to be a series of 2s forming a shape, separated by a row of 0s, followed by a series of 3s forming the same shape, and then another row of 0s.",
+                "Q2: Identify the changes between the input and output grids in the examples. The changes seem to be that the first and last 2 in each row of 2s are replaced with 8s.",
+                "Q3: Determine if the changes in the examples apply to all cases. In the examples, the changes seem to apply to all rows of 2s that are at the top or bottom of the grid, or that are directly above or below a row of 3s.",
+                "Q4: Formulate a rule based on the identified pattern and changes. The rule seems to be: replace the first and last 2 in each row of 2s that is at the top or bottom of the grid, or that is directly above or below a row of 3s, with 8s.",
+                "Q5: Apply the rule to the input grid in the quiz to generate the output grid."
+            ]
+        }
+    ]
+}

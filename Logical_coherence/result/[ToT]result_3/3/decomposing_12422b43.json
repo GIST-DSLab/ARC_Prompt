@@ -1,0 +1,42 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. The pattern seems to be that the grid is mirrored vertically, with the top half being the original and the bottom half being the mirror image.",
+                    "Q2: Identify the elements that are being mirrored in the input grid. In the examples, these are the rows with non-zero elements.",
+                    "Q3: Identify the position of these elements in the grid. ",
+                    "Q4: Mirror these elements to the bottom half of the grid, maintaining their relative positions.",
+                    "Q5: Ensure that the mirrored elements do not overwrite any existing non-zero elements in the bottom half of the grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. The pattern seems to be that the grid is mirrored vertically, with the top half being the original and the bottom half being the mirror image.",
+                    "Q2: Identify the elements that are being mirrored in the input grid. In the examples, these are the rows with non-zero elements.",
+                    "Q3: Determine the position of these elements in the input grid. ",
+                    "Q4: Mirror these elements to the corresponding positions in the bottom half of the grid.",
+                    "Q5: Ensure that the mirrored elements maintain their original arrangement in the mirrored half.",
+                    "Q6: The output grid should be the same size as the input grid, with the top half identical to the input and the bottom half being the mirrored image of the top."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. The pattern seems to be that the grid is mirrored vertically, with the top half being the original and the bottom half being the mirror image.",
+                    "Q2: Identify the elements that are being mirrored in the input grid. In the examples, these are the rows with non-zero elements.",
+                    "Q3: Identify the position of these elements in the grid. ",
+                    "Q4: Mirror these elements to the bottom half of the grid, maintaining their relative positions.",
+                    "Q5: Ensure that the mirrored elements do not overwrite any existing non-zero elements in the bottom half of the grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the input grids of the examples. The pattern seems to be that the grid is mirrored vertically, with the top half being the original and the bottom half being the mirror image.",
+                "Q2: Identify the elements that are being mirrored in the input grid. In the examples, these are the rows with non-zero elements.",
+                "Q3: Identify the position of these elements in the grid. ",
+                "Q4: Mirror these elements to the bottom half of the grid, maintaining their relative positions.",
+                "Q5: Ensure that the mirrored elements do not overwrite any existing non-zero elements in the bottom half of the grid."
+            ]
+        }
+    ]
+}

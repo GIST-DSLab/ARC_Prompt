@@ -1,0 +1,53 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in the grid.",
+                    "Q3: Identify the three most frequent numbers in the grid.",
+                    "Q4: Create a new 3x3 grid with the three most frequent numbers in the original grid.",
+                    "Q5: The first row of the new grid should contain the most frequent number, the second row should contain the second most frequent number, and the third row should contain the third most frequent number.",
+                    "Q6: The first column of the new grid should contain the most frequent number, the second column should contain the second most frequent number, and the third column should contain the third most frequent number.",
+                    "Q7: The diagonal from the top left to the bottom right of the new grid should contain the most frequent number.",
+                    "Q8: The diagonal from the top right to the bottom left of the new grid should contain the second most frequent number.",
+                    "Q9: The remaining cells in the new grid should contain the third most frequent number."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in the grid.",
+                    "Q3: Identify the three most frequent numbers in the grid.",
+                    "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                    "Q5: For each of the three most frequent numbers, identify their positions in the original grid.",
+                    "Q6: Map the positions of the three most frequent numbers to the new grid.",
+                    "Q7: Fill the new grid with the three most frequent numbers according to their positions."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in the grid.",
+                    "Q3: Identify the three most frequent numbers in the grid.",
+                    "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                    "Q5: For each of the three most frequent numbers, identify their positions in the original grid.",
+                    "Q6: Transfer these positions to the new grid, replacing the corresponding positions with the respective numbers.",
+                    "Q7: Fill the rest of the new grid with the most frequent number."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in the grid.",
+                "Q3: Identify the three most frequent numbers in the grid.",
+                "Q4: Create a new 3x3 grid with the three most frequent numbers in the original grid.",
+                "Q5: The first row of the new grid should contain the most frequent number, the second row should contain the second most frequent number, and the third row should contain the third most frequent number.",
+                "Q6: The first column of the new grid should contain the most frequent number, the second column should contain the second most frequent number, and the third column should contain the third most frequent number.",
+                "Q7: The diagonal from the top left to the bottom right of the new grid should contain the most frequent number.",
+                "Q8: The diagonal from the top right to the bottom left of the new grid should contain the second most frequent number.",
+                "Q9: The remaining cells in the new grid should contain the third most frequent number."
+            ]
+        }
+    ]
+}

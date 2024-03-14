@@ -1,0 +1,200 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. "
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. "
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. "
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. "
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are surrounded by 8s in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are surrounded by 8s in the input grid.",
+                "Q3: Create a new grid with the same dimensions as the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are surrounded by 8s in the input grid.",
+                "Q3: Create a new grid with the same dimensions as the input grid.",
+                "Q4: Fill in the new grid with the values from the cells identified in Q1 and Q2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have a list of cells surrounded by 3s stored in a variable called `cells_surrounded_by_3s` and a list of cells surrounded by 8s stored in a variable called `cells_surrounded_by_8s`, we can fill in the new grid with the following code:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have a list of cells identified in Q1 stored in a variable called `cells_q1` and a list of cells identified in Q2 stored in a variable called `cells_q2`, we can fill in the new grid with the following code:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:"
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are surrounded by 8s in the input grid.",
+                "Q3: Create a new grid with the same dimensions as the input grid.",
+                "Q4: Fill in the new grid with the values from the cells identified in Q1 and Q2.",
+                "Q5: For the cells identified in Q1, fill in the new grid with the value 6."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:"
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are surrounded by 8s in the input grid.",
+                "Q3: Create a new grid with the same dimensions as the input grid.",
+                "Q4: Fill in the new grid with the values from the cells identified in Q1 and Q2.",
+                "Q5: For the cells identified in Q1, fill in the new grid with the value 6.",
+                "Q6: For the cells identified in Q2, fill in the new grid with the value 3."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:\nA6: To fill in the new grid with the value 3 for the cells identified in Q2, we can iterate over the cells identified in Q2 and set the corresponding cells in the new grid to 3. For example, if we have a list of coordinates for the cells identified in Q2 stored in a variable `cells_q2`, we can fill in the new grid with the following code:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:\nA6: To fill in the new grid with the value 3 for the cells identified in Q2, we can iterate over the cells identified in Q2 and set the corresponding cells in the new grid to 3. For example, if we have a list of coordinates for the cells identified in Q2 stored in a variable `cells_q2`, we can fill in the new grid with the following code:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:\nA6: To fill in the new grid with the value 3 for the cells identified in Q2, we can iterate over the cells identified in Q2 and set the corresponding cells in the new grid to 3. For example, if we have a list of coordinates for the cells identified in Q2 stored in a variable `cells_q2`, we can fill in the new grid with the following code:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:\nA6: To fill in the new grid with the value 3 for the cells identified in Q2, we can iterate over the cells identified in Q2 and set the corresponding cells in the new grid to 3. For example, if we have a list of coordinates for the cells identified in Q2 stored in a variable `cells_q2`, we can fill in the new grid with the following code:"
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are surrounded by 8s in the input grid.",
+                "Q3: Create a new grid with the same dimensions as the input grid.",
+                "Q4: Fill in the new grid with the values from the cells identified in Q1 and Q2.",
+                "Q5: For the cells identified in Q1, fill in the new grid with the value 6.",
+                "Q6: For the cells identified in Q2, fill in the new grid with the value 3.",
+                "Q7: For the rest of the cells in the new grid, fill in with the value 0."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:\nA6: To fill in the new grid with the value 3 for the cells identified in Q2, we can iterate over the cells identified in Q2 and set the corresponding cells in the new grid to 3. For example, if we have a list of coordinates for the cells identified in Q2 stored in a variable `cells_q2`, we can fill in the new grid with the following code:\nA7: To fill in the rest of the cells in the new grid with the value 0, we can iterate over each cell in the new grid and check if it has been filled in with a value from Q1 or Q2. If it has not been filled in, we set the cell to 0. For example, if the new grid is stored in a variable `new_grid`, we can fill in the rest of the cells with the following code:\n\n```python\nfor i in range(len(new_grid)):\n    for j in range(len(new_grid[0])):\n        if new_grid[i][j] != 6 and new_grid[i][j] != 3:\n            new_grid[i][j] = 0\n```\n\nThis code iterates over each cell in the new grid. If the cell's value is not 6 (from Q1) and not 3 (from Q2), it sets the cell's value to 0."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:\nA6: To fill in the new grid with the value 3 for the cells identified in Q2, we can iterate over the cells identified in Q2 and set the corresponding cells in the new grid to 3. For example, if we have a list of coordinates for the cells identified in Q2 stored in a variable `cells_q2`, we can fill in the new grid with the following code:\nA7: To fill in the rest of the cells in the new grid with the value 0, we can iterate over each cell in the new grid and if the cell is not already filled (i.e., its value is not 6 or 3), we set its value to 0. This can be done with the following code:\n\n```python\nfor i in range(len(new_grid)):\n    for j in range(len(new_grid[0])):\n        if new_grid[i][j] != 6 and new_grid[i][j] != 3:\n            new_grid[i][j] = 0\n```\n\nThis code assumes that the new grid is stored in a variable called `new_grid`. The `range(len(new_grid))` part generates a sequence of numbers from 0 to the number of rows in the new grid minus 1, and `range(len(new_grid[0]))` generates a sequence of numbers from 0 to the number of columns in the new grid minus 1. The `for` loops iterate over these sequences, effectively iterating over each cell in the new grid. If the value of a cell is not 6 or 3, it is set to 0."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:\nA6: To fill in the new grid with the value 3 for the cells identified in Q2, we can iterate over the cells identified in Q2 and set the corresponding cells in the new grid to 3. For example, if we have a list of coordinates for the cells identified in Q2 stored in a variable `cells_q2`, we can fill in the new grid with the following code:\nA7: To fill in the rest of the cells in the new grid with the value 0, we can iterate over each cell in the new grid and check if it has been filled in with a value from Q1 or Q2. If it has not been filled in, we set the cell to 0. For example, if the new grid is stored in a variable `new_grid`, we can fill in the rest of the cells with the following code:\n\n```python\nfor i in range(len(new_grid)):\n    for j in range(len(new_grid[0])):\n        if new_grid[i][j] != 6 and new_grid[i][j] != 3:\n            new_grid[i][j] = 0\n```\n\nThis code iterates over each cell in the new grid. If the cell's value is not 6 (from Q1) and not 3 (from Q2), it sets the cell's value to 0."
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: Similar to the previous question, to identify the cells that are surrounded by 8s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 8s, then the cell is surrounded by 8s.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. If the input grid is stored in a variable called `input_grid`, the new grid can be created with the following code:\nA4: To fill in the new grid with the values from the cells identified in Q1 and Q2, we can iterate over the cells identified in Q1 and Q2 and set the corresponding cells in the new grid to the same value. For example, if we have lists of coordinates for the cells identified in Q1 and Q2 stored in variables `cells_q1` and `cells_q2`, we can fill in the new grid with the following code:\nA5: To fill in the new grid with the value 6 for the cells identified in Q1, we can iterate over the cells identified in Q1 and set the corresponding cells in the new grid to 6. For example, if we have a list of coordinates for the cells identified in Q1 stored in a variable `cells_q1`, we can fill in the new grid with the following code:\nA6: To fill in the new grid with the value 3 for the cells identified in Q2, we can iterate over the cells identified in Q2 and set the corresponding cells in the new grid to 3. For example, if we have a list of coordinates for the cells identified in Q2 stored in a variable `cells_q2`, we can fill in the new grid with the following code:\nA7: To fill in the rest of the cells in the new grid with the value 0, we can iterate over each cell in the new grid and check if it has been filled in with a value from Q1 or Q2. If it has not been filled in, we set the cell to 0. For example, if the new grid is stored in a variable `new_grid`, we can fill in the rest of the cells with the following code:\n\n```python\nfor i in range(len(new_grid)):\n    for j in range(len(new_grid[0])):\n        if new_grid[i][j] != 6 and new_grid[i][j] != 3:\n            new_grid[i][j] = 0\n```\n\nThis code iterates over each cell in the new grid. If the cell's value is not 6 (from Q1) and not 3 (from Q2), it sets the cell's value to 0."
+            ]
+        }
+    ]
+}

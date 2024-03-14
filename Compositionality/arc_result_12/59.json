@@ -1,0 +1,122 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "`vertical_flip_obj(state, object3)`",
+                "`vertical_line(state, 4, 0, 5, 0, 2)`",
+                "horizontal_line(state, 4, 0, 4, 9, 0)"
+            ],
+            "values": [
+                41.001,
+                0.001,
+                20.0
+            ],
+            "select_new_ys": [
+                "`vertical_flip_obj(state, object3)`",
+                "horizontal_line(state, 4, 0, 4, 9, 0)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "`vertical_flip_obj(state, object3)`",
+                "horizontal_line(state, 4, 0, 4, 9, 0)"
+            ],
+            "new_dsl_ys": [
+                "`vertical_flip_obj(state, object3)`->`move_up(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)",
+                "horizontal_line(state, 4, 0, 4, 9, 0)->vertical_line(state, 4, 0, 5, 0, 2)",
+                "horizontal_line(state, 4, 0, 4, 9, 0)->horizontal_line(state, 5, 0, 5, 9, 0)",
+                "horizontal_line(state, 4, 0, 4, 9, 0)->`obj_color(state, object3, 0)`"
+            ],
+            "values": [
+                0.0,
+                0.001,
+                0.001,
+                0.0,
+                0.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)"
+            ],
+            "new_dsl_ys": [
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`"
+            ],
+            "new_dsl_ys": [
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->`move_up(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->`vertical_flip_obj(state, object3)`"
+            ],
+            "values": [
+                20.0,
+                21.001,
+                20.0
+            ],
+            "select_new_ys": [
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->`move_up(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->`move_up(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)"
+            ],
+            "new_dsl_ys": [
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->`move_up(state, object3)`->move_up(state, object3)",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->`move_up(state, object3)`->`move_up(state, object3)`",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->vertical_flip_obj(state, object3)",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->vertical_flip_obj(state, {'object3': [[8, 0], [8, 1], [8, 2], [8, 3], [8, 4], [8, 5], [8, 6], [8, 7], [8, 8], [8, 9]]})",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->vertical_flip_obj(state, {'object3': [[8, 0], [8, 1], [8, 2], [8, 3], [8, 4], [8, 5], [8, 6], [8, 7], [8, 8], [8, 9]]})"
+            ],
+            "values": [
+                20.0,
+                1.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->`move_up(state, object3)`->move_up(state, object3)",
+                "`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->`vertical_flip_obj(state, object3)`->vertical_flip_obj(state, object3)->vertical_flip_obj(state, object3)"
+            ]
+        }
+    ]
+}

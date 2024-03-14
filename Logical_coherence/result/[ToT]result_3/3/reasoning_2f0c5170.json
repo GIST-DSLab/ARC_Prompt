@@ -1,0 +1,169 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:"
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:"
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:"
+                ]
+            ],
+            "values": [
+                0,
+                2,
+                1
+            ],
+            "select_new_ys": [
+                "A1: The areas surrounded by 8s in the input grid are:"
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                "Q2: Determine the size of these areas."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. "
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within each area. "
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. "
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. "
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                "Q2: Determine the size of these areas.",
+                "Q3: Identify the cells within these areas that contain numbers other than 0."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value."
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value."
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value."
+                ]
+            ],
+            "values": [
+                0,
+                1,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                "Q2: Determine the size of these areas.",
+                "Q3: Identify the cells within these areas that contain numbers other than 0.",
+                "Q4: Create a new grid with the same size as the identified areas."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. "
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. "
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. "
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                "Q2: Determine the size of these areas.",
+                "Q3: Identify the cells within these areas that contain numbers other than 0.",
+                "Q4: Create a new grid with the same size as the identified areas.",
+                "Q5: Copy the cells with numbers other than 0 from the input grid to the corresponding positions in the new grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. \nA5: The cells with numbers other than 0 can be copied from the input grid to the corresponding positions in the new grid by iterating through each cell in the identified areas and copying its value to the corresponding cell in the new grid."
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. \nA5: The cells with numbers other than 0 can be copied from the input grid to the corresponding positions in the new grid by iterating through each cell in the identified areas and copying its value to the corresponding cell in the new grid."
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. \nA5: The cells with numbers other than 0 can be copied from the input grid to the corresponding positions in the new grid by iterating through each cell in the identified areas and copying its value to the corresponding cell in the new grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. \nA5: The cells with numbers other than 0 can be copied from the input grid to the corresponding positions in the new grid by iterating through each cell in the identified areas and copying its value to the corresponding cell in the new grid."
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                "Q2: Determine the size of these areas.",
+                "Q3: Identify the cells within these areas that contain numbers other than 0.",
+                "Q4: Create a new grid with the same size as the identified areas.",
+                "Q5: Copy the cells with numbers other than 0 from the input grid to the corresponding positions in the new grid.",
+                "Q6: Fill the remaining cells in the new grid with 0s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. \nA5: The cells with numbers other than 0 can be copied from the input grid to the corresponding positions in the new grid by iterating through each cell in the identified areas and copying its value to the corresponding cell in the new grid.\nA6: The remaining cells in the new grid can be filled with 0s by iterating through each cell in the new grid and setting its value to 0 if it has not been filled with a number from the input grid."
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. \nA5: The cells with numbers other than 0 can be copied from the input grid to the corresponding positions in the new grid by iterating through each cell in the identified areas and copying its value to the corresponding cell in the new grid.\nA6: The remaining cells in the new grid can be filled with 0s by iterating through each cell in the new grid and setting its value to 0 if it has not been filled with a number from the input grid."
+                ],
+                [
+                    "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. \nA5: The cells with numbers other than 0 can be copied from the input grid to the corresponding positions in the new grid by iterating through each cell in the identified areas and copying its value to the corresponding cell in the new grid.\nA6: The remaining cells in the new grid can be filled with 0s by iterating through each cell in the new grid and setting its value to 0 if it has not been filled with a number from the input grid."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The areas surrounded by 8s in the input grid are:\nA2: The size of these areas can be determined by counting the number of cells within the area. \nA3: The cells within these areas that contain numbers other than 0 can be identified by scanning through each cell in the area and checking its value.\nA4: A new grid can be created with the same size as the identified areas by initializing a new 2D array with the same dimensions as the identified areas. \nA5: The cells with numbers other than 0 can be copied from the input grid to the corresponding positions in the new grid by iterating through each cell in the identified areas and copying its value to the corresponding cell in the new grid.\nA6: The remaining cells in the new grid can be filled with 0s by iterating through each cell in the new grid and setting its value to 0 if it has not been filled with a number from the input grid."
+            ]
+        }
+    ]
+}

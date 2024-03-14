@@ -1,0 +1,44 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the two distinct patterns in the input grid. One pattern is a square filled with 4s and the other pattern is a cross filled with 2s.",
+                    "Q2: Identify the positions of the special numbers (1, 3, 6, 7, 8) in both patterns.",
+                    "Q3: Determine the relationship between the positions of these special numbers and the structure of the patterns.",
+                    "Q4: Based on the relationship identified in Q3, predict the positions of the special numbers in the output grid.",
+                    "Q5: Construct the output grid by placing the special numbers at the predicted positions and filling the rest of the grid with 1s."
+                ],
+                [
+                    "Q1: Identify the two distinct patterns in the input grid. One pattern is a square filled with 4s and the other pattern is a cross filled with 2s.",
+                    "Q2: Identify the positions of the special numbers (1, 3, 6, 7, 8) in both patterns.",
+                    "Q3: Determine the relationship between the positions of these special numbers and the structure of the patterns.",
+                    "Q4: Based on the relationship identified in Q3, predict the positions of the special numbers in the output grid.",
+                    "Q5: Determine the size and shape of the output grid based on the size and shape of the patterns in the input grid.",
+                    "Q6: Fill in the output grid with the special numbers at the positions predicted in Q4.",
+                    "Q7: Fill in the rest of the output grid with 4s."
+                ],
+                [
+                    "Q1: Identify the two distinct patterns in the input grid. One pattern is a square filled with 4s and the other pattern is a cross filled with 2s.",
+                    "Q2: Identify the positions of the special numbers (1, 3, 6, 7, 8) in both patterns.",
+                    "Q3: Remove the outer layer of 0s from the input grid.",
+                    "Q4: Identify the pattern of the special numbers in the reduced grid.",
+                    "Q5: Apply the pattern of the special numbers to the corresponding positions in the output grid.",
+                    "Q6: Fill the remaining cells in the output grid with the number 4."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the two distinct patterns in the input grid. One pattern is a square filled with 4s and the other pattern is a cross filled with 2s.",
+                "Q2: Identify the positions of the special numbers (1, 3, 6, 7, 8) in both patterns.",
+                "Q3: Determine the relationship between the positions of these special numbers and the structure of the patterns.",
+                "Q4: Based on the relationship identified in Q3, predict the positions of the special numbers in the output grid.",
+                "Q5: Construct the output grid by placing the special numbers at the predicted positions and filling the rest of the grid with 1s."
+            ]
+        }
+    ]
+}

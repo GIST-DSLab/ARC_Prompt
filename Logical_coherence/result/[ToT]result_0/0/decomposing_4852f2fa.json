@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern of 8s in the input grid.",
+                    "Q2: Identify the position of 4s in the input grid.",
+                    "Q3: Determine the relationship between the position of 8s and 4s in the input grid and the output grid.",
+                    "Q4: Based on the relationship identified in Q3, predict the position of 8s in the output grid.",
+                    "Q5: Predict the size of the output grid based on the position of 8s and 4s in the input grid.",
+                    "Q6: Generate the output grid based on the predictions made in Q4 and Q5."
+                ],
+                [
+                    "Q1: Identify the pattern of 8s in the input grid.",
+                    "Q2: Identify the position of 4s in the input grid.",
+                    "Q3: Determine the relationship between the position of 8s and 4s in the input grid and the output grid.",
+                    "Q4: Based on the relationship identified in Q3, predict the position of 8s in the output grid.",
+                    "Q5: Predict the size of the output grid based on the position of 8s and 4s in the input grid.",
+                    "Q6: Generate the output grid based on the predictions made in Q4 and Q5."
+                ],
+                [
+                    "Q1: Identify the pattern of 8s in the input grid.",
+                    "Q2: Identify the position of 4s in the input grid.",
+                    "Q3: Determine the relationship between the pattern of 8s and the position of 4s in the input grid.",
+                    "Q4: Based on the relationship identified in Q3, predict the pattern of 8s in the output grid.",
+                    "Q5: Determine the size of the output grid based on the pattern of 8s and the position of 4s in the input grid.",
+                    "Q6: Generate the output grid based on the answers to Q4 and Q5."
+                ]
+            ],
+            "values": [
+                1,
+                0,
+                2
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern of 8s in the input grid.",
+                "Q2: Identify the position of 4s in the input grid.",
+                "Q3: Determine the relationship between the pattern of 8s and the position of 4s in the input grid.",
+                "Q4: Based on the relationship identified in Q3, predict the pattern of 8s in the output grid.",
+                "Q5: Determine the size of the output grid based on the pattern of 8s and the position of 4s in the input grid.",
+                "Q6: Generate the output grid based on the answers to Q4 and Q5."
+            ]
+        }
+    ]
+}

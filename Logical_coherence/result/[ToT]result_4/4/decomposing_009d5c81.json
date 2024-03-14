@@ -1,0 +1,51 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells in the input grid that contain the number 8.",
+                    "Q2: Check if the identified cells form a specific pattern or shape.",
+                    "Q3: If a specific pattern or shape is identified, replace the number 8 with the number 3 in those cells.",
+                    "Q4: Leave the cells that do not form the specific pattern or shape as they are.",
+                    "Q5: Check if there are any cells containing the number 1 in the input grid.",
+                    "Q6: If there are cells containing the number 1, leave them as they are.",
+                    "Q7: Replace all other cells with the number 0."
+                ],
+                [
+                    "Q1: Identify the cells in the input grid that contain the number 8.",
+                    "Q2: Check if the identified cells form a specific pattern or shape.",
+                    "Q3: If a specific pattern or shape is identified, replace the number 8 with the number 3 in those cells.",
+                    "Q4: Leave the cells that do not form the specific pattern or shape as they are.",
+                    "Q5: Check if there are any cells containing the number 1 in the input grid.",
+                    "Q6: If there are cells containing the number 1, leave them as they are.",
+                    "Q7: Replace all other cells with the number 0."
+                ],
+                [
+                    "Q1: Identify the cells in the input grid that contain the number 8.",
+                    "Q2: Check if the identified cells form a specific pattern or shape.",
+                    "Q3: If a specific pattern or shape is identified, replace the number 8 with the number 3 in the cells forming the pattern or shape.",
+                    "Q4: Leave the cells that do not form the specific pattern or shape as they are.",
+                    "Q5: Identify the cells in the input grid that contain the number 1.",
+                    "Q6: Check if the identified cells form a specific pattern or shape.",
+                    "Q7: If a specific pattern or shape is identified, leave the cells as they are.",
+                    "Q8: Leave the cells that do not form the specific pattern or shape as they are.",
+                    "Q9: Combine the results from Q3 and Q7 to form the output grid."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells in the input grid that contain the number 8.",
+                "Q2: Check if the identified cells form a specific pattern or shape.",
+                "Q3: If a specific pattern or shape is identified, replace the number 8 with the number 3 in those cells.",
+                "Q4: Leave the cells that do not form the specific pattern or shape as they are.",
+                "Q5: Check if there are any cells containing the number 1 in the input grid.",
+                "Q6: If there are cells containing the number 1, leave them as they are.",
+                "Q7: Replace all other cells with the number 0."
+            ]
+        }
+    ]
+}

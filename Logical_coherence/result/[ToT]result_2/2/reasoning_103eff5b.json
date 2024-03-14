@@ -1,0 +1,139 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the unique colors in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique colors in the grid are 0, 2, 3, 4, and 8."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: Identify the pattern of each color in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. "
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. "
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located to the left of the color 2. "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. "
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: Identify the pattern of each color in the grid.",
+                "Q3: Identify the relationship between the colors and their patterns."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 are located in the top right corner of the cross pattern formed by color 8. The color 4 is at the top, color 2 is below color 4, and color 3 is to the right of color 2."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: Identify the pattern of each color in the grid.",
+                "Q3: Identify the relationship between the colors and their patterns.",
+                "Q4: Identify the changes made in the patterns of colors from the input grid to the output grid in the examples."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2.\nA4: In the examples, the color 8 in the input grid is replaced by the colors 2, 3, and 4 in the output grid. The replacement follows a specific order: the top part of the cross is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2.\nA4: In the examples, the color 8 in the input grid is replaced by the colors 2, 3, and 4 in the output grid. The replacement follows a specific order: the top part of the cross is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2.\nA4: In the examples, the color 8 in the input grid is replaced by the colors 2, 3, and 4 in the output grid. The replacement follows a specific order: the top part of the cross is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2.\nA4: In the examples, the color 8 in the input grid is replaced by the colors 2, 3, and 4 in the output grid. The replacement follows a specific order: the top part of the cross is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: Identify the pattern of each color in the grid.",
+                "Q3: Identify the relationship between the colors and their patterns.",
+                "Q4: Identify the changes made in the patterns of colors from the input grid to the output grid in the examples.",
+                "Q5: Apply the identified changes to the patterns of colors in the quiz input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2.\nA4: In the examples, the color 8 in the input grid is replaced by the colors 2, 3, and 4 in the output grid. The replacement follows a specific order: the top part of the cross is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8.\nA5: Applying the identified changes to the quiz input grid, the top part of the cross (color 8) is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8. The colors 2, 3, and 4 outside the cross pattern remain the same. The output grid is as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 2, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2.\nA4: In the examples, the color 8 in the input grid is replaced by the colors 2, 3, and 4 in the output grid. The replacement follows a specific order: the top part of the cross is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8.\nA5: Applying the identified changes to the quiz input grid, the top part of the cross (color 8) is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8. The colors 2, 3, and 4 outside the cross pattern remain the same.\n\nSo, the output grid is:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 2, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2.\nA4: In the examples, the color 8 in the input grid is replaced by the colors 2, 3, and 4 in the output grid. The replacement follows a specific order: the top part of the cross is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8.\nA5: Applying the identified changes to the quiz input grid, the top part of the cross (color 8) is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8. The colors 2, 3, and 4 outside the cross pattern remain the same.\n\nSo, the output grid is:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 2, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                0.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The unique colors in the grid are 0, 2, 3, 4, and 8.\nA2: The color 0 is the background color and fills most of the grid. The color 8 forms a pattern that looks like a cross or a plus sign. The color 4 is located at the top right corner of the cross. The color 2 is located just below the color 4. The color 3 is located just to the right of the color 2. \nA3: The colors 2, 3, and 4 are located within the pattern of color 8. The colors 2, 3, and 4 seem to be positioned in a specific order, with color 4 at the top, color 2 below it, and color 3 to the right of color 2.\nA4: In the examples, the color 8 in the input grid is replaced by the colors 2, 3, and 4 in the output grid. The replacement follows a specific order: the top part of the cross is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8.\nA5: Applying the identified changes to the quiz input grid, the top part of the cross (color 8) is replaced by color 2, the middle part by color 3, and the bottom part by color 4. The left and right parts of the cross remain the same color 8. The colors 2, 3, and 4 outside the cross pattern remain the same. The output grid is as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 2, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 4, 4, 4, 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the number of 2s, 3s in the input grid.",
+                    "Q2: Determine the position of 2s, 3s in the input grid.",
+                    "Q3: Check if the 2s, 3s are forming a square or rectangle in the grid.",
+                    "Q4: If they form a square or rectangle, count the number of squares or rectangles formed by 2s and 3s.",
+                    "Q5: Create a 3x3 output grid.",
+                    "Q6: If there is a square or rectangle formed by 2s, place a 1 in the top left corner of the output grid.",
+                    "Q7: If there is a square or rectangle formed by 3s, place a 1 in the top right corner of the output grid.",
+                    "Q8: If there are squares or rectangles formed by both 2s and 3s, place a 1 in the bottom right corner of the output grid."
+                ],
+                [
+                    "Q1: Identify the number of 2s, 3s in the input grid.",
+                    "Q2: Determine the position of 2s, 3s in the input grid.",
+                    "Q3: Check if the 2s, 3s are grouped together in a square or rectangle shape.",
+                    "Q4: Count the number of these groups of 2s, 3s.",
+                    "Q5: Create a new grid of size 3x3.",
+                    "Q6: If there is a group of 2s, place a 1 in the top left cell of the new grid.",
+                    "Q7: If there is a group of 3s, place a 1 in the top right cell of the new grid.",
+                    "Q8: If there are groups of both 2s and 3s, place a 1 in the bottom right cell of the new grid.",
+                    "Q9: Fill the remaining cells of the new grid with 0s."
+                ],
+                [
+                    "Q1: Identify the number of 2s, 3s in the input grid.",
+                    "Q2: Determine the position of 2s, 3s in the input grid.",
+                    "Q3: Check if the 2s, 3s are forming a square or rectangle in the grid.",
+                    "Q4: If they form a square or rectangle, count the number of squares or rectangles formed by 2s and 3s.",
+                    "Q5: Create a 3x3 output grid.",
+                    "Q6: If there is a square or rectangle formed by 2s, place a 1 in the top left corner of the output grid.",
+                    "Q7: If there is a square or rectangle formed by 3s, place a 1 in the top right corner of the output grid.",
+                    "Q8: If there are squares or rectangles formed by both 2s and 3s, place a 1 in the bottom right corner of the output grid."
+                ]
+            ],
+            "values": [
+                1,
+                2,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the number of 2s, 3s in the input grid.",
+                "Q2: Determine the position of 2s, 3s in the input grid.",
+                "Q3: Check if the 2s, 3s are grouped together in a square or rectangle shape.",
+                "Q4: Count the number of these groups of 2s, 3s.",
+                "Q5: Create a new grid of size 3x3.",
+                "Q6: If there is a group of 2s, place a 1 in the top left cell of the new grid.",
+                "Q7: If there is a group of 3s, place a 1 in the top right cell of the new grid.",
+                "Q8: If there are groups of both 2s and 3s, place a 1 in the bottom right cell of the new grid.",
+                "Q9: Fill the remaining cells of the new grid with 0s."
+            ]
+        }
+    ]
+}

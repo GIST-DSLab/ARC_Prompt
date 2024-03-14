@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the positions of the number 5 in the input grid.",
+                    "Q2: For each position of 5, create a 2x2 grid with alternating 1 and 2 starting with 1 at the top left corner.",
+                    "Q3: Combine these 2x2 grids to form the output grid, ensuring that the positions correspond to the positions of 5 in the input grid.",
+                    "Q4: If there is no 5 in the corresponding position in the input grid, fill the corresponding position in the output grid with 0."
+                ],
+                [
+                    "Q1: Identify the positions of the number 5 in the input grid.",
+                    "Q2: For each position of 5, create a 2x2 grid with the pattern [[1,2],[2,1]].",
+                    "Q3: Combine these 2x2 grids to form the output grid, maintaining the relative positions of the 5s in the input grid.",
+                    "Q4: If there is a 5 in the input grid that does not have a 5 to its right or below, fill the corresponding positions in the output grid with 0."
+                ],
+                [
+                    "Q1: Identify the positions of the number 5 in the input grid.",
+                    "Q2: For each position of 5, create a 2x2 grid with alternating 1 and 2 starting with 1 at the top left corner.",
+                    "Q3: Combine these 2x2 grids to form the output grid, ensuring that the positions correspond to the positions of 5 in the input grid.",
+                    "Q4: If there is no 5 in the corresponding position in the input grid, fill the corresponding position in the output grid with 0."
+                ]
+            ],
+            "values": [
+                0,
+                2,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the positions of the number 5 in the input grid.",
+                "Q2: For each position of 5, create a 2x2 grid with the pattern [[1,2],[2,1]].",
+                "Q3: Combine these 2x2 grids to form the output grid, maintaining the relative positions of the 5s in the input grid.",
+                "Q4: If there is a 5 in the input grid that does not have a 5 to its right or below, fill the corresponding positions in the output grid with 0."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a larger version of the input grid, with each cell in the input grid being represented by a 2x2 block in the output grid.",
+                    "Q3: Determine the rule for transforming a single cell in the input grid to a 2x2 block in the output grid. From the examples, it seems that a cell with value 'x' in the input grid transforms to a 2x2 block in the output grid with 'x' in the top left and bottom right, and the opposite value in the top right and bottom left.",
+                    "Q4: Apply the transformation rule to each cell in the input grid of the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a larger version of the input grid, with each cell in the input grid being represented by a 2x2 square in the output grid.",
+                    "Q3: Identify the rule for transforming a single cell in the input grid to a 2x2 square in the output grid. The rule seems to be that a cell with value 'x' in the input grid is transformed into a 2x2 square with 'x' in the top left and bottom right, and the opposite value in the top right and bottom left.",
+                    "Q4: Apply this rule to each cell in the input grid of the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a larger version of the input grid, with each cell in the input grid being represented by a 2x2 square in the output grid.",
+                    "Q3: Determine the rule for transforming a single cell in the input grid to a 2x2 square in the output grid. From the examples, it seems that a cell with value 0 in the input grid transforms to a 2x2 square with the diagonal cells having the same value as the original cell and the off-diagonal cells having the opposite value.",
+                    "Q4: Apply the transformation rule to each cell in the input grid of the quiz to generate the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                "Q2: Notice that the output grid is a larger version of the input grid, with each cell in the input grid being represented by a 2x2 square in the output grid.",
+                "Q3: Determine the rule for transforming a single cell in the input grid to a 2x2 square in the output grid. From the examples, it seems that a cell with value 0 in the input grid transforms to a 2x2 square with the diagonal cells having the same value as the original cell and the off-diagonal cells having the opposite value.",
+                "Q4: Apply the transformation rule to each cell in the input grid of the quiz to generate the output grid."
+            ]
+        }
+    ]
+}

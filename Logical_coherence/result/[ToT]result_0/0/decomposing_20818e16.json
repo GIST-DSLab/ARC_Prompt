@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the different regions in the grid, where a region is a group of cells with the same color that are connected through their edges.",
+                    "Q2: Determine the order of the regions from the top left to the bottom right of the grid.",
+                    "Q3: Remove the outermost region (which is the largest region) from the grid.",
+                    "Q4: For each remaining region, determine its position in the original grid.",
+                    "Q5: Create a new grid with the same number of rows as the number of remaining regions and the same number of columns as the maximum width of these regions.",
+                    "Q6: Place each region in the new grid according to its position in the original grid, filling the rest of the cells with the color of the outermost region."
+                ],
+                [
+                    "Q1: Identify the different regions in the grid, where a region is a group of cells with the same color that are connected through their edges.",
+                    "Q2: Determine the order of the regions from the top left to the bottom right of the grid.",
+                    "Q3: Remove the outermost region (which is the largest region) from the grid.",
+                    "Q4: For each remaining region, determine its position in the original grid.",
+                    "Q5: Create a new grid with the same number of rows as the number of remaining regions and the same number of columns as the maximum width of these regions.",
+                    "Q6: Place each region in the new grid according to its position in the original grid, filling the rest of the cells with the color of the outermost region."
+                ],
+                [
+                    "Q1: Identify the different regions in the grid by their color codes.",
+                    "Q2: Determine the boundaries of each region.",
+                    "Q3: Identify the smallest rectangle that can contain each region.",
+                    "Q4: Crop the grid to only include the rectangles identified in Q3.",
+                    "Q5: Arrange the cropped regions from top to bottom based on their position in the original grid.",
+                    "Q6: If there are multiple regions in the same row, arrange them from left to right based on their position in the original grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the different regions in the grid by their color codes.",
+                "Q2: Determine the boundaries of each region.",
+                "Q3: Identify the smallest rectangle that can contain each region.",
+                "Q4: Crop the grid to only include the rectangles identified in Q3.",
+                "Q5: Arrange the cropped regions from top to bottom based on their position in the original grid.",
+                "Q6: If there are multiple regions in the same row, arrange them from left to right based on their position in the original grid."
+            ]
+        }
+    ]
+}

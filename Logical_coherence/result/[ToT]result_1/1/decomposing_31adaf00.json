@@ -1,0 +1,35 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by 5s on the top and bottom in the input grid.",
+                    "Q2: For the cells identified in Q1, check if they are also surrounded by 5s on the left and right.",
+                    "Q3: If a cell is surrounded by 5s on all four sides, change the value of the cell to 1.",
+                    "Q4: Apply the rules from Q1 to Q3 to all cells in the input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 5s on the top and bottom in the input grid.",
+                    "Q2: For the cells identified in Q1, check if they are also surrounded by 5s on the left and right.",
+                    "Q3: If a cell is surrounded by 5s on all four sides, change the value of the cell to 1.",
+                    "Q4: Apply the rules from Q1 to Q3 to all cells in the input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 5s on the top and bottom, and 0s on the left and right in the input grid.",
+                    "Q2: Replace these identified cells with 1s to generate the output grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by 5s on the top and bottom in the input grid.",
+                "Q2: For the cells identified in Q1, check if they are also surrounded by 5s on the left and right.",
+                "Q3: If a cell is surrounded by 5s on all four sides, change the value of the cell to 1.",
+                "Q4: Apply the rules from Q1 to Q3 to all cells in the input grid to generate the output grid."
+            ]
+        }
+    ]
+}

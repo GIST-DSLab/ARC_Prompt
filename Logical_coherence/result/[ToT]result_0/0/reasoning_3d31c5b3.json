@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that contain the number 5."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows."
+                ]
+            ],
+            "values": [
+                0,
+                2,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that contain the number 5.",
+                "Q2: For each row identified in Q1, replace the 0s with the corresponding number from the row below it."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:"
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:"
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:"
+                ]
+            ],
+            "values": [
+                0,
+                2,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:"
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that contain the number 5.",
+                "Q2: For each row identified in Q1, replace the 0s with the corresponding number from the row below it.",
+                "Q3: Repeat the process for the rows containing the number 4 and 2, replacing the 0s with the corresponding number from the row below it."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:\nA3: After repeating the process for the rows containing the number 4 and 2, the rows become:"
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:\nA3: After repeating the process for the rows containing the number 4 and 2, the rows become:"
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:\nA3: After repeating the process for the rows containing the number 4 and 2, the rows become:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:\nA3: After repeating the process for the rows containing the number 4 and 2, the rows become:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that contain the number 5.",
+                "Q2: For each row identified in Q1, replace the 0s with the corresponding number from the row below it.",
+                "Q3: Repeat the process for the rows containing the number 4 and 2, replacing the 0s with the corresponding number from the row below it.",
+                "Q4: Combine the modified rows to form the output grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:\nA3: After repeating the process for the rows containing the number 4 and 2, the rows become:\nA4: The output grid is [[5, 4, 5, 2, 2, 5], [2, 5, 2, 4, 2, 5], [5, 5, 5, 8, 8, 8]]."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:\nA3: After repeating the process for the rows containing the number 4 and 2, the rows become:\nA4: The output grid is [[5, 4, 5, 2, 2, 5], [2, 5, 2, 4, 2, 5], [5, 5, 5, 8, 8, 8]]."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:\nA3: After repeating the process for the rows containing the number 4 and 2, the rows become:\nA4: The output grid is [[5, 4, 5, 2, 2, 5], [2, 5, 2, 4, 2, 5], [5, 5, 5, 8, 8, 8]]."
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: After replacing the 0s with the corresponding number from the row below it, the rows become:\nA3: After repeating the process for the rows containing the number 4 and 2, the rows become:\nA4: The output grid is [[5, 4, 5, 2, 2, 5], [2, 5, 2, 4, 2, 5], [5, 5, 5, 8, 8, 8]]."
+            ]
+        }
+    ]
+}

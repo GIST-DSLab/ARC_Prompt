@@ -1,0 +1,52 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                    "Q2: Determine the direction from the first number to the second number.",
+                    "Q3: Create a line of the first number from its original position to the position of the second number.",
+                    "Q4: Create a line of the second number perpendicular to the first line, starting from the position of the second number and extending in both directions.",
+                    "Q5: Identify the position of the third number in the input grid.",
+                    "Q6: Create a square using the first number, with the third number as the center of the square.",
+                    "Q7: Fill the inside of the square with the second number.",
+                    "Q8: Keep the rest of the grid as 0."
+                ],
+                [
+                    "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                    "Q2: Determine the direction from the first number to the second number.",
+                    "Q3: Create a line of the first number from its original position to the position of the second number.",
+                    "Q4: Create a line of the second number perpendicular to the first line, starting from the position of the second number and extending in both directions.",
+                    "Q5: Identify the position of the third number in the input grid.",
+                    "Q6: Create a square of the first number around the third number, with the third number at the center.",
+                    "Q7: Fill the inside of the square with the second number, leaving the third number at the center."
+                ],
+                [
+                    "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                    "Q2: Determine the direction from the first number to the second number.",
+                    "Q3: Create a line of the first number from its original position to the position of the second number.",
+                    "Q4: Create a line of the second number perpendicular to the first line, starting from the position of the second number and extending in both directions.",
+                    "Q5: Identify the position of the third number in the input grid.",
+                    "Q6: Create a square using the first number, with the third number as the center of the square.",
+                    "Q7: Fill the inside of the square with the second number.",
+                    "Q8: Keep the rest of the grid as 0."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                2
+            ],
+            "select_new_ys": [
+                "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                "Q2: Determine the direction from the first number to the second number.",
+                "Q3: Create a line of the first number from its original position to the position of the second number.",
+                "Q4: Create a line of the second number perpendicular to the first line, starting from the position of the second number and extending in both directions.",
+                "Q5: Identify the position of the third number in the input grid.",
+                "Q6: Create a square using the first number, with the third number as the center of the square.",
+                "Q7: Fill the inside of the square with the second number.",
+                "Q8: Keep the rest of the grid as 0."
+            ]
+        }
+    ]
+}

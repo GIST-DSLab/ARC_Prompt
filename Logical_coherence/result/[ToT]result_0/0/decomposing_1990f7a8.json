@@ -1,0 +1,43 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the number 2 in the input grid.",
+                    "Q2: Determine the pattern of the number 2 in the input grid.",
+                    "Q3: Identify the smallest rectangle that can contain each pattern of the number 2.",
+                    "Q4: Crop the input grid based on the rectangle identified in Q3.",
+                    "Q5: Repeat the process for each pattern of the number 2 in the input grid."
+                ],
+                [
+                    "Q1: Identify the locations of the number 2 in the input grid.",
+                    "Q2: Determine the pattern of the number 2 in the input grid.",
+                    "Q3: Identify the smallest rectangle that can contain the pattern.",
+                    "Q4: Crop the input grid to the size of the rectangle identified in Q3.",
+                    "Q5: Identify any additional transformations required to match the pattern in the example outputs."
+                ],
+                [
+                    "Q1: Identify the locations of the number 2 in the input grid.",
+                    "Q2: Determine the pattern of the number 2 in the input grid.",
+                    "Q3: Identify the smallest rectangle that can contain the pattern.",
+                    "Q4: Crop the input grid to the size of the rectangle identified in Q3.",
+                    "Q5: Identify any additional transformations required to match the pattern in the example outputs (e.g., rotation, reflection).",
+                    "Q6: Apply the transformations identified in Q5 to the cropped grid from Q4."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the locations of the number 2 in the input grid.",
+                "Q2: Determine the pattern of the number 2 in the input grid.",
+                "Q3: Identify the smallest rectangle that can contain the pattern.",
+                "Q4: Crop the input grid to the size of the rectangle identified in Q3.",
+                "Q5: Identify any additional transformations required to match the pattern in the example outputs (e.g., rotation, reflection).",
+                "Q6: Apply the transformations identified in Q5 to the cropped grid from Q4."
+            ]
+        }
+    ]
+}

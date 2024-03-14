@@ -1,0 +1,56 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the 3s in the input grid.",
+                    "Q2: Count the number of 3s in each row and column.",
+                    "Q3: Identify the locations of the 2s in the input grid.",
+                    "Q4: Count the number of 2s in each row and column.",
+                    "Q5: Create a new 3x3 grid.",
+                    "Q6: In the new grid, fill the top left cell with the number of rows in the input grid that contain more 3s than 2s.",
+                    "Q7: In the new grid, fill the middle cell with the number of rows in the input grid that contain more 2s than 3s.",
+                    "Q8: In the new grid, fill the bottom right cell with the number of rows in the input grid that contain an equal number of 2s and 3s.",
+                    "Q9: Fill the remaining cells in the new grid with 0s."
+                ],
+                [
+                    "Q1: Identify the locations of the 3s in the input grid.",
+                    "Q2: Count the number of 3s in each row and column.",
+                    "Q3: Identify the locations of the 2s in the input grid.",
+                    "Q4: Count the number of 2s in each row and column.",
+                    "Q5: Create a new 3x3 grid.",
+                    "Q6: In the new grid, fill the top left cell with the number of rows in the input grid that contain more 3s than 2s.",
+                    "Q7: In the new grid, fill the middle cell with the number of rows in the input grid that contain more 2s than 3s.",
+                    "Q8: In the new grid, fill the bottom right cell with the number of rows in the input grid that contain an equal number of 2s and 3s.",
+                    "Q9: Fill the remaining cells in the new grid with 0s."
+                ],
+                [
+                    "Q1: Identify the locations of the 3s in the input grid.",
+                    "Q2: Identify the locations of the 2s in the input grid.",
+                    "Q3: Determine if the 3s and 2s form a square or rectangle in the grid.",
+                    "Q4: If they form a square or rectangle, determine the size and position of the square or rectangle.",
+                    "Q5: Create a new grid with the same size as the identified square or rectangle.",
+                    "Q6: Fill the new grid with 1s at the positions corresponding to the 3s in the input grid.",
+                    "Q7: Fill the new grid with 0s at the positions corresponding to the 2s in the input grid.",
+                    "Q8: Fill the remaining positions in the new grid with 0s."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the locations of the 3s in the input grid.",
+                "Q2: Count the number of 3s in each row and column.",
+                "Q3: Identify the locations of the 2s in the input grid.",
+                "Q4: Count the number of 2s in each row and column.",
+                "Q5: Create a new 3x3 grid.",
+                "Q6: In the new grid, fill the top left cell with the number of rows in the input grid that contain more 3s than 2s.",
+                "Q7: In the new grid, fill the middle cell with the number of rows in the input grid that contain more 2s than 3s.",
+                "Q8: In the new grid, fill the bottom right cell with the number of rows in the input grid that contain an equal number of 2s and 3s.",
+                "Q9: Fill the remaining cells in the new grid with 0s."
+            ]
+        }
+    ]
+}

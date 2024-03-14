@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the number of 5s in each third of the grid (columns 1-3, 4-6, 7-9).",
+                    "Q2: Replace the 5s in the first third of the grid with the number of 5s in the third third of the grid.",
+                    "Q3: Replace the 5s in the second third of the grid with the number of 5s in the first third of the grid.",
+                    "Q4: Replace the 5s in the third third of the grid with the number of 5s in the second third of the grid.",
+                    "Q5: Replace the 0s in the first third of the grid with the number of 0s in the third third of the grid.",
+                    "Q6: Replace the 0s in the second third of the grid with the number of 0s in the first third of the grid.",
+                    "Q7: Replace the 0s in the third third of the grid with the number of 0s in the second third of the grid."
+                ],
+                [
+                    "Q1: Identify the number of 5s in each third of the grid (columns 1-3, 4-6, 7-9).",
+                    "Q2: Determine the order of the thirds based on the number of 5s in each third.",
+                    "Q3: Assign a new number to each third based on the order determined in Q2. The third with the least number of 5s gets 1, the third with the second least number of 5s gets 3 or 4, and the third with the most number of 5s gets 6 or 9.",
+                    "Q4: Replace the 5s in each third with the new number assigned to that third in Q3.",
+                    "Q5: Replace the 0s in each third with the new number assigned to that third in Q3."
+                ],
+                [
+                    "Q1: Identify the number of 5s in each third of the grid (columns 1-3, 4-6, 7-9).",
+                    "Q2: Replace the 5s in the first third of the grid with the number of 5s in the third third of the grid.",
+                    "Q3: Replace the 5s in the second third of the grid with the number of 5s in the first third of the grid.",
+                    "Q4: Replace the 5s in the third third of the grid with the number of 5s in the second third of the grid.",
+                    "Q5: Replace the 0s in the first third of the grid with the number of 0s in the third third of the grid.",
+                    "Q6: Replace the 0s in the second third of the grid with the number of 0s in the first third of the grid.",
+                    "Q7: Replace the 0s in the third third of the grid with the number of 0s in the second third of the grid."
+                ]
+            ],
+            "values": [
+                0,
+                1,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the number of 5s in each third of the grid (columns 1-3, 4-6, 7-9).",
+                "Q2: Determine the order of the thirds based on the number of 5s in each third.",
+                "Q3: Assign a new number to each third based on the order determined in Q2. The third with the least number of 5s gets 1, the third with the second least number of 5s gets 3 or 4, and the third with the most number of 5s gets 6 or 9.",
+                "Q4: Replace the 5s in each third with the new number assigned to that third in Q3.",
+                "Q5: Replace the 0s in each third with the new number assigned to that third in Q3."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells in the input grid that are surrounded by the same number on all four sides (up, down, left, right).",
+                    "Q2: Check if the number in the center cell is different from the surrounding number.",
+                    "Q3: If the center number is different, change it to the surrounding number.",
+                    "Q4: Repeat this process for all cells in the grid.",
+                    "Q5: The final grid after all changes is the output grid."
+                ],
+                [
+                    "Q1: Identify the cells in the input grid that are surrounded by the same number on all four sides (up, down, left, right).",
+                    "Q2: Check if the number surrounding the cell is different from the number in the cell.",
+                    "Q3: If the conditions in Q1 and Q2 are met, change the number in the cell to the number that surrounds it.",
+                    "Q4: Repeat this process for all cells in the grid."
+                ],
+                [
+                    "Q1: Identify the cells in the input grid that are surrounded by the same number on all four sides (up, down, left, right).",
+                    "Q2: Check if the number in the center cell is different from the surrounding number.",
+                    "Q3: If the center number is different, replace it with the surrounding number.",
+                    "Q4: Repeat this process for all cells in the grid.",
+                    "Q5: The final grid after all replacements is the output grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells in the input grid that are surrounded by the same number on all four sides (up, down, left, right).",
+                "Q2: Check if the number in the center cell is different from the surrounding number.",
+                "Q3: If the center number is different, change it to the surrounding number.",
+                "Q4: Repeat this process for all cells in the grid.",
+                "Q5: The final grid after all changes is the output grid."
+            ]
+        }
+    ]
+}

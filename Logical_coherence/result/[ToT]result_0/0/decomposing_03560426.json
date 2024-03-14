@@ -1,0 +1,55 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique numbers in the grid that are not zero.",
+                    "Q2: Determine the position of the unique numbers in the grid.",
+                    "Q3: Identify the pattern of the unique numbers in the grid.",
+                    "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                    "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                    "Q6: Replace the zero values in the grid with the moved unique numbers.",
+                    "Q7: Ensure that the unique numbers do not overlap in their new positions. If they do, prioritize the number that appears first in the reading order (from top to bottom, left to right).",
+                    "Q8: Fill the remaining cells with zero."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid that are not zero.",
+                    "Q2: Determine the position of the unique numbers in the grid.",
+                    "Q3: Identify the pattern of the unique numbers in the grid.",
+                    "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                    "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                    "Q6: Replace the zero values in the grid with the moved unique numbers.",
+                    "Q7: Ensure that the unique numbers do not overlap in their new positions. If they do, prioritize the number that appears first in the reading order (from top to bottom, left to right).",
+                    "Q8: Fill the remaining cells with zero."
+                ],
+                [
+                    "Q1: Identify the location of the number 7 in the input grid.",
+                    "Q2: Identify the location of the number 8 in the input grid.",
+                    "Q3: Identify the location of the number 6 in the input grid.",
+                    "Q4: Identify the location of the number 3 in the input grid.",
+                    "Q5: Move the number 7 to the top of the grid, maintaining the same horizontal position.",
+                    "Q6: Move the number 8 to the right of the number 7, maintaining the same vertical position.",
+                    "Q7: Move the number 6 to the right of the number 8, maintaining the same vertical position.",
+                    "Q8: Move the number 3 to the right of the number 6, maintaining the same vertical position.",
+                    "Q9: Fill the rest of the grid with 0s."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the location of the number 7 in the input grid.",
+                "Q2: Identify the location of the number 8 in the input grid.",
+                "Q3: Identify the location of the number 6 in the input grid.",
+                "Q4: Identify the location of the number 3 in the input grid.",
+                "Q5: Move the number 7 to the top of the grid, maintaining the same horizontal position.",
+                "Q6: Move the number 8 to the right of the number 7, maintaining the same vertical position.",
+                "Q7: Move the number 6 to the right of the number 8, maintaining the same vertical position.",
+                "Q8: Move the number 3 to the right of the number 6, maintaining the same vertical position.",
+                "Q9: Fill the rest of the grid with 0s."
+            ]
+        }
+    ]
+}

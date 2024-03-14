@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the number 1 in the input grid.",
+                    "Q2: For each location of 1, draw a cross shape (up, down, left, right) with 1s, if it does not go beyond the grid boundaries.",
+                    "Q3: For each location of 1, draw a diagonal cross shape (top left to bottom right, top right to bottom left) with 3s, if it does not go beyond the grid boundaries.",
+                    "Q4: Replace the original location of 1 with 2."
+                ],
+                [
+                    "Q1: Identify the locations of the number 1 in the input grid.",
+                    "Q2: For each location of 1, draw a cross shape (up, down, left, right) with 1s, if it does not go beyond the grid boundaries.",
+                    "Q3: For each location of 1, draw a diagonal cross shape (top left to bottom right, top right to bottom left) with 3s, if it does not go beyond the grid boundaries.",
+                    "Q4: If a 1 and a 3 overlap, replace it with a 2."
+                ],
+                [
+                    "Q1: Identify the locations of the number 1 in the input grid.",
+                    "Q2: For each location of 1, draw a cross shape (up, down, left, right) with 1s, if it does not go beyond the grid boundaries.",
+                    "Q3: For each location of 1, draw a diagonal cross shape (top left to bottom right, top right to bottom left) with 3s, if it does not go beyond the grid boundaries.",
+                    "Q4: Replace the original location of 1 with 2."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the locations of the number 1 in the input grid.",
+                "Q2: For each location of 1, draw a cross shape (up, down, left, right) with 1s, if it does not go beyond the grid boundaries.",
+                "Q3: For each location of 1, draw a diagonal cross shape (top left to bottom right, top right to bottom left) with 3s, if it does not go beyond the grid boundaries.",
+                "Q4: Replace the original location of 1 with 2."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, find the top left and bottom right coordinates of the rectangle that encloses all cells of that color.",
+                    "Q3: For each color, check if the cells within the rectangle from Q2 are all of that color and there are no other cells of that color outside the rectangle.",
+                    "Q4: For each color that meets the criteria from Q3, create a new grid with the size of the rectangle and fill it with the color.",
+                    "Q5: Arrange the grids from Q4 in the order of the top left coordinates of their rectangles in the original grid, from top to bottom and left to right."
+                ],
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, identify the top left corner of the smallest rectangle that can contain all cells of that color.",
+                    "Q3: For each color, identify the bottom right corner of the smallest rectangle that can contain all cells of that color.",
+                    "Q4: For each color, create a new grid that only contains the cells within the rectangle identified in Q2 and Q3.",
+                    "Q5: Arrange the new grids created in Q4 from top to bottom in the order of the color's first appearance from top to bottom in the original grid."
+                ],
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, find the top left and bottom right coordinates of the rectangle that encloses all cells of that color.",
+                    "Q3: For each color, check if the cells within the rectangle from Q2 are all of that color and there are no other cells of that color outside the rectangle.",
+                    "Q4: For each color that meets the criteria from Q3, create a new grid with the size of the rectangle and fill it with the color.",
+                    "Q5: Arrange the grids from Q4 in the order of the top left coordinates of their rectangles in the original grid, from top to bottom and left to right."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: For each color, find the top left and bottom right coordinates of the rectangle that encloses all cells of that color.",
+                "Q3: For each color, check if the cells within the rectangle from Q2 are all of that color and there are no other cells of that color outside the rectangle.",
+                "Q4: For each color that meets the criteria from Q3, create a new grid with the size of the rectangle and fill it with the color.",
+                "Q5: Arrange the grids from Q4 in the order of the top left coordinates of their rectangles in the original grid, from top to bottom and left to right."
+            ]
+        }
+    ]
+}

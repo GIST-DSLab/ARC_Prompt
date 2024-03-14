@@ -1,0 +1,169 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7]."
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7]."
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 1, 2, 3, 4, 5, 6, 7, 8]."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7]."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:"
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:"
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:"
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in the grid.",
+                "Q3: Identify the three most frequent numbers in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8."
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8."
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in the grid.",
+                "Q3: Identify the three most frequent numbers in the grid.",
+                "Q4: Create a new grid with the three most frequent numbers in the order of their frequency."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]]."
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]]."
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]]."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]]."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in the grid.",
+                "Q3: Identify the three most frequent numbers in the grid.",
+                "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                "Q5: For each of the three most frequent numbers, find their corresponding number in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]].\nA5: The corresponding numbers for the three most frequent numbers in the input grid are 0, 5, and 8."
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]].\nA5: The corresponding numbers for the three most frequent numbers in the input grid are 0, 5, and 8."
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]].\nA5: The corresponding numbers for the three most frequent numbers in the input grid are 0, 5, and 8."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]].\nA5: The corresponding numbers for the three most frequent numbers in the input grid are 0, 5, and 8."
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in the grid.",
+                "Q3: Identify the three most frequent numbers in the grid.",
+                "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                "Q5: For each of the three most frequent numbers, find their corresponding number in the input grid.",
+                "Q6: Replace the numbers in the new grid with their corresponding numbers from the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]].\nA5: The corresponding numbers for the three most frequent numbers in the input grid are 0, 5, and 8.\nA6: Since the numbers in the new grid are already the same as their corresponding numbers in the input grid, no replacement is needed. The final output grid is [[0, 5, 8]]."
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]].\nA5: The corresponding numbers for the three most frequent numbers in the input grid are 0, 5, and 8.\nA6: Since the numbers in the new grid are already the same as their corresponding numbers in the input grid, no replacement is needed. The final output grid is [[0, 5, 8]]."
+                ],
+                [
+                    "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]].\nA5: The corresponding numbers for the three most frequent numbers in the input grid are 0, 5, and 8.\nA6: Since the numbers in the new grid are already the same as their corresponding numbers in the input grid, no replacement is needed. The final output grid is [[0, 5, 8]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid are [0, 5, 8, 4, 3, 2, 6, 7].\nA2: The frequency of each unique number in the grid is as follows:\nA3: The three most frequent numbers in the grid are 0, 5, and 8.\nA4: The new grid with the three most frequent numbers in the order of their frequency is [[0, 5, 8]].\nA5: The corresponding numbers for the three most frequent numbers in the input grid are 0, 5, and 8.\nA6: Since the numbers in the new grid are already the same as their corresponding numbers in the input grid, no replacement is needed. The final output grid is [[0, 5, 8]]."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the positions of the number 5 in the input grid.",
+                    "Q2: For each position of 5, create a 2x2 grid with alternating 1 and 2 starting with 1 at the top left corner.",
+                    "Q3: Combine these 2x2 grids to form the output grid, ensuring that the positions correspond to the positions of 5 in the input grid.",
+                    "Q4: For positions in the input grid that do not contain 5, fill the corresponding positions in the output grid with 0."
+                ],
+                [
+                    "Q1: Identify the positions of the number 5 in the input grid.",
+                    "Q2: For each position of 5, create a 2x2 grid with the pattern [[1,2],[2,1]].",
+                    "Q3: Combine these 2x2 grids to form the output grid, maintaining the relative positions of the 5s in the input grid.",
+                    "Q4: If there is a 5 in the input grid that does not have a 5 below it or to its right, extend the output grid with a 2x2 grid with the pattern [[0,0],[1,2],[2,1]].",
+                    "Q5: If there is a 5 in the input grid that does not have a 5 above it or to its left, extend the output grid with a 2x2 grid with the pattern [[1,2],[2,1],[0,0]]."
+                ],
+                [
+                    "Q1: Identify the positions of the number 5 in the input grid.",
+                    "Q2: For each position of 5, create a 2x2 grid with alternating 1 and 2 starting with 1 at the top left corner.",
+                    "Q3: Combine these 2x2 grids to form the output grid, ensuring that the positions correspond to the positions of 5 in the input grid.",
+                    "Q4: If there is a 5 in the input grid that does not have a 5 below it or to its right, extend the 2x2 grid to a 3x2 or 2x3 grid, depending on the position.",
+                    "Q5: Combine these extended grids with the rest of the output grid, ensuring that the positions correspond to the positions of 5 in the input grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the positions of the number 5 in the input grid.",
+                "Q2: For each position of 5, create a 2x2 grid with alternating 1 and 2 starting with 1 at the top left corner.",
+                "Q3: Combine these 2x2 grids to form the output grid, ensuring that the positions correspond to the positions of 5 in the input grid.",
+                "Q4: If there is a 5 in the input grid that does not have a 5 below it or to its right, extend the 2x2 grid to a 3x2 or 2x3 grid, depending on the position.",
+                "Q5: Combine these extended grids with the rest of the output grid, ensuring that the positions correspond to the positions of 5 in the input grid."
+            ]
+        }
+    ]
+}

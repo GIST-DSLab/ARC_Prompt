@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the number 1 in the input grid.",
+                    "Q2: Shift the number 1 to the left by one cell.",
+                    "Q3: Identify the locations of the number 2 in the input grid.",
+                    "Q4: Shift the number 2 to the right by one cell.",
+                    "Q5: Identify the locations of the number 4 in the input grid.",
+                    "Q6: Shift the number 4 to the right by one cell."
+                ],
+                [
+                    "Q1: Identify the locations of the number 1 in the input grid.",
+                    "Q2: Shift the number 1 to the left by one cell.",
+                    "Q3: Identify the locations of the number 2 in the input grid.",
+                    "Q4: Shift the number 2 to the right by one cell.",
+                    "Q5: Identify the locations of the number 4 in the input grid.",
+                    "Q6: Shift the number 4 to the right by one cell."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 8s on all four sides.",
+                    "Q2: If the cell is not 8, shift it to the left until it hits a cell that is not 8 or the edge of the grid.",
+                    "Q3: Repeat the process for all cells that are not 8.",
+                    "Q4: After shifting all cells, fill the empty spaces with 8s."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by 8s on all four sides.",
+                "Q2: If the cell is not 8, shift it to the left until it hits a cell that is not 8 or the edge of the grid.",
+                "Q3: Repeat the process for all cells that are not 8.",
+                "Q4: After shifting all cells, fill the empty spaces with 8s."
+            ]
+        }
+    ]
+}

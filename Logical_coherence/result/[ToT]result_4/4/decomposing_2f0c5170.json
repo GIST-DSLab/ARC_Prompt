@@ -1,0 +1,38 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers.",
+                    "Q2: Extract these areas from the input grid, ignoring the surrounding 8s.",
+                    "Q3: For each extracted area, identify the pattern of numbers other than 0s.",
+                    "Q4: Create a new grid that only contains the identified patterns from Q3, surrounded by 0s."
+                ],
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                    "Q2: Extract these areas and form a new grid with them.",
+                    "Q3: In the new grid, replace the number 8 with 0.",
+                    "Q4: Identify the pattern of numbers in the new grid.",
+                    "Q5: Based on the pattern, generate the output grid."
+                ],
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers.",
+                    "Q2: Extract these areas from the input grid, ignoring the surrounding 8s.",
+                    "Q3: For each extracted area, identify the pattern of numbers other than 0s.",
+                    "Q4: Create a new grid that only contains the identified patterns from Q3, surrounded by 0s."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers.",
+                "Q2: Extract these areas from the input grid, ignoring the surrounding 8s.",
+                "Q3: For each extracted area, identify the pattern of numbers other than 0s.",
+                "Q4: Create a new grid that only contains the identified patterns from Q3, surrounded by 0s."
+            ]
+        }
+    ]
+}

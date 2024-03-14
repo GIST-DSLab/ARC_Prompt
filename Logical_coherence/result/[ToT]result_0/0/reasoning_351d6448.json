@@ -1,0 +1,232 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it and the row below it."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row."
+                ]
+            ],
+            "values": [
+                0,
+                1,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                "Q3: Check if the rows found in Q2 contain the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                "Q3: Check if the rows found in Q2 contain the number 2.",
+                "Q4: If the rows contain the number 2, count the number of 2s in each row."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 10, 5th row - 3, 7th row - 9, 9th row - 3, 11th row - 10, 13th row - 3."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The 3rd row contains 11 number 2s, the 5th row contains 3 number 2s, the 7th row contains 9 number 2s, the 9th row contains 3 number 2s, the 11th row contains 10 number 2s, and the 13th row contains 3 number 2s."
+                ]
+            ],
+            "values": [
+                0,
+                2,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                "Q3: Check if the rows found in Q2 contain the number 2.",
+                "Q4: If the rows contain the number 2, count the number of 2s in each row.",
+                "Q5: Create a new grid with the same number of columns as the input grid but only three rows."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:"
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                "Q3: Check if the rows found in Q2 contain the number 2.",
+                "Q4: If the rows contain the number 2, count the number of 2s in each row.",
+                "Q5: Create a new grid with the same number of columns as the input grid but only three rows.",
+                "Q6: Fill the first and last row of the new grid with 0s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:"
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                "Q3: Check if the rows found in Q2 contain the number 2.",
+                "Q4: If the rows contain the number 2, count the number of 2s in each row.",
+                "Q5: Create a new grid with the same number of columns as the input grid but only three rows.",
+                "Q6: Fill the first and last row of the new grid with 0s.",
+                "Q7: In the middle row of the new grid, fill the cells with the number 2, the number of times it was counted in Q4, starting from the fifth cell."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:\nA7: The new grid would look like this:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:\nA7: The new grid would look like this:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:\nA7: The new grid would look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:\nA7: The new grid would look like this:"
+            ]
+        },
+        {
+            "step": 7,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                "Q3: Check if the rows found in Q2 contain the number 2.",
+                "Q4: If the rows contain the number 2, count the number of 2s in each row.",
+                "Q5: Create a new grid with the same number of columns as the input grid but only three rows.",
+                "Q6: Fill the first and last row of the new grid with 0s.",
+                "Q7: In the middle row of the new grid, fill the cells with the number 2, the number of times it was counted in Q4, starting from the fifth cell.",
+                "Q8: Fill the remaining cells in the middle row with 0s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:\nA7: The new grid would look like this:\nA8: The new grid would look like this:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]].\n\nSo, the output grids for the quiz would be:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:\nA7: The new grid would look like this:\nA8: The new grid would look like this:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]].\n\nSo, the output grids for the quiz would be:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:\nA7: The new grid would look like this:\nA8: The new grid would look like this:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: For the 4th row, the row above it is the 3rd row and the row below it is the 5th row. For the 8th row, the row above it is the 7th row and the row below it is the 9th row. For the 12th row, the row above it is the 11th row and the row below it is the 13th row.\nA3: The rows found in Q2 that contain the number 2 are the 3rd, 5th, 7th, 9th, 11th, and 13th rows.\nA4: The number of 2s in each row are as follows: 3rd row - 11, 5th row - 5, 7th row - 9, 9th row - 5, 11th row - 10, 13th row - 5.\nA5: The new grid would look like this:\nA6: The new grid would look like this:\nA7: The new grid would look like this:\nA8: The new grid would look like this:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]].\n\nSo, the output grids for the quiz would be:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

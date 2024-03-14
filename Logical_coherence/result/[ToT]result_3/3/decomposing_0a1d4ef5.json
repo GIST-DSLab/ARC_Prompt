@@ -1,0 +1,57 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in the grid.",
+                    "Q3: Identify the three most frequent numbers in the grid.",
+                    "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                    "Q5: For each of the three most frequent numbers, identify their positions in the original grid.",
+                    "Q6: In the new grid, replace the first most frequent number with the number 1, the second most frequent number with the number 2, and the third most frequent number with the number 3.",
+                    "Q7: For each of the three most frequent numbers, if the number is surrounded by the same number in the original grid, replace it with the number 4 in the new grid.",
+                    "Q8: For each of the three most frequent numbers, if the number is not surrounded by the same number in the original grid, replace it with the number 5 in the new grid.",
+                    "Q9: Return the new grid as the output."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in the grid.",
+                    "Q3: Identify the three most frequent numbers in the grid.",
+                    "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                    "Q5: For each of the three most frequent numbers, identify their positions in the original grid.",
+                    "Q6: In the new grid, replace the first most frequent number with the number 1, the second most frequent number with the number 2, and the third most frequent number with the number 3.",
+                    "Q7: For each of the three most frequent numbers, calculate the sum of the row and column indices of their positions in the original grid.",
+                    "Q8: In the new grid, replace the number 1 with the sum of the row and column indices of the first most frequent number, the number 2 with the sum of the row and column indices of the second most frequent number, and the number 3 with the sum of the row and column indices of the third most frequent number.",
+                    "Q9: Divide each number in the new grid by the total number of cells in the grid, and round down to the nearest integer.",
+                    "Q10: The new grid is the output grid."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in the grid.",
+                    "Q3: Identify the three most frequent numbers in the grid.",
+                    "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                    "Q5: For each of the three most frequent numbers, count the number of its neighboring cells that contain the same number.",
+                    "Q6: For each of the three most frequent numbers, if the number of its neighboring cells that contain the same number is greater than a certain threshold, replace the number with the next most frequent number.",
+                    "Q7: Repeat Q5 and Q6 until no more changes can be made to the grid.",
+                    "Q8: Return the final grid as the output."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in the grid.",
+                "Q3: Identify the three most frequent numbers in the grid.",
+                "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                "Q5: For each of the three most frequent numbers, identify their positions in the original grid.",
+                "Q6: In the new grid, replace the first most frequent number with the number 1, the second most frequent number with the number 2, and the third most frequent number with the number 3.",
+                "Q7: For each of the three most frequent numbers, if the number is surrounded by the same number in the original grid, replace it with the number 4 in the new grid.",
+                "Q8: For each of the three most frequent numbers, if the number is not surrounded by the same number in the original grid, replace it with the number 5 in the new grid.",
+                "Q9: Return the new grid as the output."
+            ]
+        }
+    ]
+}

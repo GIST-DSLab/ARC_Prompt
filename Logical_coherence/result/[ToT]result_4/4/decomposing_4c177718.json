@@ -1,0 +1,51 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the row that contains the number 5.",
+                    "Q2: Remove all rows above the row identified in Q1.",
+                    "Q3: Remove the row identified in Q1.",
+                    "Q4: Identify the pattern of numbers in the remaining rows.",
+                    "Q5: Remove all rows below the pattern identified in Q4.",
+                    "Q6: Identify the pattern of numbers in the columns of the remaining grid.",
+                    "Q7: Remove all columns to the right of the pattern identified in Q6.",
+                    "Q8: Identify the pattern of numbers in the remaining columns.",
+                    "Q9: Remove all columns to the left of the pattern identified in Q8."
+                ],
+                [
+                    "Q1: Identify the row that contains the number 5.",
+                    "Q2: Remove all rows above the row identified in Q1.",
+                    "Q3: Remove the row identified in Q1.",
+                    "Q4: Identify the pattern of numbers in the remaining rows.",
+                    "Q5: Remove all rows below the pattern identified in Q4.",
+                    "Q6: Identify the pattern of numbers in the columns of the remaining grid.",
+                    "Q7: Remove all columns to the right of the pattern identified in Q6.",
+                    "Q8: Identify the pattern of numbers in the remaining columns.",
+                    "Q9: Remove all columns to the left of the pattern identified in Q8."
+                ],
+                [
+                    "Q1: Identify the row that contains the number 5.",
+                    "Q2: Remove all rows above and below the row identified in Q1.",
+                    "Q3: Identify the numbers 1, 2, and 8 in the remaining grid.",
+                    "Q4: For each number identified in Q3, find the corresponding pattern in the original input grid.",
+                    "Q5: Replace the identified numbers in the remaining grid with the corresponding patterns found in Q4.",
+                    "Q6: Remove the row containing the number 5 from the grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the row that contains the number 5.",
+                "Q2: Remove all rows above and below the row identified in Q1.",
+                "Q3: Identify the numbers 1, 2, and 8 in the remaining grid.",
+                "Q4: For each number identified in Q3, find the corresponding pattern in the original input grid.",
+                "Q5: Replace the identified numbers in the remaining grid with the corresponding patterns found in Q4.",
+                "Q6: Remove the row containing the number 5 from the grid."
+            ]
+        }
+    ]
+}

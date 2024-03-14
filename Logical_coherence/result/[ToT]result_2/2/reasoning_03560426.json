@@ -1,0 +1,334 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:"
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:"
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:"
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid.",
+                "Q3: Identify the pattern of the unique numbers in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. "
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, with the number 7 on the far left and the number 3 on the far right. Each unique number occupies two rows, except for the number 7, which occupies four rows. "
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. "
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. "
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid.",
+                "Q3: Identify the pattern of the unique numbers in the grid.",
+                "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid.",
+                "Q3: Identify the pattern of the unique numbers in the grid.",
+                "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:"
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:"
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:"
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid.",
+                "Q3: Identify the pattern of the unique numbers in the grid.",
+                "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                "Q6: Identify any empty spaces that are surrounded by the same unique number in the examples."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces."
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid.",
+                "Q3: Identify the pattern of the unique numbers in the grid.",
+                "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                "Q6: Identify any empty spaces that are surrounded by the same unique number in the examples.",
+                "Q7: Determine how these empty spaces are filled in the output grid in the examples."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces."
+            ]
+        },
+        {
+            "step": 7,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid.",
+                "Q3: Identify the pattern of the unique numbers in the grid.",
+                "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                "Q6: Identify any empty spaces that are surrounded by the same unique number in the examples.",
+                "Q7: Determine how these empty spaces are filled in the output grid in the examples.",
+                "Q8: Apply the same filling pattern to the empty spaces in the quiz input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are. Therefore, the output grid would be as follows:"
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid."
+            ]
+        },
+        {
+            "step": 8,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid.",
+                "Q3: Identify the pattern of the unique numbers in the grid.",
+                "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                "Q6: Identify any empty spaces that are surrounded by the same unique number in the examples.",
+                "Q7: Determine how these empty spaces are filled in the output grid in the examples.",
+                "Q8: Apply the same filling pattern to the empty spaces in the quiz input grid.",
+                "Q9: Identify any remaining zeros in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain in the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid."
+            ]
+        },
+        {
+            "step": 9,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid.",
+                "Q3: Identify the pattern of the unique numbers in the grid.",
+                "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                "Q6: Identify any empty spaces that are surrounded by the same unique number in the examples.",
+                "Q7: Determine how these empty spaces are filled in the output grid in the examples.",
+                "Q8: Apply the same filling pattern to the empty spaces in the quiz input grid.",
+                "Q9: Identify any remaining zeros in the grid.",
+                "Q10: Determine how these zeros are treated in the output grid in the examples."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid.\nA10: In the examples, the zeros that are not replaced by unique numbers remain as zeros in the output grid. They are not changed or filled with any other numbers."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid.\nA10: In the examples, the zeros that are not replaced by unique numbers remain as zeros in the output grid. They are not changed or filled with any other numbers."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid.\nA10: In the examples, the zeros that are not replaced by unique numbers remain as zeros in the output grid. They are not changed or filled with any other numbers."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid.\nA10: In the examples, the zeros that are not replaced by unique numbers remain as zeros in the output grid. They are not changed or filled with any other numbers."
+            ]
+        },
+        {
+            "step": 10,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid.",
+                "Q3: Identify the pattern of the unique numbers in the grid.",
+                "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                "Q6: Identify any empty spaces that are surrounded by the same unique number in the examples.",
+                "Q7: Determine how these empty spaces are filled in the output grid in the examples.",
+                "Q8: Apply the same filling pattern to the empty spaces in the quiz input grid.",
+                "Q9: Identify any remaining zeros in the grid.",
+                "Q10: Determine how these zeros are treated in the output grid in the examples.",
+                "Q11: Apply the same treatment to the zeros in the quiz input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid.\nA10: In the examples, the zeros that are not replaced by unique numbers remain as zeros in the output grid. They are not changed or filled with any other numbers.\nA11: Applying the same treatment to the zeros in the quiz input grid, the zeros would remain as they are in the output grid.\n\nFinal Answer:\n[[7, 0, 8, 8, 0, 0, 0, 0, 0, 0], [7, 0, 8, 8, 0, 0, 0, 0, 0, 0], [7, 0, 8, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid.\nA10: In the examples, the zeros that are not replaced by unique numbers remain as zeros in the output grid. They are not changed or filled with any other numbers.\nA11: Applying the same treatment to the zeros in the quiz input grid, the zeros would remain as they are in the output grid.\n\nFinal Answer:\n[[7, 0, 8, 8, 0, 0, 0, 0, 0, 0], [7, 0, 8, 8, 0, 0, 0, 0, 0, 0], [7, 0, 8, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid.\nA10: In the examples, the zeros that are not replaced by unique numbers remain as zeros in the output grid. They are not changed or filled with any other numbers.\nA11: Applying the same treatment to the zeros in the quiz input grid, the zeros would remain as they are in the output grid.\n\nFinal Answer:\n[[7, 0, 8, 8, 0, 0, 0, 0, 0, 0], [7, 0, 8, 8, 0, 0, 0, 0, 0, 0], [7, 0, 8, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                0.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not zero are 7, 8, 6, and 3.\nA2: The positions of the unique numbers in the grid are as follows:\nA3: The pattern of the unique numbers in the grid is that they form a vertical line from the bottom of the grid to the top, with each unique number occupying a different column. The numbers increase from left to right, and each number is repeated in the same column for a certain number of rows. \nA4: The direction of the movement of the unique numbers from the input grid to the output grid in the examples is upwards. The unique numbers move up the grid until they reach the top, and then they move down one row for each subsequent unique number.\nA5: Applying the same movement pattern to the unique numbers in the quiz input grid, the output grid would be as follows:\nA6: In the examples, there are no empty spaces that are surrounded by the same unique number. The unique numbers are always separated by empty spaces.\nA7: In the examples, the empty spaces are not filled in the output grid. They remain as empty spaces.\nA8: Applying the same filling pattern to the empty spaces in the quiz input grid, the empty spaces would remain as they are in the output grid.\nA9: In the quiz input grid, the remaining zeros are in the positions where there are no unique numbers. These zeros remain as they are in the output grid.\nA10: In the examples, the zeros that are not replaced by unique numbers remain as zeros in the output grid. They are not changed or filled with any other numbers.\nA11: Applying the same treatment to the zeros in the quiz input grid, the zeros would remain as they are in the output grid.\n\nFinal Answer:\n[[7, 0, 8, 8, 0, 0, 0, 0, 0, 0], [7, 0, 8, 8, 0, 0, 0, 0, 0, 0], [7, 0, 8, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 6, 0, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

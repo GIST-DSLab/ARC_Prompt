@@ -1,0 +1,34 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                    "Q3: For each non-zero element, fill the cell with the value of zero if it is not on the row or column of the non-zero element."
+                ],
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                    "Q3: For each non-zero element, fill the surrounding cells with the value of the element, but leave the cell itself as zero.",
+                    "Q4: Combine the results from Q2 and Q3 to form the final output grid."
+                ],
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                    "Q3: For each non-zero element, keep the original value at its position and set the rest of the elements in the row and column to zero."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the non-zero elements in the input grid and their positions.",
+                "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                "Q3: For each non-zero element, keep the original value at its position and set the rest of the elements in the row and column to zero."
+            ]
+        }
+    ]
+}

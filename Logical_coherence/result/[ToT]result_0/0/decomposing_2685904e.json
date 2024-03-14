@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the row in the input grid that contains the number 5.",
+                    "Q2: Identify the row in the input grid that contains the number 8.",
+                    "Q3: Identify the numbers in the last row of the input grid.",
+                    "Q4: For each number in the last row, if it is not 1, copy it to the corresponding position in the row above the row of 5s."
+                ],
+                [
+                    "Q1: Identify the row in the input grid that contains the number 5.",
+                    "Q2: Identify the row in the input grid that contains the number 8.",
+                    "Q3: Identify the numbers in the last row of the input grid.",
+                    "Q4: For each number in the last row of the input grid, if the number is not 1, copy it to the corresponding position in the rows identified in Q1 and Q2."
+                ],
+                [
+                    "Q1: Identify the row in the input grid that contains the number 5.",
+                    "Q2: Identify the row in the input grid that contains the numbers 2, 3, 6, 4, 6, 2, 4, 4, 3, 9.",
+                    "Q3: Identify the numbers in the row found in Q2 that are not 1.",
+                    "Q4: Replace the corresponding positions in the row three places above the row found in Q1 with the numbers identified in Q3."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the row in the input grid that contains the number 5.",
+                "Q2: Identify the row in the input grid that contains the numbers 2, 3, 6, 4, 6, 2, 4, 4, 3, 9.",
+                "Q3: Identify the numbers in the row found in Q2 that are not 1.",
+                "Q4: Replace the corresponding positions in the row three places above the row found in Q1 with the numbers identified in Q3."
+            ]
+        }
+    ]
+}

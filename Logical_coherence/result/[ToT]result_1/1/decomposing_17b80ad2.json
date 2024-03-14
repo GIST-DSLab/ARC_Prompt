@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that have a non-zero value in the input grid.",
+                    "Q2: For each non-zero cell, check if there are any other non-zero cells in the same row.",
+                    "Q3: If there are other non-zero cells in the same row, replace the zero cells between them with the value of the non-zero cell.",
+                    "Q4: Repeat the process for each row in the input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the cells that have a non-zero value in the input grid.",
+                    "Q2: For each non-zero cell, check if there are any other non-zero cells in the same row.",
+                    "Q3: If there are other non-zero cells in the same row, replace all the zero cells in between with the value of the first non-zero cell.",
+                    "Q4: Repeat the process for each row in the grid.",
+                    "Q5: Now, check for each non-zero cell if there are any other non-zero cells in the same column.",
+                    "Q6: If there are other non-zero cells in the same column, replace all the zero cells in between with the value of the first non-zero cell.",
+                    "Q7: Repeat the process for each column in the grid.",
+                    "Q8: The final grid after all these steps will be the output grid."
+                ],
+                [
+                    "Q1: Identify the cells that have a non-zero value in the input grid.",
+                    "Q2: For each non-zero cell, check if there are any other non-zero cells in the same row.",
+                    "Q3: If there are other non-zero cells in the same row, replace the zero cells between them with the value of the non-zero cell.",
+                    "Q4: Repeat the process for each row in the input grid to generate the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that have a non-zero value in the input grid.",
+                "Q2: For each non-zero cell, check if there are any other non-zero cells in the same row.",
+                "Q3: If there are other non-zero cells in the same row, replace the zero cells between them with the value of the non-zero cell.",
+                "Q4: Repeat the process for each row in the input grid to generate the output grid."
+            ]
+        }
+    ]
+}

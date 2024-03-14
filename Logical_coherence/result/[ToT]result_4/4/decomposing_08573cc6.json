@@ -1,0 +1,55 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                    "Q2: Determine which number is higher and which is lower.",
+                    "Q3: Draw a horizontal line from the lower number to the higher number using the lower number.",
+                    "Q4: Draw a vertical line from the lower number to the higher number using the higher number.",
+                    "Q5: Identify the coordinate of the number 1 in the input grid.",
+                    "Q6: Draw a horizontal line from the lower number to the number 1 using the lower number.",
+                    "Q7: Draw a vertical line from the higher number to the number 1 using the higher number.",
+                    "Q8: Fill in the remaining cells with 0."
+                ],
+                [
+                    "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                    "Q2: Determine which number is higher and which is lower.",
+                    "Q3: Draw a horizontal line from the lower number to the higher number.",
+                    "Q4: Draw a vertical line from the lower number to the higher number.",
+                    "Q5: Fill the square formed by the intersection of the horizontal and vertical lines with the lower number.",
+                    "Q6: Identify the coordinates of the number 1 in the input grid.",
+                    "Q7: Draw a horizontal line from the number 1 to the vertical line of the higher number.",
+                    "Q8: Draw a vertical line from the number 1 to the horizontal line of the higher number.",
+                    "Q9: Fill the square formed by the intersection of the new horizontal and vertical lines with the lower number.",
+                    "Q10: Fill the remaining part of the square formed by the original horizontal and vertical lines with the higher number."
+                ],
+                [
+                    "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                    "Q2: Determine which number is on the left and which is on the right.",
+                    "Q3: Identify the coordinates of the number 1 in the input grid.",
+                    "Q4: Draw a vertical line from the number on the left to the number 1, using the color of the number on the left.",
+                    "Q5: Draw a vertical line from the number on the right to the number 1, using the color of the number on the right.",
+                    "Q6: Draw a horizontal line from the number on the left to the number on the right, using the color of the number on the left.",
+                    "Q7: Draw a horizontal line from the number on the right to the number on the left, using the color of the number on the right.",
+                    "Q8: Fill the remaining area with the color of the number on the right."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                "Q2: Determine which number is higher and which is lower.",
+                "Q3: Draw a horizontal line from the lower number to the higher number using the lower number.",
+                "Q4: Draw a vertical line from the lower number to the higher number using the higher number.",
+                "Q5: Identify the coordinate of the number 1 in the input grid.",
+                "Q6: Draw a horizontal line from the lower number to the number 1 using the lower number.",
+                "Q7: Draw a vertical line from the higher number to the number 1 using the higher number.",
+                "Q8: Fill in the remaining cells with 0."
+            ]
+        }
+    ]
+}

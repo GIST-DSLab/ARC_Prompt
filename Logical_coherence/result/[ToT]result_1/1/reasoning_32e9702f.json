@@ -1,0 +1,90 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case)."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.",
+                    "A2: These cells should be colored with the color 5.",
+                    "A3: The final output is:"
+                ],
+                [
+                    "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.",
+                    "A2: These cells should be colored with the color 5.",
+                    "A3: The final output is:"
+                ],
+                [
+                    "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.",
+                    "A2: These cells should be colored with the color 5.",
+                    "A3: The final output after applying these rules is:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.",
+                "A2: These cells should be colored with the color 5.",
+                "A3: The final output is:"
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case).",
+                "Q2: Change the color of the cells identified in Q1 to 5."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.\nA2: Changing the color of the cells identified in Q1 to 5, the output grids would be:"
+                ],
+                [
+                    "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.\nA2: Changing the color of the cells identified in Q1 to 5, the output grids would be:"
+                ],
+                [
+                    "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.\nA2: Changing the color of the cells identified in Q1 to 5, the output grids would be:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.\nA2: Changing the color of the cells identified in Q1 to 5, the output grids would be:"
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case).",
+                "Q2: Change the color of the cells identified in Q1 to 5.",
+                "Q3: Ensure that the cells that are part of a group of the same color (6 in this case) remain the same."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.\nA2: Changing the color of the cells identified in Q1 to 5, the output grids would be:\nA3: Ensuring that the cells that are part of a group of the same color (6 in this case) remain the same, the output grids would be:\n\n[[5, 5, 6, 6, 6, 6, 6, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 6, 6, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 6, 6, 6, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 6, 6, 6, 6, 6, 6], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]]."
+                ],
+                [
+                    "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.\nA2: Changing the color of the cells identified in Q1 to 5, the output grids would be:\nA3: Ensuring that the cells that are part of a group of the same color (6 in this case) remain the same, the final output grids would be:\n\n[[5, 5, 6, 6, 6, 6, 6, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 6, 6, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 6, 6, 6, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 6, 6, 6, 6, 6, 6], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]]."
+                ],
+                [
+                    "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.\nA2: Changing the color of the cells identified in Q1 to 5, the output grids would be:\nA3: Ensuring that the cells that are part of a group of the same color (6 in this case) remain the same, the output grids would be:\n\n[[5, 5, 6, 6, 6, 6, 6, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 6, 6, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 6, 6, 6, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 6, 6, 6, 6, 6, 6], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                0.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are not part of a group of the same color (6 in this case) and are not already colored (5 in this case) are all the cells with the value 0.\nA2: Changing the color of the cells identified in Q1 to 5, the output grids would be:\nA3: Ensuring that the cells that are part of a group of the same color (6 in this case) remain the same, the output grids would be:\n\n[[5, 5, 6, 6, 6, 6, 6, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 6, 6, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 6, 6, 6, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 6, 6, 6, 6, 6, 6], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5], [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]]."
+            ]
+        }
+    ]
+}

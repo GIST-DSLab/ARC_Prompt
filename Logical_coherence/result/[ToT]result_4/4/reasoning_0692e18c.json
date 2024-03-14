@@ -1,0 +1,142 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the pattern in the transformation of the input grid to the output grid in the examples."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.",
+                    "A2: The pattern can be applied to the quiz input grid by expanding each cell in the input grid into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid."
+                ],
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell value is 0, the corresponding 3x3 grid in the output is all zeros. If the cell value is not 0, the corresponding 3x3 grid in the output has the cell value in the corners and the center, and zeros elsewhere.",
+                    "A2: Applying the identified pattern to the quiz input grid [[0, 0, 3], [3, 3, 0], [0, 3, 0]], the output grid would be [[0, 0, 0, 0, 0, 0, 3, 3, 3], [0, 0, 0, 3, 3, 3, 0, 0, 0], [0, 0, 0, 0, 3, 0, 3, 3, 3], [3, 3, 3, 0, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 3, 0, 0, 0], [3, 3, 3, 0, 3, 0, 0, 0, 0], [0, 0, 0, 0, 3, 0, 0, 0, 0], [3, 3, 3, 3, 3, 3, 0, 0, 0], [0, 0, 0, 0, 3, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The position of the non-zero value in the 3x3 grid corresponds to the position of the non-zero value in the original cell. The rest of the cells in the 3x3 grid are filled with zeros. "
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.",
+                "A2: The pattern can be applied to the quiz input grid by expanding each cell in the input grid into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the pattern in the transformation of the input grid to the output grid in the examples.",
+                "Q2: Notice that the output grid is a 9x9 grid, which is three times the size of the input grid in both dimensions."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output."
+                ],
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output."
+                ],
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the pattern in the transformation of the input grid to the output grid in the examples.",
+                "Q2: Notice that the output grid is a 9x9 grid, which is three times the size of the input grid in both dimensions.",
+                "Q3: Observe that the input grid is divided into 9 3x3 subgrids in the output grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid."
+                ],
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid."
+                ],
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the pattern in the transformation of the input grid to the output grid in the examples.",
+                "Q2: Notice that the output grid is a 9x9 grid, which is three times the size of the input grid in both dimensions.",
+                "Q3: Observe that the input grid is divided into 9 3x3 subgrids in the output grid.",
+                "Q4: Identify the transformation of each cell in the input grid to a 3x3 subgrid in the output grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid.\nA4: The transformation of each cell in the input grid to a 3x3 subgrid in the output grid is as follows: If the cell in the input grid is 0, the corresponding 3x3 subgrid in the output grid is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 subgrid in the output grid has the same value in the same relative positions as the non-zero value in the input grid."
+                ],
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid.\nA4: The transformation of each cell in the input grid to a 3x3 subgrid in the output grid is as follows: If the cell in the input grid is 0, the corresponding 3x3 subgrid in the output grid is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 subgrid in the output grid has the same value in the same relative positions as the non-zero value in the input grid. For example, if the cell in the input grid is in the top middle position, the non-zero value in the corresponding 3x3 subgrid in the output grid will also be in the top middle position."
+                ],
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid.\nA4: The transformation of each cell in the input grid to a 3x3 subgrid in the output grid is as follows: If the cell in the input grid is 0, the corresponding 3x3 subgrid in the output grid is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 subgrid in the output grid has the same value in the same relative positions as the non-zero value in the input grid."
+                ]
+            ],
+            "values": [
+                0,
+                1,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid.\nA4: The transformation of each cell in the input grid to a 3x3 subgrid in the output grid is as follows: If the cell in the input grid is 0, the corresponding 3x3 subgrid in the output grid is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 subgrid in the output grid has the same value in the same relative positions as the non-zero value in the input grid. For example, if the cell in the input grid is in the top middle position, the non-zero value in the corresponding 3x3 subgrid in the output grid will also be in the top middle position."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the pattern in the transformation of the input grid to the output grid in the examples.",
+                "Q2: Notice that the output grid is a 9x9 grid, which is three times the size of the input grid in both dimensions.",
+                "Q3: Observe that the input grid is divided into 9 3x3 subgrids in the output grid.",
+                "Q4: Identify the transformation of each cell in the input grid to a 3x3 subgrid in the output grid.",
+                "Q5: Apply the transformation rules identified in Q4 to the input grid of the quiz to generate the output grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid.\nA4: The transformation of each cell in the input grid to a 3x3 subgrid in the output grid is as follows: If the cell in the input grid is 0, the corresponding 3x3 subgrid in the output grid is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 subgrid in the output grid has the same value in the same relative positions as the non-zero value in the input grid. For example, if the cell in the input grid is in the top middle position, the non-zero value in the corresponding 3x3 subgrid in the output grid will also be in the top middle position.\nA5: Applying the transformation rules identified in Q4 to the input grid of the quiz, we get the output grid as follows:\n\n[[0, 0, 0, 0, 0, 0, 3, 3, 0], \n [0, 0, 0, 0, 0, 0, 3, 0, 3], \n [0, 0, 0, 0, 0, 0, 0, 3, 3], \n [3, 3, 0, 3, 3, 0, 0, 0, 0], \n [3, 0, 3, 3, 0, 3, 0, 0, 0], \n [0, 3, 3, 0, 3, 3, 0, 0, 0], \n [0, 0, 0, 3, 3, 0, 0, 0, 0], \n [0, 0, 0, 3, 0, 3, 0, 0, 0], \n [0, 0, 0, 0, 3, 3, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid.\nA4: The transformation of each cell in the input grid to a 3x3 subgrid in the output grid is as follows: If the cell in the input grid is 0, the corresponding 3x3 subgrid in the output grid is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 subgrid in the output grid has the same value in the same relative positions as the non-zero value in the input grid. For example, if the cell in the input grid is in the top middle position, the non-zero value in the corresponding 3x3 subgrid in the output grid will also be in the top middle position.\nA5: Applying the transformation rules identified in Q4 to the input grid of the quiz, we get the output grid as follows:\n\n[[0, 0, 0, 0, 0, 0, 3, 3, 0], [0, 0, 0, 0, 0, 0, 3, 0, 3], [0, 0, 0, 0, 0, 0, 0, 3, 3], [3, 3, 0, 0, 0, 0, 0, 0, 0], [3, 0, 3, 0, 0, 0, 0, 0, 0], [0, 3, 3, 0, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0], [0, 0, 0, 3, 0, 3, 0, 0, 0], [0, 0, 0, 0, 3, 3, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid.\nA4: The transformation of each cell in the input grid to a 3x3 subgrid in the output grid is as follows: If the cell in the input grid is 0, the corresponding 3x3 subgrid in the output grid is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 subgrid in the output grid has the same value in the same relative positions as the non-zero value in the input grid. For example, if the cell in the input grid is in the top middle position, the non-zero value in the corresponding 3x3 subgrid in the output grid will also be in the top middle position.\nA5: Applying the transformation rules identified in Q4 to the input grid of the quiz, we get the output grid as follows:\n\n[[0, 0, 0, 0, 0, 0, 3, 3, 0], [0, 0, 0, 0, 0, 0, 3, 0, 3], [0, 0, 0, 0, 0, 0, 0, 3, 3], [3, 3, 0, 0, 0, 0, 0, 0, 0], [3, 0, 3, 0, 0, 0, 0, 0, 0], [0, 3, 3, 0, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0], [0, 0, 0, 3, 0, 3, 0, 0, 0], [0, 0, 0, 0, 3, 3, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                0.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The pattern in the transformation of the input grid to the output grid is that each cell in the input grid is expanded into a 3x3 grid in the output. The value of the cell in the input grid determines the pattern of the 3x3 grid in the output. If the cell in the input grid is 0, the corresponding 3x3 grid in the output is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 grid in the output has the same value in the same relative positions as the non-zero value in the input grid.\nA2: Yes, the output grid is indeed a 9x9 grid, which is three times the size of the input grid in both dimensions. This is because each cell in the input grid is expanded into a 3x3 grid in the output.\nA3: Yes, the input grid is indeed divided into 9 3x3 subgrids in the output grid. Each cell in the input grid corresponds to a 3x3 subgrid in the output grid. The value of the cell in the input grid determines the pattern of the corresponding 3x3 subgrid in the output grid.\nA4: The transformation of each cell in the input grid to a 3x3 subgrid in the output grid is as follows: If the cell in the input grid is 0, the corresponding 3x3 subgrid in the output grid is all 0s. If the cell in the input grid is not 0, the corresponding 3x3 subgrid in the output grid has the same value in the same relative positions as the non-zero value in the input grid. For example, if the cell in the input grid is in the top middle position, the non-zero value in the corresponding 3x3 subgrid in the output grid will also be in the top middle position.\nA5: Applying the transformation rules identified in Q4 to the input grid of the quiz, we get the output grid as follows:\n\n[[0, 0, 0, 0, 0, 0, 3, 3, 0], [0, 0, 0, 0, 0, 0, 3, 0, 3], [0, 0, 0, 0, 0, 0, 0, 3, 3], [3, 3, 0, 0, 0, 0, 0, 0, 0], [3, 0, 3, 0, 0, 0, 0, 0, 0], [0, 3, 3, 0, 0, 0, 0, 0, 0], [0, 0, 0, 3, 3, 0, 0, 0, 0], [0, 0, 0, 3, 0, 3, 0, 0, 0], [0, 0, 0, 0, 3, 3, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

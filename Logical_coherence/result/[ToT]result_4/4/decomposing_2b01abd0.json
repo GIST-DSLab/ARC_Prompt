@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the row that contains all 1s in the input grid.",
+                    "Q2: Identify the pattern above the row of 1s in the input grid.",
+                    "Q3: Identify the pattern below the row of 1s in the input grid.",
+                    "Q4: Swap the patterns identified in Q2 and Q3.",
+                    "Q5: Replace the numbers in the pattern above the row of 1s with the pattern identified in Q4.",
+                    "Q6: Replace the numbers in the pattern below the row of 1s with the pattern identified in Q4.",
+                    "Q7: In the swapped patterns, replace the number 2 with the number 3 and the number 8 with the number 4."
+                ],
+                [
+                    "Q1: Identify the row that contains all 1s in the input grid.",
+                    "Q2: Identify the pattern of 2s and 8s above and below the row of 1s.",
+                    "Q3: Flip the pattern of 2s and 8s above the row of 1s to below the row of 1s.",
+                    "Q4: Flip the pattern of 2s and 8s below the row of 1s to above the row of 1s.",
+                    "Q5: Replace the 2s with 8s and the 8s with 2s in the flipped patterns."
+                ],
+                [
+                    "Q1: Identify the row that contains all 1s in the input grid.",
+                    "Q2: Identify the pattern above the row of 1s in the input grid.",
+                    "Q3: Identify the pattern below the row of 1s in the input grid.",
+                    "Q4: Swap the patterns identified in Q2 and Q3.",
+                    "Q5: Replace the numbers in the pattern above the row of 1s with the pattern identified in Q4.",
+                    "Q6: Replace the numbers in the pattern below the row of 1s with the pattern identified in Q4.",
+                    "Q7: In the swapped patterns, replace the number 2 with the number 3 and the number 8 with the number 4."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the row that contains all 1s in the input grid.",
+                "Q2: Identify the pattern of 2s and 8s above and below the row of 1s.",
+                "Q3: Flip the pattern of 2s and 8s above the row of 1s to below the row of 1s.",
+                "Q4: Flip the pattern of 2s and 8s below the row of 1s to above the row of 1s.",
+                "Q5: Replace the 2s with 8s and the 8s with 2s in the flipped patterns."
+            ]
+        }
+    ]
+}

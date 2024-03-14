@@ -1,0 +1,40 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the input and output grids of the examples.",
+                    "Q2: Notice that in the output grids, the 5th and 6th columns are replaced with 0s.",
+                    "Q3: Determine if this pattern applies to all examples.",
+                    "Q4: If the pattern is consistent, apply it to the quiz input grid.",
+                    "Q5: Replace the 5th and 6th columns of the quiz input grid with 0s to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the cells in the grid that have a value of 0.",
+                    "Q2: Check if the cells with a value of 0 are surrounded by cells with a value of 2 on the left and right side.",
+                    "Q3: If the condition in Q2 is met, replace the value of 0 with 2.",
+                    "Q4: Repeat the process for all cells with a value of 0 in the grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the input and output grids of the examples.",
+                    "Q2: Notice that in the output grids, the 5th and 6th columns are replaced with 0s.",
+                    "Q3: Determine if this pattern applies to all examples.",
+                    "Q4: If the pattern is consistent, apply it to the quiz input grid.",
+                    "Q5: Replace the 5th and 6th columns of the quiz input grid with 0s to generate the output grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the input and output grids of the examples.",
+                "Q2: Notice that in the output grids, the 5th and 6th columns are replaced with 0s.",
+                "Q3: Determine if this pattern applies to all examples.",
+                "Q4: If the pattern is consistent, apply it to the quiz input grid.",
+                "Q5: Replace the 5th and 6th columns of the quiz input grid with 0s to generate the output grid."
+            ]
+        }
+    ]
+}

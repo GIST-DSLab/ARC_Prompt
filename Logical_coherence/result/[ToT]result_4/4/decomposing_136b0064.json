@@ -1,0 +1,53 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique numbers in the grid that are not 0 or 4.",
+                    "Q2: For each unique number identified in Q1, find the rows where this number appears.",
+                    "Q3: For each row identified in Q2, find the column where the number 4 appears.",
+                    "Q4: Create a new grid with the same number of rows as the unique numbers identified in Q1 and the same number of columns as the original grid.",
+                    "Q5: In the new grid, for each row, fill the cells with the unique number corresponding to that row, starting from the column where the number 4 appears in the original grid, and moving to the right until the end of the row.",
+                    "Q6: For each row in the new grid, fill the cells with the number 0 from the start of the row until the column where the number 4 appears in the original grid.",
+                    "Q7: In the new grid, fill the cells with the number 4 in the same column where the number 4 appears in the original grid.",
+                    "Q8: For each row in the new grid, fill the cells with the number 0 from the column where the number 4 appears to the end of the row, if there are no cells filled with the unique number corresponding to that row.",
+                    "Q9: In the new grid, fill the cells with the number 5 in the same row and column where the number 5 appears in the original grid."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid that are not 0 or 4.",
+                    "Q2: For each unique number identified in Q1, find the rows where this number appears.",
+                    "Q3: For each row identified in Q2, find the column where the number 4 appears.",
+                    "Q4: Create a new grid with the same number of rows as the unique numbers identified in Q1 and the same number of columns as the original grid.",
+                    "Q5: In the new grid, for each row, fill the cells with the unique number corresponding to that row, starting from the column identified in Q3 to the end of the row.",
+                    "Q6: For the rest of the cells in the new grid, fill them with 0.",
+                    "Q7: Rotate the new grid 90 degrees counterclockwise."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid that are not 0 or 4.",
+                    "Q2: For each unique number identified in Q1, find the rows where this number appears.",
+                    "Q3: For each row identified in Q2, find the column where the number 4 appears.",
+                    "Q4: Create a new grid with the same number of rows as the unique numbers identified in Q1 and the same number of columns as the original grid.",
+                    "Q5: In the new grid, for each row, fill the column identified in Q3 with the corresponding unique number identified in Q1.",
+                    "Q6: For each row in the new grid, fill the remaining columns with 0.",
+                    "Q7: Identify the row in the original grid where the number 5 appears.",
+                    "Q8: In the new grid, fill the row identified in Q7 with 5 in the column identified in Q3.",
+                    "Q9: For the remaining cells in the row identified in Q7, fill them with 0."
+                ]
+            ],
+            "values": [
+                1,
+                2,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique numbers in the grid that are not 0 or 4.",
+                "Q2: For each unique number identified in Q1, find the rows where this number appears.",
+                "Q3: For each row identified in Q2, find the column where the number 4 appears.",
+                "Q4: Create a new grid with the same number of rows as the unique numbers identified in Q1 and the same number of columns as the original grid.",
+                "Q5: In the new grid, for each row, fill the cells with the unique number corresponding to that row, starting from the column identified in Q3 to the end of the row.",
+                "Q6: For the rest of the cells in the new grid, fill them with 0.",
+                "Q7: Rotate the new grid 90 degrees counterclockwise."
+            ]
+        }
+    ]
+}

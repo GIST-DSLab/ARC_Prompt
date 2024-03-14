@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                    "Q3: For each non-zero element, fill the surrounding cells with the value of the element, but leave the cell itself as zero.",
+                    "Q4: Combine the results from Q2 and Q3 to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                    "Q3: For each non-zero element, fill the surrounding cells with the value of the element, but leave the cell itself as 0.",
+                    "Q4: Combine the results from Q2 and Q3 to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                    "Q3: For each non-zero element, fill the surrounding cells with the value of the element, but leave the cell itself as zero.",
+                    "Q4: Combine the results from Q2 and Q3 to generate the output grid."
+                ]
+            ],
+            "values": [
+                1,
+                0,
+                2
+            ],
+            "select_new_ys": [
+                "Q1: Identify the non-zero elements in the input grid and their positions.",
+                "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                "Q3: For each non-zero element, fill the surrounding cells with the value of the element, but leave the cell itself as zero.",
+                "Q4: Combine the results from Q2 and Q3 to generate the output grid."
+            ]
+        }
+    ]
+}

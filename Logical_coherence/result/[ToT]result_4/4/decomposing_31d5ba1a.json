@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern of transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is always a 3x5 grid, regardless of the size of the input grid.",
+                    "Q3: Identify the role of the number 9 in the input grid. It seems to be replaced by the number 6 in the output grid.",
+                    "Q4: Identify the role of the number 4 in the input grid. It seems to be removed in the output grid.",
+                    "Q5: Identify the role of the number 0 in the input grid. It seems to be preserved in the output grid.",
+                    "Q6: Notice the pattern of the number 6 in the output grid. It seems to be placed in the same relative position as the number 9 in the input grid.",
+                    "Q7: Apply these observations to the quiz input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern of transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is always 3 rows. Determine the rule for selecting which rows from the input grid are used to form the output grid.",
+                    "Q3: Identify the transformation of the numbers in the grid. In the examples, 9 changes to 6 and 4 changes to 0. Determine the rule for this transformation.",
+                    "Q4: Apply the rules identified in Q2 and Q3 to the input grid of the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern of transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is always half the size of the input grid. Determine the rule for this transformation.",
+                    "Q3: Identify the transformation of the color 9 in the input grid to the color 6 in the output grid.",
+                    "Q4: Identify the transformation of the color 4 in the input grid to the color 0 in the output grid.",
+                    "Q5: Determine the rule for the transformation of the colors in the input grid to the colors in the output grid.",
+                    "Q6: Apply the rules determined in Q2 and Q5 to the input grid of the quiz to generate the output grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern of transformation from the input grid to the output grid in the examples.",
+                "Q2: Notice that the output grid is always a 3x5 grid, regardless of the size of the input grid.",
+                "Q3: Identify the role of the number 9 in the input grid. It seems to be replaced by the number 6 in the output grid.",
+                "Q4: Identify the role of the number 4 in the input grid. It seems to be removed in the output grid.",
+                "Q5: Identify the role of the number 0 in the input grid. It seems to be preserved in the output grid.",
+                "Q6: Notice the pattern of the number 6 in the output grid. It seems to be placed in the same relative position as the number 9 in the input grid.",
+                "Q7: Apply these observations to the quiz input grid to generate the output grid."
+            ]
+        }
+    ]
+}

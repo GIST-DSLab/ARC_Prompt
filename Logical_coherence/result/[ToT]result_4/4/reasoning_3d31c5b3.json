@@ -1,0 +1,139 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that contain the number 5."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that contain the number 5.",
+                "Q2: From the rows identified in Q1, select the ones that have the number 4 in the same position in the following row."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the fourth row. The second row does not have the number 4 in the same position in any following row. The third row does not have the number 4 in the same position in any following row. "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that contain the number 5.",
+                "Q2: From the rows identified in Q1, select the ones that have the number 4 in the same position in the following row.",
+                "Q3: Identify the rows in the input grid that contain the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that contain the number 5.",
+                "Q2: From the rows identified in Q1, select the ones that have the number 4 in the same position in the following row.",
+                "Q3: Identify the rows in the input grid that contain the number 2.",
+                "Q4: From the rows identified in Q3, select the ones that have the number 8 in the same position in the following row."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows.\nA4: The ninth row has the number 8 in the same position in the following row."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows.\nA4: The ninth row has the number 8 in the same position in the following row."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows.\nA4: The ninth row has the number 8 in the same position in the following row."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows.\nA4: The ninth row has the number 8 in the same position in the following row."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that contain the number 5.",
+                "Q2: From the rows identified in Q1, select the ones that have the number 4 in the same position in the following row.",
+                "Q3: Identify the rows in the input grid that contain the number 2.",
+                "Q4: From the rows identified in Q3, select the ones that have the number 8 in the same position in the following row.",
+                "Q5: Combine the rows selected in Q2 and Q4 to form the output grid. The order of the rows in the output grid should be the same as their order in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows.\nA4: The ninth row has the number 8 in the same position in the following row.\nA5: The output grid is [[5, 0, 5, 4, 0, 5], [2, 2, 2, 2, 2, 2], [2, 2, 2, 8, 2, 2]]."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows.\nA4: The ninth row has the number 8 in the same position in the following row.\nA5: The output grid is [[5, 0, 5, 0, 0, 5], [2, 2, 2, 2, 2, 2], [5, 5, 5, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows.\nA4: The ninth row has the number 8 in the same position in the following row.\nA5: The output grid is [[5, 0, 5, 0, 0, 5], [2, 2, 2, 2, 2, 2], [5, 5, 5, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                0.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that contain the number 5 are the first, second, and third rows.\nA2: The first row has the number 4 in the same position in the following row.\nA3: The rows in the input grid that contain the number 2 are the seventh, eighth, and ninth rows.\nA4: The ninth row has the number 8 in the same position in the following row.\nA5: The output grid is [[5, 0, 5, 0, 0, 5], [2, 2, 2, 2, 2, 2], [5, 5, 5, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,276 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the color distribution in the input grids of the examples."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.",
+                    "A2: In the output grids of the examples, the color of the smaller square or rectangle in the input grid has been used to fill the larger square or rectangle, and the color of the larger square or rectangle in the input grid has been used to create a border around the smaller square or rectangle.",
+                    "A3: The rules for the transformation from the input grids to the output grids are as follows:"
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.",
+                    "A2: In the output grids of the examples, the color of the smaller square or rectangle in the input grid has been used to fill the larger square or rectangle, and the color of the larger square or rectangle in the input grid has been used to create a border around the smaller square or rectangle.",
+                    "A3: The relationship between the input and output grids is that the color of the smaller square or rectangle in the input grid is used to fill the larger square or rectangle in the output grid, and the color of the larger square or rectangle in the input grid is used to create a border around the smaller square or rectangle in the output grid.",
+                    "A4: The color of the smaller square (8) in the quiz input grid should be used to fill the larger rectangle, and the color of the larger rectangle (3) should be used to create a border around the smaller square. Therefore, the output grid should be as follows:"
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a square or rectangle of a certain color (not 0) in the middle of the grid. This square or rectangle is sometimes filled with another color.",
+                    "A2: In the output grids of the examples, the square or rectangle from the input grid has been expanded outwards by one cell in all directions. The color of the expanded cells is the same as the color that filled the square or rectangle in the input grid. If the square or rectangle in the input grid was not filled with another color, the color of the expanded cells is the same as the color of the square or rectangle.",
+                    "A3: The transformation from the input grids to the output grids involves expanding the square or rectangle outwards by one cell in all directions. The color of the expanded cells is determined by the color that filled the square or rectangle in the input grid.",
+                    "A4: The quiz input grid has a rectangle of color 3 in the middle, filled with color 8. Therefore, the transformation involves expanding this rectangle outwards by one cell in all directions, with the expanded cells being color 8."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.",
+                "A2: In the output grids of the examples, the color of the smaller square or rectangle in the input grid has been used to fill the larger square or rectangle, and the color of the larger square or rectangle in the input grid has been used to create a border around the smaller square or rectangle.",
+                "A3: The relationship between the input and output grids is that the color of the smaller square or rectangle in the input grid is used to fill the larger square or rectangle in the output grid, and the color of the larger square or rectangle in the input grid is used to create a border around the smaller square or rectangle in the output grid.",
+                "A4: The color of the smaller square (8) in the quiz input grid should be used to fill the larger rectangle, and the color of the larger rectangle (3) should be used to create a border around the smaller square. Therefore, the output grid should be as follows:"
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                "Q2: Determine the color that is used to fill the outermost layer of the pattern."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle embedded within the larger one."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                "Q2: Determine the color that is used to fill the outermost layer of the pattern.",
+                "Q3: Identify the color that is used to fill the innermost layer of the pattern."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                "Q2: Determine the color that is used to fill the outermost layer of the pattern.",
+                "Q3: Identify the color that is used to fill the innermost layer of the pattern.",
+                "Q4: Determine the color that is used to fill the middle layer of the pattern."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                "Q2: Determine the color that is used to fill the outermost layer of the pattern.",
+                "Q3: Identify the color that is used to fill the innermost layer of the pattern.",
+                "Q4: Determine the color that is used to fill the middle layer of the pattern.",
+                "Q5: Identify the position of the pattern in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid."
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                "Q2: Determine the color that is used to fill the outermost layer of the pattern.",
+                "Q3: Identify the color that is used to fill the innermost layer of the pattern.",
+                "Q4: Determine the color that is used to fill the middle layer of the pattern.",
+                "Q5: Identify the position of the pattern in the input grid.",
+                "Q6: Apply the same color distribution to the quiz input grid based on the position of the pattern."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:"
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:"
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:"
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                "Q2: Determine the color that is used to fill the outermost layer of the pattern.",
+                "Q3: Identify the color that is used to fill the innermost layer of the pattern.",
+                "Q4: Determine the color that is used to fill the middle layer of the pattern.",
+                "Q5: Identify the position of the pattern in the input grid.",
+                "Q6: Apply the same color distribution to the quiz input grid based on the position of the pattern.",
+                "Q7: Fill the outermost layer of the pattern in the quiz input grid with the color identified in Q2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids."
+            ]
+        },
+        {
+            "step": 7,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                "Q2: Determine the color that is used to fill the outermost layer of the pattern.",
+                "Q3: Identify the color that is used to fill the innermost layer of the pattern.",
+                "Q4: Determine the color that is used to fill the middle layer of the pattern.",
+                "Q5: Identify the position of the pattern in the input grid.",
+                "Q6: Apply the same color distribution to the quiz input grid based on the position of the pattern.",
+                "Q7: Fill the outermost layer of the pattern in the quiz input grid with the color identified in Q2.",
+                "Q8: Fill the middle layer of the pattern in the quiz input grid with the color identified in Q4."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA8: The middle layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA8: The middle layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA8: The middle layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA8: The middle layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids."
+            ]
+        },
+        {
+            "step": 8,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                "Q2: Determine the color that is used to fill the outermost layer of the pattern.",
+                "Q3: Identify the color that is used to fill the innermost layer of the pattern.",
+                "Q4: Determine the color that is used to fill the middle layer of the pattern.",
+                "Q5: Identify the position of the pattern in the input grid.",
+                "Q6: Apply the same color distribution to the quiz input grid based on the position of the pattern.",
+                "Q7: Fill the outermost layer of the pattern in the quiz input grid with the color identified in Q2.",
+                "Q8: Fill the middle layer of the pattern in the quiz input grid with the color identified in Q4.",
+                "Q9: Fill the innermost layer of the pattern in the quiz input grid with the color identified in Q3."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA8: The middle layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA9: The innermost layer of the pattern in the quiz input grid should be filled with the color of the larger square or rectangle in the input grids.\n\nQ10: Based on the answers to Q7, Q8, and Q9, what would be the output grid for the quiz?\nA10: The output grid for the quiz would be as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA8: The middle layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA9: The innermost layer of the pattern in the quiz input grid should be filled with the color of the larger square or rectangle in the input grids.\n\nQ10: Based on the answers to Q7, Q8, and Q9, what would be the output grid for the quiz?\nA10: The output grid for the quiz would be as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 8, 8, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 8, 8, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 8, 8, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA8: The middle layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA9: The innermost layer of the pattern in the quiz input grid should be filled with the color of the larger square or rectangle in the input grids.\n\nQ10: Based on the answers to Q7, Q8, and Q9, what would be the output grid for the quiz?\nA10: The output grid for the quiz would be as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: In the input grids of the examples, there is a pattern of a smaller square or rectangle of a certain color (not 0) embedded within a larger square or rectangle of another color (not 0), and all of these are surrounded by 0s.\nA2: The color used to fill the outermost layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA3: The color used to fill the innermost layer of the pattern is the color of the larger square or rectangle in the input grids.\nA4: The color used to fill the middle layer of the pattern is the color of the smaller square or rectangle in the input grids.\nA5: The pattern is usually located in the middle of the input grid.\nA6: The color distribution of the quiz input grid would be as follows:\nA7: The outermost layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA8: The middle layer of the pattern in the quiz input grid should be filled with the color of the smaller square or rectangle in the input grids.\nA9: The innermost layer of the pattern in the quiz input grid should be filled with the color of the larger square or rectangle in the input grids.\n\nQ10: Based on the answers to Q7, Q8, and Q9, what would be the output grid for the quiz?\nA10: The output grid for the quiz would be as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 3, 3, 3, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

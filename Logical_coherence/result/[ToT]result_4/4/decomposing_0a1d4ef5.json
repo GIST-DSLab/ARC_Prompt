@@ -1,0 +1,49 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in the grid.",
+                    "Q3: Identify the three most frequent numbers in the grid.",
+                    "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                    "Q5: For each of the three most frequent numbers, identify their positions in the original grid.",
+                    "Q6: Transfer these positions to the new grid, replacing the existing numbers.",
+                    "Q7: For any remaining numbers in the new grid, replace them with the most frequent number."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in the grid.",
+                    "Q3: Identify the three most frequent numbers in the grid.",
+                    "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                    "Q5: For each of the three most frequent numbers, identify their positions in the original grid.",
+                    "Q6: Transfer these positions to the new grid, filling them with the corresponding number.",
+                    "Q7: Fill the rest of the new grid with the least frequent number."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in the grid.",
+                    "Q3: Identify the three most frequent numbers in the grid.",
+                    "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                    "Q5: For each of the three most frequent numbers, identify their positions in the original grid.",
+                    "Q6: Map the positions of the three most frequent numbers in the original grid to their corresponding positions in the new grid.",
+                    "Q7: Fill in the new grid with the three most frequent numbers according to the mapping from Q6."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in the grid.",
+                "Q3: Identify the three most frequent numbers in the grid.",
+                "Q4: Create a new grid with the three most frequent numbers in the order of their frequency.",
+                "Q5: For each of the three most frequent numbers, identify their positions in the original grid.",
+                "Q6: Map the positions of the three most frequent numbers in the original grid to their corresponding positions in the new grid.",
+                "Q7: Fill in the new grid with the three most frequent numbers according to the mapping from Q6."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the unique colors in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique colors in the grid are 0, 3, 4, and 8."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: For each color, find the top left and bottom right coordinates of the rectangle that encloses all cells of that color."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: "
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: "
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: "
+                ]
+            ],
+            "values": [
+                2,
+                1,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: "
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: For each color, find the top left and bottom right coordinates of the rectangle that encloses all cells of that color.",
+                "Q3: For each color, check if the cells within the rectangle from Q2 are all of that color and there are no other cells of that color outside the rectangle."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: "
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: "
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: "
+                ]
+            ],
+            "values": [
+                1,
+                0,
+                2
+            ],
+            "select_new_ys": [
+                "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: "
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: For each color, find the top left and bottom right coordinates of the rectangle that encloses all cells of that color.",
+                "Q3: For each color, check if the cells within the rectangle from Q2 are all of that color and there are no other cells of that color outside the rectangle.",
+                "Q4: For each color that meets the criteria from Q3, create a new grid with the size of the rectangle and fill it with the color."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: \nA4: "
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: \nA4: "
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: \nA4: "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: \nA4: "
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: For each color, find the top left and bottom right coordinates of the rectangle that encloses all cells of that color.",
+                "Q3: For each color, check if the cells within the rectangle from Q2 are all of that color and there are no other cells of that color outside the rectangle.",
+                "Q4: For each color that meets the criteria from Q3, create a new grid with the size of the rectangle and fill it with the color.",
+                "Q5: Arrange the grids from Q4 in the order of the top left coordinates of their rectangles in the original grid, from top to bottom and left to right."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: \nA4: \nA5: \n\nAnswer to the Quiz:\nThe output grids are [[3, 3, 3], [0, 4, 4], [0, 0, 8]]."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: \nA4: \nA5: \n\nAnswer to the Quiz:\nThe output grids are [[3, 3, 3], [0, 4, 4], [0, 0, 8]]."
+                ],
+                [
+                    "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: \nA4: \nA5: \n\nAnswer to the Quiz:\nThe output grids are [[3, 3, 3], [0, 4, 4], [0, 0, 8]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The unique colors in the grid are 0, 3, 4, and 8.\nA2: \nA3: \nA4: \nA5: \n\nAnswer to the Quiz:\nThe output grids are [[3, 3, 3], [0, 4, 4], [0, 0, 8]]."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in each row.",
+                    "Q3: Identify the number with the highest frequency in each row.",
+                    "Q4: Replace the number with the highest frequency in each row with the number that has the second highest frequency.",
+                    "Q5: If there is a tie for the highest frequency, replace the number with the highest value.",
+                    "Q6: If there is a tie for the second highest frequency, replace the number with the lowest value.",
+                    "Q7: Repeat the process for each row to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in each row.",
+                    "Q3: Identify the number with the highest frequency in each row.",
+                    "Q4: Replace the number with the highest frequency with the number that has the second highest frequency in the same row.",
+                    "Q5: If there is a tie in the frequency, replace the number with the smallest value.",
+                    "Q6: Repeat the process for each row to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid.",
+                    "Q2: Count the frequency of each unique number in each row.",
+                    "Q3: Identify the number with the highest frequency in each row.",
+                    "Q4: Replace the number with the highest frequency in each row with the number that has the second highest frequency.",
+                    "Q5: If there is a tie for the highest frequency, replace the number with the highest value.",
+                    "Q6: If there is a tie for the second highest frequency, replace the number with the lowest value.",
+                    "Q7: Repeat the process for each row to generate the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique numbers in the grid.",
+                "Q2: Count the frequency of each unique number in each row.",
+                "Q3: Identify the number with the highest frequency in each row.",
+                "Q4: Replace the number with the highest frequency in each row with the number that has the second highest frequency.",
+                "Q5: If there is a tie for the highest frequency, replace the number with the highest value.",
+                "Q6: If there is a tie for the second highest frequency, replace the number with the lowest value.",
+                "Q7: Repeat the process for each row to generate the output grid."
+            ]
+        }
+    ]
+}

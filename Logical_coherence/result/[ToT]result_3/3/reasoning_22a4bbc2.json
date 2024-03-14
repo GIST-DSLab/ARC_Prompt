@@ -1,0 +1,200 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that are completely filled with 1s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]."
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]."
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that are completely filled with 1s.",
+                "Q2: Change all the 1s in the rows identified in Q1 to 2s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: "
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: "
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: "
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: "
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that are completely filled with 1s.",
+                "Q2: Change all the 1s in the rows identified in Q1 to 2s.",
+                "Q3: Identify the rows in the input grid that are completely filled with 8s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8]."
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8]."
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8]."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8]."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that are completely filled with 1s.",
+                "Q2: Change all the 1s in the rows identified in Q1 to 2s.",
+                "Q3: Identify the rows in the input grid that are completely filled with 8s.",
+                "Q4: Keep the rows identified in Q3 as they are."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same."
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same."
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that are completely filled with 1s.",
+                "Q2: Change all the 1s in the rows identified in Q1 to 2s.",
+                "Q3: Identify the rows in the input grid that are completely filled with 8s.",
+                "Q4: Keep the rows identified in Q3 as they are.",
+                "Q5: Identify the rows in the input grid that have a combination of 1s and 8s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1]."
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1]."
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1]."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1]."
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that are completely filled with 1s.",
+                "Q2: Change all the 1s in the rows identified in Q1 to 2s.",
+                "Q3: Identify the rows in the input grid that are completely filled with 8s.",
+                "Q4: Keep the rows identified in Q3 as they are.",
+                "Q5: Identify the rows in the input grid that have a combination of 1s and 8s.",
+                "Q6: Change the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1].\nA6: After changing the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides, the grid becomes:"
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1].\nA6: After changing the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides, the grid becomes:"
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1].\nA6: After changing the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides, the grid becomes:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1].\nA6: After changing the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides, the grid becomes:"
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the rows in the input grid that are completely filled with 1s.",
+                "Q2: Change all the 1s in the rows identified in Q1 to 2s.",
+                "Q3: Identify the rows in the input grid that are completely filled with 8s.",
+                "Q4: Keep the rows identified in Q3 as they are.",
+                "Q5: Identify the rows in the input grid that have a combination of 1s and 8s.",
+                "Q6: Change the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides.",
+                "Q7: Keep the remaining cells in the grid as they are."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1].\nA6: After changing the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides, the grid becomes:\nA7: After keeping the remaining cells in the grid as they are, the final output grid is:\n\n[[8, 8, 8, 0], [0, 2, 2, 2], [0, 8, 8, 0], [2, 2, 2, 2], [8, 8, 8, 0], [8, 8, 8, 0], [0, 2, 2, 2], [0, 8, 8, 0], [0, 8, 8, 0], [2, 2, 2, 2], [2, 2, 2, 2], [8, 8, 8, 8], [2, 2, 0, 0], [0, 8, 8, 8], [2, 2, 2, 0], [8, 8, 8, 8], [0, 2, 2, 0], [0, 2, 2, 0], [8, 8, 8, 8], [8, 8, 8, 8], [0, 2, 2, 2], [0, 2, 2, 2]]."
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1].\nA6: After changing the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides, the grid becomes:\nA7: After keeping the remaining cells in the grid as they are, the final output grid is:\n\n[[8, 8, 8, 0], [0, 2, 2, 2], [0, 8, 8, 0], [2, 2, 2, 2], [8, 8, 8, 0], [8, 8, 8, 0], [0, 2, 2, 2], [0, 8, 8, 0], [0, 8, 8, 0], [2, 2, 2, 2], [2, 2, 2, 2], [8, 8, 8, 8], [2, 2, 0, 0], [0, 8, 8, 8], [2, 2, 2, 0], [8, 8, 8, 8], [0, 2, 2, 0], [0, 2, 2, 0], [8, 8, 8, 8], [8, 8, 8, 8], [0, 2, 2, 2], [0, 2, 2, 2]]."
+                ],
+                [
+                    "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1].\nA6: After changing the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides, the grid becomes:\nA7: After keeping the remaining cells in the grid as they are, the final output grid is:\n\n[[8, 8, 8, 0], [0, 2, 2, 2], [0, 8, 8, 0], [2, 2, 2, 2], [8, 8, 8, 0], [8, 8, 8, 0], [0, 2, 2, 2], [0, 8, 8, 0], [0, 8, 8, 0], [2, 2, 2, 2], [2, 2, 2, 2], [8, 8, 8, 8], [2, 2, 0, 0], [0, 8, 8, 8], [2, 2, 2, 0], [8, 8, 8, 8], [0, 2, 2, 0], [0, 2, 2, 0], [8, 8, 8, 8], [8, 8, 8, 8], [0, 2, 2, 2], [0, 2, 2, 2]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The rows in the input grid that are completely filled with 1s are: [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1].\nA2: After changing all the 1s in the rows identified in Q1 to 2s, the grid becomes: \nA3: The rows in the input grid that are completely filled with 8s are: [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8], [8, 8, 8, 8].\nA4: The rows identified in Q3 are kept as they are, so the grid remains the same.\nA5: The rows in the input grid that have a combination of 1s and 8s are: [0, 1, 1, 1], [0, 8, 8, 0], [8, 8, 8, 0], [0, 8, 8, 0], [0, 8, 8, 0], [1, 1, 0, 0], [0, 8, 8, 8], [1, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 0], [0, 1, 1, 1], [0, 1, 1, 1].\nA6: After changing the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides, the grid becomes:\nA7: After keeping the remaining cells in the grid as they are, the final output grid is:\n\n[[8, 8, 8, 0], [0, 2, 2, 2], [0, 8, 8, 0], [2, 2, 2, 2], [8, 8, 8, 0], [8, 8, 8, 0], [0, 2, 2, 2], [0, 8, 8, 0], [0, 8, 8, 0], [2, 2, 2, 2], [2, 2, 2, 2], [8, 8, 8, 8], [2, 2, 0, 0], [0, 8, 8, 8], [2, 2, 2, 0], [8, 8, 8, 8], [0, 2, 2, 0], [0, 2, 2, 0], [8, 8, 8, 8], [8, 8, 8, 8], [0, 2, 2, 2], [0, 2, 2, 2]]."
+            ]
+        }
+    ]
+}

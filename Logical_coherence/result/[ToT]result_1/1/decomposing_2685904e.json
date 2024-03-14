@@ -1,0 +1,38 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the row in the input grid that contains a sequence of numbers.",
+                    "Q2: Identify the unique numbers in the sequence found in Q1.",
+                    "Q3: For each unique number found in Q2, create a row of the same length as the sequence in Q1, where the unique number is placed in the same position as in the sequence, and the rest of the row is filled with zeros.",
+                    "Q4: Replace the rows in the input grid that are all zeros with the rows created in Q3, starting from the third row from the top. The order of the rows should be the same as the order of the unique numbers in the sequence.",
+                    "Q5: The output grid is the modified input grid from Q4."
+                ],
+                [
+                    "Q1: Identify the row in the input grid that contains numbers other than 0, 5, and 8.",
+                    "Q2: Identify the unique numbers in the identified row from Q1.",
+                    "Q3: For each unique number identified in Q2, find the corresponding column in the input grid.",
+                    "Q4: Replace the 0s in the identified columns from Q3 with the corresponding unique number from Q2 in the rows above the row of 5s."
+                ],
+                [
+                    "Q1: Identify the row in the input grid that contains numbers other than 0 and 5.",
+                    "Q2: Identify the unique numbers in the row identified in Q1.",
+                    "Q3: For each unique number identified in Q2, find the corresponding row in the grid where the number 8 is located.",
+                    "Q4: Replace the 0s in the rows identified in Q3 with the unique numbers from Q2."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the row in the input grid that contains numbers other than 0, 5, and 8.",
+                "Q2: Identify the unique numbers in the identified row from Q1.",
+                "Q3: For each unique number identified in Q2, find the corresponding column in the input grid.",
+                "Q4: Replace the 0s in the identified columns from Q3 with the corresponding unique number from Q2 in the rows above the row of 5s."
+            ]
+        }
+    ]
+}

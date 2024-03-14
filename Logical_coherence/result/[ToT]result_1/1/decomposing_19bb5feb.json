@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique numbers in the grid that are not 0 or 8.",
+                    "Q2: Count the number of occurrences of each unique number identified in Q1.",
+                    "Q3: Arrange the unique numbers and their counts in pairs, with the number first and the count second.",
+                    "Q4: Arrange these pairs in ascending order of the unique numbers.",
+                    "Q5: Convert these pairs into a 2D grid, with each pair forming a row, the unique number as the first column, and the count as the second column."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid that are not 0 or 8.",
+                    "Q2: Count the number of occurrences of each unique number identified in Q1.",
+                    "Q3: Arrange the unique numbers and their counts in pairs, with the number as the first element and the count as the second.",
+                    "Q4: Sort the pairs in ascending order based on the unique number.",
+                    "Q5: Convert the sorted pairs into a 2D grid, with each pair forming a row."
+                ],
+                [
+                    "Q1: Identify the different colors present in the grid.",
+                    "Q2: Count the number of cells filled with each color.",
+                    "Q3: Identify the colors that are surrounded by color 8.",
+                    "Q4: Count the number of cells filled with each color identified in Q3.",
+                    "Q5: Arrange the colors and their counts in a 2x2 grid, with the color that appears first in the top left cell, the count of that color in the top right cell, the second color in the bottom left cell, and the count of that color in the bottom right cell."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique numbers in the grid that are not 0 or 8.",
+                "Q2: Count the number of occurrences of each unique number identified in Q1.",
+                "Q3: Arrange the unique numbers and their counts in pairs, with the number first and the count second.",
+                "Q4: Arrange these pairs in ascending order of the unique numbers.",
+                "Q5: Convert these pairs into a 2D grid, with each pair forming a row, the unique number as the first column, and the count as the second column."
+            ]
+        }
+    ]
+}

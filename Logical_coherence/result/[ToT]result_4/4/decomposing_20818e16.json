@@ -1,0 +1,55 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the different regions in the grid, where a region is a group of cells with the same color that are connected through their edges.",
+                    "Q2: Determine the size and shape of each region.",
+                    "Q3: Identify the regions that are surrounded by another region.",
+                    "Q4: Determine the color of the surrounding region for each region identified in Q3.",
+                    "Q5: Identify the regions that are not surrounded by any other region.",
+                    "Q6: Determine the color of the smallest region that is not surrounded by any other region.",
+                    "Q7: Replace the color of the regions identified in Q3 with the color determined in Q6.",
+                    "Q8: Remove the regions that are not surrounded by any other region, except for the smallest one.",
+                    "Q9: Resize the grid to fit the remaining regions."
+                ],
+                [
+                    "Q1: Identify the different regions in the grid, where a region is a group of cells with the same color that are connected through their edges.",
+                    "Q2: Determine the size and shape of each region.",
+                    "Q3: Identify the regions that are completely surrounded by another region.",
+                    "Q4: For each region identified in Q3, determine the color of the surrounding region.",
+                    "Q5: For each region identified in Q3, replace the color of the region with the color of the surrounding region.",
+                    "Q6: Remove the regions that are not surrounded by any other region.",
+                    "Q7: Resize the grid to fit the remaining regions."
+                ],
+                [
+                    "Q1: Identify the different regions in the grid, where a region is a group of cells with the same color that are connected through their edges.",
+                    "Q2: Determine the size and shape of each region.",
+                    "Q3: Identify the regions that are surrounded by another region.",
+                    "Q4: Determine the color of the surrounding region for each region identified in Q3.",
+                    "Q5: Identify the regions that are not surrounded by any other region.",
+                    "Q6: Determine the color of the smallest region that is not surrounded by any other region.",
+                    "Q7: Replace the color of the regions identified in Q3 with the color determined in Q6.",
+                    "Q8: Remove the regions that are not surrounded by any other region, except for the smallest one.",
+                    "Q9: Resize the grid to fit the remaining regions."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the different regions in the grid, where a region is a group of cells with the same color that are connected through their edges.",
+                "Q2: Determine the size and shape of each region.",
+                "Q3: Identify the regions that are surrounded by another region.",
+                "Q4: Determine the color of the surrounding region for each region identified in Q3.",
+                "Q5: Identify the regions that are not surrounded by any other region.",
+                "Q6: Determine the color of the smallest region that is not surrounded by any other region.",
+                "Q7: Replace the color of the regions identified in Q3 with the color determined in Q6.",
+                "Q8: Remove the regions that are not surrounded by any other region, except for the smallest one.",
+                "Q9: Resize the grid to fit the remaining regions."
+            ]
+        }
+    ]
+}

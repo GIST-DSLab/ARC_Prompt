@@ -1,0 +1,82 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the row that contains only the number 5."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The row that contains only the number 5 is the 5th row."
+                ],
+                [
+                    "A1: The row that contains only the number 5 is the 5th row."
+                ],
+                [
+                    "A1: The row that contains only the number 5 is the 5th row."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The row that contains only the number 5 is the 5th row."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the row that contains only the number 5.",
+                "Q2: Identify the number in the middle of the row above the row identified in Q1."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The row that contains only the number 5 is the 5th row.\nA2: The number in the middle of the row above the row identified in Q1 is 4."
+                ],
+                [
+                    "A1: The row that contains only the number 5 is the 5th row.\nA2: The number in the middle of the row above the row identified in Q1 is 4."
+                ],
+                [
+                    "A1: The row that contains only the number 5 is the 5th row.\nA2: The number in the middle of the row above the row identified in Q1 is 4."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The row that contains only the number 5 is the 5th row.\nA2: The number in the middle of the row above the row identified in Q1 is 4."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the row that contains only the number 5.",
+                "Q2: Identify the number in the middle of the row above the row identified in Q1.",
+                "Q3: In the last row of the grid, replace the middle number with the number identified in Q2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The row that contains only the number 5 is the 5th row.\nA2: The number in the middle of the row above the row identified in Q1 is 4.\nA3: In the last row of the grid, replace the middle number with the number identified in Q2. So the output grids will be:\n\n[[9, 1, 2, 8, 4, 9, 8, 2, 1], [4, 4, 3, 1, 2, 7, 6, 7, 9], [2, 1, 6, 9, 7, 8, 4, 3, 6], [9, 8, 6, 3, 4, 2, 9, 1, 7], [5, 5, 5, 5, 5, 5, 5, 5, 5], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 4, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The row that contains only the number 5 is the 5th row.\nA2: The number in the middle of the row above the row identified in Q1 is 4.\nA3: In the last row of the grid, replace the middle number with the number identified in Q2. So the output grids will be:\n\n[[9, 1, 2, 8, 4, 9, 8, 2, 1], [4, 4, 3, 1, 2, 7, 6, 7, 9], [2, 1, 6, 9, 7, 8, 4, 3, 6], [9, 8, 6, 3, 4, 2, 9, 1, 7], [5, 5, 5, 5, 5, 5, 5, 5, 5], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 4, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The row that contains only the number 5 is the 5th row.\nA2: The number in the middle of the row above the row identified in Q1 is 4.\nA3: In the last row of the grid, replace the middle number with the number identified in Q2. So the output grids will be:\n\n[[9, 1, 2, 8, 4, 9, 8, 2, 1], [4, 4, 3, 1, 2, 7, 6, 7, 9], [2, 1, 6, 9, 7, 8, 4, 3, 6], [9, 8, 6, 3, 4, 2, 9, 1, 7], [5, 5, 5, 5, 5, 5, 5, 5, 5], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 4, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The row that contains only the number 5 is the 5th row.\nA2: The number in the middle of the row above the row identified in Q1 is 4.\nA3: In the last row of the grid, replace the middle number with the number identified in Q2. So the output grids will be:\n\n[[9, 1, 2, 8, 4, 9, 8, 2, 1], [4, 4, 3, 1, 2, 7, 6, 7, 9], [2, 1, 6, 9, 7, 8, 4, 3, 6], [9, 8, 6, 3, 4, 2, 9, 1, 7], [5, 5, 5, 5, 5, 5, 5, 5, 5], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 4, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

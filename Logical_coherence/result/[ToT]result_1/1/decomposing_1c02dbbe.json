@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the numbers 1, 6, 7, and 3 in the input grid.",
+                    "Q2: Determine the range of the 5s in the input grid.",
+                    "Q3: Divide the range of 5s into four sections based on the locations of the numbers 1, 6, 7, and 3.",
+                    "Q4: Replace the 5s in each section with the corresponding number (1, 6, 7, or 3) from Q1.",
+                    "Q5: Keep the rest of the grid as it is."
+                ],
+                [
+                    "Q1: Identify the locations of the numbers 1, 6, and 7 in the input grid.",
+                    "Q2: Determine the range of the 5s in the input grid.",
+                    "Q3: Identify the locations of the number 3 in the input grid.",
+                    "Q4: Replace the 5s in the range determined in Q2 with the number 1, 6, or 7 based on the locations identified in Q1.",
+                    "Q5: Replace the 5s in the range determined in Q2 with the number 3 based on the locations identified in Q3."
+                ],
+                [
+                    "Q1: Identify the locations of the numbers 1, 6, 7, and 3 in the input grid.",
+                    "Q2: Determine the range of the 5s in the input grid.",
+                    "Q3: Divide the range of 5s into four sections based on the locations of the numbers 1, 6, 7, and 3.",
+                    "Q4: Replace the 5s in each section with the corresponding number (1, 6, 7, or 3) from Q1.",
+                    "Q5: Keep the rest of the grid as it is."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the locations of the numbers 1, 6, 7, and 3 in the input grid.",
+                "Q2: Determine the range of the 5s in the input grid.",
+                "Q3: Divide the range of 5s into four sections based on the locations of the numbers 1, 6, 7, and 3.",
+                "Q4: Replace the 5s in each section with the corresponding number (1, 6, 7, or 3) from Q1.",
+                "Q5: Keep the rest of the grid as it is."
+            ]
+        }
+    ]
+}

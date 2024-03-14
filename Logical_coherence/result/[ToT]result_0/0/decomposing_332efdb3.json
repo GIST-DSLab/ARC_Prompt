@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the size of the input grid.",
+                    "Q2: Determine if the size of the grid is odd or even.",
+                    "Q3: If the size is odd, fill every cell with 1.",
+                    "Q4: If the size is even, fill every cell with 1 except for the cells that are in even-numbered rows and columns, starting from 0, which should be filled with 0.",
+                    "Q5: Generate the output grid based on the rules from Q3 and Q4."
+                ],
+                [
+                    "Q1: Identify the size of the input grid.",
+                    "Q2: Determine if the size of the grid is odd or even.",
+                    "Q3: If the size is odd, fill every cell with 1.",
+                    "Q4: If the size is even, fill every cell with 1 except for the cells at even indices which should be filled with 0.",
+                    "Q5: Repeat the process for each row in the grid."
+                ],
+                [
+                    "Q1: Identify the size of the input grid.",
+                    "Q2: Determine if the size of the grid is odd or even.",
+                    "Q3: If the size is odd, fill every cell with 1.",
+                    "Q4: If the size is even, fill every cell with 1 except for the cells that are in even-numbered rows and columns, starting from 0, which should be filled with 0.",
+                    "Q5: Generate the output grid based on the rules from Q3 and Q4."
+                ]
+            ],
+            "values": [
+                1,
+                0,
+                2
+            ],
+            "select_new_ys": [
+                "Q1: Identify the size of the input grid.",
+                "Q2: Determine if the size of the grid is odd or even.",
+                "Q3: If the size is odd, fill every cell with 1.",
+                "Q4: If the size is even, fill every cell with 1 except for the cells that are in even-numbered rows and columns, starting from 0, which should be filled with 0.",
+                "Q5: Generate the output grid based on the rules from Q3 and Q4."
+            ]
+        }
+    ]
+}

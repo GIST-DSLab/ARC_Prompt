@@ -1,0 +1,49 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each identified row in Q1, find the row above it that contains the number 2.",
+                    "Q3: For each row found in Q2, count the number of 2s.",
+                    "Q4: Create a new grid with the same number of columns as the input grid.",
+                    "Q5: For each row found in Q2, add a row to the new grid with the same number of 2s as counted in Q3, starting from the left.",
+                    "Q6: For each row added in Q5, add a row above and below it with 0s.",
+                    "Q7: Add a row of 0s at the top and bottom of the new grid."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each identified row in Q1, find the row above it that contains the number 2.",
+                    "Q3: For each row found in Q2, count the number of 2s.",
+                    "Q4: Create a new grid with the same number of columns as the input grid.",
+                    "Q5: For each row found in Q2, add a row to the new grid with the same number of 2s as counted in Q3, starting from the left.",
+                    "Q6: For each row added in Q5, add a row above and below it with 0s.",
+                    "Q7: Add a row of 0s at the top and bottom of the new grid."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each identified row in Q1, find the row above it that contains the number 2.",
+                    "Q3: For each row found in Q2, count the number of 2s.",
+                    "Q4: Create a new grid with the same number of columns as the input grid.",
+                    "Q5: For each row found in Q2, add a row to the new grid with the same number of 2s as counted in Q3, starting from the leftmost column.",
+                    "Q6: For each row added in Q5, add a row above and below it with 0s.",
+                    "Q7: Add a row of 0s at the top and bottom of the new grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row found in Q2, count the number of 2s.",
+                "Q4: Create a new grid with the same number of columns as the input grid.",
+                "Q5: For each row found in Q2, add a row to the new grid with the same number of 2s as counted in Q3, starting from the leftmost column.",
+                "Q6: For each row added in Q5, add a row above and below it with 0s.",
+                "Q7: Add a row of 0s at the top and bottom of the new grid."
+            ]
+        }
+    ]
+}

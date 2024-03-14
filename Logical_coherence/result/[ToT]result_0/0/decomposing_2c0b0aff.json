@@ -1,0 +1,43 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows in the input grid that contain the number 8.",
+                    "Q2: For each identified row, find the sequence of 8s that are surrounded by 3s.",
+                    "Q3: Remove the rows and columns that do not contain the sequence identified in Q2.",
+                    "Q4: Create a new grid with the sequences identified in Q2, maintaining their original relative positions.",
+                    "Q5: Fill the rest of the grid with 0s to match the size of the original input grid."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid that contain the number 8.",
+                    "Q2: For each identified row, find the sequence of 8s that are surrounded by 3s.",
+                    "Q3: Remove the rows and columns that do not contain the sequence identified in Q2.",
+                    "Q4: Create a new grid with the sequences identified in Q2, maintaining their original relative positions.",
+                    "Q5: Fill the rest of the grid with 0s to match the size of the original input grid."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid that contain the number 8.",
+                    "Q2: For each identified row, find the sequence of 8s that are surrounded by 3s.",
+                    "Q3: Remove the rows and columns that do not contain the number 8.",
+                    "Q4: Create a new grid that only contains the identified sequences from Q2.",
+                    "Q5: Remove any rows in the new grid that are entirely filled with 0s.",
+                    "Q6: Remove any columns in the new grid that are entirely filled with 0s."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows in the input grid that contain the number 8.",
+                "Q2: For each identified row, find the sequence of 8s that are surrounded by 3s.",
+                "Q3: Remove the rows and columns that do not contain the number 8.",
+                "Q4: Create a new grid that only contains the identified sequences from Q2.",
+                "Q5: Remove any rows in the new grid that are entirely filled with 0s.",
+                "Q6: Remove any columns in the new grid that are entirely filled with 0s."
+            ]
+        }
+    ]
+}

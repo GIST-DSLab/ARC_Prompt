@@ -1,0 +1,36 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. It seems that the pattern is a sequence of 2s and 0s, with 2s being the majority.",
+                    "Q2: Identify the changes made in the output grids compared to the input grids. It seems that some 0s are replaced by 2s.",
+                    "Q3: Determine the rule for replacing 0s with 2s. It seems that a 0 is replaced by a 2 if it is surrounded by 2s on both sides.",
+                    "Q4: Apply the rule identified in Q3 to the input grid of the quiz."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. It seems that the pattern is a sequence of 2s and 0s, with 2s being the majority and 0s appearing at regular intervals.",
+                    "Q2: Identify the changes made in the output grids compared to the input grids. It seems that some 2s in the input grid are replaced with 0s in the output grid.",
+                    "Q3: Determine the rule for replacing 2s with 0s. From the examples, it seems that a 2 is replaced with a 0 if it is surrounded by 2s on its left and right, and there is a 0 above or below it.",
+                    "Q4: Apply the rule identified in Q3 to the input grid of the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. It seems that the pattern is alternating rows of 2s and 0s, with 0s appearing in the same column in every row.",
+                    "Q2: Identify the changes made in the output grids of the examples. It seems that the 0s in the rows of 2s are replaced with 2s, except for the rows where the 0s are in the same column as the 0s in the row of 0s.",
+                    "Q3: Apply the pattern identified in Q2 to the input grid of the quiz. Replace the 0s in the rows of 2s with 2s, except for the rows where the 0s are in the same column as the 0s in the row of 0s."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the input grids of the examples. It seems that the pattern is a sequence of 2s and 0s, with 2s being the majority.",
+                "Q2: Identify the changes made in the output grids compared to the input grids. It seems that some 0s are replaced by 2s.",
+                "Q3: Determine the rule for replacing 0s with 2s. It seems that a 0 is replaced by a 2 if it is surrounded by 2s on both sides.",
+                "Q4: Apply the rule identified in Q3 to the input grid of the quiz."
+            ]
+        }
+    ]
+}

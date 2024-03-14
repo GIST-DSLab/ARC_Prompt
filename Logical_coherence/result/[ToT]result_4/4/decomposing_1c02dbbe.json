@@ -1,0 +1,49 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the numbers 1, 3, 4, 6, and 7 in the input grid.",
+                    "Q2: Determine the number of rows and columns in the input grid.",
+                    "Q3: Identify the locations of the number 5 in the input grid.",
+                    "Q4: Determine the pattern of the number 5 in the input grid.",
+                    "Q5: Based on the pattern of the number 5, determine the locations where the numbers 1, 3, 4, 6, and 7 should be placed in the output grid.",
+                    "Q6: Replace the number 5 in the identified locations with the corresponding numbers 1, 3, 4, 6, and 7 in the output grid.",
+                    "Q7: For the remaining cells filled with the number 5, determine the pattern of how they should be replaced based on the examples.",
+                    "Q8: Replace the remaining cells filled with the number 5 according to the pattern determined in Q7."
+                ],
+                [
+                    "Q1: Identify the locations of the numbers 1, 3, 4, 6, and 7 in the input grid.",
+                    "Q2: Determine the color of the cells surrounding the numbers identified in Q1.",
+                    "Q3: Identify the color that occupies the majority of the grid.",
+                    "Q4: Replace the cells surrounding the numbers identified in Q1 with the color identified in Q3.",
+                    "Q5: Replace the cells in the same row and column as the numbers identified in Q1 with the color identified in Q2."
+                ],
+                [
+                    "Q1: Identify the locations of the numbers 1, 3, 4, 6, and 7 in the input grid.",
+                    "Q2: Determine the color of the largest rectangle in the input grid.",
+                    "Q3: Identify the locations of the rectangles that are not the largest rectangle.",
+                    "Q4: Determine the color of the rectangles identified in Q3.",
+                    "Q5: Change the color of the largest rectangle to the color of the rectangles identified in Q3.",
+                    "Q6: Change the color of the rectangles identified in Q3 to the color of the largest rectangle in the input grid.",
+                    "Q7: Replace the numbers 1, 3, 4, 6, and 7 in the input grid with the color of the largest rectangle in the input grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the locations of the numbers 1, 3, 4, 6, and 7 in the input grid.",
+                "Q2: Determine the number of rows and columns in the input grid.",
+                "Q3: Identify the locations of the number 5 in the input grid.",
+                "Q4: Determine the pattern of the number 5 in the input grid.",
+                "Q5: Based on the pattern of the number 5, determine the locations where the numbers 1, 3, 4, 6, and 7 should be placed in the output grid.",
+                "Q6: Replace the number 5 in the identified locations with the corresponding numbers 1, 3, 4, 6, and 7 in the output grid.",
+                "Q7: For the remaining cells filled with the number 5, determine the pattern of how they should be replaced based on the examples.",
+                "Q8: Replace the remaining cells filled with the number 5 according to the pattern determined in Q7."
+            ]
+        }
+    ]
+}

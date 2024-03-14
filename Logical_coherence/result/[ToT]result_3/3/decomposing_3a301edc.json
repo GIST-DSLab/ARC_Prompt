@@ -1,0 +1,52 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                    "Q2: Determine the color that is used to fill the outermost layer of the pattern.",
+                    "Q3: Identify the color that is used to fill the innermost layer of the pattern.",
+                    "Q4: Determine the color that is used to fill the middle layer of the pattern.",
+                    "Q5: Identify the position of the pattern in the input grid.",
+                    "Q6: Apply the same color distribution to the quiz input grid based on the position of the pattern.",
+                    "Q7: Fill the outermost layer of the pattern in the quiz input grid with the color identified in Q2.",
+                    "Q8: Fill the middle layer of the pattern in the quiz input grid with the color identified in Q4.",
+                    "Q9: Fill the innermost layer of the pattern in the quiz input grid with the color identified in Q3."
+                ],
+                [
+                    "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                    "Q2: Determine the color that is used to fill the outermost layer of the pattern.",
+                    "Q3: Identify the color that is used to fill the innermost layer of the pattern.",
+                    "Q4: Determine the color that is used to fill the middle layer of the pattern.",
+                    "Q5: Identify the position of the pattern in the input grid.",
+                    "Q6: Apply the same color distribution to the quiz input grid based on the position of the pattern.",
+                    "Q7: Fill the outermost layer of the pattern in the quiz input grid with the color identified in Q2.",
+                    "Q8: Fill the middle layer of the pattern in the quiz input grid with the color identified in Q4.",
+                    "Q9: Fill the innermost layer of the pattern in the quiz input grid with the color identified in Q3."
+                ],
+                [
+                    "Q1: Identify the area in the grid that is surrounded by the number 3.",
+                    "Q2: Identify the number that is inside the area surrounded by 3s.",
+                    "Q3: Replace the outer layer of 0s that are directly adjacent to the area surrounded by 3s with the number identified in Q2.",
+                    "Q4: Replace the remaining 0s in the grid that are not adjacent to the area surrounded by 3s with the number identified in Q2."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern of the color distribution in the input grids of the examples.",
+                "Q2: Determine the color that is used to fill the outermost layer of the pattern.",
+                "Q3: Identify the color that is used to fill the innermost layer of the pattern.",
+                "Q4: Determine the color that is used to fill the middle layer of the pattern.",
+                "Q5: Identify the position of the pattern in the input grid.",
+                "Q6: Apply the same color distribution to the quiz input grid based on the position of the pattern.",
+                "Q7: Fill the outermost layer of the pattern in the quiz input grid with the color identified in Q2.",
+                "Q8: Fill the middle layer of the pattern in the quiz input grid with the color identified in Q4.",
+                "Q9: Fill the innermost layer of the pattern in the quiz input grid with the color identified in Q3."
+            ]
+        }
+    ]
+}

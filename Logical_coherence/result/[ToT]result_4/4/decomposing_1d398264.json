@@ -1,0 +1,52 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the row that contains the numbers 6, 1, and 1 in the input grid.",
+                    "Q2: Identify the row that contains the numbers 6, 7, and 1 in the input grid.",
+                    "Q3: Identify the row that contains the numbers 3, 3, and 1 in the input grid.",
+                    "Q4: Determine the pattern of transformation from the input grid to the output grid based on the examples.",
+                    "Q5: Apply the transformation pattern to the rows identified in Q1, Q2, and Q3.",
+                    "Q6: Identify the pattern of how the numbers are spread out in the output grid based on the examples.",
+                    "Q7: Apply the spreading pattern to the transformed rows from Q5 to generate the final output grid."
+                ],
+                [
+                    "Q1: Identify the row that contains the numbers 6, 1, and 1 in the input grid.",
+                    "Q2: Identify the row that contains the numbers 6, 7, and 1 in the input grid.",
+                    "Q3: Identify the row that contains the numbers 3, 3, and 1 in the input grid.",
+                    "Q4: Determine the pattern of transformation from the input grid to the output grid based on the examples.",
+                    "Q5: Apply the transformation pattern to the rows identified in Q1, Q2, and Q3.",
+                    "Q6: Identify the pattern of how the numbers are spread out in the output grid based on the examples.",
+                    "Q7: Apply the spreading pattern to the transformed rows from Q5 to generate the final output grid."
+                ],
+                [
+                    "Q1: Identify the row that contains the numbers 6, 1, and 1 in the input grid.",
+                    "Q2: Identify the row that contains the numbers 6, 7, and 1 in the input grid.",
+                    "Q3: Identify the row that contains the numbers 3, 3, and 1 in the input grid.",
+                    "Q4: For each identified row, create a new row above it with the same numbers but shifted one position to the left.",
+                    "Q5: For each identified row, create a new row below it with the same numbers but shifted one position to the right.",
+                    "Q6: Replace the numbers in the identified rows with the number 1.",
+                    "Q7: Replace the number 1 in the new rows with the number that was in its position in the original row.",
+                    "Q8: Replace the number 6 in the new rows with the number that was in its position in the original row.",
+                    "Q9: Replace the number 7 in the new rows with the number that was in its position in the original row.",
+                    "Q10: Replace the number 3 in the new rows with the number that was in its position in the original row."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the row that contains the numbers 6, 1, and 1 in the input grid.",
+                "Q2: Identify the row that contains the numbers 6, 7, and 1 in the input grid.",
+                "Q3: Identify the row that contains the numbers 3, 3, and 1 in the input grid.",
+                "Q4: Determine the pattern of transformation from the input grid to the output grid based on the examples.",
+                "Q5: Apply the transformation pattern to the rows identified in Q1, Q2, and Q3.",
+                "Q6: Identify the pattern of how the numbers are spread out in the output grid based on the examples.",
+                "Q7: Apply the spreading pattern to the transformed rows from Q5 to generate the final output grid."
+            ]
+        }
+    ]
+}

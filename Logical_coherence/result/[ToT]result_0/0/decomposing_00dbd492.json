@@ -1,0 +1,31 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by '2's on all four sides.",
+                    "Q2: Replace the identified cells from Q1 with '8' if they are in the upper half of the grid and with '4' if they are in the lower half of the grid."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by '2's on all four sides.",
+                    "Q2: For the cells identified in Q1, check if they are empty (0).",
+                    "Q3: If the cells identified in Q2 are empty, fill them with '8' if they are in the upper half of the grid, and '4' if they are in the lower half.",
+                    "Q4: For the cells that are not surrounded by '2's on all four sides, keep them as they are."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by '2's on all four sides.",
+                    "Q2: Replace the identified cells from Q1 with '8' if they are in the upper half of the grid and with '4' if they are in the lower half of the grid."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by '2's on all four sides.",
+                "Q2: Replace the identified cells from Q1 with '8' if they are in the upper half of the grid and with '4' if they are in the lower half of the grid."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows in the input grid where the pattern of 2s and 0s is not alternating.",
+                    "Q2: For the rows identified in Q1, find the positions where the value is 0 and is surrounded by 2s on both sides.",
+                    "Q3: Replace the 0s identified in Q2 with 2s to create the output grid."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid where the pattern of 2s and 0s is not alternating.",
+                    "Q2: For the rows identified in Q1, find the positions where the value is 0 and it is surrounded by 2s on both sides.",
+                    "Q3: Replace the 0s identified in Q2 with 2s to create the output grid."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid where the pattern of 2s and 0s is not alternating.",
+                    "Q2: For the rows identified in Q1, find the positions where the pattern is broken (i.e., two consecutive 2s or 0s).",
+                    "Q3: Change the value at the positions identified in Q2 to make the pattern of 2s and 0s alternating again."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows in the input grid where the pattern of 2s and 0s is not alternating.",
+                "Q2: For the rows identified in Q1, find the positions where the value is 0 and is surrounded by 2s on both sides.",
+                "Q3: Replace the 0s identified in Q2 with 2s to create the output grid."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Change the color of the cells identified in Q1 to the color of the cell that is not surrounded by 1s in the same row.",
+                    "Q3: Identify the cells that are not surrounded by 1s and not changed in Q2.",
+                    "Q4: Change the color of the cells identified in Q3 to the color of the cell that is surrounded by 1s in the same row.",
+                    "Q5: Identify the cells that are not surrounded by 1s and not changed in Q2 and Q4.",
+                    "Q6: Change the color of the cells identified in Q5 to the color of the cell that is surrounded by 1s in the same column.",
+                    "Q7: Identify the cells that are not surrounded by 1s and not changed in Q2, Q4 and Q6.",
+                    "Q8: Change the color of the cells identified in Q7 to the color of the cell that is surrounded by 1s in the same column.",
+                    "Q9: Identify the cells that are not surrounded by 1s and not changed in Q2, Q4, Q6 and Q8.",
+                    "Q10: Change the color of the cells identified in Q9 to the color of the cell that is not surrounded by 1s in the same row or column.",
+                    "Q11: Identify the cells that are not surrounded by 1s and not changed in Q2, Q4, Q6, Q8 and Q10.",
+                    "Q12: Change the color of the cells identified in Q11 to the color of the cell that is not surrounded by 1s in the same row or column."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Replace the identified cells with the number 3.",
+                    "Q3: Identify the cells that are not surrounded by 1s and have a number other than 0.",
+                    "Q4: Replace the identified cells with the number 2.",
+                    "Q5: Identify the cells that are not surrounded by 1s and have the number 0.",
+                    "Q6: Replace the identified cells with the number 4.",
+                    "Q7: Identify the cells that are surrounded by 1s and have a number other than 0 or 1.",
+                    "Q8: Replace the identified cells with the number 8.",
+                    "Q9: Identify the cells that are not surrounded by 1s and have the number 1.",
+                    "Q10: Replace the identified cells with the number 6.",
+                    "Q11: Identify the cells that are surrounded by 1s and have the number 1.",
+                    "Q12: Replace the identified cells with the number 3."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Change the color of the cells identified in Q1 to the color of the cell that is not surrounded by 1s in the same row.",
+                    "Q3: Identify the cells that are not surrounded by 1s and not changed in Q2.",
+                    "Q4: Change the color of the cells identified in Q3 to the color of the cell that is surrounded by 1s in the same row.",
+                    "Q5: Identify the cells that are not surrounded by 1s and not changed in Q2 and Q4.",
+                    "Q6: Change the color of the cells identified in Q5 to the color of the cell that is surrounded by 1s in the same column.",
+                    "Q7: Identify the cells that are not surrounded by 1s and not changed in Q2, Q4 and Q6.",
+                    "Q8: Change the color of the cells identified in Q7 to the color of the cell that is surrounded by 1s in the same column.",
+                    "Q9: Identify the cells that are not surrounded by 1s and not changed in Q2, Q4, Q6 and Q8.",
+                    "Q10: Change the color of the cells identified in Q9 to the color of the cell that is not surrounded by 1s in the same row or column.",
+                    "Q11: Identify the cells that are not surrounded by 1s and not changed in Q2, Q4, Q6, Q8 and Q10.",
+                    "Q12: Change the color of the cells identified in Q11 to the color of the cell that is not surrounded by 1s in the same row or column."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                "Q2: Replace the identified cells with the number 3.",
+                "Q3: Identify the cells that are not surrounded by 1s and have a number other than 0.",
+                "Q4: Replace the identified cells with the number 2.",
+                "Q5: Identify the cells that are not surrounded by 1s and have the number 0.",
+                "Q6: Replace the identified cells with the number 4.",
+                "Q7: Identify the cells that are surrounded by 1s and have a number other than 0 or 1.",
+                "Q8: Replace the identified cells with the number 8.",
+                "Q9: Identify the cells that are not surrounded by 1s and have the number 1.",
+                "Q10: Replace the identified cells with the number 6.",
+                "Q11: Identify the cells that are surrounded by 1s and have the number 1.",
+                "Q12: Replace the identified cells with the number 3."
+            ]
+        }
+    ]
+}

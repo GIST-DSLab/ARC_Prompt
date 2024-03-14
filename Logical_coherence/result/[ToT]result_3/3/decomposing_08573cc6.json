@@ -1,0 +1,57 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                    "Q2: Determine the direction from the first number to the second number.",
+                    "Q3: Create a line of the first number from its original position to the position of the second number.",
+                    "Q4: Create a line of the second number perpendicular to the first line, starting from the position of the second number and extending in both directions.",
+                    "Q5: Identify the position of the third number in the input grid.",
+                    "Q6: Create a square of the first number around the third number, with the third number at the center.",
+                    "Q7: Fill the remaining area inside the square with the second number."
+                ],
+                [
+                    "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                    "Q2: Determine the direction from the first number to the second number.",
+                    "Q3: Draw a line of the first number from its position to the edge of the grid in the direction determined in Q2.",
+                    "Q4: Draw a line of the second number from its position to the edge of the grid in the opposite direction.",
+                    "Q5: Draw vertical lines of the second number from its position to the edge of the grid in both up and down directions.",
+                    "Q6: Draw a box using the first number, with the corners being the intersection points of the lines drawn in Q3, Q4 and Q5.",
+                    "Q7: Identify the position of the third number in the input grid.",
+                    "Q8: Draw a line of the first number from the third number's position to the edge of the grid in the direction opposite to the second number.",
+                    "Q9: Draw a line of the second number from the third number's position to the edge of the grid in the direction of the first number.",
+                    "Q10: Draw vertical lines of the second number from the third number's position to the edge of the grid in both up and down directions.",
+                    "Q11: Draw a box using the first number, with the corners being the intersection points of the lines drawn in Q8, Q9 and Q10."
+                ],
+                [
+                    "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                    "Q2: Determine the direction from the first number to the second number.",
+                    "Q3: Create a line of the first number from its original position to the position of the second number.",
+                    "Q4: Create a line of the second number perpendicular to the first line, starting from the position of the second number and extending in both directions.",
+                    "Q5: Identify the position of the third number in the input grid.",
+                    "Q6: Create a square of the first number around the third number, with the third number at the center.",
+                    "Q7: Fill the remaining area inside the square with the second number."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the coordinates of the two different numbers in the input grid.",
+                "Q2: Determine the direction from the first number to the second number.",
+                "Q3: Draw a line of the first number from its position to the edge of the grid in the direction determined in Q2.",
+                "Q4: Draw a line of the second number from its position to the edge of the grid in the opposite direction.",
+                "Q5: Draw vertical lines of the second number from its position to the edge of the grid in both up and down directions.",
+                "Q6: Draw a box using the first number, with the corners being the intersection points of the lines drawn in Q3, Q4 and Q5.",
+                "Q7: Identify the position of the third number in the input grid.",
+                "Q8: Draw a line of the first number from the third number's position to the edge of the grid in the direction opposite to the second number.",
+                "Q9: Draw a line of the second number from the third number's position to the edge of the grid in the direction of the first number.",
+                "Q10: Draw vertical lines of the second number from the third number's position to the edge of the grid in both up and down directions.",
+                "Q11: Draw a box using the first number, with the corners being the intersection points of the lines drawn in Q8, Q9 and Q10."
+            ]
+        }
+    ]
+}

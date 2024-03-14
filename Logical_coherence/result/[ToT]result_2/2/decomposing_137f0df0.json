@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows that are filled with 5s and 0s in the input grid.",
+                    "Q2: Identify the rows that are filled with 0s in the input grid.",
+                    "Q3: Replace the 0s in the rows identified in Q1 with 2s.",
+                    "Q4: Replace the 0s in the rows identified in Q2 with 1s.",
+                    "Q5: Maintain the pattern of 5s and 2s in the rows identified in Q1.",
+                    "Q6: Maintain the pattern of 1s and 2s in the rows identified in Q2."
+                ],
+                [
+                    "Q1: Identify the rows that are filled with 5s and 0s in the input grid.",
+                    "Q2: Identify the rows that are filled with only 0s in the input grid.",
+                    "Q3: Replace the 0s that are between 5s in the rows identified in Q1 with 2s.",
+                    "Q4: Replace the 0s in the rows identified in Q2 with 1s, except for the first and last 0s in each row.",
+                    "Q5: Replace the 0s that are between 2s in the rows identified in Q1 with 2s.",
+                    "Q6: Replace the 0s in the rows identified in Q2 with 1s, except for the first and last 0s in each row."
+                ],
+                [
+                    "Q1: Identify the rows that are filled with 5s and 0s in the input grid.",
+                    "Q2: Identify the rows that are filled with 0s in the input grid.",
+                    "Q3: Replace the 0s in the rows identified in Q1 with 2s.",
+                    "Q4: Replace the 0s in the rows identified in Q2 with 1s.",
+                    "Q5: Maintain the pattern of 5s and 2s in the rows identified in Q1.",
+                    "Q6: Maintain the pattern of 1s and 2s in the rows identified in Q2."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows that are filled with 5s and 0s in the input grid.",
+                "Q2: Identify the rows that are filled with only 0s in the input grid.",
+                "Q3: Replace the 0s that are between 5s in the rows identified in Q1 with 2s.",
+                "Q4: Replace the 0s in the rows identified in Q2 with 1s, except for the first and last 0s in each row.",
+                "Q5: Replace the 0s that are between 2s in the rows identified in Q1 with 2s.",
+                "Q6: Replace the 0s in the rows identified in Q2 with 1s, except for the first and last 0s in each row."
+            ]
+        }
+    ]
+}

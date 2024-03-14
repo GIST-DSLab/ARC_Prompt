@@ -1,0 +1,299 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that are surrounded by 4s on all four sides."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. "
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. "
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. "
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that are surrounded by 4s on all four sides.",
+                "Q2: Check if the identified cells from Q1 contain the number 1."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that are surrounded by 4s on all four sides.",
+                "Q2: Check if the identified cells from Q1 contain the number 1.",
+                "Q3: If the cell contains the number 1, change it to 3."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the number 1 to 3 in the cell."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the number 1 to 3 in the grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that are surrounded by 4s on all four sides.",
+                "Q2: Check if the identified cells from Q1 contain the number 1.",
+                "Q3: If the cell contains the number 1, change it to 3.",
+                "Q4: Identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that are surrounded by 4s on all four sides.",
+                "Q2: Check if the identified cells from Q1 contain the number 1.",
+                "Q3: If the cell contains the number 1, change it to 3.",
+                "Q4: Identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side.",
+                "Q5: Check if the identified cells from Q4 contain the number 1."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that are surrounded by 4s on all four sides.",
+                "Q2: Check if the identified cells from Q1 contain the number 1.",
+                "Q3: If the cell contains the number 1, change it to 3.",
+                "Q4: Identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side.",
+                "Q5: Check if the identified cells from Q4 contain the number 1.",
+                "Q6: If the cell contains the number 1, change it to 6."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6."
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that are surrounded by 4s on all four sides.",
+                "Q2: Check if the identified cells from Q1 contain the number 1.",
+                "Q3: If the cell contains the number 1, change it to 3.",
+                "Q4: Identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side.",
+                "Q5: Check if the identified cells from Q4 contain the number 1.",
+                "Q6: If the cell contains the number 1, change it to 6.",
+                "Q7: Identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides."
+            ]
+        },
+        {
+            "step": 7,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that are surrounded by 4s on all four sides.",
+                "Q2: Check if the identified cells from Q1 contain the number 1.",
+                "Q3: If the cell contains the number 1, change it to 3.",
+                "Q4: Identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side.",
+                "Q5: Check if the identified cells from Q4 contain the number 1.",
+                "Q6: If the cell contains the number 1, change it to 6.",
+                "Q7: Identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides.",
+                "Q8: Check if the identified cells from Q7 contain the number 1."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1."
+            ]
+        },
+        {
+            "step": 8,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that are surrounded by 4s on all four sides.",
+                "Q2: Check if the identified cells from Q1 contain the number 1.",
+                "Q3: If the cell contains the number 1, change it to 3.",
+                "Q4: Identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side.",
+                "Q5: Check if the identified cells from Q4 contain the number 1.",
+                "Q6: If the cell contains the number 1, change it to 6.",
+                "Q7: Identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides.",
+                "Q8: Check if the identified cells from Q7 contain the number 1.",
+                "Q9: If the cell contains the number 1, change it to 7."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA9: If the cell contains the number 1, we can simply assign the value 7 to that cell in the grid. This will change the cell's value from 1 to 7."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA9: If the cell contains the number 1, we can simply assign the value 7 to that cell in the grid. This will change the cell's value from 1 to 7."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA9: If the cell contains the number 1, we can simply assign the value 7 to that cell in the grid. This will change the cell's value from 1 to 7."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA9: If the cell contains the number 1, we can simply assign the value 7 to that cell in the grid. This will change the cell's value from 1 to 7."
+            ]
+        },
+        {
+            "step": 9,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that are surrounded by 4s on all four sides.",
+                "Q2: Check if the identified cells from Q1 contain the number 1.",
+                "Q3: If the cell contains the number 1, change it to 3.",
+                "Q4: Identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side.",
+                "Q5: Check if the identified cells from Q4 contain the number 1.",
+                "Q6: If the cell contains the number 1, change it to 6.",
+                "Q7: Identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides.",
+                "Q8: Check if the identified cells from Q7 contain the number 1.",
+                "Q9: If the cell contains the number 1, change it to 7.",
+                "Q10: Return the modified grid as the output."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA9: If the cell contains the number 1, we can simply assign the value 7 to that cell in the grid. This will change the cell's value from 1 to 7.\nA10: After performing all the above operations, we can return the modified grid as the output. This grid will have the same dimensions as the input grid, but some of the cells will have been changed from 1 to 3, 6, or 7 based on the conditions specified in the problem."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA9: If the cell contains the number 1, we can simply assign the value 7 to that cell in the grid. This will change the cell's value from 1 to 7.\nA10: After performing all the above operations, we can return the modified grid as the output. This grid will have the same dimensions as the input grid, but some of the cells will have been changed from 1 to 3, 6, or 7 based on the conditions specified in the problem."
+                ],
+                [
+                    "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA9: If the cell contains the number 1, we can simply assign the value 7 to that cell in the grid. This will change the cell's value from 1 to 7.\nA10: After performing all the above operations, we can return the modified grid as the output. This grid will have the same dimensions as the input grid, but some of the cells will have been changed according to the rules described in the previous steps."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells in the input grid that are surrounded by 4s on all four sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If all four neighbors are 4, then the cell is surrounded by 4s. \nA2: To check if the identified cells from Q1 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA3: If the cell contains the number 1, we can simply assign the value 3 to that cell in the grid. This will change the cell's value from 1 to 3.\nA4: To identify the cells in the input grid that are surrounded by 4s on three sides and 0 on one side, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If three neighbors are 4 and one neighbor is 0, then the cell is surrounded by 4s on three sides and 0 on one side.\nA5: To check if the identified cells from Q4 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA6: If the cell contains the number 1, we can simply assign the value 6 to that cell in the grid. This will change the cell's value from 1 to 6.\nA7: To identify the cells in the input grid that are surrounded by 4s on two sides and 0 on two sides, we need to iterate over each cell in the grid and check its four neighbors (top, bottom, left, and right). If two neighbors are 4 and two neighbors are 0, then the cell is surrounded by 4s on two sides and 0 on two sides.\nA8: To check if the identified cells from Q7 contain the number 1, we can simply check the value of the cell. If the value is 1, then it contains the number 1.\nA9: If the cell contains the number 1, we can simply assign the value 7 to that cell in the grid. This will change the cell's value from 1 to 7.\nA10: After performing all the above operations, we can return the modified grid as the output. This grid will have the same dimensions as the input grid, but some of the cells will have been changed from 1 to 3, 6, or 7 based on the conditions specified in the problem."
+            ]
+        }
+    ]
+}

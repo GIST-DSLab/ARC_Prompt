@@ -1,0 +1,200 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it that contains the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row found in Q2, count the number of 2s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 12, and 12 respectively."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row found in Q2, count the number of 2s.",
+                "Q4: Create a new grid with the same number of columns as the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row found in Q2, count the number of 2s.",
+                "Q4: Create a new grid with the same number of columns as the input grid.",
+                "Q5: For each row found in Q2, add a row to the new grid with the same number of 2s as counted in Q3, starting from the leftmost column."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:"
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row found in Q2, count the number of 2s.",
+                "Q4: Create a new grid with the same number of columns as the input grid.",
+                "Q5: For each row found in Q2, add a row to the new grid with the same number of 2s as counted in Q3, starting from the leftmost column.",
+                "Q6: For each row added in Q5, add a row above and below it with 0s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:\nA6: The new grid will be as follows:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:\nA6: The new grid will be as follows:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:\nA6: The new grid will be as follows:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:\nA6: The new grid will be as follows:"
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each identified row in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row found in Q2, count the number of 2s.",
+                "Q4: Create a new grid with the same number of columns as the input grid.",
+                "Q5: For each row found in Q2, add a row to the new grid with the same number of 2s as counted in Q3, starting from the leftmost column.",
+                "Q6: For each row added in Q5, add a row above and below it with 0s.",
+                "Q7: Add a row of 0s at the top and bottom of the new grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:\nA6: The new grid will be as follows:\nA7: The final output grid will be as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:\nA6: The new grid will be as follows:\nA7: The final output grid will be as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [2, 2, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:\nA6: The new grid will be as follows:\nA7: The final output grid will be as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the identified rows that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The number of 2s in each row found in Q2 are 12, 10, and 9 respectively.\nA4: The new grid will have 13 columns, the same as the input grid.\nA5: The new grid will be as follows:\nA6: The new grid will be as follows:\nA7: The final output grid will be as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+            ]
+        }
+    ]
+}

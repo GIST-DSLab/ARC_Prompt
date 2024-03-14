@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 8."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:"
+                ],
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:"
+                ],
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells in the input grid that contain the number 8 are as follows:"
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 8.",
+                "Q2: Determine the cells that are surrounded by 8s on all four sides (up, down, left, and right)."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:"
+                ],
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:"
+                ],
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:"
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 8.",
+                "Q2: Determine the cells that are surrounded by 8s on all four sides (up, down, left, and right).",
+                "Q3: Replace the cells identified in Q2 with the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:\nA3: After replacing the cells identified in Q2 with the number 2, the output grid is as follows:"
+                ],
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:\nA3: After replacing the cells identified in Q2 with the number 2, the output grid is as follows:"
+                ],
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:\nA3: After replacing the cells identified in Q2 with the number 2, the output grid is as follows:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:\nA3: After replacing the cells identified in Q2 with the number 2, the output grid is as follows:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the cells in the input grid that contain the number 8.",
+                "Q2: Determine the cells that are surrounded by 8s on all four sides (up, down, left, and right).",
+                "Q3: Replace the cells identified in Q2 with the number 2.",
+                "Q4: For the remaining cells containing 8, replace them with 0 to generate the output grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:\nA3: After replacing the cells identified in Q2 with the number 2, the output grid is as follows:\nA4: After replacing the remaining cells containing 8 with 0, the output grid is as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 2, 0, 0, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:\nA3: After replacing the cells identified in Q2 with the number 2, the output grid is as follows:\nA4: After replacing the remaining cells containing 8 with 0, the output grid is as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 2, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 2, 0, 0], [0, 2, 0, 0, 0, 0, 2, 0, 0, 2, 0, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 2, 0, 0], [0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 0], [0, 2, 0, 2, 0, 2, 0, 0, 0, 0, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:\nA3: After replacing the cells identified in Q2 with the number 2, the output grid is as follows:\nA4: After replacing the remaining cells containing 8 with 0, the output grid is as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0], [0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 2, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 0, 2, 0, 0, 2, 0, 0], [0, 2, 0, 0, 0, 0, 2, 0, 0, 2, 0, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 0, 0, 2, 2, 0, 0], [0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 0], [0, 2, 0, 2, 0, 2, 0, 0, 0, 0, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The cells in the input grid that contain the number 8 are as follows:\nA2: The cells that are surrounded by 8s on all four sides are as follows:\nA3: After replacing the cells identified in Q2 with the number 2, the output grid is as follows:\nA4: After replacing the remaining cells containing 8 with 0, the output grid is as follows:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 2, 0, 0, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that contain the number 5 in the input grid.",
+                    "Q2: Identify the cells that contain the number 1 in the input grid.",
+                    "Q3: Identify the cells that contain the number 3 in the input grid.",
+                    "Q4: Identify the cells that contain the number 6 in the input grid.",
+                    "Q5: Identify the cells that contain the number 7 in the input grid.",
+                    "Q6: Identify the cells that contain the number 8 in the input grid.",
+                    "Q7: Identify the cells that contain the number 9 in the input grid.",
+                    "Q8: Identify the cells that contain the number 2 in the input grid.",
+                    "Q9: Identify the cells that contain the number 4 in the input grid.",
+                    "Q10: Remove the numbers 2, 3, 4, 6, 7, 8, and 9 from the cells identified in Q2, Q3, Q4, Q5, Q6, Q7, Q8, and Q9."
+                ],
+                [
+                    "Q1: Identify the cells that contain the number 5 in the input grid.",
+                    "Q2: Identify the cells that contain the number 1 in the input grid.",
+                    "Q3: Identify the cells that contain the number 3 in the input grid.",
+                    "Q4: Identify the cells that contain the number 6 in the input grid.",
+                    "Q5: Identify the cells that contain the number 7 in the input grid.",
+                    "Q6: Identify the cells that contain the number 8 in the input grid.",
+                    "Q7: Identify the cells that contain the number 9 in the input grid.",
+                    "Q8: Identify the cells that contain the number 2 in the input grid.",
+                    "Q9: Identify the cells that contain the number 4 in the input grid.",
+                    "Q10: Remove the numbers 2, 3, 4, 6, 7, 8, and 9 from the cells identified in Q2, Q3, Q4, Q5, Q6, Q7, Q8, and Q9."
+                ],
+                [
+                    "Q1: Identify the cells that contain the number 5 in the input grid.",
+                    "Q2: Check if the cells in the same row as the cells identified in Q1 contain any other numbers.",
+                    "Q3: If there are other numbers in the same row, remove these numbers and replace them with 0.",
+                    "Q4: Repeat the process for all rows that contain the number 5.",
+                    "Q5: Identify the cells that contain the number 6 in the input grid.",
+                    "Q6: Check if the cells in the same column as the cells identified in Q5 contain any other numbers.",
+                    "Q7: If there are other numbers in the same column, remove these numbers and replace them with 0.",
+                    "Q8: Repeat the process for all columns that contain the number 6."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that contain the number 5 in the input grid.",
+                "Q2: Check if the cells in the same row as the cells identified in Q1 contain any other numbers.",
+                "Q3: If there are other numbers in the same row, remove these numbers and replace them with 0.",
+                "Q4: Repeat the process for all rows that contain the number 5.",
+                "Q5: Identify the cells that contain the number 6 in the input grid.",
+                "Q6: Check if the cells in the same column as the cells identified in Q5 contain any other numbers.",
+                "Q7: If there are other numbers in the same column, remove these numbers and replace them with 0.",
+                "Q8: Repeat the process for all columns that contain the number 6."
+            ]
+        }
+    ]
+}

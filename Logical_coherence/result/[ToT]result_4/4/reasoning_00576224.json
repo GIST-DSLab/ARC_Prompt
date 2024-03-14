@@ -1,0 +1,169 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the size of the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The size of the input grid is 2x2."
+                ],
+                [
+                    "A1: The size of the input grid is 2x2."
+                ],
+                [
+                    "A1: The size of the input grid is 2x2."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The size of the input grid is 2x2."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the size of the input grid.",
+                "Q2: Create a new grid that is three times the size of the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6."
+                ],
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6."
+                ],
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the size of the input grid.",
+                "Q2: Create a new grid that is three times the size of the input grid.",
+                "Q3: Fill the new grid with the values from the input grid, repeating each row three times."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:"
+                ],
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:"
+                ],
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the size of the input grid.",
+                "Q2: Create a new grid that is three times the size of the input grid.",
+                "Q3: Fill the new grid with the values from the input grid, repeating each row three times.",
+                "Q4: For every second row in the new grid, reverse the order of the values."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:"
+                ],
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:"
+                ],
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:"
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the size of the input grid.",
+                "Q2: Create a new grid that is three times the size of the input grid.",
+                "Q3: Fill the new grid with the values from the input grid, repeating each row three times.",
+                "Q4: For every second row in the new grid, reverse the order of the values.",
+                "Q5: Repeat the process for each column, repeating each column three times."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:\nA5: The final output grid will be:"
+                ],
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:\nA5: The final output grid will be:"
+                ],
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:\nA5: The final output grid will be:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:\nA5: The final output grid will be:"
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the size of the input grid.",
+                "Q2: Create a new grid that is three times the size of the input grid.",
+                "Q3: Fill the new grid with the values from the input grid, repeating each row three times.",
+                "Q4: For every second row in the new grid, reverse the order of the values.",
+                "Q5: Repeat the process for each column, repeating each column three times.",
+                "Q6: For every second column in the new grid, reverse the order of the values."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:\nA5: The final output grid will be:\nA6: The final output grid will be:\n\n[[3, 2, 3, 2, 3, 2], [7, 8, 7, 8, 7, 8], [2, 3, 2, 3, 2, 3], [8, 7, 8, 7, 8, 7], [3, 2, 3, 2, 3, 2], [7, 8, 7, 8, 7, 8]]."
+                ],
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:\nA5: The final output grid will be:\nA6: The final output grid will be:\n\n[[3, 2, 3, 2, 3, 2], [7, 8, 7, 8, 7, 8], [2, 3, 2, 3, 2, 3], [8, 7, 8, 7, 8, 7], [3, 2, 3, 2, 3, 2], [7, 8, 7, 8, 7, 8]]."
+                ],
+                [
+                    "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:\nA5: The final output grid will be:\nA6: The final output grid will be:\n\n[[3, 2, 3, 2, 3, 2], [7, 8, 7, 8, 7, 8], [2, 3, 2, 3, 2, 3], [8, 7, 8, 7, 8, 7], [3, 2, 3, 2, 3, 2], [7, 8, 7, 8, 7, 8]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                0.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The size of the input grid is 2x2.\nA2: The new grid will be 6x6.\nA3: The new grid will be:\nA4: The new grid will be:\nA5: The final output grid will be:\nA6: The final output grid will be:\n\n[[3, 2, 3, 2, 3, 2], [7, 8, 7, 8, 7, 8], [2, 3, 2, 3, 2, 3], [8, 7, 8, 7, 8, 7], [3, 2, 3, 2, 3, 2], [7, 8, 7, 8, 7, 8]]."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells in the grid that contain the number 8.",
+                    "Q2: Check if the identified cells form a specific pattern or shape.",
+                    "Q3: If a specific pattern or shape is identified, replace the number 8 with the number 3 in those cells.",
+                    "Q4: Leave the cells that do not form the specific pattern or shape as they are.",
+                    "Q5: Ignore the cells that contain the number 1 and leave them as they are."
+                ],
+                [
+                    "Q1: Identify the cells in the grid that contain the number 8.",
+                    "Q2: Check if the identified cells form a specific pattern or shape.",
+                    "Q3: If a specific pattern or shape is identified, replace the number 8 with the number 3 in those cells.",
+                    "Q4: Leave the cells that do not form the specific pattern or shape as they are.",
+                    "Q5: Ignore the cells that contain the number 1, they do not affect the transformation."
+                ],
+                [
+                    "Q1: Identify the cells in the grid that contain the number 8.",
+                    "Q2: Check if the identified cells form a specific pattern or shape.",
+                    "Q3: If a pattern or shape is identified, replace the number 8 with the number 3 in the cells forming the pattern or shape.",
+                    "Q4: Leave the cells that do not form the pattern or shape as they are."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells in the grid that contain the number 8.",
+                "Q2: Check if the identified cells form a specific pattern or shape.",
+                "Q3: If a pattern or shape is identified, replace the number 8 with the number 3 in the cells forming the pattern or shape.",
+                "Q4: Leave the cells that do not form the pattern or shape as they are."
+            ]
+        }
+    ]
+}

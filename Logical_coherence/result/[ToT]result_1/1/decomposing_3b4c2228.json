@@ -1,0 +1,55 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the positions of the number 3 in the input grid.",
+                    "Q2: Count the number of 3s in each row and column.",
+                    "Q3: Identify the positions of the number 2 in the input grid.",
+                    "Q4: Count the number of 2s in each row and column.",
+                    "Q5: Compare the counts of 3s and 2s in each row and column.",
+                    "Q6: Create a new grid with the same number of rows and 3 columns.",
+                    "Q7: Fill the new grid with 1s in the positions where the count of 3s is greater than the count of 2s, and with 0s elsewhere."
+                ],
+                [
+                    "Q1: Identify the positions of the number 3 in the input grid.",
+                    "Q2: Count the number of 3s in each row and column.",
+                    "Q3: Identify the positions of the number 2 in the input grid.",
+                    "Q4: Count the number of 2s in each row and column.",
+                    "Q5: Compare the counts of 3s and 2s in each row and column.",
+                    "Q6: Create a new 3x3 grid.",
+                    "Q7: If a row or column has more 3s than 2s, mark the corresponding cell in the new grid as 1.",
+                    "Q8: If a row or column has more 2s than 3s, mark the corresponding cell in the new grid as 0.",
+                    "Q9: If a row or column has an equal number of 3s and 2s, leave the corresponding cell in the new grid as 0."
+                ],
+                [
+                    "Q1: Identify the positions of the number 3 in the input grid.",
+                    "Q2: Count the number of 3s in each row and column.",
+                    "Q3: Identify the positions of the number 2 in the input grid.",
+                    "Q4: Count the number of 2s in each row and column.",
+                    "Q5: Compare the counts of 3s and 2s in each row and column.",
+                    "Q6: Create a new 3x3 grid.",
+                    "Q7: If a row or column has more 3s than 2s, mark the corresponding cell in the new grid as 1.",
+                    "Q8: If a row or column has more 2s than 3s, mark the corresponding cell in the new grid as 0.",
+                    "Q9: If a row or column has an equal number of 2s and 3s, leave the corresponding cell in the new grid as 0."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the positions of the number 3 in the input grid.",
+                "Q2: Count the number of 3s in each row and column.",
+                "Q3: Identify the positions of the number 2 in the input grid.",
+                "Q4: Count the number of 2s in each row and column.",
+                "Q5: Compare the counts of 3s and 2s in each row and column.",
+                "Q6: Create a new 3x3 grid.",
+                "Q7: If a row or column has more 3s than 2s, mark the corresponding cell in the new grid as 1.",
+                "Q8: If a row or column has more 2s than 3s, mark the corresponding cell in the new grid as 0.",
+                "Q9: If a row or column has an equal number of 3s and 2s, leave the corresponding cell in the new grid as 0."
+            ]
+        }
+    ]
+}

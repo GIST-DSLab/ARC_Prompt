@@ -1,0 +1,38 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that have a non-zero value in the input grid.",
+                    "Q2: For each non-zero cell, check if there are any non-zero cells in the same row.",
+                    "Q3: If there are non-zero cells in the same row, replace the zero cells between them with the value of the non-zero cell.",
+                    "Q4: Repeat the process for each row in the grid.",
+                    "Q5: Generate the output grid by applying the changes from Q3 and Q4."
+                ],
+                [
+                    "Q1: Identify the cells that have a non-zero value in the input grid.",
+                    "Q2: For each non-zero cell, check if there are any non-zero cells in the same row.",
+                    "Q3: If there are non-zero cells in the same row, replace the zero cells between them with the value of the non-zero cell.",
+                    "Q4: Repeat the process for each row in the input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the cells that have a non-zero value in the input grid.",
+                    "Q2: For each non-zero cell, check if there are any non-zero cells in the same row.",
+                    "Q3: If there are non-zero cells in the same row, replace the zero cells between them with the minimum value of the non-zero cells.",
+                    "Q4: Repeat the process for each row in the grid to generate the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that have a non-zero value in the input grid.",
+                "Q2: For each non-zero cell, check if there are any non-zero cells in the same row.",
+                "Q3: If there are non-zero cells in the same row, replace the zero cells between them with the value of the non-zero cell.",
+                "Q4: Repeat the process for each row in the input grid to generate the output grid."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the row that contains the number 5.",
+                    "Q2: Remove all rows above and below the row identified in Q1.",
+                    "Q3: Identify the numbers in the remaining grid that are not 0 or 5.",
+                    "Q4: For each number identified in Q3, find the corresponding pattern in the input grid.",
+                    "Q5: Replace the number in the remaining grid with the pattern identified in Q4, ensuring the pattern is centered around the original number's position.",
+                    "Q6: Remove the row containing the number 5 from the grid."
+                ],
+                [
+                    "Q1: Identify the row that contains the number 5.",
+                    "Q2: Remove all rows above and below the row identified in Q1.",
+                    "Q3: Identify the numbers in the remaining grid that are not 0 or 5.",
+                    "Q4: For each number identified in Q3, find the corresponding pattern in the original input grid.",
+                    "Q5: Replace the number in the remaining grid with the pattern identified in Q4, keeping the same position relative to the row of 5s.",
+                    "Q6: If there is no corresponding pattern for a number, replace it with 0."
+                ],
+                [
+                    "Q1: Identify the row that contains the number 5.",
+                    "Q2: Remove all rows above and below the row identified in Q1.",
+                    "Q3: Identify the numbers in the remaining grid that are not 0 or 5.",
+                    "Q4: For each number identified in Q3, find the corresponding pattern in the input grid.",
+                    "Q5: Replace the number in the remaining grid with the pattern identified in Q4, ensuring the pattern is centered around the original number's position.",
+                    "Q6: Remove the row containing the number 5 from the grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the row that contains the number 5.",
+                "Q2: Remove all rows above and below the row identified in Q1.",
+                "Q3: Identify the numbers in the remaining grid that are not 0 or 5.",
+                "Q4: For each number identified in Q3, find the corresponding pattern in the input grid.",
+                "Q5: Replace the number in the remaining grid with the pattern identified in Q4, ensuring the pattern is centered around the original number's position.",
+                "Q6: Remove the row containing the number 5 from the grid."
+            ]
+        }
+    ]
+}

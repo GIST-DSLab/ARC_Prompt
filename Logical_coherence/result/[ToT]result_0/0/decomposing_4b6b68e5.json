@@ -1,0 +1,39 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by the same color on all four sides.",
+                    "Q2: Determine the color of the surrounding cells.",
+                    "Q3: Change the color of the identified cells to the color of the surrounding cells, but with a different shade.",
+                    "Q4: Repeat the process for all colors present in the grid."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by the same color on all four sides.",
+                    "Q2: Determine the color of the surrounding cells.",
+                    "Q3: Change the color of the identified cells to the color of the surrounding cells, but with a different shade (lighter or darker).",
+                    "Q4: Identify the cells that are not surrounded by the same color on all four sides.",
+                    "Q5: Keep the color of these cells unchanged.",
+                    "Q6: Combine the cells from Q3 and Q5 to form the final output grid."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by the same color on all four sides.",
+                    "Q2: Determine the color of the surrounding cells.",
+                    "Q3: Change the color of the identified cells to the color of the surrounding cells, but with a different shade.",
+                    "Q4: Repeat the process for all colors present in the grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by the same color on all four sides.",
+                "Q2: Determine the color of the surrounding cells.",
+                "Q3: Change the color of the identified cells to the color of the surrounding cells, but with a different shade.",
+                "Q4: Repeat the process for all colors present in the grid."
+            ]
+        }
+    ]
+}

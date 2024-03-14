@@ -1,0 +1,38 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows in the input grid that contain the number 5.",
+                    "Q2: For each row identified in Q1, replace the 0s with the corresponding number from the row below it.",
+                    "Q3: Repeat the process for the rows containing the number 4 and 2, replacing the 0s with the corresponding number from the row below it.",
+                    "Q4: Combine the modified rows to form the output grid."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid that contain the number 5.",
+                    "Q2: For each row identified in Q1, replace the 0s with the corresponding number from the row below it.",
+                    "Q3: Repeat the process for the rows containing the number 4 and 2, replacing the 0s with the corresponding number from the row below it.",
+                    "Q4: Combine the modified rows to form the output grid."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid that contain the number 5.",
+                    "Q2: For each row identified in Q1, replace the 0s with the corresponding number from the same position in the rows that contain the number 4 and 2.",
+                    "Q3: Identify the rows in the input grid that contain the number 8.",
+                    "Q4: For each row identified in Q3, replace the 0s with the corresponding number from the same position in the rows that contain the number 4 and 2.",
+                    "Q5: Combine the rows from Q2 and Q4 to form the output grid."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows in the input grid that contain the number 5.",
+                "Q2: For each row identified in Q1, replace the 0s with the corresponding number from the row below it.",
+                "Q3: Repeat the process for the rows containing the number 4 and 2, replacing the 0s with the corresponding number from the row below it.",
+                "Q4: Combine the modified rows to form the output grid."
+            ]
+        }
+    ]
+}

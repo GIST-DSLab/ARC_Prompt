@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. The pattern seems to be that the grid is mirrored vertically, with the top half being the original and the bottom half being the mirror image.",
+                    "Q2: Identify the elements that are being mirrored in the input grid. In the examples, these are the rows with non-zero elements.",
+                    "Q3: Determine the number of rows in the input grid that need to be mirrored to the bottom half.",
+                    "Q4: Identify the position of the first non-zero element in each row that needs to be mirrored.",
+                    "Q5: Identify the position of the last non-zero element in each row that needs to be mirrored.",
+                    "Q6: Determine the number of rows in the output grid that will contain the mirrored elements.",
+                    "Q7: Create the mirrored elements in the output grid by copying the elements from the identified positions in the input grid to the corresponding positions in the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. The pattern seems to be that the grid is mirrored vertically, with the top half being the original and the bottom half being the mirror image.",
+                    "Q2: Identify the elements that are being mirrored in the input grid. In the examples, these are the rows with non-zero elements.",
+                    "Q3: Determine the number of rows in the input grid that need to be mirrored to the bottom half.",
+                    "Q4: Identify the position of the rows that need to be mirrored in the input grid.",
+                    "Q5: Mirror the identified rows to the bottom half of the grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. The pattern seems to be that the grid is mirrored vertically, with the top half being the original and the bottom half being the mirror image.",
+                    "Q2: Identify the elements that are being mirrored in the input grid. In the examples, these are the rows with non-zero elements.",
+                    "Q3: Determine the number of rows in the input grid that need to be mirrored to the bottom half.",
+                    "Q4: Identify the position of the first non-zero element in each row that needs to be mirrored.",
+                    "Q5: Identify the position of the last non-zero element in each row that needs to be mirrored.",
+                    "Q6: Determine the number of rows in the output grid that will contain the mirrored elements.",
+                    "Q7: Create the mirrored elements in the output grid by copying the elements from the identified positions in the input grid to the corresponding positions in the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the input grids of the examples. The pattern seems to be that the grid is mirrored vertically, with the top half being the original and the bottom half being the mirror image.",
+                "Q2: Identify the elements that are being mirrored in the input grid. In the examples, these are the rows with non-zero elements.",
+                "Q3: Determine the number of rows in the input grid that need to be mirrored to the bottom half.",
+                "Q4: Identify the position of the rows that need to be mirrored in the input grid.",
+                "Q5: Mirror the identified rows to the bottom half of the grid to generate the output grid."
+            ]
+        }
+    ]
+}

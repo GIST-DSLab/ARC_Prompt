@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a 10x10 grid, which is twice the size of the input grid in both dimensions.",
+                    "Q3: Observe that the first half of the output grid is a copy of the input grid with the center value replaced by the top left value of the input grid.",
+                    "Q4: Notice that the second half of the output grid is a 5x5 grid with the same value as the top left value of the input grid, followed by a 5x5 grid with the same value as the center value of the input grid.",
+                    "Q5: Apply these observations to the input grid of the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a 10x10 grid, which is twice the size of the input grid.",
+                    "Q3: Observe that the first half of the output grid is a mirrored version of the input grid with the center value replaced by the outermost value of the input grid.",
+                    "Q4: Notice that the second half of the output grid is a mirrored version of the input grid with all values replaced by the center value of the input grid.",
+                    "Q5: Apply these observations to the quiz input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a 10x10 grid, which is twice the size of the input grid in both dimensions.",
+                    "Q3: Observe that the first half of the output grid is a mirrored version of the input grid with the center value replaced by the top left value of the input grid.",
+                    "Q4: Notice that the second half of the output grid is a mirrored version of the input grid with the center value replaced by the bottom right value of the input grid.",
+                    "Q5: Apply the same transformation to the input grid of the quiz to generate the output grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                "Q2: Notice that the output grid is a 10x10 grid, which is twice the size of the input grid in both dimensions.",
+                "Q3: Observe that the first half of the output grid is a copy of the input grid with the center value replaced by the top left value of the input grid.",
+                "Q4: Notice that the second half of the output grid is a 5x5 grid with the same value as the top left value of the input grid, followed by a 5x5 grid with the same value as the center value of the input grid.",
+                "Q5: Apply these observations to the input grid of the quiz to generate the output grid."
+            ]
+        }
+    ]
+}

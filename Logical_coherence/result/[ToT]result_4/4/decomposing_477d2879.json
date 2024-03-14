@@ -1,0 +1,50 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Change the color of the cells identified in Q1 to the color of the cell that is not 0 or 1 and is closest to them.",
+                    "Q3: Identify the cells that are not surrounded by 1s and have a color other than 0 or 1.",
+                    "Q4: Change the color of the cells identified in Q3 to the color of the cell that is not 0 or 1 and is closest to them.",
+                    "Q5: Change the color of the remaining cells to the color of the cell that is not 0 or 1 and is closest to them."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Change the color of the cells identified in Q1 to 3.",
+                    "Q3: Identify the cells that are not surrounded by 1s and have a different color.",
+                    "Q4: Change the color of the cells identified in Q3 to 2.",
+                    "Q5: Identify the cells that have a color other than 1 in the input grid.",
+                    "Q6: Change the color of the cells identified in Q5 to the color of the cell in the input grid.",
+                    "Q7: Identify the cells that are not surrounded by 1s and have the same color as the cell in the input grid.",
+                    "Q8: Change the color of the cells identified in Q7 to 8.",
+                    "Q9: Identify the cells that are surrounded by 1s and have the same color as the cell in the input grid.",
+                    "Q10: Change the color of the cells identified in Q9 to 6.",
+                    "Q11: Identify the cells that have a color other than 1 and are not surrounded by 1s in the input grid.",
+                    "Q12: Change the color of the cells identified in Q11 to 7.",
+                    "Q13: Identify the cells that have a color other than 1 and are surrounded by 1s in the input grid.",
+                    "Q14: Change the color of the cells identified in Q13 to 4."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Change the color of the cells identified in Q1 to the color of the cell that is not 0 or 1 and is closest to them.",
+                    "Q3: Identify the cells that are not surrounded by 1s and have a color other than 0 or 1.",
+                    "Q4: Change the color of the cells identified in Q3 to the color of the cell that is not 0 or 1 and is closest to them.",
+                    "Q5: Change the color of the remaining cells to the color of the cell that is not 0 or 1 and is closest to them."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                "Q2: Change the color of the cells identified in Q1 to the color of the cell that is not 0 or 1 and is closest to them.",
+                "Q3: Identify the cells that are not surrounded by 1s and have a color other than 0 or 1.",
+                "Q4: Change the color of the cells identified in Q3 to the color of the cell that is not 0 or 1 and is closest to them.",
+                "Q5: Change the color of the remaining cells to the color of the cell that is not 0 or 1 and is closest to them."
+            ]
+        }
+    ]
+}

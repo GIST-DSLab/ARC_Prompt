@@ -1,0 +1,48 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows in the input grid that are completely filled with 1s.",
+                    "Q2: Change all the 1s in the rows identified in Q1 to 2s.",
+                    "Q3: Identify the rows in the input grid that are completely filled with 8s.",
+                    "Q4: Keep the rows identified in Q3 as they are.",
+                    "Q5: Identify the rows in the input grid that have a combination of 1s and 8s.",
+                    "Q6: Change the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides.",
+                    "Q7: Keep the remaining cells in the grid as they are."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid that are completely filled with 1s.",
+                    "Q2: Change all the 1s in the rows identified in Q1 to 2s.",
+                    "Q3: Identify the rows in the input grid that are completely filled with 8s.",
+                    "Q4: Keep the rows identified in Q3 as they are.",
+                    "Q5: Identify the rows in the input grid that have a combination of 1s and 8s.",
+                    "Q6: Change the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides.",
+                    "Q7: Keep the remaining elements in the grid as they are."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid that are completely filled with 1s.",
+                    "Q2: Change all the 1s in the rows identified in Q1 to 2s.",
+                    "Q3: Identify the rows in the input grid that are filled with 1s and 0s only.",
+                    "Q4: Change all the 1s in the rows identified in Q3 to 2s.",
+                    "Q5: Identify the rows in the input grid that are filled with 8s and 0s only.",
+                    "Q6: Change all the 1s in the rows identified in Q5 to 2s."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows in the input grid that are completely filled with 1s.",
+                "Q2: Change all the 1s in the rows identified in Q1 to 2s.",
+                "Q3: Identify the rows in the input grid that are completely filled with 8s.",
+                "Q4: Keep the rows identified in Q3 as they are.",
+                "Q5: Identify the rows in the input grid that have a combination of 1s and 8s.",
+                "Q6: Change the 1s in the rows identified in Q5 to 2s, only if they are surrounded by 8s on both sides.",
+                "Q7: Keep the remaining cells in the grid as they are."
+            ]
+        }
+    ]
+}

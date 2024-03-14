@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the size of the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The size of the input grid is 3x3."
+                ],
+                [
+                    "A1: The size of the input grid is 3x3."
+                ],
+                [
+                    "A1: The size of the input grid is 3x3."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The size of the input grid is 3x3."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the size of the input grid.",
+                "Q2: Create a new grid that is three times the size of the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9."
+                ],
+                [
+                    "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9."
+                ],
+                [
+                    "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the size of the input grid.",
+                "Q2: Create a new grid that is three times the size of the input grid.",
+                "Q3: Copy the input grid into the top left, top right, middle left, middle right, bottom left and bottom right sections of the new grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9.\nA3: The new grid will look like this:"
+                ],
+                [
+                    "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9.\nA3: The new grid will look like this:"
+                ],
+                [
+                    "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9.\nA3: The new grid will look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9.\nA3: The new grid will look like this:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the size of the input grid.",
+                "Q2: Create a new grid that is three times the size of the input grid.",
+                "Q3: Copy the input grid into the top left, top right, middle left, middle right, bottom left and bottom right sections of the new grid.",
+                "Q4: Fill the remaining cells in the new grid with 0s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9.\nA3: The new grid will look like this:\nA4: The final output grid will look like this:\n\n[[9, 6, 7, 9, 6, 7, 0, 0, 0], [8, 7, 7, 8, 7, 7, 0, 0, 0], [2, 8, 7, 2, 8, 7, 0, 0, 0], [9, 6, 7, 0, 0, 0, 0, 0, 0], [8, 7, 7, 0, 0, 0, 0, 0, 0], [2, 8, 7, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9.\nA3: The new grid will look like this:\nA4: The final output grid will look like this:\n\n[[9, 6, 7, 9, 6, 7, 0, 0, 0], [8, 7, 7, 8, 7, 7, 0, 0, 0], [2, 8, 7, 2, 8, 7, 0, 0, 0], [9, 6, 7, 0, 0, 0, 0, 0, 0], [8, 7, 7, 0, 0, 0, 0, 0, 0], [2, 8, 7, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9.\nA3: The new grid will look like this:\nA4: The final output grid will look like this:\n\n[[9, 6, 7, 9, 6, 7, 0, 0, 0], [8, 7, 7, 8, 7, 7, 0, 0, 0], [2, 8, 7, 2, 8, 7, 0, 0, 0], [9, 6, 7, 0, 0, 0, 0, 0, 0], [8, 7, 7, 0, 0, 0, 0, 0, 0], [2, 8, 7, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The size of the input grid is 3x3.\nA2: The new grid will be 9x9.\nA3: The new grid will look like this:\nA4: The final output grid will look like this:\n\n[[9, 6, 7, 9, 6, 7, 0, 0, 0], [8, 7, 7, 8, 7, 7, 0, 0, 0], [2, 8, 7, 2, 8, 7, 0, 0, 0], [9, 6, 7, 0, 0, 0, 0, 0, 0], [8, 7, 7, 0, 0, 0, 0, 0, 0], [2, 8, 7, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

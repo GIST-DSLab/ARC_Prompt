@@ -1,0 +1,42 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                    "Q2: Determine the size of the output grid based on the identified areas.",
+                    "Q3: Copy the contents of the identified areas to the output grid.",
+                    "Q4: Check if there are any special numbers (like 2, 3, 4) in the copied areas.",
+                    "Q5: If there are special numbers, maintain their position in the output grid."
+                ],
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                    "Q2: Determine the size of the output grid based on the identified areas.",
+                    "Q3: Copy the contents of the identified areas to the output grid.",
+                    "Q4: Check if there are any special numbers (like 2, 3, 4) in the copied areas.",
+                    "Q5: If there are special numbers, maintain their position in the output grid."
+                ],
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers.",
+                    "Q2: Determine the pattern of numbers within the identified areas from Q1.",
+                    "Q3: Isolate these patterns and remove the surrounding 8s.",
+                    "Q4: Identify any transformations or changes that occur within these patterns from the examples.",
+                    "Q5: Apply the identified transformations or changes to the similar patterns in the quiz input grid.",
+                    "Q6: Replace the transformed patterns back into the original grid, maintaining the position relative to the surrounding 8s."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                "Q2: Determine the size of the output grid based on the identified areas.",
+                "Q3: Copy the contents of the identified areas to the output grid.",
+                "Q4: Check if there are any special numbers (like 2, 3, 4) in the copied areas.",
+                "Q5: If there are special numbers, maintain their position in the output grid."
+            ]
+        }
+    ]
+}

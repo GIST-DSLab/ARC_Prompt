@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, find the top left and bottom right coordinates of the rectangle that would encompass all cells of that color.",
+                    "Q3: Create a new grid with the dimensions equal to the number of unique colors by the maximum width or height of the rectangles identified in Q2.",
+                    "Q4: For each color, fill in a rectangle in the new grid at the corresponding row (based on the order of the colors identified in Q1) with the dimensions identified in Q2.",
+                    "Q5: If there are any empty cells in the new grid, fill them with the color 0."
+                ],
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, find the top left and bottom right coordinates of the rectangle that would encompass all cells of that color.",
+                    "Q3: Create a new grid with the dimensions equal to the number of unique colors by the maximum width or height of the rectangles identified in Q2.",
+                    "Q4: For each color, fill in a rectangle in the new grid at the corresponding row (based on the order of the colors identified in Q1) with the dimensions identified in Q2.",
+                    "Q5: If there are any empty cells in the new grid, fill them with the color 0."
+                ],
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, find the top left and bottom right coordinates of the rectangle that would encompass all cells of that color.",
+                    "Q3: Create a new grid with the dimensions equal to the number of unique colors by the maximum width or height of the rectangles identified in Q2.",
+                    "Q4: For each color, fill in a rectangle in the new grid at the corresponding row (based on the order of the colors identified in Q1) with the dimensions identified in Q2.",
+                    "Q5: If there are any empty cells in the new grid, fill them with the color 0."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: For each color, find the top left and bottom right coordinates of the rectangle that would encompass all cells of that color.",
+                "Q3: Create a new grid with the dimensions equal to the number of unique colors by the maximum width or height of the rectangles identified in Q2.",
+                "Q4: For each color, fill in a rectangle in the new grid at the corresponding row (based on the order of the colors identified in Q1) with the dimensions identified in Q2.",
+                "Q5: If there are any empty cells in the new grid, fill them with the color 0."
+            ]
+        }
+    ]
+}

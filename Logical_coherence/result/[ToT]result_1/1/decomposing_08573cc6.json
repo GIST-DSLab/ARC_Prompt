@@ -1,0 +1,61 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                    "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                    "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                    "Q4: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                    "Q5: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                    "Q6: Identify the location of the number 1 in the input grid.",
+                    "Q7: Draw a vertical line up from the number 1 until it reaches the same row as the smaller number.",
+                    "Q8: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                    "Q9: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                    "Q10: The remaining cells should be filled with 0."
+                ],
+                [
+                    "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                    "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                    "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                    "Q4: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                    "Q5: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                    "Q6: Identify the location of the number 1 in the input grid.",
+                    "Q7: Draw a vertical line up from the number 1 until it reaches the same row as the smaller number.",
+                    "Q8: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                    "Q9: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                    "Q10: The remaining cells should be filled with 0."
+                ],
+                [
+                    "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                    "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                    "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                    "Q4: Draw a horizontal line to the right from the smaller number until it reaches the same column as the larger number.",
+                    "Q5: Fill the rectangle formed by the two lines with the smaller number.",
+                    "Q6: Identify the location of the number 1 in the input grid.",
+                    "Q7: Draw a vertical line up from the number 1 until it reaches the same row as the smaller number.",
+                    "Q8: Draw a horizontal line to the left from the number 1 until it reaches the same column as the smaller number.",
+                    "Q9: Fill the rectangle formed by the two lines with the smaller number.",
+                    "Q10: Fill the remaining area of the grid with the larger number."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the location of the two different numbers in the first row of the input grid.",
+                "Q2: Determine the larger number and the smaller number between the two identified numbers.",
+                "Q3: Draw a vertical line down from the larger number until it reaches the same row as the smaller number.",
+                "Q4: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                "Q5: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                "Q6: Identify the location of the number 1 in the input grid.",
+                "Q7: Draw a vertical line up from the number 1 until it reaches the same row as the smaller number.",
+                "Q8: Draw a horizontal line from the end of the vertical line to the smaller number.",
+                "Q9: Fill the inside of the rectangle formed by the lines with the smaller number.",
+                "Q10: The remaining cells should be filled with 0."
+            ]
+        }
+    ]
+}

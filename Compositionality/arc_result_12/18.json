@@ -1,0 +1,73 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "move_down(state, object1)",
+                "move_down(state, object1)",
+                "move_down(state, object1)"
+            ],
+            "values": [
+                21.0,
+                21.0,
+                21.0
+            ],
+            "select_new_ys": [
+                "move_down(state, object1)",
+                "move_down(state, object1)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "move_down(state, object1)",
+                "move_down(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)"
+            ],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        },
+        {
+            "step": 3,
+            "dsl_ys": [],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        },
+        {
+            "step": 4,
+            "dsl_ys": [],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        }
+    ]
+}

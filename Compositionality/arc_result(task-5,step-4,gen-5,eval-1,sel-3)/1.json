@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "move_left(state, object1)",
+                "move_left(state, object1)",
+                "",
+                "move_left(state, object1)",
+                "move_left(state, object1)"
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "move_left(state, object1)",
+                "move_left(state, object1)",
+                ""
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "move_left(state, object1)",
+                "move_left(state, object1)",
+                ""
+            ],
+            "new_dsl_ys": [
+                "move_left(state, object1)",
+                "move_left(state, object1)",
+                "move_left(state, object1)",
+                "move_left(state, object1)",
+                "move_left(state, object1)"
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "move_left(state, object1)",
+                "move_left(state, object1)",
+                "move_left(state, object1)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "move_left(state, object1)",
+                "move_left(state, object1)",
+                "move_left(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "move_left(state, object1)->No more DSLs are needed.",
+                "move_left(state, object1)->move_left(state, object1)",
+                "move_left(state, object1)->move_left(state, object1)",
+                "move_left(state, object1)->None",
+                "move_left(state, object1)->move_left(state, object1)"
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "move_left(state, object1)->No more DSLs are needed.",
+                "move_left(state, object1)->move_left(state, object1)",
+                "move_left(state, object1)->move_left(state, object1)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "move_left(state, object1)->No more DSLs are needed.",
+                "move_left(state, object1)->move_left(state, object1)",
+                "move_left(state, object1)->move_left(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "move_left(state, object1)->move_left(state, object1)->move_left(state, object1)",
+                "move_left(state, object1)->move_left(state, object1)->move_left(state, object1)",
+                "move_left(state, object1)->move_left(state, object1)->move_left(state, object1)",
+                "move_left(state, object1)->move_left(state, object1)->move_left(state, object1)",
+                "move_left(state, object1)->move_left(state, object1)->move_left(state, object1)"
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "move_left(state, object1)->move_left(state, object1)->move_left(state, object1)",
+                "move_left(state, object1)->move_left(state, object1)->move_left(state, object1)",
+                "move_left(state, object1)->move_left(state, object1)->move_left(state, object1)"
+            ]
+        }
+    ]
+}

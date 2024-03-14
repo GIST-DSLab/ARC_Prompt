@@ -1,0 +1,38 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that contain the number 5 in the input grid.",
+                    "Q2: Identify the cells that contain a number other than 5 and 0 in the input grid.",
+                    "Q3: Determine if the cells identified in Q2 are in the same row or column as the cells identified in Q1.",
+                    "Q4: If the cells identified in Q2 are not in the same row or column as the cells identified in Q1, remove these numbers from the input grid.",
+                    "Q5: Generate the output grid by keeping the cells identified in Q1 and the remaining cells identified in Q2, and filling the rest of the grid with 0s."
+                ],
+                [
+                    "Q1: Identify the cells that contain the number 5 in the input grid.",
+                    "Q2: Identify the cells that contain a number other than 5 and 0 in the input grid.",
+                    "Q3: Determine if the cells identified in Q2 are in the same row or column as the cells identified in Q1.",
+                    "Q4: If the cells identified in Q2 are not in the same row or column as the cells identified in Q1, change the number in these cells to 0 in the output grid."
+                ],
+                [
+                    "Q1: Identify the cells that contain the number 5 in the input grid.",
+                    "Q2: Identify the cells that contain a number other than 5 and 0 in the input grid.",
+                    "Q3: Determine if the cells identified in Q2 are in the same row or column as the cells identified in Q1.",
+                    "Q4: If the cells identified in Q2 are not in the same row or column as the cells identified in Q1, remove these numbers from the input grid to generate the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that contain the number 5 in the input grid.",
+                "Q2: Identify the cells that contain a number other than 5 and 0 in the input grid.",
+                "Q3: Determine if the cells identified in Q2 are in the same row or column as the cells identified in Q1.",
+                "Q4: If the cells identified in Q2 are not in the same row or column as the cells identified in Q1, change the number in these cells to 0 in the output grid."
+            ]
+        }
+    ]
+}

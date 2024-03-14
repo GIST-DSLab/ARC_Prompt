@@ -1,0 +1,52 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the 3s in the input grid.",
+                    "Q2: Count the number of 3s in each row and column.",
+                    "Q3: Identify the locations of the 2s in the input grid.",
+                    "Q4: Count the number of 2s in each row and column.",
+                    "Q5: Create a new 3x3 grid.",
+                    "Q6: In the new grid, fill the top left cell with the number of rows containing 3s in the input grid.",
+                    "Q7: Fill the middle cell of the new grid with the number of columns containing 3s in the input grid.",
+                    "Q8: Fill the bottom right cell of the new grid with the number of rows containing 2s in the input grid.",
+                    "Q9: Fill the remaining cells of the new grid with 0s."
+                ],
+                [
+                    "Q1: Identify the locations of the 3s in the input grid.",
+                    "Q2: Count the number of 3s in each row and column.",
+                    "Q3: Identify the locations of the 2s in the input grid.",
+                    "Q4: Count the number of 2s in each row and column.",
+                    "Q5: Create a new grid with the same number of rows and columns as the input grid.",
+                    "Q6: For each row in the new grid, if there are more 3s than 2s in the corresponding row of the input grid, fill the first cell with 1, otherwise leave it as 0.",
+                    "Q7: For each column in the new grid, if there are more 3s than 2s in the corresponding column of the input grid, fill the first cell with 1, otherwise leave it as 0.",
+                    "Q8: For each cell in the new grid, if the corresponding cell in the input grid is a 3, fill it with 1, otherwise leave it as 0."
+                ],
+                [
+                    "Q1: Identify the locations of the 3s in the input grid.",
+                    "Q2: Count the number of 3s in each quadrant of the grid.",
+                    "Q3: Create a new 3x3 grid.",
+                    "Q4: Fill in the new grid with the count of 3s in each quadrant, with the top left quadrant's count going in the top left cell of the new grid, the top right quadrant's count going in the top right cell, and so on.",
+                    "Q5: Replace the counts in the new grid with 1s if the count is greater than 0, and 0s if the count is 0."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the locations of the 3s in the input grid.",
+                "Q2: Count the number of 3s in each row and column.",
+                "Q3: Identify the locations of the 2s in the input grid.",
+                "Q4: Count the number of 2s in each row and column.",
+                "Q5: Create a new 3x3 grid.",
+                "Q6: In the new grid, fill the top left cell with the number of rows containing 3s in the input grid.",
+                "Q7: Fill the middle cell of the new grid with the number of columns containing 3s in the input grid.",
+                "Q8: Fill the bottom right cell of the new grid with the number of rows containing 2s in the input grid.",
+                "Q9: Fill the remaining cells of the new grid with 0s."
+            ]
+        }
+    ]
+}

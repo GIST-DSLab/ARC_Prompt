@@ -1,0 +1,153 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the numbers in the input grid. "
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. ",
+                    "A2: The pattern in the output grid is similar to the input grid, but with some zeros replaced by numbers. Specifically, in each section, if the middle number is zero and the numbers on both sides are the same, the middle zero is replaced by that number. ",
+                    "A3: The transformation from the input grid to the output grid is to replace the middle zero in each symmetrical pattern with the number on both sides, if they are the same. ",
+                    "A4: Here is a Python function to implement the transformation:",
+                    "A5: Applying the function to the quiz input grid will give the output grid."
+                ],
+                [
+                    "A1: The pattern in the input grid is that there are several rectangles of different colors (represented by different numbers) arranged in a larger grid. Each rectangle has a border of its color and an inner area that is either empty (represented by 0) or filled with the same color. The rectangles are separated by rows and columns of zeros. ",
+                    "A2: The changes made to the input grid to produce the output grid are that the inner area of each rectangle is filled with the same color as the border, but only in a specific pattern. The pattern is that the color fills the middle row of the rectangle completely, and then fills the middle column of the rectangle, but only up to the point where it meets the already filled middle row. ",
+                    "A3: The changes can be applied to the quiz input grid by identifying the rectangles in the grid, and then filling the middle row and middle column of each rectangle according to the pattern described above."
+                ],
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. ",
+                    "A2: The pattern in the output grid is similar to the input grid, but with some zeros replaced by numbers. Specifically, in each section, if the middle number is zero and the numbers on both sides are the same, the middle zero is replaced by that number. ",
+                    "A3: The transformation from the input grid to the output grid is to replace the middle zero in each symmetrical pattern with the number on both sides, if they are the same. ",
+                    "A4: Here is a Python function to implement the transformation:",
+                    "A5: Applying the function to the quiz input grid will give the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. ",
+                "A2: The pattern in the output grid is similar to the input grid, but with some zeros replaced by numbers. Specifically, in each section, if the middle number is zero and the numbers on both sides are the same, the middle zero is replaced by that number. ",
+                "A3: The transformation from the input grid to the output grid is to replace the middle zero in each symmetrical pattern with the number on both sides, if they are the same. ",
+                "A4: Here is a Python function to implement the transformation:",
+                "A5: Applying the function to the quiz input grid will give the output grid."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the numbers in the input grid. ",
+                "Q2: Identify the changes made in the output grid compared to the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced."
+                ],
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and are surrounded by the same number on both sides, they remain as zeros."
+                ],
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and are surrounded by the same number on both sides, they remain as zeros."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the numbers in the input grid. ",
+                "Q2: Identify the changes made in the output grid compared to the input grid.",
+                "Q3: Determine the rule for the changes in the numbers in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged."
+                ],
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged."
+                ],
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the numbers in the input grid. ",
+                "Q2: Identify the changes made in the output grid compared to the input grid.",
+                "Q3: Determine the rule for the changes in the numbers in the grid.",
+                "Q4: Identify the pattern of the numbers in the quiz input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged.\nA4: The pattern in the quiz input grid is similar to the pattern in the example input grids. Each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical in some sections, but not in others."
+                ],
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged.\nA4: The pattern in the quiz input grid is similar to the pattern in the example input grids. Each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical in some sections, but not in others. "
+                ],
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged.\nA4: The pattern in the quiz input grid is similar to the pattern in the example input grids. Each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical in some sections, but not in others."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged.\nA4: The pattern in the quiz input grid is similar to the pattern in the example input grids. Each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical in some sections, but not in others. "
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the numbers in the input grid. ",
+                "Q2: Identify the changes made in the output grid compared to the input grid.",
+                "Q3: Determine the rule for the changes in the numbers in the grid.",
+                "Q4: Identify the pattern of the numbers in the quiz input grid.",
+                "Q5: Apply the rule determined in Q3 to the quiz input grid to generate the output grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged.\nA4: The pattern in the quiz input grid is similar to the pattern in the example input grids. Each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical in some sections, but not in others. \nA5: Applying the rule determined in Q3 to the quiz input grid, the output grid would be:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 1, 0, 8, 8, 8, 8, 8, 0, 3, 3, 3, 3, 3, 0, 7, 7, 7, 7, 7, 0], [0, 1, 0, 0, 0, 1, 0, 8, 0, 0, 0, 8, 0, 3, 0, 0, 3, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 0, 1, 0, 1, 0, 8, 8, 8, 0, 8, 0, 3, 0, 3, 0, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 0, 0, 0, 1, 0, 8, 0, 0, 0, 8, 0, 3, 3, 0, 0, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 1, 1, 1, 1, 0, 8, 8, 8, 8, 8, 0, 3, 3, 3, 3, 3, 0, 7, 7, 7, 7, 7, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 6, 6, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 1, 1, 1, 1, 0, 2, 2, 2, 2, 2, 0], [0, 6, 0, 6, 0, 6, 0, 2, 0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 2, 0], [0, 6, 0, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 2, 0], [0, 6, 0, 0, 0, 6, 0, 2, 0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 2, 0], [0, 6, 6, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 1, 1, 1, 1, 0, 2, 2, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 8, 8, 8, 8, 8, 0, 4, 4, 4, 4, 4, 0, 3, 3, 3, 3, 3, 0, 2, 2, 2, 2, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 0, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 0, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 0, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 8, 8, 8, 8, 0, 4, 4, 4, 4, 4, 0, 3, 3, 3, 3, 3, 0, 2, 2, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 2, 2, 2, 2, 2, 0, 8, 8, 8, 8, 8, 0, 2, 2, 2, 2, 2, 0, 6, 6, 6, 6, 6, 0], [0, 2, 0, 0, 0, 2, 0, 8, 0, 0, 0, 8, 0, 2, 0, 0, 0, 2, 0, 6, 0, 0, 0, 6, 0], [0, 2, 0, 0, 0, 2, 0, 8, 0, 0, 0, 8, 0, 2, 0, 0, 0, 2, 0, 6, 0, 0, 0, 6, 0], [0, 2, 0, 0, 0, 2, 0, 8, 0, 0, 0, 8, 0, 2, 0, 0, 0, 2, 0, 6, 0, 0, 0, 6, 0], [0, 2, 2, 2, 2, 2, 0, 8, 8, 8, 8, 8, 0, 2, 2, 2, 2, 2, 0, 6, 6, 6, 6, 6, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged.\nA4: The pattern in the quiz input grid is similar to the pattern in the example input grids. Each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical in some sections, but not in others. \nA5: Applying the rule determined in Q3 to the quiz input grid, the output grid would be:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 1, 0, 8, 8, 8, 8, 8, 0, 3, 3, 3, 3, 3, 0, 7, 7, 7, 7, 7, 0], [0, 1, 0, 0, 0, 1, 0, 8, 0, 0, 0, 8, 0, 3, 0, 0, 3, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 0, 1, 0, 1, 0, 8, 8, 8, 0, 8, 0, 3, 0, 3, 0, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 0, 0, 0, 1, 0, 8, 0, 0, 0, 8, 0, 3, 3, 0, 0, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 1, 1, 1, 1, 0, 8, 8, 8, 8, 8, 0, 3, 3, 3, 3, 3, 0, 7, 7, 7, 7, 7, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 6, 6, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 1, 1, 1, 1, 0, 2, 2, 2, 2, 2, 0], [0, 6, 0, 6, 0, 6, 0, 2, 0, 2, 0, 2, 0, 1, 0, 1, 0, 1, 0, 2, 0, 2, 0, 2, 0], [0, 6, 0, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 1, 1, 0, 1, 0, 2, 0, 2, 0, 2, 0], [0, 6, 0, 0, 0, 6, 0, 2, 0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 0, 2, 0, 2, 0, 2, 0], [0, 6, 6, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 1, 1, 1, 1, 0, 2, 2, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 8, 8, 8, 8, 8, 0, 4, 4, 4, 4, 4, 0, 3, 3, 3, 3, 3, 0, 2, 2, 2, 2, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 0, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 0, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 0, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 8, 8, 8, 8, 0, 4, 4, 4, 4, 4, 0, 3, 3, 3, 3, 3, 0, 2, 2, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 2, 2, 2, 2, 2, 0, 8, 8, 8, 8, 8, 0, 2, 2, 2, 2, 2, 0, 6, 6, 6, 6, 6, 0], [0, 2, 0, 2, 0, 2, 0, 8, 0, 8, 0, 8, 0, 2, 0, 2, 0, 2, 0, 6, 0, 6, 0, 6, 0], [0, 2, 0, 2, 0, 2, 0, 8, 0, 8, 0, 8, 0, 2, 0, 2, 0, 2, 0, 6, 0, 6, 0, 6, 0], [0, 2, 0, 2, 0, 2, 0, 8, 0, 8, 0, 8, 0, 2, 0, 2, 0, 2, 0, 6, 0, 6, 0, 6, 0], [0, 2, 2, 2, 2, 2, 0, 8, 8, 8, 8, 8, 0, 2, 2, 2, 2, 2, 0, 6, 6, 6, 6, 6, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged.\nA4: The pattern in the quiz input grid is similar to the pattern in the example input grids. Each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical in some sections, but not in others. \nA5: Applying the rule determined in Q3 to the quiz input grid, the output grid would be:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 1, 0, 8, 8, 8, 8, 8, 0, 3, 3, 3, 3, 3, 0, 7, 7, 7, 7, 7, 0], [0, 1, 0, 0, 0, 1, 0, 8, 0, 0, 0, 8, 0, 3, 0, 0, 3, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 0, 1, 0, 1, 0, 8, 8, 8, 0, 8, 0, 3, 0, 3, 0, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 0, 0, 0, 1, 0, 8, 0, 8, 0, 8, 0, 3, 3, 0, 0, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 1, 1, 1, 1, 0, 8, 8, 8, 8, 8, 0, 3, 3, 3, 3, 3, 0, 7, 7, 7, 7, 7, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 6, 6, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 1, 1, 1, 1, 0, 2, 2, 2, 2, 2, 0], [0, 6, 0, 6, 0, 6, 0, 2, 0, 2, 0, 2, 0, 1, 0, 1, 0, 1, 0, 2, 0, 2, 0, 2, 0], [0, 6, 0, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 1, 1, 0, 1, 0, 2, 0, 2, 0, 2, 0], [0, 6, 0, 0, 0, 6, 0, 2, 0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 0, 2, 0, 2, 0, 2, 0], [0, 6, 6, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 1, 1, 1, 1, 0, 2, 2, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 8, 8, 8, 8, 8, 0, 4, 4, 4, 4, 4, 0, 3, 3, 3, 3, 3, 0, 2, 2, 2, 2, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 4, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 4, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 4, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 8, 8, 8, 8, 0, 4, 4, 4, 4, 4, 0, 3, 3, 3, 3, 3, 0, 2, 2, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 2, 2, 2, 2, 2, 0, 8, 8, 8, 8, 8, 0, 2, 2, 2, 2, 2, 0, 6, 6, 6, 6, 6, 0], [0, 2, 0, 0, 0, 2, 0, 8, 0, 8, 0, 8, 0, 2, 0, 2, 0, 2, 0, 6, 0, 6, 0, 6, 0], [0, 2, 0, 0, 0, 2, 0, 8, 0, 8, 0, 8, 0, 2, 0, 2, 0, 2, 0, 6, 0, 6, 0, 6, 0], [0, 2, 0, 0, 0, 2, 0, 8, 0, 8, 0, 8, 0, 2, 0, 2, 0, 2, 0, 6, 0, 6, 0, 6, 0], [0, 2, 2, 2, 2, 2, 0, 8, 8, 8, 8, 8, 0, 2, 2, 2, 2, 2, 0, 6, 6, 6, 6, 6, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The pattern in the input grid is that each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical. \nA2: The changes made in the output grid compared to the input grid are that the zeros in the middle of each section are replaced by the number that surrounds them, making each section a series of the same number. However, if the zeros are in the middle of the section and the section is not symmetrical, the zeros are not replaced.\nA3: The rule for the changes in the numbers in the grid is that if a zero is surrounded by the same number on both sides, it is replaced by that number. If the section is not symmetrical, the zeros remain unchanged.\nA4: The pattern in the quiz input grid is similar to the pattern in the example input grids. Each row is divided into four sections by zeros. Each section contains a series of the same number, with one or more of these numbers replaced by zeros. The pattern of numbers and zeros within each section is symmetrical in some sections, but not in others. \nA5: Applying the rule determined in Q3 to the quiz input grid, the output grid would be:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 1, 1, 1, 1, 0, 8, 8, 8, 8, 8, 0, 3, 3, 3, 3, 3, 0, 7, 7, 7, 7, 7, 0], [0, 1, 0, 0, 0, 1, 0, 8, 0, 0, 0, 8, 0, 3, 0, 0, 3, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 0, 1, 0, 1, 0, 8, 8, 8, 0, 8, 0, 3, 0, 3, 0, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 0, 0, 0, 1, 0, 8, 0, 0, 0, 8, 0, 3, 3, 0, 0, 3, 0, 7, 0, 7, 0, 7, 0], [0, 1, 1, 1, 1, 1, 0, 8, 8, 8, 8, 8, 0, 3, 3, 3, 3, 3, 0, 7, 7, 7, 7, 7, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 6, 6, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 1, 1, 1, 1, 0, 2, 2, 2, 2, 2, 0], [0, 6, 0, 6, 0, 6, 0, 2, 0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 2, 0], [0, 6, 0, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 2, 0], [0, 6, 0, 0, 0, 6, 0, 2, 0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 2, 0], [0, 6, 6, 6, 6, 6, 0, 2, 2, 2, 2, 2, 0, 1, 1, 1, 1, 1, 0, 2, 2, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 8, 8, 8, 8, 8, 0, 4, 4, 4, 4, 4, 0, 3, 3, 3, 3, 3, 0, 2, 2, 2, 2, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 0, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 0, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 0, 0, 0, 8, 0, 4, 0, 0, 0, 4, 0, 3, 0, 0, 0, 3, 0, 2, 0, 0, 0, 2, 0], [0, 8, 8, 8, 8, 8, 0, 4, 4, 4, 4, 4, 0, 3, 3, 3, 3, 3, 0, 2, 2, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 2, 2, 2, 2, 2, 0, 8, 8, 8, 8, 8, 0, 2, 2, 2, 2, 2, 0, 6, 6, 6, 6, 6, 0], [0, 2, 0, 0, 0, 2, 0, 8, 0, 0, 0, 8, 0, 2, 0, 0, 0, 2, 0, 6, 0, 0, 0, 6, 0], [0, 2, 0, 0, 0, 2, 0, 8, 0, 0, 0, 8, 0, 2, 0, 0, 0, 2, 0, 6, 0, 0, 0, 6, 0], [0, 2, 0, 0, 0, 2, 0, 8, 0, 0, 0, 8, 0, 2, 0, 0, 0, 2, 0, 6, 0, 0, 0, 6, 0], [0, 2, 2, 2, 2, 2, 0, 8, 8, 8, 8, 8, 0, 2, 2, 2, 2, 2, 0, 6, 6, 6, 6, 6, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

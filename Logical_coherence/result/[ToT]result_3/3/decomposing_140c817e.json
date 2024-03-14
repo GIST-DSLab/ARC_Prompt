@@ -1,0 +1,61 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the number 1 in the input grid.",
+                    "Q2: For each location of 1, check if it is surrounded by 8s in the input grid.",
+                    "Q3: If a location of 1 is surrounded by 8s, change the surrounding 8s to 1s in the output grid.",
+                    "Q4: For each location of 1, check if it is surrounded by 1s in the output grid.",
+                    "Q5: If a location of 1 is surrounded by 1s, change the surrounding 1s to 3s in the output grid.",
+                    "Q6: For each location of 1, check if it is surrounded by 3s in the output grid.",
+                    "Q7: If a location of 1 is surrounded by 3s, change the 1 to 2 in the output grid.",
+                    "Q8: For each location of 1, check if it is surrounded by 1s and 3s in the output grid.",
+                    "Q9: If a location of 1 is surrounded by 1s and 3s, change the surrounding 1s to 3s in the output grid.",
+                    "Q10: For each location of 1, check if it is surrounded by 3s in the output grid.",
+                    "Q11: If a location of 1 is surrounded by 3s, change the 1 to 2 in the output grid.",
+                    "Q12: For each location of 1, check if it is surrounded by 1s and 3s in the output grid.",
+                    "Q13: If a location of 1 is surrounded by 1s and 3s, change the surrounding 1s to 3s in the output grid.",
+                    "Q14: For each location of 1, check if it is surrounded by 3s in the output grid.",
+                    "Q15: If a location of 1 is surrounded by 3s, change the 1 to 2 in the output grid."
+                ],
+                [
+                    "Q1: Identify the locations of the number 1 in the input grid.",
+                    "Q2: For each location of 1, check if it is surrounded by 8s in the input grid.",
+                    "Q3: If a location of 1 is surrounded by 8s, change the surrounding 8s to 1s in the output grid.",
+                    "Q4: For each location of 1, check if it is surrounded by 1s in the output grid.",
+                    "Q5: If a location of 1 is surrounded by 1s, change the surrounding 1s to 3s in the output grid.",
+                    "Q6: For each location of 1, check if it is surrounded by 3s in the output grid.",
+                    "Q7: If a location of 1 is surrounded by 3s, change the 1 to 2 in the output grid.",
+                    "Q8: For each location of 1, check if it is surrounded by 1s and 3s in the output grid.",
+                    "Q9: If a location of 1 is surrounded by 1s and 3s, change the surrounding 1s to 3s in the output grid.",
+                    "Q10: For each location of 1, check if it is surrounded by 3s in the output grid.",
+                    "Q11: If a location of 1 is surrounded by 3s, change the 1 to 2 in the output grid.",
+                    "Q12: For each location of 1, check if it is surrounded by 1s and 3s in the output grid.",
+                    "Q13: If a location of 1 is surrounded by 1s and 3s, change the surrounding 1s to 3s in the output grid.",
+                    "Q14: For each location of 1, check if it is surrounded by 3s in the output grid.",
+                    "Q15: If a location of 1 is surrounded by 3s, change the 1 to 2 in the output grid."
+                ],
+                [
+                    "Q1: Identify the locations of the number 1 in the input grid.",
+                    "Q2: For each location of 1, check if there are any other 1s in the same row or column.",
+                    "Q3: If there are other 1s in the same row or column, mark the cells between them as 3.",
+                    "Q4: If there are no other 1s in the same row or column, mark the cells in the same row or column as 1.",
+                    "Q5: For the cells that are not marked as 1 or 3, mark them as 2 if they are adjacent to a cell marked as 1, otherwise mark them as the original number."
+                ]
+            ],
+            "values": [
+                1,
+                0,
+                2
+            ],
+            "select_new_ys": [
+                "Q1: Identify the locations of the number 1 in the input grid.",
+                "Q2: For each location of 1, check if there are any other 1s in the same row or column.",
+                "Q3: If there are other 1s in the same row or column, mark the cells between them as 3.",
+                "Q4: If there are no other 1s in the same row or column, mark the cells in the same row or column as 1.",
+                "Q5: For the cells that are not marked as 1 or 3, mark them as 2 if they are adjacent to a cell marked as 1, otherwise mark them as the original number."
+            ]
+        }
+    ]
+}

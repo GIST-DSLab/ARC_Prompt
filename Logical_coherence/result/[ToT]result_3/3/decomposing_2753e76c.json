@@ -1,0 +1,43 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, identify the top left corner of the smallest rectangle that can contain all cells of that color.",
+                    "Q3: For each color, identify the bottom right corner of the smallest rectangle that can contain all cells of that color.",
+                    "Q4: For each color, create a new grid that only contains the cells within the rectangle identified in Q2 and Q3.",
+                    "Q5: Arrange the new grids from Q4 in ascending order of the color."
+                ],
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, identify the top left corner of the smallest rectangle that can contain all cells of that color.",
+                    "Q3: For each color, identify the bottom right corner of the smallest rectangle that can contain all cells of that color.",
+                    "Q4: For each color, create a new grid that only contains the cells within the rectangle identified in Q2 and Q3.",
+                    "Q5: Arrange the new grids from Q4 in ascending order of the y-coordinate of the top left corner identified in Q2. If two or more grids have the same y-coordinate, arrange them in ascending order of the x-coordinate.",
+                    "Q6: Combine the arranged grids from Q5 into one grid by placing them one below the other."
+                ],
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, identify the top left corner of the smallest rectangle that can contain all cells of that color.",
+                    "Q3: For each color, identify the bottom right corner of the smallest rectangle that can contain all cells of that color.",
+                    "Q4: For each color, create a new grid that only contains the cells within the rectangle identified in Q2 and Q3.",
+                    "Q5: Arrange the new grids from Q4 in the order of the colors identified in Q1, from top to bottom."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: For each color, identify the top left corner of the smallest rectangle that can contain all cells of that color.",
+                "Q3: For each color, identify the bottom right corner of the smallest rectangle that can contain all cells of that color.",
+                "Q4: For each color, create a new grid that only contains the cells within the rectangle identified in Q2 and Q3.",
+                "Q5: Arrange the new grids from Q4 in ascending order of the y-coordinate of the top left corner identified in Q2. If two or more grids have the same y-coordinate, arrange them in ascending order of the x-coordinate.",
+                "Q6: Combine the arranged grids from Q5 into one grid by placing them one below the other."
+            ]
+        }
+    ]
+}

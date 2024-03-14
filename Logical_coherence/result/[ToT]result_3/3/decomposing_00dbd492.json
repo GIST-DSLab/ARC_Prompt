@@ -1,0 +1,36 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 2s.",
+                    "Q2: Check if the identified areas contain a 2 in the center.",
+                    "Q3: Replace the 0s in the identified areas with a new number, 8 for the top half and 4 for the bottom half, while keeping the center 2 if present.",
+                    "Q4: Keep the rest of the grid as it is."
+                ],
+                [
+                    "Q1: Identify the areas in the grid that are surrounded by 2s.",
+                    "Q2: Check if the identified areas contain a 2 in the center.",
+                    "Q3: Replace the 0s in the identified areas with 4s if there is no 2 in the center, and with 8s if there is a 2 in the center."
+                ],
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 2s.",
+                    "Q2: Check if the identified areas contain a 2 in the center.",
+                    "Q3: Replace the 0s in the identified areas with a new number, 8 for the top half and 4 for the bottom half, while keeping the center 2 if present.",
+                    "Q4: Keep the rest of the grid as it is."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the areas in the input grid that are surrounded by 2s.",
+                "Q2: Check if the identified areas contain a 2 in the center.",
+                "Q3: Replace the 0s in the identified areas with a new number, 8 for the top half and 4 for the bottom half, while keeping the center 2 if present.",
+                "Q4: Keep the rest of the grid as it is."
+            ]
+        }
+    ]
+}

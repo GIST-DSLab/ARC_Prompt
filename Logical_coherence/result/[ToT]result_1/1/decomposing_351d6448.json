@@ -1,0 +1,48 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each row identified in Q1, find the row above it and the row below it.",
+                    "Q3: Check if the rows found in Q2 contain the number 2.",
+                    "Q4: If the rows contain the number 2, identify the pattern of 2s and 3s in these rows.",
+                    "Q5: Create a new grid that only includes the rows identified in Q4, maintaining the same order.",
+                    "Q6: In the new grid, replace the number 2 with 0 in the rows that do not contain the number 3.",
+                    "Q7: In the new grid, replace the number 2 with 1 in the rows that contain the number 3."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each identified row in Q1, find the row above it and the row below it.",
+                    "Q3: Check if the rows found in Q2 contain the number 2.",
+                    "Q4: If the rows contain the number 2, replace the number 2 with the number that appears most frequently in the row.",
+                    "Q5: Remove all rows that contain the number 5.",
+                    "Q6: Remove all rows that do not contain the number 2."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 5.",
+                    "Q2: For each row identified in Q1, find the row above it and the row below it.",
+                    "Q3: Check if the rows found in Q2 contain the number 2.",
+                    "Q4: If the rows contain the number 2, identify the pattern of 2s and 3s in these rows.",
+                    "Q5: Create a new grid that only includes the rows identified in Q4, maintaining the same order.",
+                    "Q6: In the new grid, replace the number 2 with 0 in the rows that do not contain the number 3.",
+                    "Q7: In the new grid, replace the number 2 with 1 in the rows that contain the number 3."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each row identified in Q1, find the row above it and the row below it.",
+                "Q3: Check if the rows found in Q2 contain the number 2.",
+                "Q4: If the rows contain the number 2, identify the pattern of 2s and 3s in these rows.",
+                "Q5: Create a new grid that only includes the rows identified in Q4, maintaining the same order.",
+                "Q6: In the new grid, replace the number 2 with 0 in the rows that do not contain the number 3.",
+                "Q7: In the new grid, replace the number 2 with 1 in the rows that contain the number 3."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a larger version of the input grid, with each cell in the input grid being expanded into a 2x2 square in the output grid.",
+                    "Q3: Determine the rule for the transformation of each cell in the input grid to a 2x2 square in the output grid. The rule seems to be that the top left cell in the 2x2 square is the same as the original cell, the top right and bottom left cells are the same as the cell to the right and below the original cell respectively, and the bottom right cell is the same as the cell diagonally right and below the original cell.",
+                    "Q4: Apply this rule to transform each cell in the input grid of the quiz to a 2x2 square in the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a larger version of the input grid, with each cell in the input grid being expanded into a 2x2 square in the output grid.",
+                    "Q3: Determine the rule for the transformation of each cell in the input grid to a 2x2 square in the output grid. The rule seems to be that the value of the cell in the input grid is placed in the top left and bottom right corners of the 2x2 square, and the other two cells in the 2x2 square are filled with the values from the cells to the right and below the original cell in the input grid.",
+                    "Q4: Apply this rule to the input grid in the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                    "Q2: Notice that the output grid is a larger version of the input grid, with each cell in the input grid being expanded into a 2x2 square in the output grid.",
+                    "Q3: Determine the rule for the transformation of each cell in the input grid to a 2x2 square in the output grid.",
+                    "Q4: Apply the transformation rule to each cell in the input grid of the quiz to generate the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the transformation from the input grid to the output grid in the examples.",
+                "Q2: Notice that the output grid is a larger version of the input grid, with each cell in the input grid being expanded into a 2x2 square in the output grid.",
+                "Q3: Determine the rule for the transformation of each cell in the input grid to a 2x2 square in the output grid. The rule seems to be that the value of the cell in the input grid is placed in the top left and bottom right corners of the 2x2 square, and the other two cells in the 2x2 square are filled with the values from the cells to the right and below the original cell in the input grid.",
+                "Q4: Apply this rule to the input grid in the quiz to generate the output grid."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the pattern of 1s in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right."
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape of a square or rectangle. The 1s are grouped together and are usually located at the top part of the grid."
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the pattern of 1s in the input grid.",
+                "Q2: Identify the pattern of numbers other than 1 and 0 in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. "
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a single row with numbers spaced evenly apart. The numbers are located in the middle of the grid."
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. "
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the pattern of 1s in the input grid.",
+                "Q2: Identify the pattern of numbers other than 1 and 0 in the input grid.",
+                "Q3: Determine the relationship between the pattern of 1s and the pattern of other numbers."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, and the filled templates are stacked vertically in the order of the numbers' appearance in the input grid."
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, creating a row in the output grid for each number."
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template. Each number fills the template once, creating a row in the output grid. The number is placed in the cells where the 1s are in the template, and the rest of the cells in the row are filled with 0s."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, creating a row in the output grid for each number."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the pattern of 1s in the input grid.",
+                "Q2: Identify the pattern of numbers other than 1 and 0 in the input grid.",
+                "Q3: Determine the relationship between the pattern of 1s and the pattern of other numbers.",
+                "Q4: Apply the relationship found in Q3 to the input grid of the quiz."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, creating a row in the output grid for each number.\nA4: The pattern of 1s in the input grid of the quiz is the same as the pattern of 1s in the examples. The pattern of other numbers is also a row of numbers spaced apart by a 0. Therefore, the output grid should be created by filling the template of 1s with each of these numbers. The output grid should be:"
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, creating a row in the output grid for each number.\nA4: The pattern of 1s in the input grid of the quiz is the same as the pattern of 1s in the examples. The pattern of other numbers is also a row of numbers spaced apart by a 0. Therefore, the output grid should be created by filling the template of 1s with each of these numbers. The output grid should look like this:"
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, creating a row in the output grid for each number.\nA4: The pattern of 1s in the input grid of the quiz is the same as in the examples. The pattern of other numbers is also a row of numbers spaced apart by a 0. Therefore, the output grid should be created by filling the template of 1s with each of these numbers. The output grid should look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, creating a row in the output grid for each number.\nA4: The pattern of 1s in the input grid of the quiz is the same as the pattern of 1s in the examples. The pattern of other numbers is also a row of numbers spaced apart by a 0. Therefore, the output grid should be created by filling the template of 1s with each of these numbers. The output grid should look like this:"
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the pattern of 1s in the input grid.",
+                "Q2: Identify the pattern of numbers other than 1 and 0 in the input grid.",
+                "Q3: Determine the relationship between the pattern of 1s and the pattern of other numbers.",
+                "Q4: Apply the relationship found in Q3 to the input grid of the quiz.",
+                "Q5: Generate the output grid based on the relationship applied in Q4."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, creating a row in the output grid for each number.\nA4: The pattern of 1s in the input grid of the quiz is the same as the pattern of 1s in the examples. The pattern of other numbers is also a row of numbers spaced apart by a 0. Therefore, the output grid should be created by filling the template of 1s with each of these numbers. The output grid should look like this:\nA5: The output grid should be as follows:\n\n[[0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6],\n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0],\n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6]]"
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, creating a row in the output grid for each number.\nA4: The pattern of 1s in the input grid of the quiz is the same as the pattern of 1s in the examples. The pattern of other numbers is also a row of numbers spaced apart by a 0. Therefore, the output grid should be created by filling the template of 1s with each of these numbers. The output grid should look like this:\nA5: The output grid should be as follows:\n\n[[0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6],\n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0],\n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6]]"
+                ],
+                [
+                    "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, creating a row in the output grid for each number.\nA4: The pattern of 1s in the input grid of the quiz is the same as the pattern of 1s in the examples. The pattern of other numbers is also a row of numbers spaced apart by a 0. Therefore, the output grid should be created by filling the template of 1s with each of these numbers. The output grid should look like this:\nA5: The output grid should be as follows:\n\n[[0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6],\n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0],\n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6]]"
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of 1s in the input grid forms a shape that resembles the letter \"L\" or \"J\" depending on the orientation. It is a 2x2 square with an additional 1 to the left or right.\nA2: The pattern of numbers other than 1 and 0 in the input grid is a row of numbers spaced apart by a 0. The numbers are located in the middle of the grid. \nA3: The pattern of 1s and the pattern of other numbers are related in the sense that the pattern of 1s is used as a template to create the output grid. The numbers other than 1 and 0 are used to fill this template in the output grid. Each number fills the template once, creating a row in the output grid for each number.\nA4: The pattern of 1s in the input grid of the quiz is the same as the pattern of 1s in the examples. The pattern of other numbers is also a row of numbers spaced apart by a 0. Therefore, the output grid should be created by filling the template of 1s with each of these numbers. The output grid should look like this:\nA5: The output grid should be as follows:\n\n[[0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6],\n [2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6, 0],\n [0, 2, 2, 0, 8, 8, 0, 3, 3, 0, 6, 6]]"
+            ]
+        }
+    ]
+}

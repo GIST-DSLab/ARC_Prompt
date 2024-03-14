@@ -1,0 +1,60 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the two distinct regions in the grid that are filled with the same color (4).",
+                    "Q2: Determine the boundaries of these two regions.",
+                    "Q3: Identify the color of the cells that are located at the intersection of the horizontal and vertical lines passing through the colored cells in the first region.",
+                    "Q4: Apply the same process for the second region.",
+                    "Q5: Create a new grid that only includes the cells identified in Q3 and Q4, and fill the rest of the cells with the color 1.",
+                    "Q6: Identify the cells in the new grid that are surrounded by cells of color 1 on three sides and fill them with the color 2.",
+                    "Q7: Identify the cells in the new grid that are surrounded by cells of color 1 on two sides and fill them with the color 3.",
+                    "Q8: Identify the cells in the new grid that are surrounded by cells of color 1 on one side and fill them with the color 4.",
+                    "Q9: Identify the cells in the new grid that are not surrounded by cells of color 1 and fill them with the color 8."
+                ],
+                [
+                    "Q1: Identify the two distinct regions in the grid that are filled with the same color (4).",
+                    "Q2: Determine the boundaries of these two regions.",
+                    "Q3: Identify the color (2) that forms a boundary around the first region.",
+                    "Q4: Identify the color (8) that forms a boundary around the second region.",
+                    "Q5: Identify the cells that are filled with color 1 within the first region.",
+                    "Q6: Identify the cells that are filled with color 3 within the second region.",
+                    "Q7: Identify the cells that are filled with color 7 within the first region.",
+                    "Q8: Identify the cells that are filled with color 6 within the second region.",
+                    "Q9: Create a new grid that only includes the cells within the boundaries identified in Q2.",
+                    "Q10: In the new grid, replace the color of the cells identified in Q3 and Q4 with the color of the cells identified in Q5 and Q6 respectively.",
+                    "Q11: In the new grid, replace the color of the cells identified in Q7 and Q8 with the color of the cells identified in Q5 and Q6 respectively.",
+                    "Q12: In the new grid, replace the color of the cells that are not identified in Q10 and Q11 with the color 1."
+                ],
+                [
+                    "Q1: Identify the two distinct regions in the grid that are filled with the same color (4).",
+                    "Q2: Determine the boundaries of these two regions.",
+                    "Q3: Identify the color of the cells that are located at the intersection of the horizontal and vertical lines passing through the colored cells in the first region.",
+                    "Q4: Apply the same process for the second region.",
+                    "Q5: Create a new grid that only includes the cells identified in Q3 and Q4, and fill the rest of the cells with the color 1.",
+                    "Q6: Identify the cells in the new grid that are surrounded by cells of color 1 on three sides and fill them with the color 2.",
+                    "Q7: Identify the cells in the new grid that are surrounded by cells of color 1 on two sides and fill them with the color 3.",
+                    "Q8: Identify the cells in the new grid that are surrounded by cells of color 1 on one side and fill them with the color 4.",
+                    "Q9: Identify the cells in the new grid that are not surrounded by cells of color 1 and fill them with the color 8."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the two distinct regions in the grid that are filled with the same color (4).",
+                "Q2: Determine the boundaries of these two regions.",
+                "Q3: Identify the color of the cells that are located at the intersection of the horizontal and vertical lines passing through the colored cells in the first region.",
+                "Q4: Apply the same process for the second region.",
+                "Q5: Create a new grid that only includes the cells identified in Q3 and Q4, and fill the rest of the cells with the color 1.",
+                "Q6: Identify the cells in the new grid that are surrounded by cells of color 1 on three sides and fill them with the color 2.",
+                "Q7: Identify the cells in the new grid that are surrounded by cells of color 1 on two sides and fill them with the color 3.",
+                "Q8: Identify the cells in the new grid that are surrounded by cells of color 1 on one side and fill them with the color 4.",
+                "Q9: Identify the cells in the new grid that are not surrounded by cells of color 1 and fill them with the color 8."
+            ]
+        }
+    ]
+}

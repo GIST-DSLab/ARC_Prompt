@@ -1,0 +1,44 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                    "Q2: Determine the size of these areas.",
+                    "Q3: Identify the cells within these areas that contain numbers other than 0.",
+                    "Q4: Create a new grid with the same size as the identified areas.",
+                    "Q5: Copy the cells with numbers other than 0 from the input grid to the corresponding positions in the new grid."
+                ],
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                    "Q2: Extract these areas from the input grid.",
+                    "Q3: Remove the surrounding 8s from the extracted areas.",
+                    "Q4: Identify the pattern of the numbers in the extracted areas.",
+                    "Q5: Apply the identified pattern to the quiz input grid.",
+                    "Q6: Replace the corresponding areas in the quiz input grid with the patterned areas."
+                ],
+                [
+                    "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                    "Q2: Determine the size of these areas.",
+                    "Q3: Identify the cells within these areas that contain numbers other than 0.",
+                    "Q4: Create a new grid with the same size as the identified areas.",
+                    "Q5: Copy the cells with numbers other than 0 from the input grid to the corresponding positions in the new grid.",
+                    "Q6: Fill the remaining cells in the new grid with 0s."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s.",
+                "Q2: Determine the size of these areas.",
+                "Q3: Identify the cells within these areas that contain numbers other than 0.",
+                "Q4: Create a new grid with the same size as the identified areas.",
+                "Q5: Copy the cells with numbers other than 0 from the input grid to the corresponding positions in the new grid.",
+                "Q6: Fill the remaining cells in the new grid with 0s."
+            ]
+        }
+    ]
+}

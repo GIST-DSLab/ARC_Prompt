@@ -1,0 +1,40 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Change the color of the cells identified in Q1 to 2.",
+                    "Q3: Identify the cells that are surrounded by 5s in the input grid.",
+                    "Q4: Change the color of the cells identified in Q3 to 2."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by '1' in the input grid.",
+                    "Q2: Keep these cells as '1' in the output grid.",
+                    "Q3: Identify the cells that are not surrounded by '1' but have the value '1' in the input grid.",
+                    "Q4: Change these cells to '0' in the output grid.",
+                    "Q5: Identify the cells that are surrounded by '5' in the input grid.",
+                    "Q6: Change these cells to '2' in the output grid.",
+                    "Q7: Keep the remaining cells as they are in the output grid."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Change the color of the cells identified in Q1 to 2.",
+                    "Q3: Identify the cells that are surrounded by 5s in the input grid.",
+                    "Q4: Change the color of the cells identified in Q3 to 2."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                "Q2: Change the color of the cells identified in Q1 to 2.",
+                "Q3: Identify the cells that are surrounded by 5s in the input grid.",
+                "Q4: Change the color of the cells identified in Q3 to 2."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,200 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 2.",
+                "Q2: For each row identified in Q1, check if there are any 1s present in the row."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 2.",
+                "Q2: For each row identified in Q1, check if there are any 1s present in the row.",
+                "Q3: If there are 1s present, identify the pattern of 1s in the row."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify. "
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 2.",
+                "Q2: For each row identified in Q1, check if there are any 1s present in the row.",
+                "Q3: If there are 1s present, identify the pattern of 1s in the row.",
+                "Q4: For each pattern of 1s identified in Q3, check if the pattern is repeated in the row."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 2.",
+                "Q2: For each row identified in Q1, check if there are any 1s present in the row.",
+                "Q3: If there are 1s present, identify the pattern of 1s in the row.",
+                "Q4: For each pattern of 1s identified in Q3, check if the pattern is repeated in the row.",
+                "Q5: If the pattern is repeated, replace the second occurrence of the pattern with 0s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s."
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 2.",
+                "Q2: For each row identified in Q1, check if there are any 1s present in the row.",
+                "Q3: If there are 1s present, identify the pattern of 1s in the row.",
+                "Q4: For each pattern of 1s identified in Q3, check if the pattern is repeated in the row.",
+                "Q5: If the pattern is repeated, replace the second occurrence of the pattern with 0s.",
+                "Q6: Repeat Q5 for all other occurrences of the pattern in the row."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s.\nA6: As there are no repeated patterns identified in Q4, there are no other occurrences of the pattern to replace with 0s."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s.\nA6: As there are no repeated patterns identified in Q4, there are no other occurrences of the pattern to replace with 0s."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s.\nA6: As there are no repeated patterns identified in Q4, there are no other occurrences of the pattern to replace with 0s."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s.\nA6: As there are no repeated patterns identified in Q4, there are no other occurrences of the pattern to replace with 0s."
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 2.",
+                "Q2: For each row identified in Q1, check if there are any 1s present in the row.",
+                "Q3: If there are 1s present, identify the pattern of 1s in the row.",
+                "Q4: For each pattern of 1s identified in Q3, check if the pattern is repeated in the row.",
+                "Q5: If the pattern is repeated, replace the second occurrence of the pattern with 0s.",
+                "Q6: Repeat Q5 for all other occurrences of the pattern in the row.",
+                "Q7: Repeat Q2-Q6 for all rows identified in Q1."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s.\nA6: As there are no repeated patterns identified in Q4, there are no other occurrences of the pattern to replace with 0s.\nA7: As there are no 1s present in the rows identified in Q1, there are no patterns of 1s to identify, no repeated patterns to check for, and no second or other occurrences of the pattern to replace with 0s.\n\nQ8: Identify the rows that contain the number 1.\nA8: The rows that contain the number 1 are the 5th, 6th, 9th, 10th, 13th, 14th and 15th rows.\n\nQ9: For each row identified in Q8, check if there are any 2s present in the row.\nA9: There are no 2s present in the rows identified in Q8.\n\nQ10: If there are 2s present, identify the pattern of 2s in the row.\nA10: As there are no 2s present in the rows identified in Q8, there is no pattern of 2s to identify.\n\nQ11: For each pattern of 2s identified in Q10, check if the pattern is repeated in the row.\nA11: As there are no patterns of 2s identified in Q10, there are no repeated patterns to check for in the row.\n\nQ12: If the pattern is repeated, replace the second occurrence of the pattern with 0s.\nA12: As there are no repeated patterns identified in Q11, there are no second occurrences of the pattern to replace with 0s.\n\nQ13: Repeat Q12 for all other occurrences of the pattern in the row.\nA13: As there are no repeated patterns identified in Q11, there are no other occurrences of the pattern to replace with 0s.\n\nQ14: Repeat Q9-Q13 for all rows identified in Q8.\nA14: As there are no 2s present in the rows identified in Q8, there are no patterns of 2s to identify, no repeated patterns to check for, and no second or other occurrences of the pattern to replace with 0s.\n\nQ15: Identify the pattern of 1s in the rows identified in Q8.\nA15: The pattern of 1s in the rows identified in Q8 is that there are two 1s together, followed by a number of 0s, and then another two 1s together.\n\nQ16: For each row identified in Q8, check if the pattern identified in Q15 is repeated in the row.\nA16: The pattern identified in Q15 is repeated in the 5th, 9th and 13th rows.\n\nQ17: If the pattern is repeated, replace the second occurrence of the pattern with 0s.\nA17: The second occurrence of the pattern in the 5th, 9th and 13th rows is replaced with 0s.\n\nQ18: Repeat Q17 for all other occurrences of the pattern in the row.\nA18: As there are no other occurrences of the pattern in the rows, there are no other occurrences of the pattern to replace with 0s.\n\nQ19: Repeat Q15-Q18 for all rows identified in Q8.\nA19: The pattern identified in Q15 is checked for in all rows identified in Q8, and the second occurrence of the pattern is replaced with 0s in the 5th, 9th and 13th rows.\n\nQ20: Return the final grid.\nA20: The final grid is:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2]]."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s.\nA6: As there are no repeated patterns identified in Q4, there are no other occurrences of the pattern to replace with 0s.\nA7: As there are no 1s present in the rows identified in Q1, there are no patterns of 1s to identify, no repeated patterns to check for, and no second or other occurrences of the pattern to replace with 0s.\n\nQ8: Identify the rows that contain the number 1.\nA8: The rows that contain the number 1 are the 5th, 6th, 9th, 10th, 13th, 14th and 15th rows.\n\nQ9: For each row identified in Q8, check if there are any 2s present in the row.\nA9: There are no 2s present in the rows identified in Q8.\n\nQ10: If there are 2s present, identify the pattern of 2s in the row.\nA10: As there are no 2s present in the rows identified in Q8, there is no pattern of 2s to identify.\n\nQ11: For each pattern of 2s identified in Q10, check if the pattern is repeated in the row.\nA11: As there are no patterns of 2s identified in Q10, there are no repeated patterns to check for in the row.\n\nQ12: If the pattern is repeated, replace the second occurrence of the pattern with 0s.\nA12: As there are no repeated patterns identified in Q11, there are no second occurrences of the pattern to replace with 0s.\n\nQ13: Repeat Q12 for all other occurrences of the pattern in the row.\nA13: As there are no repeated patterns identified in Q11, there are no other occurrences of the pattern to replace with 0s.\n\nQ14: Repeat Q9-Q13 for all rows identified in Q8.\nA14: As there are no 2s present in the rows identified in Q8, there are no patterns of 2s to identify, no repeated patterns to check for, and no second or other occurrences of the pattern to replace with 0s.\n\nQ15: Identify the pattern of 1s in the rows that contain the number 1.\nA15: The pattern of 1s in the rows that contain the number 1 is that there are two 1s together, followed by a number of 0s, and then another two 1s together.\n\nQ16: For each row identified in Q15, check if the pattern is repeated in the row.\nA16: The pattern is repeated in the 5th and 13th rows.\n\nQ17: If the pattern is repeated, replace the second occurrence of the pattern with 0s.\nA17: The second occurrence of the pattern in the 5th and 13th rows is replaced with 0s.\n\nQ18: Repeat Q17 for all other occurrences of the pattern in the row.\nA18: There are no other occurrences of the pattern in the row.\n\nQ19: Repeat Q15-Q18 for all rows identified in Q15.\nA19: The second occurrence of the pattern in all rows identified in Q15 is replaced with 0s.\n\nQ20: Return the final grid.\nA20: The final grid is:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2]]."
+                ],
+                [
+                    "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s.\nA6: As there are no repeated patterns identified in Q4, there are no other occurrences of the pattern to replace with 0s.\nA7: As there are no 1s present in the rows identified in Q1, there are no patterns of 1s to identify, no repeated patterns to check for, and no second or other occurrences of the pattern to replace with 0s.\n\nQ8: Identify the rows that contain the number 1.\nA8: The rows that contain the number 1 are the 5th, 6th, 9th, 10th, 13th, 14th and 15th rows.\n\nQ9: For each row identified in Q8, check if there are any 2s present in the row.\nA9: There are no 2s present in the rows identified in Q8.\n\nQ10: If there are 2s present, identify the pattern of 2s in the row.\nA10: As there are no 2s present in the rows identified in Q8, there is no pattern of 2s to identify.\n\nQ11: For each pattern of 2s identified in Q10, check if the pattern is repeated in the row.\nA11: As there are no patterns of 2s identified in Q10, there are no repeated patterns to check for in the row.\n\nQ12: If the pattern is repeated, replace the second occurrence of the pattern with 0s.\nA12: As there are no repeated patterns identified in Q11, there are no second occurrences of the pattern to replace with 0s.\n\nQ13: Repeat Q12 for all other occurrences of the pattern in the row.\nA13: As there are no repeated patterns identified in Q11, there are no other occurrences of the pattern to replace with 0s.\n\nQ14: Repeat Q9-Q13 for all rows identified in Q8.\nA14: As there are no 2s present in the rows identified in Q8, there are no patterns of 2s to identify, no repeated patterns to check for, and no second or other occurrences of the pattern to replace with 0s.\n\nQ15: Identify the pattern of 1s in the rows identified in Q8.\nA15: The pattern of 1s in the rows identified in Q8 is that there are two 1s together, followed by a number of 0s, and then another two 1s together.\n\nQ16: For each row identified in Q8, replace the second occurrence of the pattern of 1s with 0s.\nA16: The second occurrence of the pattern of 1s in the rows identified in Q8 is replaced with 0s.\n\nQ17: Repeat Q16 for all other occurrences of the pattern in the row.\nA17: There are no other occurrences of the pattern in the rows identified in Q8 after the second occurrence has been replaced with 0s.\n\nQ18: Repeat Q15-Q17 for all rows identified in Q8.\nA18: The second occurrence of the pattern of 1s in all rows identified in Q8 is replaced with 0s, and there are no other occurrences of the pattern in these rows after the second occurrence has been replaced with 0s.\n\nQ19: Return the modified grid.\nA19: The modified grid is as follows:\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 2 are the 2nd, 7th, 12th and 17th rows.\nA2: There are no 1s present in the rows identified in Q1.\nA3: As there are no 1s present in the rows identified in Q1, there is no pattern of 1s to identify.\nA4: As there are no patterns of 1s identified in Q3, there are no repeated patterns to check for in the row.\nA5: As there are no repeated patterns identified in Q4, there are no second occurrences of the pattern to replace with 0s.\nA6: As there are no repeated patterns identified in Q4, there are no other occurrences of the pattern to replace with 0s.\nA7: As there are no 1s present in the rows identified in Q1, there are no patterns of 1s to identify, no repeated patterns to check for, and no second or other occurrences of the pattern to replace with 0s.\n\nQ8: Identify the rows that contain the number 1.\nA8: The rows that contain the number 1 are the 5th, 6th, 9th, 10th, 13th, 14th and 15th rows.\n\nQ9: For each row identified in Q8, check if there are any 2s present in the row.\nA9: There are no 2s present in the rows identified in Q8.\n\nQ10: If there are 2s present, identify the pattern of 2s in the row.\nA10: As there are no 2s present in the rows identified in Q8, there is no pattern of 2s to identify.\n\nQ11: For each pattern of 2s identified in Q10, check if the pattern is repeated in the row.\nA11: As there are no patterns of 2s identified in Q10, there are no repeated patterns to check for in the row.\n\nQ12: If the pattern is repeated, replace the second occurrence of the pattern with 0s.\nA12: As there are no repeated patterns identified in Q11, there are no second occurrences of the pattern to replace with 0s.\n\nQ13: Repeat Q12 for all other occurrences of the pattern in the row.\nA13: As there are no repeated patterns identified in Q11, there are no other occurrences of the pattern to replace with 0s.\n\nQ14: Repeat Q9-Q13 for all rows identified in Q8.\nA14: As there are no 2s present in the rows identified in Q8, there are no patterns of 2s to identify, no repeated patterns to check for, and no second or other occurrences of the pattern to replace with 0s.\n\nQ15: Identify the pattern of 1s in the rows identified in Q8.\nA15: The pattern of 1s in the rows identified in Q8 is that there are two 1s together, followed by a number of 0s, and then another two 1s together.\n\nQ16: For each row identified in Q8, check if the pattern identified in Q15 is repeated in the row.\nA16: The pattern identified in Q15 is repeated in the 5th, 9th and 13th rows.\n\nQ17: If the pattern is repeated, replace the second occurrence of the pattern with 0s.\nA17: The second occurrence of the pattern in the 5th, 9th and 13th rows is replaced with 0s.\n\nQ18: Repeat Q17 for all other occurrences of the pattern in the row.\nA18: As there are no other occurrences of the pattern in the rows, there are no other occurrences of the pattern to replace with 0s.\n\nQ19: Repeat Q15-Q18 for all rows identified in Q8.\nA19: The pattern identified in Q15 is checked for in all rows identified in Q8, and the second occurrence of the pattern is replaced with 0s in the 5th, 9th and 13th rows.\n\nQ20: Return the final grid.\nA20: The final grid is:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 2]]."
+            ]
+        }
+    ]
+}

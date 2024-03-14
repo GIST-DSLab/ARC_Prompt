@@ -1,0 +1,55 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows that contain the number 2 in the input grid.",
+                    "Q2: Identify the rows that contain the number 1 in the input grid.",
+                    "Q3: For each row containing the number 1, check if there are two consecutive 1s.",
+                    "Q4: If there are two consecutive 1s, keep them as they are. If there is only one 1, replace it with 0.",
+                    "Q5: For each row containing the number 1, if there is a single 1 followed by a 0, replace the 0 with a 1.",
+                    "Q6: Replace all remaining single 1s with 0s.",
+                    "Q7: Combine the modified rows from Q4, Q5, and Q6 with the rows containing 2s from Q1 to form the output grid."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 2 in the input grid.",
+                    "Q2: Identify the rows that contain the number 1 in the input grid.",
+                    "Q3: For the rows identified in Q1, check if there are any 1s in the same row in the input grid.",
+                    "Q4: For the rows identified in Q2, check if there are any 2s in the same row in the input grid.",
+                    "Q5: If there are 1s in the rows identified in Q3, replace the 1s with 0s in the output grid.",
+                    "Q6: If there are 2s in the rows identified in Q4, keep the 2s in the same position in the output grid.",
+                    "Q7: For the rows identified in Q2, if there are two consecutive 1s, keep them in the same position in the output grid.",
+                    "Q8: For the rows identified in Q2, if there is a single 1, replace it with 0 in the output grid.",
+                    "Q9: For the rows identified in Q2, if there are three consecutive 1s, replace the middle 1 with 0 in the output grid.",
+                    "Q10: Keep all the other elements in the grid the same as in the input grid."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 2 in the input grid.",
+                    "Q2: Identify the rows that contain the number 1 in the input grid.",
+                    "Q3: For the rows identified in Q2, check if there are two consecutive 1s.",
+                    "Q4: If there are two consecutive 1s, check if there is a single 1 in the same column in the row above or below.",
+                    "Q5: If there is a single 1 in the same column in the row above or below, replace the single 1 with 0.",
+                    "Q6: For the rows identified in Q2, check if there is a single 1.",
+                    "Q7: If there is a single 1, check if there are two consecutive 1s in the same column in the row above or below.",
+                    "Q8: If there are two consecutive 1s in the same column in the row above or below, replace the single 1 with two consecutive 1s.",
+                    "Q9: Repeat the process for all rows identified in Q2.",
+                    "Q10: The final grid after all replacements is the output grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows that contain the number 2 in the input grid.",
+                "Q2: Identify the rows that contain the number 1 in the input grid.",
+                "Q3: For each row containing the number 1, check if there are two consecutive 1s.",
+                "Q4: If there are two consecutive 1s, keep them as they are. If there is only one 1, replace it with 0.",
+                "Q5: For each row containing the number 1, if there is a single 1 followed by a 0, replace the 0 with a 1.",
+                "Q6: Replace all remaining single 1s with 0s.",
+                "Q7: Combine the modified rows from Q4, Q5, and Q6 with the rows containing 2s from Q1 to form the output grid."
+            ]
+        }
+    ]
+}

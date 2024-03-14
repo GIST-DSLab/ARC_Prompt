@@ -1,0 +1,43 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, create a square frame with the element's value, where the element's position is the center of the square.",
+                    "Q3: If the square frame exceeds the grid boundary, adjust it to fit within the grid.",
+                    "Q4: Fill the frame with the element's value, leaving the inside of the frame as 0.",
+                    "Q5: Repeat the process for all non-zero elements in the input grid.",
+                    "Q6: If there are overlapping frames, the frame created later will overwrite the previous one."
+                ],
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, create a square frame with the element's value, where the element is the center of the square.",
+                    "Q3: If the square frame exceeds the grid boundary, adjust it to fit within the grid.",
+                    "Q4: For each square frame, fill the border with the element's value and the inside with 0.",
+                    "Q5: Combine all the square frames to form the final output grid."
+                ],
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, create a square frame with the element's value, where the element's position is the center of the square.",
+                    "Q3: If the square frame exceeds the grid boundary, adjust it to fit within the grid.",
+                    "Q4: Fill the frame with the element's value, leaving the inside of the frame as 0.",
+                    "Q5: Repeat the process for all non-zero elements in the input grid.",
+                    "Q6: If there are overlapping frames, the frame created later will overwrite the previous one."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the non-zero elements in the input grid and their positions.",
+                "Q2: For each non-zero element, create a square frame with the element's value, where the element is the center of the square.",
+                "Q3: If the square frame exceeds the grid boundary, adjust it to fit within the grid.",
+                "Q4: For each square frame, fill the border with the element's value and the inside with 0.",
+                "Q5: Combine all the square frames to form the final output grid."
+            ]
+        }
+    ]
+}

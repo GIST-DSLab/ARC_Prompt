@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the rows in the grid that contain the number 0."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 0 are the 14th and 15th rows."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the rows in the grid that contain the number 0.",
+                "Q2: For each row identified in Q1, replace all numbers in the row with 0."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:"
+                ],
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:"
+                ],
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:"
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the rows in the grid that contain the number 0.",
+                "Q2: For each row identified in Q1, replace all numbers in the row with 0.",
+                "Q3: For each row identified in Q1, replace the two numbers immediately to the right of the 0s with 0."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:\nA3: After replacing the two numbers immediately to the right of the 0s in the 14th and 15th rows with 0, the grid becomes:"
+                ],
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:\nA3: After replacing the two numbers immediately to the right of the 0s with 0 in the 14th and 15th rows, the grid becomes:"
+                ],
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:\nA3: After replacing the two numbers immediately to the right of the 0s with 0 in the 14th and 15th rows, the grid becomes:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:\nA3: After replacing the two numbers immediately to the right of the 0s with 0 in the 14th and 15th rows, the grid becomes:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the rows in the grid that contain the number 0.",
+                "Q2: For each row identified in Q1, replace all numbers in the row with 0.",
+                "Q3: For each row identified in Q1, replace the two numbers immediately to the right of the 0s with 0.",
+                "Q4: For the remaining rows not identified in Q1, leave them as they are."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:\nA3: After replacing the two numbers immediately to the right of the 0s with 0 in the 14th and 15th rows, the grid becomes:\nA4: The remaining rows not identified in Q1 are left as they are. \n\nSo, the final output grids are:\n\n[[4, 5, 7, 5, 9, 2, 3, 1, 7, 8, 6, 9, 4, 2, 4, 2, 5, 1, 2, 7], [9, 1, 7, 5, 5, 1, 2, 7, 1, 9, 1, 7, 4, 8, 4, 7, 2, 9, 5, 8], [9, 1, 8, 6, 9, 4, 7, 6, 9, 5, 5, 5, 8, 1, 4, 8, 4, 7, 8, 5], [4, 2, 9, 5, 5, 2, 8, 2, 7, 7, 9, 6, 1, 4, 9, 8, 3, 3, 9, 2], [1, 9, 2, 3, 8, 4, 3, 1, 1, 3, 4, 6, 3, 5, 1, 1, 2, 6, 4, 6], [1, 4, 3, 5, 6, 1, 1, 1, 1, 6, 7, 3, 9, 5, 8, 3, 5, 6, 2, 9], [7, 7, 1, 9, 2, 4, 6, 9, 1, 5, 5, 8, 5, 2, 2, 2, 4, 2, 1, 2], [2, 9, 6, 1, 2, 9, 4, 8, 2, 7, 8, 2, 5, 7, 3, 2, 2, 4, 7, 7], [4, 2, 6, 6, 8, 9, 2, 1, 3, 2, 4, 5, 8, 3, 7, 4, 8, 5, 2, 1], [3, 2, 4, 8, 9, 8, 9, 5, 2, 1, 6, 8, 1, 2, 5, 7, 9, 1, 8, 5], [1, 3, 7, 2, 7, 3, 5, 2, 3, 9, 3, 2, 7, 2, 1, 7, 9, 8, 5, 7], [1, 6, 4, 6, 6, 5, 5, 9, 2, 3, 2, 4, 6, 7, 3, 9, 9, 9, 6, 6], [8, 6, 5, 2, 2, 3, 2, 1, 4, 9, 6, 9, 4, 9, 7, 7, 1, 5, 9, 3], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 8, 5, 3, 5, 6, 7, 1, 4, 7, 4, 4, 9, 5, 1, 3, 4, 4, 4, 7], [7, 8, 4, 7, 9, 5, 7, 8, 7, 4, 6, 8, 5, 3, 3, 1, 4, 1, 9, 7], [4, 5, 9, 9, 4, 5, 5, 7, 9, 8, 5, 8, 8, 6, 2, 8, 3, 7, 2, 4], [1, 6, 1, 4, 3, 6, 5, 4, 1, 7, 4, 7, 8, 6, 5, 9, 5, 4, 9, 9], [2, 9, 2, 6, 7, 8, 9, 9, 6, 4, 5, 8, 7, 5, 4, 3, 6, 3, 9, 5]]"
+                ],
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:\nA3: After replacing the two numbers immediately to the right of the 0s with 0 in the 14th and 15th rows, the grid becomes:\nA4: The remaining rows not identified in Q1 are left as they are. \n\nSo, the final output grids are:\n\n[[4, 5, 7, 5, 9, 2, 3, 1, 7, 8, 6, 9, 4, 2, 4, 2, 5, 1, 2, 7], [9, 1, 7, 5, 5, 1, 2, 7, 1, 9, 1, 7, 4, 8, 4, 7, 2, 9, 5, 8], [9, 1, 8, 6, 9, 4, 7, 6, 9, 5, 5, 5, 8, 1, 4, 8, 4, 7, 8, 5], [4, 2, 9, 5, 5, 2, 8, 2, 7, 7, 9, 6, 1, 4, 9, 8, 3, 3, 9, 2], [1, 9, 2, 3, 8, 4, 3, 1, 1, 3, 4, 6, 3, 5, 1, 1, 2, 6, 4, 6], [1, 4, 3, 5, 6, 1, 1, 1, 1, 6, 7, 3, 9, 5, 8, 3, 5, 6, 2, 9], [7, 7, 1, 9, 2, 4, 6, 9, 1, 5, 5, 8, 5, 2, 2, 2, 4, 2, 1, 2], [2, 9, 6, 1, 2, 9, 4, 8, 2, 7, 8, 2, 5, 7, 3, 2, 2, 4, 7, 7], [4, 2, 6, 6, 8, 9, 2, 1, 3, 2, 4, 5, 8, 3, 7, 4, 8, 5, 2, 1], [3, 2, 4, 8, 9, 8, 9, 5, 2, 1, 6, 8, 1, 2, 5, 7, 9, 1, 8, 5], [1, 3, 7, 2, 7, 3, 5, 2, 3, 9, 3, 2, 7, 2, 1, 7, 9, 8, 5, 7], [1, 6, 4, 6, 6, 5, 5, 9, 2, 3, 2, 4, 6, 7, 3, 9, 9, 9, 6, 6], [8, 6, 5, 2, 2, 3, 2, 1, 4, 9, 6, 9, 4, 9, 7, 7, 1, 5, 9, 3], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 8, 5, 3, 5, 6, 7, 1, 4, 7, 4, 4, 9, 5, 1, 3, 4, 4, 4, 7], [7, 8, 4, 7, 9, 5, 7, 8, 7, 4, 6, 8, 5, 3, 3, 1, 4, 1, 9, 7], [4, 5, 9, 9, 4, 5, 5, 7, 9, 8, 5, 8, 8, 6, 2, 8, 3, 7, 2, 4], [1, 6, 1, 4, 3, 6, 5, 4, 1, 7, 4, 7, 8, 6, 5, 9, 5, 4, 9, 9], [2, 9, 2, 6, 7, 8, 9, 9, 6, 4, 5, 8, 7, 5, 4, 3, 6, 3, 9, 5]]"
+                ],
+                [
+                    "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:\nA3: After replacing the two numbers immediately to the right of the 0s with 0 in the 14th and 15th rows, the grid becomes:\nA4: The remaining rows not identified in Q1 are left as they are. \n\nSo, the final output grids are:\n\n[[4, 5, 7, 5, 9, 2, 3, 1, 7, 8, 6, 9, 4, 2, 4, 2, 5, 1, 2, 7], [9, 1, 7, 5, 5, 1, 2, 7, 1, 9, 1, 7, 4, 8, 4, 7, 2, 9, 5, 8], [9, 1, 8, 6, 9, 4, 7, 6, 9, 5, 5, 5, 8, 1, 4, 8, 4, 7, 8, 5], [4, 2, 9, 5, 5, 2, 8, 2, 7, 7, 9, 6, 1, 4, 9, 8, 3, 3, 9, 2], [1, 9, 2, 3, 8, 4, 3, 1, 1, 3, 4, 6, 3, 5, 1, 1, 2, 6, 4, 6], [1, 4, 3, 5, 6, 1, 1, 1, 1, 6, 7, 3, 9, 5, 8, 3, 5, 6, 2, 9], [7, 7, 1, 9, 2, 4, 6, 9, 1, 5, 5, 8, 5, 2, 2, 2, 4, 2, 1, 2], [2, 9, 6, 1, 2, 9, 4, 8, 2, 7, 8, 2, 5, 7, 3, 2, 2, 4, 7, 7], [4, 2, 6, 6, 8, 9, 2, 1, 3, 2, 4, 5, 8, 3, 7, 4, 8, 5, 2, 1], [3, 2, 4, 8, 9, 8, 9, 5, 2, 1, 6, 8, 1, 2, 5, 7, 9, 1, 8, 5], [1, 3, 7, 2, 7, 3, 5, 2, 3, 9, 3, 2, 7, 2, 1, 7, 9, 8, 5, 7], [1, 6, 4, 6, 6, 5, 5, 9, 2, 3, 2, 4, 6, 7, 3, 9, 9, 9, 6, 6], [8, 6, 5, 2, 2, 3, 2, 1, 4, 9, 6, 9, 4, 9, 7, 7, 1, 5, 9, 3], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 8, 5, 3, 5, 6, 7, 1, 4, 7, 4, 4, 9, 5, 1, 3, 4, 4, 4, 7], [7, 8, 4, 7, 9, 5, 7, 8, 7, 4, 6, 8, 5, 3, 3, 1, 4, 1, 9, 7], [4, 5, 9, 9, 4, 5, 5, 7, 9, 8, 5, 8, 8, 6, 2, 8, 3, 7, 2, 4], [1, 6, 1, 4, 3, 6, 5, 4, 1, 7, 4, 7, 8, 6, 5, 9, 5, 4, 9, 9], [2, 9, 2, 6, 7, 8, 9, 9, 6, 4, 5, 8, 7, 5, 4, 3, 6, 3, 9, 5]]"
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 0 are the 14th and 15th rows.\nA2: After replacing all numbers in the 14th and 15th rows with 0, the grid becomes:\nA3: After replacing the two numbers immediately to the right of the 0s with 0 in the 14th and 15th rows, the grid becomes:\nA4: The remaining rows not identified in Q1 are left as they are. \n\nSo, the final output grids are:\n\n[[4, 5, 7, 5, 9, 2, 3, 1, 7, 8, 6, 9, 4, 2, 4, 2, 5, 1, 2, 7], [9, 1, 7, 5, 5, 1, 2, 7, 1, 9, 1, 7, 4, 8, 4, 7, 2, 9, 5, 8], [9, 1, 8, 6, 9, 4, 7, 6, 9, 5, 5, 5, 8, 1, 4, 8, 4, 7, 8, 5], [4, 2, 9, 5, 5, 2, 8, 2, 7, 7, 9, 6, 1, 4, 9, 8, 3, 3, 9, 2], [1, 9, 2, 3, 8, 4, 3, 1, 1, 3, 4, 6, 3, 5, 1, 1, 2, 6, 4, 6], [1, 4, 3, 5, 6, 1, 1, 1, 1, 6, 7, 3, 9, 5, 8, 3, 5, 6, 2, 9], [7, 7, 1, 9, 2, 4, 6, 9, 1, 5, 5, 8, 5, 2, 2, 2, 4, 2, 1, 2], [2, 9, 6, 1, 2, 9, 4, 8, 2, 7, 8, 2, 5, 7, 3, 2, 2, 4, 7, 7], [4, 2, 6, 6, 8, 9, 2, 1, 3, 2, 4, 5, 8, 3, 7, 4, 8, 5, 2, 1], [3, 2, 4, 8, 9, 8, 9, 5, 2, 1, 6, 8, 1, 2, 5, 7, 9, 1, 8, 5], [1, 3, 7, 2, 7, 3, 5, 2, 3, 9, 3, 2, 7, 2, 1, 7, 9, 8, 5, 7], [1, 6, 4, 6, 6, 5, 5, 9, 2, 3, 2, 4, 6, 7, 3, 9, 9, 9, 6, 6], [8, 6, 5, 2, 2, 3, 2, 1, 4, 9, 6, 9, 4, 9, 7, 7, 1, 5, 9, 3], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [2, 8, 5, 3, 5, 6, 7, 1, 4, 7, 4, 4, 9, 5, 1, 3, 4, 4, 4, 7], [7, 8, 4, 7, 9, 5, 7, 8, 7, 4, 6, 8, 5, 3, 3, 1, 4, 1, 9, 7], [4, 5, 9, 9, 4, 5, 5, 7, 9, 8, 5, 8, 8, 6, 2, 8, 3, 7, 2, 4], [1, 6, 1, 4, 3, 6, 5, 4, 1, 7, 4, 7, 8, 6, 5, 9, 5, 4, 9, 9], [2, 9, 2, 6, 7, 8, 9, 9, 6, 4, 5, 8, 7, 5, 4, 3, 6, 3, 9, 5]]"
+            ]
+        }
+    ]
+}

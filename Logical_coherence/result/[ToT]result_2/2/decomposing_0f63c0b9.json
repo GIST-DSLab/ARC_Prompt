@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                    "Q3: For each non-zero element, keep the original value at its position and set the rest of the elements in the row and column to the value of the element.",
+                    "Q4: For each non-zero element, keep the original value at its position and set the rest of the elements in the row and column to 0."
+                ],
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                    "Q3: For each non-zero element, keep the original value at its position.",
+                    "Q4: For the intersection of the rows and columns filled with different non-zero elements, keep the value of the element that is located at the lower row or right column."
+                ],
+                [
+                    "Q1: Identify the non-zero elements in the input grid and their positions.",
+                    "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                    "Q3: For each non-zero element, keep the original value at its position.",
+                    "Q4: For the intersection of the rows and columns filled with different non-zero elements, keep the value of the element that is located at the lower row or right column."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the non-zero elements in the input grid and their positions.",
+                "Q2: For each non-zero element, fill the entire row and column with the value of the element.",
+                "Q3: For each non-zero element, keep the original value at its position.",
+                "Q4: For the intersection of the rows and columns filled with different non-zero elements, keep the value of the element that is located at the lower row or right column."
+            ]
+        }
+    ]
+}

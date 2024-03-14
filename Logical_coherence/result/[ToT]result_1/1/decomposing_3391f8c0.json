@@ -1,0 +1,39 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the number 5 in the input grid.",
+                    "Q2: Identify the locations of the number 6 in the input grid.",
+                    "Q3: Replace the number 5 with the number 6 in the identified locations from Q1.",
+                    "Q4: Replace the number 6 with the number 5 in the identified locations from Q2."
+                ],
+                [
+                    "Q1: Identify the locations of the number 5 in the input grid.",
+                    "Q2: Identify the locations of the number 6 in the input grid.",
+                    "Q3: Replace the number 5 with the number 6 in the identified locations from Q1.",
+                    "Q4: Replace the number 6 with the number 5 in the identified locations from Q2.",
+                    "Q5: Generate the output grid by applying the replacements from Q3 and Q4 to the input grid."
+                ],
+                [
+                    "Q1: Identify the locations of the number 5 in the input grid.",
+                    "Q2: Identify the locations of the number 6 in the input grid.",
+                    "Q3: Replace the number 5 with the number 6 in the identified locations from Q1.",
+                    "Q4: Replace the number 6 with the number 5 in the identified locations from Q2."
+                ]
+            ],
+            "values": [
+                0,
+                2,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the locations of the number 5 in the input grid.",
+                "Q2: Identify the locations of the number 6 in the input grid.",
+                "Q3: Replace the number 5 with the number 6 in the identified locations from Q1.",
+                "Q4: Replace the number 6 with the number 5 in the identified locations from Q2.",
+                "Q5: Generate the output grid by applying the replacements from Q3 and Q4 to the input grid."
+            ]
+        }
+    ]
+}

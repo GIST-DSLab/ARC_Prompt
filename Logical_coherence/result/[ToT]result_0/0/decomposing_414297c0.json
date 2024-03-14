@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the two distinct regions in the grid that are surrounded by non-zero values.",
+                    "Q2: For each region, identify the unique non-zero values that are not part of the region's boundary.",
+                    "Q3: For each region, create a new grid that only includes the region and its unique non-zero values identified in Q2.",
+                    "Q4: For each new grid created in Q3, remove the boundary of the region.",
+                    "Q5: Combine the two new grids created in Q4 into one grid, placing one grid on top of the other."
+                ],
+                [
+                    "Q1: Identify the two distinct regions in the grid that are surrounded by non-zero values.",
+                    "Q2: For each region, identify the unique non-zero values that are not part of the region's boundary.",
+                    "Q3: For each region, create a new grid that only includes the region and its unique non-zero values identified in Q2.",
+                    "Q4: For each new grid created in Q3, remove the boundary of the region.",
+                    "Q5: Combine the two new grids from Q4 into one grid, placing one region above the other."
+                ],
+                [
+                    "Q1: Identify the two distinct regions in the grid that are surrounded by non-zero values.",
+                    "Q2: For each region, identify the unique non-zero values that are not part of the region's boundary.",
+                    "Q3: For each region, create a new grid that only includes the region and its unique non-zero values identified in Q2.",
+                    "Q4: For each new grid created in Q3, remove the boundary of the region.",
+                    "Q5: Combine the two new grids created in Q4 into one grid, placing one grid on top of the other."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the two distinct regions in the grid that are surrounded by non-zero values.",
+                "Q2: For each region, identify the unique non-zero values that are not part of the region's boundary.",
+                "Q3: For each region, create a new grid that only includes the region and its unique non-zero values identified in Q2.",
+                "Q4: For each new grid created in Q3, remove the boundary of the region.",
+                "Q5: Combine the two new grids from Q4 into one grid, placing one region above the other."
+            ]
+        }
+    ]
+}

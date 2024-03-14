@@ -1,0 +1,200 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. "
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. "
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. "
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. "
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are not surrounded by 3s but contain a number other than 0."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are not surrounded by 3s but contain a number other than 0.",
+                "Q3: Create a new grid with the same dimensions as the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are not surrounded by 3s but contain a number other than 0.",
+                "Q3: Create a new grid with the same dimensions as the input grid.",
+                "Q4: Fill in the new grid with the numbers from the cells identified in Q2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:"
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are not surrounded by 3s but contain a number other than 0.",
+                "Q3: Create a new grid with the same dimensions as the input grid.",
+                "Q4: Fill in the new grid with the numbers from the cells identified in Q2.",
+                "Q5: For the cells identified in Q1, calculate the average of the numbers in the surrounding cells in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:"
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are not surrounded by 3s but contain a number other than 0.",
+                "Q3: Create a new grid with the same dimensions as the input grid.",
+                "Q4: Fill in the new grid with the numbers from the cells identified in Q2.",
+                "Q5: For the cells identified in Q1, calculate the average of the numbers in the surrounding cells in the input grid.",
+                "Q6: Round the averages calculated in Q5 to the nearest whole number and fill in the corresponding cells in the new grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:\nA6: To round the averages calculated in Q5 to the nearest whole number and fill in the corresponding cells in the new grid, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we round its average to the nearest whole number and fill in the corresponding cell in the new grid. Here is an example in Python:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:\nA6: To round the averages calculated in Q5 to the nearest whole number and fill in the corresponding cells in the new grid, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we round its average to the nearest whole number and copy this value to the corresponding cell in the new grid. Here is an example in Python:"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:\nA6: To round the averages calculated in Q5 to the nearest whole number and fill in the corresponding cells in the new grid, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we round its average to the nearest whole number and fill in the corresponding cell in the new grid. Here is an example in Python:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:\nA6: To round the averages calculated in Q5 to the nearest whole number and fill in the corresponding cells in the new grid, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we round its average to the nearest whole number and copy this value to the corresponding cell in the new grid. Here is an example in Python:"
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 3s in the input grid.",
+                "Q2: Identify the cells that are not surrounded by 3s but contain a number other than 0.",
+                "Q3: Create a new grid with the same dimensions as the input grid.",
+                "Q4: Fill in the new grid with the numbers from the cells identified in Q2.",
+                "Q5: For the cells identified in Q1, calculate the average of the numbers in the surrounding cells in the input grid.",
+                "Q6: Round the averages calculated in Q5 to the nearest whole number and fill in the corresponding cells in the new grid.",
+                "Q7: For the cells in the new grid that were not filled in Q4 or Q6, fill them with 0."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:\nA6: To round the averages calculated in Q5 to the nearest whole number and fill in the corresponding cells in the new grid, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we round its average to the nearest whole number and copy this value to the corresponding cell in the new grid. Here is an example in Python:\nA7: The cells in the new grid that were not filled in Q4 or Q6 should already be 0, as we initialized the new grid with all cells set to 0 in Q3. Therefore, no additional steps are needed for Q7."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:\nA6: To round the averages calculated in Q5 to the nearest whole number and fill in the corresponding cells in the new grid, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we round its average to the nearest whole number and copy this value to the corresponding cell in the new grid. Here is an example in Python:\nA7: The cells in the new grid that were not filled in Q4 or Q6 should already be 0, as we initialized the new grid with all cells set to 0 in Q3. Therefore, no additional steps are needed for Q7."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:\nA6: To round the averages calculated in Q5 to the nearest whole number and fill in the corresponding cells in the new grid, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we round its average to the nearest whole number and copy this value to the corresponding cell in the new grid. Here is an example in Python:\nA7: The cells in the new grid that were not filled in Q4 or Q6 should already be 0, as we initialized the new grid with all cells set to 0 in Q3. Therefore, no additional steps are needed for Q7."
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by 3s in the input grid, we need to iterate over each cell in the grid and check its surrounding cells. If all the surrounding cells are 3s, then the cell is surrounded by 3s. \nA2: To identify the cells that are not surrounded by 3s but contain a number other than 0, we need to iterate over each cell in the grid. If the cell contains a number other than 0 and any of its surrounding cells are not 3s, then the cell is not surrounded by 3s but contains a number other than 0.\nA3: To create a new grid with the same dimensions as the input grid, we can use a nested list comprehension. The outer list comprehension will create the rows of the grid, and the inner list comprehension will create the cells within each row. Each cell in the new grid will initially be set to 0. Here is an example in Python:\nA4: To fill in the new grid with the numbers from the cells identified in Q2, we need to iterate over each cell in the input grid again. If a cell was identified in Q2, we copy its value to the corresponding cell in the new grid. Here is an example in Python:\nA5: To calculate the average of the numbers in the surrounding cells for the cells identified in Q1, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we calculate the average of its surrounding cells in the input grid. This can be done by summing up the values of the surrounding cells and dividing by the number of surrounding cells. Here is an example in Python:\nA6: To round the averages calculated in Q5 to the nearest whole number and fill in the corresponding cells in the new grid, we need to iterate over each cell in the input grid again. If a cell was identified in Q1, we round its average to the nearest whole number and copy this value to the corresponding cell in the new grid. Here is an example in Python:\nA7: The cells in the new grid that were not filled in Q4 or Q6 should already be 0, as we initialized the new grid with all cells set to 0 in Q3. Therefore, no additional steps are needed for Q7."
+            ]
+        }
+    ]
+}

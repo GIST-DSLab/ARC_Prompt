@@ -1,0 +1,34 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows in the input grid where the pattern of 2s and 0s is not alternating.",
+                    "Q2: For the rows identified in Q1, find the positions where the pattern is broken (i.e., two consecutive 2s or 0s).",
+                    "Q3: Change the value at the positions identified in Q2 to maintain the alternating pattern of 2s and 0s."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. It seems that the pattern is a sequence of 2s and 0s, with 2s being the majority and 0s appearing at regular intervals.",
+                    "Q2: Identify the changes made in the output grids compared to the input grids in the examples. It seems that some 2s are replaced by 0s and vice versa.",
+                    "Q3: Determine the rule for replacing 2s with 0s and 0s with 2s. From the examples, it seems that a 2 is replaced by a 0 if it is surrounded by 2s on both sides and a 0 is replaced by a 2 if it is surrounded by 2s on both sides.",
+                    "Q4: Apply the rule determined in Q3 to the input grid of the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid where the pattern of 2s and 0s is not alternating.",
+                    "Q2: For the rows identified in Q1, find the positions where the pattern is broken (i.e., two consecutive 2s or 0s).",
+                    "Q3: Change the value at the positions identified in Q2 to maintain the alternating pattern of 2s and 0s."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows in the input grid where the pattern of 2s and 0s is not alternating.",
+                "Q2: For the rows identified in Q1, find the positions where the pattern is broken (i.e., two consecutive 2s or 0s).",
+                "Q3: Change the value at the positions identified in Q2 to maintain the alternating pattern of 2s and 0s."
+            ]
+        }
+    ]
+}

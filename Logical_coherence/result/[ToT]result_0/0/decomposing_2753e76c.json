@@ -1,0 +1,49 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, identify the smallest rectangle that can contain all the cells of that color.",
+                    "Q3: For each rectangle identified in Q2, find the top-left cell of the rectangle.",
+                    "Q4: For each rectangle identified in Q2, find the bottom-right cell of the rectangle.",
+                    "Q5: For each color, calculate the number of rows and columns between the top-left cell and the bottom-right cell of the rectangle containing all cells of that color.",
+                    "Q6: Create a new grid with the number of rows and columns equal to the maximum number of rows and columns calculated in Q5.",
+                    "Q7: For each color, place a rectangle of that color in the new grid. The size of the rectangle should be equal to the number of rows and columns calculated in Q5 for that color. The position of the rectangle should be determined by the position of the top-left cell of the rectangle containing all cells of that color in the original grid."
+                ],
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, identify the smallest rectangle that can contain all the cells of that color.",
+                    "Q3: For each rectangle identified in Q2, find the top-left cell of the rectangle.",
+                    "Q4: For each rectangle identified in Q2, find the bottom-right cell of the rectangle.",
+                    "Q5: For each color, calculate the number of rows and columns between the top-left cell and the bottom-right cell of the rectangle containing all cells of that color.",
+                    "Q6: Create a new grid with the number of rows and columns equal to the maximum number of rows and columns calculated in Q5.",
+                    "Q7: For each color, place a rectangle of that color in the new grid. The size of the rectangle should be equal to the number of rows and columns calculated in Q5 for that color. The position of the rectangle should be determined by the position of the top-left cell of the rectangle containing all cells of that color in the original grid."
+                ],
+                [
+                    "Q1: Identify the unique colors in the grid.",
+                    "Q2: For each color, identify the smallest rectangle that can contain all the cells of that color.",
+                    "Q3: For each rectangle identified in Q2, find the top-left cell of the rectangle.",
+                    "Q4: For each rectangle identified in Q2, find the bottom-right cell of the rectangle.",
+                    "Q5: For each color, calculate the number of rows and columns between the top-left cell and the bottom-right cell of the rectangle containing all cells of that color.",
+                    "Q6: Create a new grid with the number of rows and columns equal to the maximum number of rows and columns calculated in Q5.",
+                    "Q7: For each color, place a rectangle of that color in the new grid. The size of the rectangle should be equal to the number of rows and columns calculated in Q5 for that color. The position of the rectangle should be determined by the position of the top-left cell of the rectangle containing all cells of that color in the original grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique colors in the grid.",
+                "Q2: For each color, identify the smallest rectangle that can contain all the cells of that color.",
+                "Q3: For each rectangle identified in Q2, find the top-left cell of the rectangle.",
+                "Q4: For each rectangle identified in Q2, find the bottom-right cell of the rectangle.",
+                "Q5: For each color, calculate the number of rows and columns between the top-left cell and the bottom-right cell of the rectangle containing all cells of that color.",
+                "Q6: Create a new grid with the number of rows and columns equal to the maximum number of rows and columns calculated in Q5.",
+                "Q7: For each color, place a rectangle of that color in the new grid. The size of the rectangle should be equal to the number of rows and columns calculated in Q5 for that color. The position of the rectangle should be determined by the position of the top-left cell of the rectangle containing all cells of that color in the original grid."
+            ]
+        }
+    ]
+}

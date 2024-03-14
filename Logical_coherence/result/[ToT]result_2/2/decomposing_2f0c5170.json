@@ -1,0 +1,43 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the two separate regions in the grid that are surrounded by 8s and filled with 0s and some other numbers.",
+                    "Q2: For each region, identify the cells that are not 0s and note their values and positions.",
+                    "Q3: Create a new grid with the same shape as the identified region.",
+                    "Q4: Fill the new grid with 0s.",
+                    "Q5: Replace the cells in the new grid that correspond to the non-zero cells in the identified region with their respective values.",
+                    "Q6: Repeat the process for the second region."
+                ],
+                [
+                    "Q1: Identify the two separate regions in the grid that are surrounded by 8s and filled with 0s.",
+                    "Q2: In each region, identify the cells that are filled with numbers other than 0 and 8.",
+                    "Q3: For each region, create a new grid that only includes the cells within the region, excluding the surrounding 8s.",
+                    "Q4: In the new grids, replace the cells filled with 8s with 0s."
+                ],
+                [
+                    "Q1: Identify the two separate regions in the grid that are surrounded by 8s and filled with 0s and some other numbers.",
+                    "Q2: For each region, identify the cells that are not 0s and note their values and positions.",
+                    "Q3: Create a new grid with the same shape as the identified region.",
+                    "Q4: Fill the new grid with 0s.",
+                    "Q5: Replace the cells in the new grid that correspond to the non-zero cells in the identified region with their respective values.",
+                    "Q6: Repeat the process for the second region."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the two separate regions in the grid that are surrounded by 8s and filled with 0s and some other numbers.",
+                "Q2: For each region, identify the cells that are not 0s and note their values and positions.",
+                "Q3: Create a new grid with the same shape as the identified region.",
+                "Q4: Fill the new grid with 0s.",
+                "Q5: Replace the cells in the new grid that correspond to the non-zero cells in the identified region with their respective values.",
+                "Q6: Repeat the process for the second region."
+            ]
+        }
+    ]
+}

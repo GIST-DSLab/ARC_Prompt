@@ -1,0 +1,118 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 8s on all four sides."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. ",
+                    "A2: The pattern or rule that transforms the input grid to the output grid in the examples is that the cells that are surrounded by 8s on all four sides move one cell to the left. ",
+                    "A3: Applying the rule to the quiz input grid, the output grid would be:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. ",
+                    "A2: The pattern or rule that transforms the input grid to the output grid in the examples is that the cells that are surrounded by 8s on all four sides move one cell to the left. ",
+                    "A3: Applying the rule to the quiz input grid, the output grid would be:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. ",
+                    "A2: The pattern or rule that transforms the input grid to the output grid is that the cells with the values 1, 2, and 4 move one cell to the left, if the cell to their left is an 8. ",
+                    "A3: Applying the rule to the quiz input grid, the output grid would be:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. ",
+                "A2: The pattern or rule that transforms the input grid to the output grid in the examples is that the cells that are surrounded by 8s on all four sides move one cell to the left. ",
+                "A3: Applying the rule to the quiz input grid, the output grid would be:"
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 8s on all four sides.",
+                "Q2: If the cell is not 8, shift it to the left until it hits a cell that is not 8 or the edge of the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid."
+                ],
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid."
+                ],
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 8s on all four sides.",
+                "Q2: If the cell is not 8, shift it to the left until it hits a cell that is not 8 or the edge of the grid.",
+                "Q3: Repeat the process for all cells that are not 8."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid.\nA3: The process is repeated for all cells that are not 8, resulting in the following output grid:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid.\nA3: The process is repeated for all cells that are not 8, resulting in the following output grid:"
+                ],
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid.\nA3: The process is repeated for all cells that are not 8, resulting in the following output grid:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid.\nA3: The process is repeated for all cells that are not 8, resulting in the following output grid:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by 8s on all four sides.",
+                "Q2: If the cell is not 8, shift it to the left until it hits a cell that is not 8 or the edge of the grid.",
+                "Q3: Repeat the process for all cells that are not 8.",
+                "Q4: After shifting all cells, fill the empty spaces with 8s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid.\nA3: The process is repeated for all cells that are not 8, resulting in the following output grid:\nA4: After shifting all cells, the empty spaces are filled with 8s, resulting in the following output grid:\n\n[[8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 8, 8, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 1, 1, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 1, 1, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 2, 2, 2, 2, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 2, 2, 2, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 2, 2, 2, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 4, 4, 4, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 4, 8, 4, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]]"
+                ],
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid.\nA3: The process is repeated for all cells that are not 8, resulting in the following output grid:\nA4: After shifting all cells, the empty spaces are filled with 8s, resulting in the following output grid:\n\n[[8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 8, 8, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 1, 1, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 1, 1, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 2, 2, 2, 2, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 2, 2, 2, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 2, 2, 2, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 4, 4, 4, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 4, 8, 4, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]]"
+                ],
+                [
+                    "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid.\nA3: The process is repeated for all cells that are not 8, resulting in the following output grid:\nA4: After shifting all cells, the empty spaces are filled with 8s, resulting in the following output grid:\n\n[[8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 8, 8, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 1, 1, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 1, 1, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 2, 2, 2, 2, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 2, 2, 2, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 2, 2, 2, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 4, 4, 4, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 4, 8, 4, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The cells that are surrounded by 8s on all four sides are the cells with the values 1, 2, and 4. \nA2: The cells with the values 1, 2, and 4 are shifted to the left until they hit a cell that is not 8 or the edge of the grid.\nA3: The process is repeated for all cells that are not 8, resulting in the following output grid:\nA4: After shifting all cells, the empty spaces are filled with 8s, resulting in the following output grid:\n\n[[8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 8, 8, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 1, 1, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 1, 1, 1, 1, 8, 8, 8, 8, 8, 8, 8, 8], [8, 2, 2, 2, 2, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 2, 2, 2, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 2, 2, 2, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 4, 4, 4, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 4, 8, 4, 8, 8, 8, 8, 8], [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]]"
+            ]
+        }
+    ]
+}

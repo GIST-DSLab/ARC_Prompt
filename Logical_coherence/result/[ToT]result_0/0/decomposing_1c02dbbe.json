@@ -1,0 +1,43 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the numbers 1, 3, 6, and 7 in the input grid.",
+                    "Q2: Determine the range of the 5s in the input grid.",
+                    "Q3: Divide the range of 5s into four sections according to the locations of the numbers 1, 3, 6, and 7.",
+                    "Q4: Replace the 5s in each section with the corresponding number (1, 3, 6, or 7) from Q1.",
+                    "Q5: Keep the rest of the grid the same as the input grid."
+                ],
+                [
+                    "Q1: Identify the locations of the numbers 1, 3, 6, and 7 in the input grid.",
+                    "Q2: Determine the range of the 5s in the input grid.",
+                    "Q3: Divide the range of 5s into four equal parts.",
+                    "Q4: Replace the first quarter of 5s with the number found at the location identified in Q1.",
+                    "Q5: Replace the second quarter of 5s with the number found at the location identified in Q3.",
+                    "Q6: Replace the third quarter of 5s with the number found at the location identified in Q4.",
+                    "Q7: Replace the last quarter of 5s with the number found at the location identified in Q2."
+                ],
+                [
+                    "Q1: Identify the locations of the numbers 1, 3, 6, and 7 in the input grid.",
+                    "Q2: Determine the range of the 5s in the input grid.",
+                    "Q3: Divide the range of 5s into four sections according to the locations of the numbers 1, 3, 6, and 7.",
+                    "Q4: Replace the 5s in each section with the corresponding number (1, 3, 6, or 7) from Q1.",
+                    "Q5: Keep the rest of the grid the same as the input grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the locations of the numbers 1, 3, 6, and 7 in the input grid.",
+                "Q2: Determine the range of the 5s in the input grid.",
+                "Q3: Divide the range of 5s into four sections according to the locations of the numbers 1, 3, 6, and 7.",
+                "Q4: Replace the 5s in each section with the corresponding number (1, 3, 6, or 7) from Q1.",
+                "Q5: Keep the rest of the grid the same as the input grid."
+            ]
+        }
+    ]
+}

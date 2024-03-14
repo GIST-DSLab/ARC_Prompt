@@ -1,0 +1,45 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the locations of the numbers 1, 3, 4, 6, and 7 in the input grid.",
+                    "Q2: Determine the range of the 5s in the input grid.",
+                    "Q3: Divide the range of 5s into sections based on the locations of the numbers identified in Q1.",
+                    "Q4: Assign a new number to each section of 5s based on the numbers identified in Q1. The new number should be the same as the number that divides the section.",
+                    "Q5: Replace the 5s in each section with the new number assigned in Q4."
+                ],
+                [
+                    "Q1: Identify the locations of the numbers 1, 3, 4, 6, and 7 in the input grid.",
+                    "Q2: Determine the range of the 5s in the input grid.",
+                    "Q3: Identify the pattern of the transformation from the input grid to the output grid in the examples.",
+                    "Q4: Apply the transformation pattern to the locations of the numbers 1, 3, 4, 6, and 7 in the input grid of the quiz.",
+                    "Q5: Apply the transformation pattern to the range of the 5s in the input grid of the quiz.",
+                    "Q6: Combine the transformed locations and range to generate the output grid for the quiz."
+                ],
+                [
+                    "Q1: Identify the locations of the numbers 1, 3, 4, 6, and 7 in the input grid.",
+                    "Q2: Identify the area filled with the number 5 in the input grid.",
+                    "Q3: Determine the half point of the area filled with the number 5.",
+                    "Q4: Replace the left half of the area filled with the number 5 with the number 1.",
+                    "Q5: Replace the right half of the area filled with the number 5 with the number found in the top right corner of the input grid.",
+                    "Q6: Replace the bottom half of the area filled with the number 5 with the number found in the bottom left corner of the input grid.",
+                    "Q7: Replace the top half of the area filled with the number 5 with the number found in the top left corner of the input grid."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the locations of the numbers 1, 3, 4, 6, and 7 in the input grid.",
+                "Q2: Determine the range of the 5s in the input grid.",
+                "Q3: Identify the pattern of the transformation from the input grid to the output grid in the examples.",
+                "Q4: Apply the transformation pattern to the locations of the numbers 1, 3, 4, 6, and 7 in the input grid of the quiz.",
+                "Q5: Apply the transformation pattern to the range of the 5s in the input grid of the quiz.",
+                "Q6: Combine the transformed locations and range to generate the output grid for the quiz."
+            ]
+        }
+    ]
+}

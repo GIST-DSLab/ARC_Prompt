@@ -1,0 +1,49 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows in the input grid that contain only the number 7.",
+                    "Q2: Remove the rows identified in Q1 from the input grid.",
+                    "Q3: Identify the rows in the remaining grid that contain the number 2.",
+                    "Q4: Replace the number 2 with the number 8 in the rows identified in Q3.",
+                    "Q5: Identify the rows in the remaining grid that contain the number 6.",
+                    "Q6: Remove the rows identified in Q5 from the grid.",
+                    "Q7: The remaining grid is the output grid."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid that contain only the number 7.",
+                    "Q2: Remove the rows identified in Q1 from the input grid.",
+                    "Q3: Identify the rows in the remaining grid that contain the number 2.",
+                    "Q4: Replace the number 2 with the number 8 in the rows identified in Q3.",
+                    "Q5: Identify the rows in the remaining grid that contain the number 6.",
+                    "Q6: Remove the rows identified in Q5 from the grid.",
+                    "Q7: The remaining grid is the output grid."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid that contain only the number 7.",
+                    "Q2: Remove these rows from the input grid.",
+                    "Q3: Identify the rows in the remaining grid that contain the number 2.",
+                    "Q4: Replace the number 2 in these rows with the number 8.",
+                    "Q5: Identify the rows in the remaining grid that contain the number 6.",
+                    "Q6: Remove these rows from the grid.",
+                    "Q7: The remaining grid is the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows in the input grid that contain only the number 7.",
+                "Q2: Remove these rows from the input grid.",
+                "Q3: Identify the rows in the remaining grid that contain the number 2.",
+                "Q4: Replace the number 2 in these rows with the number 8.",
+                "Q5: Identify the rows in the remaining grid that contain the number 6.",
+                "Q6: Remove these rows from the grid.",
+                "Q7: The remaining grid is the output grid."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,246 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the pattern of numbers in the input grid. "
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the first row, the sequence is [1, 3, 5, 7, 9] and in the second row, the sequence is [2, 4, 6, 8, 1]. ",
+                    "A2: The pattern of zeros in the input grid is that they appear in a block in the middle of the grid. The block of zeros is surrounded by the repeating sequence of numbers.",
+                    "A3: The transformation from the input grid to the output grid is that the block of zeros in the input grid is replaced by the repeating sequence of numbers in the output grid. The sequence of numbers continues as if the block of zeros was not there.",
+                    "A4: There are no exceptions or special cases in the input grid. All rows follow the same pattern of a repeating sequence of numbers and a block of zeros.",
+                    "A5: "
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. ",
+                    "A2: The transformation from the input grid to the output grid involves replacing the 0s in the input grid with the repeating sequence of numbers in the same row. ",
+                    "A3: The exceptions or special cases in the input grid are the rows that contain 0s. These rows are transformed in the output grid by replacing the 0s with the repeating sequence of numbers in the same row. ",
+                    "A4: "
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the first row, the sequence is [1, 3, 5, 7, 9] and in the second row, the sequence is [2, 4, 6, 8, 1]. ",
+                    "A2: The pattern of zeros in the input grid is that they appear in a block in the middle of the grid. The block of zeros is surrounded by the repeating sequence of numbers.",
+                    "A3: The transformation from the input grid to the output grid is that the block of zeros in the input grid is replaced by the repeating sequence of numbers in the output grid. The sequence of numbers continues as if the block of zeros was not there.",
+                    "A4: There are no exceptions or special cases in the input grid. All rows follow the same pattern of a repeating sequence of numbers and a block of zeros.",
+                    "A5: "
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. ",
+                "A2: The transformation from the input grid to the output grid involves replacing the 0s in the input grid with the repeating sequence of numbers in the same row. ",
+                "A3: The exceptions or special cases in the input grid are the rows that contain 0s. These rows are transformed in the output grid by replacing the 0s with the repeating sequence of numbers in the same row. ",
+                "A4: "
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the pattern of numbers in the input grid. ",
+                "Q2: Identify the rows that contain only 1s and 4s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the pattern of numbers in the input grid. ",
+                "Q2: Identify the rows that contain only 1s and 4s.",
+                "Q3: Identify the rows that contain a sequence of numbers."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the pattern of numbers in the input grid. ",
+                "Q2: Identify the rows that contain only 1s and 4s.",
+                "Q3: Identify the rows that contain a sequence of numbers.",
+                "Q4: Identify the rows that contain a sequence of numbers and zeros."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence."
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the pattern of numbers in the input grid. ",
+                "Q2: Identify the rows that contain only 1s and 4s.",
+                "Q3: Identify the rows that contain a sequence of numbers.",
+                "Q4: Identify the rows that contain a sequence of numbers and zeros.",
+                "Q5: Identify the pattern of the sequence of numbers."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats."
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the pattern of numbers in the input grid. ",
+                "Q2: Identify the rows that contain only 1s and 4s.",
+                "Q3: Identify the rows that contain a sequence of numbers.",
+                "Q4: Identify the rows that contain a sequence of numbers and zeros.",
+                "Q5: Identify the pattern of the sequence of numbers.",
+                "Q6: Identify the pattern of the sequence of numbers when zeros are included."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The first part of the sequence before the zeros and the second part of the sequence after the zeros are identical."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal."
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the pattern of numbers in the input grid. ",
+                "Q2: Identify the rows that contain only 1s and 4s.",
+                "Q3: Identify the rows that contain a sequence of numbers.",
+                "Q4: Identify the rows that contain a sequence of numbers and zeros.",
+                "Q5: Identify the pattern of the sequence of numbers.",
+                "Q6: Identify the pattern of the sequence of numbers when zeros are included.",
+                "Q7: Identify the pattern of the sequence of numbers when zeros are replaced with the sequence of numbers."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal.\nA7: When zeros are replaced with the sequence of numbers, the sequence continues as normal. The sequence before the zeros and the sequence after the zeros are the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal.\nA7: When zeros are replaced with the sequence of numbers, the sequence continues as normal. The sequence before the zeros and the sequence after the zeros are the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal.\nA7: When zeros are replaced with the sequence of numbers, the sequence continues as normal. The numbers that replace the zeros follow the same pattern as the rest of the sequence. For example, in the fourth row, the zeros are replaced with 1, 3, 5, 7, 9, 2, 4, 6, 8, continuing the sequence."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal.\nA7: When zeros are replaced with the sequence of numbers, the sequence continues as normal. The sequence before the zeros and the sequence after the zeros are the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number."
+            ]
+        },
+        {
+            "step": 7,
+            "current_subquestions": [
+                "Q1: Identify the pattern of numbers in the input grid. ",
+                "Q2: Identify the rows that contain only 1s and 4s.",
+                "Q3: Identify the rows that contain a sequence of numbers.",
+                "Q4: Identify the rows that contain a sequence of numbers and zeros.",
+                "Q5: Identify the pattern of the sequence of numbers.",
+                "Q6: Identify the pattern of the sequence of numbers when zeros are included.",
+                "Q7: Identify the pattern of the sequence of numbers when zeros are replaced with the sequence of numbers.",
+                "Q8: Apply the identified pattern to the input grid to generate the output grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal.\nA7: When zeros are replaced with the sequence of numbers, the sequence continues as normal. The sequence before the zeros and the sequence after the zeros are the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number.\nA8: To generate the output grid, replace the zeros in the input grid with the sequence of numbers. The sequence before the zeros and the sequence after the zeros should be the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number. The first, second, and third rows that contain only 1s and 4s remain the same."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal.\nA7: When zeros are replaced with the sequence of numbers, the sequence continues as normal. The sequence before the zeros and the sequence after the zeros are the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number.\nA8: To generate the output grid, replace the zeros in the input grid with the sequence of numbers. The sequence before the zeros and the sequence after the zeros should be the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number. The first, second, and third rows that contain only 1s and 4s remain the same."
+                ],
+                [
+                    "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal.\nA7: When zeros are replaced with the sequence of numbers, the sequence continues as normal. The sequence before the zeros and the sequence after the zeros are the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number.\nA8: To generate the output grid, replace the zeros in the input grid with the sequence of numbers. The sequence before the zeros and the sequence after the zeros should be the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number. The first, second, and third rows that contain only 1s and 4s remain the same."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The pattern of numbers in the input grid is a repeating sequence of numbers in each row. The sequence starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. \nA2: The rows that contain only 1s and 4s are the first, second, and third rows.\nA3: All rows from the fourth row to the last row contain a sequence of numbers.\nA4: The rows that contain a sequence of numbers and zeros are the fourth to the eighteenth rows. The zeros appear in the middle of the sequence.\nA5: The pattern of the sequence of numbers is that it starts with 1 and increases by 1 or 2 each time. The sequence repeats after reaching a certain number. The repeating sequence is different for each row. For example, in the fourth row, the sequence is 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats. In the fifth row, the sequence is 2, 7, 9, 1, 3, 5, 7, 9, 2, 4, 6, 8 and it repeats.\nA6: When zeros are included, they replace a portion of the sequence of numbers. The zeros appear in the middle of the sequence, splitting it into two parts. The sequence before and after the zeros continues as normal.\nA7: When zeros are replaced with the sequence of numbers, the sequence continues as normal. The sequence before the zeros and the sequence after the zeros are the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number.\nA8: To generate the output grid, replace the zeros in the input grid with the sequence of numbers. The sequence before the zeros and the sequence after the zeros should be the same. The sequence continues to increase by 1 or 2 each time and repeats after reaching a certain number. The first, second, and third rows that contain only 1s and 4s remain the same."
+            ]
+        }
+    ]
+}

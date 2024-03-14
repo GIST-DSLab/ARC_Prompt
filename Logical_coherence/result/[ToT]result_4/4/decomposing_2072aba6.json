@@ -1,0 +1,35 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the location of the number 5 in the input grid.",
+                    "Q2: For each 5 in the input grid, create a 2x2 grid in the output grid with the pattern [[1,2],[2,1]].",
+                    "Q3: If there are adjacent 5s in the input grid, merge the corresponding 2x2 grids in the output grid.",
+                    "Q4: Fill the rest of the output grid with 0s."
+                ],
+                [
+                    "Q1: Identify the location of the number 5 in the input grid.",
+                    "Q2: For each location of 5, create a 2x2 grid with alternating 1 and 2 starting from the top left.",
+                    "Q3: Combine all the 2x2 grids to form the output grid."
+                ],
+                [
+                    "Q1: Identify the location of the number 5 in the input grid.",
+                    "Q2: For each location of 5, create a 2x2 grid with alternating 1 and 2 starting from the top left.",
+                    "Q3: Combine all the 2x2 grids to form the output grid."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the location of the number 5 in the input grid.",
+                "Q2: For each 5 in the input grid, create a 2x2 grid in the output grid with the pattern [[1,2],[2,1]].",
+                "Q3: If there are adjacent 5s in the input grid, merge the corresponding 2x2 grids in the output grid.",
+                "Q4: Fill the rest of the output grid with 0s."
+            ]
+        }
+    ]
+}

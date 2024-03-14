@@ -1,0 +1,39 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells in the input grid that are surrounded by the same number on all four sides (up, down, left, right).",
+                    "Q2: Check if the number surrounding the cell in Q1 is greater than the number in the cell.",
+                    "Q3: If the condition in Q2 is met, replace the number in the cell with the surrounding number.",
+                    "Q4: Repeat Q1-Q3 for all cells in the input grid."
+                ],
+                [
+                    "Q1: Identify the cells in the input grid that are surrounded by the same number on all four sides (up, down, left, right).",
+                    "Q2: Check if the number surrounding the cell in Q1 is greater than the number in the cell.",
+                    "Q3: If the condition in Q2 is met, replace the number in the cell with the surrounding number.",
+                    "Q4: Repeat Q1-Q3 for all cells in the input grid."
+                ],
+                [
+                    "Q1: Identify the cells in the input grid that are surrounded by the same number on all four sides (up, down, left, right).",
+                    "Q2: Check if the number surrounding the cell is greater than the number in the cell.",
+                    "Q3: If the number surrounding the cell is greater, replace the number in the cell with the surrounding number.",
+                    "Q4: Repeat this process for all cells in the grid.",
+                    "Q5: The final grid after all replacements is the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                3
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells in the input grid that are surrounded by the same number on all four sides (up, down, left, right).",
+                "Q2: Check if the number surrounding the cell is greater than the number in the cell.",
+                "Q3: If the number surrounding the cell is greater, replace the number in the cell with the surrounding number.",
+                "Q4: Repeat this process for all cells in the grid.",
+                "Q5: The final grid after all replacements is the output grid."
+            ]
+        }
+    ]
+}

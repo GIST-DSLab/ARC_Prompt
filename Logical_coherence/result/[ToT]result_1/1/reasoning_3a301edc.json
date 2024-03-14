@@ -1,0 +1,139 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the coordinates of the cells that are surrounded by the number 3."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9)."
+                ],
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9)."
+                ],
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9)."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9)."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the coordinates of the cells that are surrounded by the number 3.",
+                "Q2: Identify the coordinates of the cells that contain the number 8."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8)."
+                ],
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8)."
+                ],
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8)."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8)."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the coordinates of the cells that are surrounded by the number 3.",
+                "Q2: Identify the coordinates of the cells that contain the number 8.",
+                "Q3: Replace the cells identified in Q1 with the number 8."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:"
+                ],
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:"
+                ],
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the coordinates of the cells that are surrounded by the number 3.",
+                "Q2: Identify the coordinates of the cells that contain the number 8.",
+                "Q3: Replace the cells identified in Q1 with the number 8.",
+                "Q4: Replace the cells identified in Q2 with the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:\nA4: The cells identified in Q2 are replaced with the number 2, resulting in the following grid:"
+                ],
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:\nA4: The cells identified in Q2 are replaced with the number 2, resulting in the following grid:"
+                ],
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:\nA4: The cells identified in Q2 are replaced with the number 2, resulting in the following grid:"
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:\nA4: The cells identified in Q2 are replaced with the number 2, resulting in the following grid:"
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the coordinates of the cells that are surrounded by the number 3.",
+                "Q2: Identify the coordinates of the cells that contain the number 8.",
+                "Q3: Replace the cells identified in Q1 with the number 8.",
+                "Q4: Replace the cells identified in Q2 with the number 2.",
+                "Q5: Replace all remaining cells with the number 0."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:\nA4: The cells identified in Q2 are replaced with the number 2, resulting in the following grid:\nA5: All remaining cells are replaced with the number 0, resulting in the following grid:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:\nA4: The cells identified in Q2 are replaced with the number 2, resulting in the following grid:\nA5: All remaining cells are replaced with the number 0, resulting in the following grid:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 8, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:\nA4: The cells identified in Q2 are replaced with the number 2, resulting in the following grid:\nA5: All remaining cells are replaced with the number 0, resulting in the following grid:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The coordinates of the cells that are surrounded by the number 3 are (7,6), (7,7), (7,8), (7,9), (8,6), (8,7), (8,8), (8,9), (9,6), (9,7), (9,8), (9,9), (10,6), (10,7), (10,8), (10,9).\nA2: The coordinates of the cells that contain the number 8 are (7,7), (7,8), (8,7), (8,8), (9,7), (9,8), (10,7), (10,8).\nA3: The cells identified in Q1 are replaced with the number 8, resulting in the following grid:\nA4: The cells identified in Q2 are replaced with the number 2, resulting in the following grid:\nA5: All remaining cells are replaced with the number 0, resulting in the following grid:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 2, 2, 2, 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

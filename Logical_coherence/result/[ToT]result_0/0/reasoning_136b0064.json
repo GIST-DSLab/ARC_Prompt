@@ -1,0 +1,122 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the input grid. The pattern seems to be a series of rows with a specific color (represented by a number), separated by rows of zeros, and a column of 4s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.",
+                    "A2: Yes, the pattern in the output grid is a rearrangement of the patterns in the input grid around the column of 4s. The patterns of colors 1, 2, 3, and 6 are moved to the right side of the column of 4s, and they are arranged in the order of their appearance from top to bottom in the input grid. The patterns are also rotated 90 degrees clockwise.",
+                    "A3: Yes, the transformation from the input grid to the output grid involves a rotation and translation of the input patterns. The patterns of colors 1, 2, 3, and 6 are rotated 90 degrees clockwise and then moved to the right side of the column of 4s. The order of the patterns is preserved in the transformation.",
+                    "A4: Applying the identified transformation to the quiz input grid, we get the quiz output grid as follows:"
+                ],
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.",
+                    "A2: Yes, the pattern in the output grid is a rearrangement of the colors from the input grid. The colors are grouped together in the center of the grid, surrounded by zeros. The color patterns from the input grid are preserved, but they are rotated and rearranged. For example, the color 1 pattern is rotated 90 degrees clockwise, the color 2 pattern is rotated 90 degrees counterclockwise, the color 6 pattern is flipped vertically, and the color 3 pattern is left unchanged.",
+                    "A3: Yes, the transformation from the input grid to the output grid involves rotating and rearranging the color patterns, and replacing the column of 4s with a column of zeros. The color 1 pattern is rotated 90 degrees clockwise, the color 2 pattern is rotated 90 degrees counterclockwise, the color 6 pattern is flipped vertically, and the color 3 pattern is left unchanged. The colors are then grouped together in the center of the grid, surrounded by zeros.",
+                    "A4: Applying the identified transformation to the quiz input grid, we get the following output grid:"
+                ],
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors (represented by numbers), separated by rows of zeros, and a column of 4s. Each color forms a specific pattern in its row. ",
+                    "A2: Yes, the pattern in the output grid is a rearrangement of the colors in the input grid. The colors now form a circular pattern around the column of 4s. The colors are arranged in the order they appear in the input grid, from top to bottom.",
+                    "A3: Yes, the transformation from the input grid to the output grid involves moving the colors from their original rows to form a circular pattern around the column of 4s. The colors are moved in the order they appear in the input grid, from top to bottom.",
+                    "A4: Applying the identified transformation to the quiz input grid, the quiz output grid would be:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.",
+                "A2: Yes, the pattern in the output grid is a rearrangement of the colors from the input grid. The colors are grouped together in the center of the grid, surrounded by zeros. The color patterns from the input grid are preserved, but they are rotated and rearranged. For example, the color 1 pattern is rotated 90 degrees clockwise, the color 2 pattern is rotated 90 degrees counterclockwise, the color 6 pattern is flipped vertically, and the color 3 pattern is left unchanged.",
+                "A3: Yes, the transformation from the input grid to the output grid involves rotating and rearranging the color patterns, and replacing the column of 4s with a column of zeros. The color 1 pattern is rotated 90 degrees clockwise, the color 2 pattern is rotated 90 degrees counterclockwise, the color 6 pattern is flipped vertically, and the color 3 pattern is left unchanged. The colors are then grouped together in the center of the grid, surrounded by zeros.",
+                "A4: Applying the identified transformation to the quiz input grid, we get the following output grid:"
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the input grid. The pattern seems to be a series of rows with a specific color (represented by a number), separated by rows of zeros, and a column of 4s.",
+                "Q2: Identify the transformation from the input grid to the output grid in the examples. The transformation seems to be a rotation of the grid 90 degrees counterclockwise."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors in the input grid are also rotated 90 degrees counterclockwise in the output grid."
+                ],
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors are also rotated accordingly."
+                ],
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors in the input grid are also rotated 90 degrees counterclockwise in the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors are also rotated accordingly."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the input grid. The pattern seems to be a series of rows with a specific color (represented by a number), separated by rows of zeros, and a column of 4s.",
+                "Q2: Identify the transformation from the input grid to the output grid in the examples. The transformation seems to be a rotation of the grid 90 degrees counterclockwise.",
+                "Q3: Identify the color rows in the input grid of the quiz. "
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors are also rotated accordingly.\nA3: In the input grid of the quiz, the color rows are as follows: "
+                ],
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors are also rotated accordingly.\nA3: In the input grid of the quiz, the color rows are as follows: "
+                ],
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors are also rotated accordingly.\nA3: In the input grid of the quiz, the color rows are as follows: "
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors are also rotated accordingly.\nA3: In the input grid of the quiz, the color rows are as follows: "
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the pattern of the input grid. The pattern seems to be a series of rows with a specific color (represented by a number), separated by rows of zeros, and a column of 4s.",
+                "Q2: Identify the transformation from the input grid to the output grid in the examples. The transformation seems to be a rotation of the grid 90 degrees counterclockwise.",
+                "Q3: Identify the color rows in the input grid of the quiz. ",
+                "Q4: Apply the transformation (rotation 90 degrees counterclockwise) to the identified color rows in the quiz input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors are also rotated accordingly.\nA3: In the input grid of the quiz, the color rows are as follows: \nA4: Applying the transformation to the identified color rows in the quiz input grid, the output grid would be:\n\n[[0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors are also rotated accordingly.\nA3: In the input grid of the quiz, the color rows are as follows: \nA4: Applying the transformation to the identified color rows in the quiz input grid, the output grid would be:\n\n[[0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors are also rotated accordingly.\nA3: In the input grid of the quiz, the color rows are as follows: \nA4: Applying the transformation to the identified color rows in the quiz input grid, the output grid should be as follows:\n\n[[0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: Yes, the pattern in the input grid is a series of rows with specific colors represented by numbers. Each color forms a specific pattern. For example, color 1 forms a pattern of three cells in a row, color 2 forms a pattern of three cells in a column, color 6 forms a pattern of three cells in a diagonal line, and color 3 forms a pattern of three cells in a cross shape. These patterns are separated by rows of zeros, and there is a column of 4s in the middle of the grid.\nA2: Yes, the transformation from the input grid to the output grid in the examples is a rotation of the grid 90 degrees counterclockwise. Additionally, the column of 4s in the input grid becomes a row of 4s in the output grid, and the patterns of colors are also rotated accordingly.\nA3: In the input grid of the quiz, the color rows are as follows: \nA4: Applying the transformation to the identified color rows in the quiz input grid, the output grid would be:\n\n[[0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+            ]
+        }
+    ]
+}

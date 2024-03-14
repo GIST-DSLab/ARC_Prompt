@@ -1,0 +1,200 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not 0 or 4."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not 0 or 4.",
+                "Q2: For each unique number identified in Q1, find the rows where this number appears."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: "
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: "
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: "
+                ]
+            ],
+            "values": [
+                2,
+                1,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: "
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not 0 or 4.",
+                "Q2: For each unique number identified in Q1, find the rows where this number appears.",
+                "Q3: For each row identified in Q2, find the column where the number 4 appears."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row."
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not 0 or 4.",
+                "Q2: For each unique number identified in Q1, find the rows where this number appears.",
+                "Q3: For each row identified in Q2, find the column where the number 4 appears.",
+                "Q4: Create a new grid with the same number of rows as the unique numbers identified in Q1 and the same number of columns as the original grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:"
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:"
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:"
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not 0 or 4.",
+                "Q2: For each unique number identified in Q1, find the rows where this number appears.",
+                "Q3: For each row identified in Q2, find the column where the number 4 appears.",
+                "Q4: Create a new grid with the same number of rows as the unique numbers identified in Q1 and the same number of columns as the original grid.",
+                "Q5: In the new grid, for each row, fill the cells with the unique number corresponding to that row, starting from the column identified in Q3 to the end of the row."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: "
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: "
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: "
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not 0 or 4.",
+                "Q2: For each unique number identified in Q1, find the rows where this number appears.",
+                "Q3: For each row identified in Q2, find the column where the number 4 appears.",
+                "Q4: Create a new grid with the same number of rows as the unique numbers identified in Q1 and the same number of columns as the original grid.",
+                "Q5: In the new grid, for each row, fill the cells with the unique number corresponding to that row, starting from the column identified in Q3 to the end of the row.",
+                "Q6: For the rest of the cells in the new grid, fill them with 0."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: \nA6: "
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: \nA6: "
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: \nA6: "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: \nA6: "
+            ]
+        },
+        {
+            "step": 6,
+            "current_subquestions": [
+                "Q1: Identify the unique numbers in the grid that are not 0 or 4.",
+                "Q2: For each unique number identified in Q1, find the rows where this number appears.",
+                "Q3: For each row identified in Q2, find the column where the number 4 appears.",
+                "Q4: Create a new grid with the same number of rows as the unique numbers identified in Q1 and the same number of columns as the original grid.",
+                "Q5: In the new grid, for each row, fill the cells with the unique number corresponding to that row, starting from the column identified in Q3 to the end of the row.",
+                "Q6: For the rest of the cells in the new grid, fill them with 0.",
+                "Q7: Rotate the new grid 90 degrees counterclockwise."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: \nA6: \nA7: \n\nQ8: The final output grid would look like this:\n[[0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: \nA6: \nA7: \n\nQ8: The final output grid would look like this:\n[[0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: \nA6: \nA7: \n\nQ8: The final output grid would look like this:\n[[0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: The unique numbers in the grid that are not 0 or 4 are 1, 2, 3, 5, and 6.\nA2: \nA3: The number 4 appears in the 8th column of each row.\nA4: The new grid would look like this:\nA5: \nA6: \nA7: \n\nQ8: The final output grid would look like this:\n[[0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 6, 6, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+            ]
+        }
+    ]
+}

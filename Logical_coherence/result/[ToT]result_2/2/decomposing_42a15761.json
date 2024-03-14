@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. It seems that the pattern is a sequence of 2s and 0s, with 2s being the majority and 0s appearing at regular intervals.",
+                    "Q2: Identify the changes made in the output grids of the examples. It seems that some 2s are replaced by 0s and vice versa.",
+                    "Q3: Determine the rule for replacing 2s with 0s and 0s with 2s. It seems that a 2 is replaced by a 0 if it is surrounded by 2s on both sides and a 0 is replaced by a 2 if it is surrounded by 2s on both sides.",
+                    "Q4: Apply the rule determined in Q3 to the input grid of the quiz to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the rows in the input grid where the pattern of 2s and 0s is not alternating.",
+                    "Q2: For the rows identified in Q1, find the positions where the value is 0 and the value to its right is also 2.",
+                    "Q3: Replace the 0s identified in Q2 with 2s to make the pattern of 2s and 0s alternating.",
+                    "Q4: Repeat the process for all the rows in the input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grids of the examples. It seems that the pattern is a sequence of 2s and 0s, with 2s being the majority and 0s appearing at regular intervals.",
+                    "Q2: Identify the changes made in the output grids of the examples. It seems that some 2s are replaced by 0s and vice versa.",
+                    "Q3: Determine the rule for replacing 2s with 0s and 0s with 2s. It seems that a 2 is replaced by a 0 if it is surrounded by 2s on both sides and a 0 is replaced by a 2 if it is surrounded by 2s on both sides.",
+                    "Q4: Apply the rule determined in Q3 to the input grid of the quiz to generate the output grid."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the input grids of the examples. It seems that the pattern is a sequence of 2s and 0s, with 2s being the majority and 0s appearing at regular intervals.",
+                "Q2: Identify the changes made in the output grids of the examples. It seems that some 2s are replaced by 0s and vice versa.",
+                "Q3: Determine the rule for replacing 2s with 0s and 0s with 2s. It seems that a 2 is replaced by a 0 if it is surrounded by 2s on both sides and a 0 is replaced by a 2 if it is surrounded by 2s on both sides.",
+                "Q4: Apply the rule determined in Q3 to the input grid of the quiz to generate the output grid."
+            ]
+        }
+    ]
+}

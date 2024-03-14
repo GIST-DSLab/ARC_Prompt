@@ -1,0 +1,38 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the coordinates of the non-zero numbers in the input grid.",
+                    "Q2: Determine the direction of the line that will be drawn from the non-zero numbers. This can be done by checking the relative positions of the non-zero numbers.",
+                    "Q3: Draw a line from the non-zero numbers in the direction determined in Q2. The line should be drawn until it hits the edge of the grid or another non-zero number.",
+                    "Q4: The line should be drawn with the color of the non-zero number from which it starts."
+                ],
+                [
+                    "Q1: Identify the cells that contain the numbers 4, 8, and 5 in the input grid.",
+                    "Q2: Determine the direction of the line that connects the cells containing the numbers 4, 8, and 5.",
+                    "Q3: Fill in the cells along the line from the cell containing the number 4 to the cell containing the number 5 with the number 4.",
+                    "Q4: Fill in the cells along the line from the cell containing the number 5 to the cell containing the number 8 with the number 5.",
+                    "Q5: Fill in the cells along the line from the cell containing the number 8 to the cell containing the number 4 with the number 8."
+                ],
+                [
+                    "Q1: Identify the coordinates of the non-zero numbers in the input grid.",
+                    "Q2: Determine the direction of the line that will be drawn from the non-zero numbers. This can be done by checking the relative positions of the non-zero numbers.",
+                    "Q3: Draw a line from the non-zero numbers in the direction determined in Q2 until it hits another non-zero number or the edge of the grid.",
+                    "Q4: Fill in the line with the color of the non-zero number from which it started."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the coordinates of the non-zero numbers in the input grid.",
+                "Q2: Determine the direction of the line that will be drawn from the non-zero numbers. This can be done by checking the relative positions of the non-zero numbers.",
+                "Q3: Draw a line from the non-zero numbers in the direction determined in Q2. The line should be drawn until it hits the edge of the grid or another non-zero number.",
+                "Q4: The line should be drawn with the color of the non-zero number from which it starts."
+            ]
+        }
+    ]
+}

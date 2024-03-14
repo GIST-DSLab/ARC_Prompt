@@ -1,0 +1,169 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each row identified in Q1, find the row above it that contains the number 2."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, 11th rows."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each row identified in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row identified in Q2, find the maximum number of consecutive 2s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively."
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each row identified in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row identified in Q2, find the maximum number of consecutive 2s.",
+                "Q4: Create a new grid with the same number of columns as the input grid but only three rows."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:"
+            ]
+        },
+        {
+            "step": 4,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each row identified in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row identified in Q2, find the maximum number of consecutive 2s.",
+                "Q4: Create a new grid with the same number of columns as the input grid but only three rows.",
+                "Q5: Fill the first and third rows of the new grid with 0s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:\nA5: The new grid would look like this:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:\nA5: The new grid would look like this:"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:\nA5: The new grid would look like this:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:\nA5: The new grid would look like this:"
+            ]
+        },
+        {
+            "step": 5,
+            "current_subquestions": [
+                "Q1: Identify the rows that contain the number 5.",
+                "Q2: For each row identified in Q1, find the row above it that contains the number 2.",
+                "Q3: For each row identified in Q2, find the maximum number of consecutive 2s.",
+                "Q4: Create a new grid with the same number of columns as the input grid but only three rows.",
+                "Q5: Fill the first and third rows of the new grid with 0s.",
+                "Q6: Fill the second row of the new grid with the maximum number of consecutive 2s found in Q3, starting from the fifth column. Fill the rest of the row with 0s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:\nA5: The new grid would look like this:\nA6: The new grid would look like this:\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:\nA5: The new grid would look like this:\nA6: The new grid would look like this:\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:\nA5: The new grid would look like this:\nA6: The new grid would look like this:\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]].\n\nSo, the output grids are\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: The rows that contain the number 5 are the 4th, 8th, 12th rows.\nA2: The rows above the rows identified in Q1 that contain the number 2 are the 3rd, 7th, and 11th rows.\nA3: The maximum number of consecutive 2s in the rows identified in Q2 are 11, 11, and 11 respectively.\nA4: The new grid would look like this:\nA5: The new grid would look like this:\nA6: The new grid would look like this:\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+            ]
+        }
+    ]
+}

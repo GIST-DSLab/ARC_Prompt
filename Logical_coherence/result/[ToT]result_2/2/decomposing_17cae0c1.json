@@ -1,0 +1,41 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern of the input grid. The pattern seems to be a 3x9 grid with three distinct sections. Each section is filled with a specific number (0 or 5).",
+                    "Q2: Determine the transformation rules from the input grid to the output grid. From the examples, it seems that the first three columns are transformed to a specific number, the middle three columns to another number, and the last three columns to a third number.",
+                    "Q3: Identify the specific transformation for each section. From the examples, it seems that the section filled with 0s is transformed to 4s in the first example, 9s in the second example, 1s in the third example, and 4s in the fourth example. The section filled with 5s is transformed to 3s in the first example, 1s in the second example, 6s in the third example, and 3s in the fourth example.",
+                    "Q4: Determine the rule for the transformation of the middle section. From the examples, it seems that the middle section is always transformed to 4s in the first example, 1s in the second example, 3s in the third example, and 6s in the fourth example.",
+                    "Q5: Apply the transformation rules identified in Q2, Q3, and Q4 to the input grid of the quiz."
+                ],
+                [
+                    "Q1: Identify the pattern of the input grid. The pattern seems to be that the grid is divided into three sections, each filled with a different number (0 or 5).",
+                    "Q2: Determine the number of cells filled with '5' in each section of the input grid.",
+                    "Q3: Determine the number of cells filled with '0' in each section of the input grid.",
+                    "Q4: Based on the number of '5' and '0' cells in each section, assign a new number to each section. In the examples, the new number seems to be determined by the number of '5' cells minus the number of '0' cells.",
+                    "Q5: Replace all cells in each section with the new number determined in Q4."
+                ],
+                [
+                    "Q1: Identify the pattern of the input grid. The pattern seems to be that the grid is divided into three sections, each filled with a different number (0 or 5).",
+                    "Q2: Determine the number of cells filled with '5' in each section of the input grid.",
+                    "Q3: Determine the number of cells filled with '0' in each section of the input grid.",
+                    "Q4: Based on the examples, the output grid seems to be filled with numbers that are somehow related to the number of '5' and '0' cells in each section of the input grid. Identify this relationship.",
+                    "Q5: Apply this relationship to the input grid of the quiz to generate the output grid."
+                ]
+            ],
+            "values": [
+                2,
+                0,
+                1
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern of the input grid. The pattern seems to be a 3x9 grid with three distinct sections. Each section is filled with a specific number (0 or 5).",
+                "Q2: Determine the transformation rules from the input grid to the output grid. From the examples, it seems that the first three columns are transformed to a specific number, the middle three columns to another number, and the last three columns to a third number.",
+                "Q3: Identify the specific transformation for each section. From the examples, it seems that the section filled with 0s is transformed to 4s in the first example, 9s in the second example, 1s in the third example, and 4s in the fourth example. The section filled with 5s is transformed to 3s in the first example, 1s in the second example, 6s in the third example, and 3s in the fourth example.",
+                "Q4: Determine the rule for the transformation of the middle section. From the examples, it seems that the middle section is always transformed to 4s in the first example, 1s in the second example, 3s in the third example, and 6s in the fourth example.",
+                "Q5: Apply the transformation rules identified in Q2, Q3, and Q4 to the input grid of the quiz."
+            ]
+        }
+    ]
+}

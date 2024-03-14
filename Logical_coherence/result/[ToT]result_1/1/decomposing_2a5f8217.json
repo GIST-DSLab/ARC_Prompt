@@ -1,0 +1,37 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Replace the identified cells with the number that is located at the bottom left corner of the grid.",
+                    "Q3: Repeat the process for all the different numbers in the grid."
+                ],
+                [
+                    "Q1: Identify the cells that contain the number 1 in the input grid.",
+                    "Q2: Identify the unique numbers in the grid that are not 0 or 1.",
+                    "Q3: For each unique number identified in Q2, find the corresponding 1s in the grid that form a similar pattern.",
+                    "Q4: Replace the 1s identified in Q3 with the corresponding unique number from Q2.",
+                    "Q5: Repeat Q3 and Q4 for all unique numbers identified in Q2."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Replace the identified cells with the number that is located at the bottom left corner of the grid.",
+                    "Q3: Repeat the process for all the different numbers in the grid."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that contain the number 1 in the input grid.",
+                "Q2: Identify the unique numbers in the grid that are not 0 or 1.",
+                "Q3: For each unique number identified in Q2, find the corresponding 1s in the grid that form a similar pattern.",
+                "Q4: Replace the 1s identified in Q3 with the corresponding unique number from Q2.",
+                "Q5: Repeat Q3 and Q4 for all unique numbers identified in Q2."
+            ]
+        }
+    ]
+}

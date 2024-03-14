@@ -1,0 +1,40 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the two distinct patterns in the input grid. One pattern is a square of 4s surrounded by 3s and the other pattern is a line of 2s with a 1, 4, 6, 7, or 8 in the middle.",
+                    "Q2: Determine the transformation rules for the first pattern. The square of 4s is reduced to a smaller square and the surrounding 3s are removed.",
+                    "Q3: Determine the transformation rules for the second pattern. The line of 2s is reduced to a smaller line and the middle number is kept.",
+                    "Q4: Apply the transformation rules to the quiz input grid. The square of 4s should be reduced and the line of 2s should be reduced according to the rules determined in Q2 and Q3.",
+                    "Q5: Combine the transformed patterns to form the output grid. The transformed square of 4s and line of 2s should be combined in the same positions as the original patterns in the input grid."
+                ],
+                [
+                    "Q1: Identify the two distinct patterns in the input grid. One pattern is a square of 4s surrounded by 3s and the other pattern is a line of 2s with a 1, 4, 6, 7, or 8 in the middle.",
+                    "Q2: Determine the transformation rules for the first pattern. The square of 4s is reduced to a smaller square and the surrounding 3s are removed.",
+                    "Q3: Determine the transformation rules for the second pattern. The line of 2s is reduced to a smaller line and the middle number is kept.",
+                    "Q4: Apply the transformation rules to the quiz input grid. The square of 4s should be reduced and the line of 2s should be reduced according to the rules determined in Q2 and Q3.",
+                    "Q5: Combine the transformed patterns to form the output grid. The transformed square of 4s and line of 2s should be combined in the same positions as the original patterns in the input grid."
+                ],
+                [
+                    "Q1: Identify the two distinct patterns in the input grid. One pattern is a square of 4s surrounded by 3s and the other pattern is a line of 2s surrounded by 0s.",
+                    "Q2: Determine the transformation rules for the first pattern. The transformation seems to be that the square of 4s is reduced to a smaller square and the surrounding 3s are replaced by 2s.",
+                    "Q3: Determine the transformation rules for the second pattern. The transformation seems to be that the line of 2s is reduced to a smaller line and the surrounding 0s are replaced by 1s.",
+                    "Q4: Apply the transformation rules to the corresponding patterns in the quiz input grid."
+                ]
+            ],
+            "values": [
+                2,
+                1,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the two distinct patterns in the input grid. One pattern is a square of 4s surrounded by 3s and the other pattern is a line of 2s with a 1, 4, 6, 7, or 8 in the middle.",
+                "Q2: Determine the transformation rules for the first pattern. The square of 4s is reduced to a smaller square and the surrounding 3s are removed.",
+                "Q3: Determine the transformation rules for the second pattern. The line of 2s is reduced to a smaller line and the middle number is kept.",
+                "Q4: Apply the transformation rules to the quiz input grid. The square of 4s should be reduced and the line of 2s should be reduced according to the rules determined in Q2 and Q3.",
+                "Q5: Combine the transformed patterns to form the output grid. The transformed square of 4s and line of 2s should be combined in the same positions as the original patterns in the input grid."
+            ]
+        }
+    ]
+}

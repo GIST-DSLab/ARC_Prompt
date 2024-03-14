@@ -1,0 +1,49 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows that contain the number 2 in the input grid.",
+                    "Q2: For each row identified in Q1, check if there are any 1s present in the row.",
+                    "Q3: If there are 1s present in the row, identify the pattern of 1s.",
+                    "Q4: For the pattern of 1s identified in Q3, check if there is a similar pattern in the row below.",
+                    "Q5: If there is a similar pattern in the row below, replace the 1s in the original row with 0s.",
+                    "Q6: For the row below the original row, replace the 1s in the pattern with 1s in the original row.",
+                    "Q7: Repeat steps Q3 to Q6 for all rows identified in Q1.",
+                    "Q8: The final output grid is the result of all the replacements made in steps Q5 and Q6."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 2 in the input grid.",
+                    "Q2: Identify the rows that contain the number 1 in the input grid.",
+                    "Q3: For each row containing the number 1, check if there are two consecutive 1s.",
+                    "Q4: If there are two consecutive 1s, keep them as they are. If there is only one 1, check if it is surrounded by 0s. If it is, change the 0 on its right to 1.",
+                    "Q5: For each row containing the number 2, keep them as they are.",
+                    "Q6: For each row that contains neither 1 nor 2, change all the elements to 0."
+                ],
+                [
+                    "Q1: Identify the rows that contain the number 2 in the input grid.",
+                    "Q2: Identify the rows that contain the number 1 in the input grid.",
+                    "Q3: For each row containing the number 1, check if there are two consecutive 1s.",
+                    "Q4: If there are two consecutive 1s, keep them as they are. If there is only one 1, check if it is surrounded by 0s. If it is, change the 0 on its right to 1.",
+                    "Q5: For each row containing the number 2, keep them as they are.",
+                    "Q6: For each row that contains neither 1 nor 2, change all the numbers to 0."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows that contain the number 2 in the input grid.",
+                "Q2: For each row identified in Q1, check if there are any 1s present in the row.",
+                "Q3: If there are 1s present in the row, identify the pattern of 1s.",
+                "Q4: For the pattern of 1s identified in Q3, check if there is a similar pattern in the row below.",
+                "Q5: If there is a similar pattern in the row below, replace the 1s in the original row with 0s.",
+                "Q6: For the row below the original row, replace the 1s in the pattern with 1s in the original row.",
+                "Q7: Repeat steps Q3 to Q6 for all rows identified in Q1.",
+                "Q8: The final output grid is the result of all the replacements made in steps Q5 and Q6."
+            ]
+        }
+    ]
+}

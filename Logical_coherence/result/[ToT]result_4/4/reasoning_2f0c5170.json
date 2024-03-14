@@ -1,0 +1,116 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:",
+                    "A2: The pattern in these areas is that they contain a shape made up of 0s and other numbers, surrounded by 0s. The shape is not always the same, but it is always centered in the area.",
+                    "A3: We can transform these areas into the output grid by removing the surrounding 0s and 8s, leaving only the shape made up of other numbers and the 0s that are part of the shape. ",
+                    "A4: The output grid for the given input grid is:"
+                ],
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:",
+                    "A2: The pattern in these areas is that they contain a shape made up of 0s and other numbers, surrounded by 0s. The shape is not always the same, but it is always centered in the area.",
+                    "A3: We can transform these areas into the output grid by removing the surrounding 0s and 8s, leaving only the shape made up of other numbers and the 0s that are part of the shape. ",
+                    "A4: The output grid for the given input grid is:"
+                ],
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:"
+                ]
+            ],
+            "values": [
+                0,
+                1,
+                2
+            ],
+            "select_new_ys": [
+                "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:"
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers.",
+                "Q2: Extract these areas from the input grid, ignoring the surrounding 8s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:"
+                ],
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:"
+                ],
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:"
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers.",
+                "Q2: Extract these areas from the input grid, ignoring the surrounding 8s.",
+                "Q3: For each extracted area, identify the pattern of numbers other than 0s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:\nA3: The pattern of numbers other than 0s in each extracted area is:"
+                ],
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:\nA3: The pattern of numbers other than 0s in each extracted area is:"
+                ],
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:\nA3: The pattern of numbers other than 0s in each extracted area is:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:\nA3: The pattern of numbers other than 0s in each extracted area is:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers.",
+                "Q2: Extract these areas from the input grid, ignoring the surrounding 8s.",
+                "Q3: For each extracted area, identify the pattern of numbers other than 0s.",
+                "Q4: Create a new grid that only contains the identified patterns from Q3, surrounded by 0s."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:\nA3: The pattern of numbers other than 0s in each extracted area is:\nA4: The new grid that only contains the identified patterns from Q3, surrounded by 0s is:\n\n[[0, 0, 0, 0, 0, 0, 0], [0, 4, 4, 0, 4, 4, 0], [0, 0, 4, 2, 4, 0, 0], [0, 4, 4, 4, 4, 4, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:\nA3: The pattern of numbers other than 0s in each extracted area is:\nA4: The new grid that only contains the identified patterns from Q3, surrounded by 0s is:\n\n[[0, 0, 0, 0, 0, 0, 0], [0, 4, 4, 0, 4, 4, 0], [0, 0, 4, 2, 4, 0, 0], [0, 4, 4, 4, 4, 4, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0]]."
+                ],
+                [
+                    "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:\nA3: The pattern of numbers other than 0s in each extracted area is:\nA4: The new grid that only contains the identified patterns from Q3, surrounded by 0s is:\n\n[[0, 0, 0, 0, 0, 0, 0], [0, 4, 4, 0, 4, 4, 0], [0, 0, 4, 2, 4, 0, 0], [0, 4, 4, 4, 4, 4, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 2, 0, 0, 0]]."
+                ]
+            ],
+            "values": [
+                60.0,
+                60.0,
+                60.0
+            ],
+            "select_new_ys": [
+                "A1: The areas in the input grid that are surrounded by 8s and contain a pattern of 0s and other numbers are:\nA2: The extracted areas from the input grid, ignoring the surrounding 8s are:\nA3: The pattern of numbers other than 0s in each extracted area is:\nA4: The new grid that only contains the identified patterns from Q3, surrounded by 0s is:\n\n[[0, 0, 0, 0, 0, 0, 0], [0, 4, 4, 0, 4, 4, 0], [0, 0, 4, 2, 4, 0, 0], [0, 4, 4, 4, 4, 4, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 2, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0]]."
+            ]
+        }
+    ]
+}

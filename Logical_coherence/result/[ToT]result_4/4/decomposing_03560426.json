@@ -1,0 +1,54 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the unique numbers in the grid that are not zero.",
+                    "Q2: Determine the position of the unique numbers in the grid.",
+                    "Q3: Identify the pattern of the unique numbers in the grid.",
+                    "Q4: Determine the direction of the transformation based on the examples.",
+                    "Q5: Apply the transformation to the unique numbers in the quiz grid.",
+                    "Q6: Replace the unique numbers in the quiz grid with the transformed numbers.",
+                    "Q7: Clear the rest of the grid, leaving only the transformed numbers."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid that are not zero.",
+                    "Q2: Determine the position of the unique numbers in the grid.",
+                    "Q3: Identify the pattern of the unique numbers in the grid.",
+                    "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                    "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                    "Q6: Replace the zero values in the grid with the moved unique numbers.",
+                    "Q7: Ensure that the movement of the unique numbers does not overlap with each other. If it does, determine the rule from the examples and apply it to the quiz.",
+                    "Q8: After moving all the unique numbers, fill the remaining cells with zero."
+                ],
+                [
+                    "Q1: Identify the unique numbers in the grid that are not zero.",
+                    "Q2: Determine the position of the unique numbers in the grid.",
+                    "Q3: Identify the pattern of the unique numbers in the grid.",
+                    "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                    "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                    "Q6: Replace the zero values in the grid with the moved unique numbers.",
+                    "Q7: Ensure that the movement of the unique numbers does not overlap with each other.",
+                    "Q8: If there is an overlap, determine which unique number takes precedence based on the examples.",
+                    "Q9: Apply the precedence rule to the quiz input grid.",
+                    "Q10: Generate the output grid for the quiz by applying all the rules and patterns identified from the examples."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the unique numbers in the grid that are not zero.",
+                "Q2: Determine the position of the unique numbers in the grid.",
+                "Q3: Identify the pattern of the unique numbers in the grid.",
+                "Q4: Determine the direction of the movement of the unique numbers from the input grid to the output grid in the examples.",
+                "Q5: Apply the same movement pattern to the unique numbers in the quiz input grid.",
+                "Q6: Replace the zero values in the grid with the moved unique numbers.",
+                "Q7: Ensure that the movement of the unique numbers does not overlap with each other. If it does, determine the rule from the examples and apply it to the quiz.",
+                "Q8: After moving all the unique numbers, fill the remaining cells with zero."
+            ]
+        }
+    ]
+}

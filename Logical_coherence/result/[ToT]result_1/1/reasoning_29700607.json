@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the coordinates of the non-zero numbers in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10)."
+                ],
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10)."
+                ],
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10)."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10)."
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the coordinates of the non-zero numbers in the input grid.",
+                "Q2: Determine the direction of the line that will be drawn from the non-zero number. This can be done by checking the position of the non-zero numbers. If the non-zero number is at the top, the line will be drawn downwards. If it's at the bottom, the line will be drawn upwards. If it's on the left, the line will be drawn to the right. If it's on the right, the line will be drawn to the left."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards."
+                ],
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards."
+                ],
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the coordinates of the non-zero numbers in the input grid.",
+                "Q2: Determine the direction of the line that will be drawn from the non-zero number. This can be done by checking the position of the non-zero numbers. If the non-zero number is at the top, the line will be drawn downwards. If it's at the bottom, the line will be drawn upwards. If it's on the left, the line will be drawn to the right. If it's on the right, the line will be drawn to the left.",
+                "Q3: Draw the line from the non-zero number to the edge of the grid in the determined direction. The line should be drawn with the same color as the non-zero number."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards.\nA3: Drawing the lines as per the determined direction, the output grid will be:"
+                ],
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards.\nA3: Drawing the lines as per the determined direction, the output grid will be:"
+                ],
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards.\nA3: Drawing the lines as per the determined direction, the output grid will be:"
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards.\nA3: Drawing the lines as per the determined direction, the output grid will be:"
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the coordinates of the non-zero numbers in the input grid.",
+                "Q2: Determine the direction of the line that will be drawn from the non-zero number. This can be done by checking the position of the non-zero numbers. If the non-zero number is at the top, the line will be drawn downwards. If it's at the bottom, the line will be drawn upwards. If it's on the left, the line will be drawn to the right. If it's on the right, the line will be drawn to the left.",
+                "Q3: Draw the line from the non-zero number to the edge of the grid in the determined direction. The line should be drawn with the same color as the non-zero number.",
+                "Q4: Repeat the process for all non-zero numbers in the input grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards.\nA3: Drawing the lines as per the determined direction, the output grid will be:\nA4: After repeating the process for all non-zero numbers in the input grid, the output grid will be:\n\n[[0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [4, 4, 4, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 8, 5, 5, 5, 5, 5, 5], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards.\nA3: Drawing the lines as per the determined direction, the output grid will be:\nA4: After repeating the process for all non-zero numbers in the input grid, the output grid will be:\n\n[[0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [4, 4, 4, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0], \n [5, 5, 5, 5, 8, 5, 5, 5, 5, 5, 5], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ],
+                [
+                    "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards.\nA3: Drawing the lines as per the determined direction, the output grid will be:\nA4: After repeating the process for all non-zero numbers in the input grid, the output grid will be:\n\n[[0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [4, 4, 4, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 8, 5, 5, 5, 5, 5, 5], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+                ]
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: The non-zero numbers in the input grid are at the following coordinates: (0,3), (0,4), (0,5), (7,0), and (9,10).\nA2: The line from the number 4 at (0,3) will be drawn downwards. The line from the number 8 at (0,4) will be drawn downwards. The line from the number 5 at (0,5) will be drawn downwards. The line from the number 4 at (7,0) will be drawn to the right. The line from the number 5 at (9,10) will be drawn upwards.\nA3: Drawing the lines as per the determined direction, the output grid will be:\nA4: After repeating the process for all non-zero numbers in the input grid, the output grid will be:\n\n[[0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 4, 8, 5, 0, 0, 0, 0, 0], \n [4, 4, 4, 4, 8, 5, 0, 0, 0, 0, 0], \n [0, 0, 0, 0, 8, 5, 5, 5, 5, 5, 5], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5], \n [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]"
+            ]
+        }
+    ]
+}

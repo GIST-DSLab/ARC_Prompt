@@ -1,0 +1,113 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by the same color on all four sides."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. "
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, we mark this cell as surrounded.",
+                    "A2: For the cells that are surrounded by the same color on all four sides, we should change the color of the cell to the color of the surrounding cells.",
+                    "A3: For the cells that are on the edge of the grid, we can consider them as not being surrounded by the same color on all four sides, since they don't have four neighbors. Therefore, we don't change their color.",
+                    "A4: The final output is the grid after changing the color of all cells that are surrounded by the same color on all four sides."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. "
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. "
+            ]
+        },
+        {
+            "step": 1,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by the same color on all four sides.",
+                "Q2: Determine the color of the surrounding cells."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells."
+            ]
+        },
+        {
+            "step": 2,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by the same color on all four sides.",
+                "Q2: Determine the color of the surrounding cells.",
+                "Q3: Change the color of the identified cells to the color of the surrounding cells, but with a different shade."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells.\nA3: To change the color of the identified cells to the color of the surrounding cells, but with a different shade, we can simply assign the color of the surrounding cells to the identified cells. The shade can be represented as a different value in the grid. For example, if the color of the surrounding cells is represented by the number 2, we can represent a different shade of the same color by the number 6."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells.\nA3: To change the color of the identified cells to the color of the surrounding cells, but with a different shade, we can simply assign the color of the surrounding cells to the identified cells. The shade can be represented as a different value in the grid. For example, if the color of the surrounding cells is represented by the number 2, we can represent a different shade of the same color by the number 6."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells.\nA3: To change the color of the identified cells to the color of the surrounding cells, but with a different shade, we can simply assign the color of the surrounding cells to the identified cells. The shade can be represented as a different value in the grid. For example, if the color of the surrounding cells is represented by the number 2, we can represent a different shade of the same color by the number 6."
+                ]
+            ],
+            "values": [
+                0,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells.\nA3: To change the color of the identified cells to the color of the surrounding cells, but with a different shade, we can simply assign the color of the surrounding cells to the identified cells. The shade can be represented as a different value in the grid. For example, if the color of the surrounding cells is represented by the number 2, we can represent a different shade of the same color by the number 6."
+            ]
+        },
+        {
+            "step": 3,
+            "current_subquestions": [
+                "Q1: Identify the cells that are surrounded by the same color on all four sides.",
+                "Q2: Determine the color of the surrounding cells.",
+                "Q3: Change the color of the identified cells to the color of the surrounding cells, but with a different shade.",
+                "Q4: Repeat the process for all colors present in the grid."
+            ],
+            "new_subanswers_ys": [
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells.\nA3: To change the color of the identified cells to the color of the surrounding cells, but with a different shade, we can simply assign the color of the surrounding cells to the identified cells. The shade can be represented as a different value in the grid. For example, if the color of the surrounding cells is represented by the number 2, we can represent a different shade of the same color by the number 6.\nA4: To repeat the process for all colors present in the grid, we can iterate through each unique color present in the grid. For each color, we perform the steps outlined in the previous subquestions. This can be done by creating a list of unique colors present in the grid, and then looping through this list. For each color in the list, we identify the cells that are surrounded by that color on all four sides, determine the color of the surrounding cells, and then change the color of the identified cells to a different shade of the surrounding color. \n\nAfter performing these steps for all colors in the grid, we will have the final output grid. \n\nThe output grids for the quiz would be:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 1, 0, 0, 3, 3, 3, 3, 3, 3, 0, 1], [0, 0, 0, 2, 6, 6, 6, 6, 6, 6, 2, 2, 0, 0, 0, 0, 3, 6, 6, 6, 6, 3, 0, 0], [0, 0, 0, 2, 6, 6, 6, 6, 6, 6, 6, 2, 0, 0, 0, 0, 3, 6, 6, 6, 6, 3, 0, 0], [0, 0, 0, 2, 6, 6, 6, 6, 6, 6, 6, 2, 0, 0, 3, 3, 3, 6, 6, 6, 6, 3, 0, 0], [0, 2, 2, 2, 6, 6, 6, 6, 6, 6, 1, 2, 0, 0, 3, 6, 6, 6, 6, 6, 6, 3, 0, 0], [0, 2, 6, 6, 1, 6, 6, 6, 6, 6, 6, 2, 0, 0, 3, 6, 6, 6, 6, 6, 6, 3, 0, 0], [0, 2, 6, 6, 6, 6, 6, 2, 2, 2, 2, 2, 0, 0, 3, 6, 6, 6, 6, 6, 6, 3, 0, 0], [0, 2, 6, 6, 6, 6, 6, 2, 6, 6, 6, 6, 0, 0, 3, 6, 6, 6, 6, 1, 6, 3, 0, 0], [0, 2, 2, 2, 2, 2, 2, 2, 6, 6, 6, 6, 0, 0, 3, 6, 6, 6, 6, 6, 6, 3, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3, 3, 3, 3, 6, 6, 6, 3, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 3, 6, 6, 6, 3, 0, 0], [0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 3, 6, 6, 6, 3, 0, 0], [0, 0, 0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 0, 0], [0, 0, 0, 0, 0, 0, 0, 8, 6, 6, 6, 8, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 8, 8, 8, 8, 8, 8, 6, 8, 6, 8, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0], [0, 0, 8, 6, 6, 6, 6, 6, 6, 6, 6, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], [0, 0, 8, 6, 6, 6, 6, 6, 6, 3, 6, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 8, 6, 6, 6, 6, 6, 6, 6, 6, 8, 0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 0, 0], [0, 0, 8, 6, 6, 6, 6, 6, 6, 6, 6, 8, 0, 0, 0, 7, 6, 2, 6, 1, 6, 7, 0, 0], [0, 0, 8, 6, 6, 6, 6, 6, 6, 6, 6, 8, 0, 0, 0, 7, 6, 6, 6, 6, 6, 7, 0, 0], [0, 0, 8, 6, 6, 8, 8, 8, 8, 6, 6, 8, 0, 0, 0, 7, 6, 1, 6, 6, 6, 7, 0, 0], [0, 0, 8, 8, 8, 8, 6, 6, 8, 8, 8, 8, 0, 0, 0, 7, 6, 1, 6, 6, 6, 6, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 7, 7, 7, 6, 6, 0, 0], [0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0]]"
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells.\nA3: To change the color of the identified cells to the color of the surrounding cells, but with a different shade, we can simply assign the color of the surrounding cells to the identified cells. The shade can be represented as a different value in the grid. For example, if the color of the surrounding cells is represented by the number 2, we can represent a different shade of the same color by the number 6.\nA4: To repeat the process for all colors present in the grid, we can keep track of all unique colors present in the grid. Then, for each unique color, we repeat the steps described above. This can be done by iterating through each cell in the grid and adding its color to a set (to ensure uniqueness). Then, for each color in the set, we iterate through each cell in the grid again and perform the steps described above."
+                ],
+                [
+                    "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells.\nA3: To change the color of the identified cells to the color of the surrounding cells, but with a different shade, we can simply assign the color of the surrounding cells to the identified cells. The shade can be represented as a different value in the grid. For example, if the color of the surrounding cells is represented by the number 2, we can represent a different shade of the same color by the number 6.\nA4: To repeat the process for all colors present in the grid, we can iterate through each unique color present in the grid. For each color, we perform the steps outlined in the previous subquestions. This can be done by creating a list of unique colors present in the grid, and then looping through this list. For each color in the list, we identify the cells that are surrounded by that color on all four sides, determine the color of the surrounding cells, and then change the color of the identified cells to a different shade of the surrounding color."
+                ]
+            ],
+            "values": [
+                60.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "A1: To identify the cells that are surrounded by the same color on all four sides, we can iterate through each cell in the grid. For each cell, we check its top, bottom, left, and right neighbors. If all four neighbors have the same color as the current cell, then the current cell is surrounded by the same color on all four sides. \nA2: To determine the color of the surrounding cells, we can simply check the color of any one of the neighboring cells that we identified in the previous step. Since we know that all four neighbors have the same color, the color of any one of them will be the color of the surrounding cells.\nA3: To change the color of the identified cells to the color of the surrounding cells, but with a different shade, we can simply assign the color of the surrounding cells to the identified cells. The shade can be represented as a different value in the grid. For example, if the color of the surrounding cells is represented by the number 2, we can represent a different shade of the same color by the number 6.\nA4: To repeat the process for all colors present in the grid, we can iterate through each unique color present in the grid. For each color, we perform the steps outlined in the previous subquestions. This can be done by creating a list of unique colors present in the grid, and then looping through this list. For each color in the list, we identify the cells that are surrounded by that color on all four sides, determine the color of the surrounding cells, and then change the color of the identified cells to a different shade of the surrounding color. \n\nAfter performing these steps for all colors in the grid, we will have the final output grid. \n\nThe output grids for the quiz would be:\n\n[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 0, 0, 1, 0, 0, 3, 3, 3, 3, 3, 3, 0, 1], [0, 0, 0, 2, 6, 6, 6, 6, 6, 6, 2, 2, 0, 0, 0, 0, 3, 6, 6, 6, 6, 3, 0, 0], [0, 0, 0, 2, 6, 6, 6, 6, 6, 6, 6, 2, 0, 0, 0, 0, 3, 6, 6, 6, 6, 3, 0, 0], [0, 0, 0, 2, 6, 6, 6, 6, 6, 6, 6, 2, 0, 0, 3, 3, 3, 6, 6, 6, 6, 3, 0, 0], [0, 2, 2, 2, 6, 6, 6, 6, 6, 6, 1, 2, 0, 0, 3, 6, 6, 6, 6, 6, 6, 3, 0, 0], [0, 2, 6, 6, 1, 6, 6, 6, 6, 6, 6, 2, 0, 0, 3, 6, 6, 6, 6, 6, 6, 3, 0, 0], [0, 2, 6, 6, 6, 6, 6, 2, 2, 2, 2, 2, 0, 0, 3, 6, 6, 6, 6, 6, 6, 3, 0, 0], [0, 2, 6, 6, 6, 6, 6, 2, 6, 6, 6, 6, 0, 0, 3, 6, 6, 6, 6, 1, 6, 3, 0, 0], [0, 2, 2, 2, 2, 2, 2, 2, 6, 6, 6, 6, 0, 0, 3, 6, 6, 6, 6, 6, 6, 3, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3, 3, 3, 3, 6, 6, 6, 3, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 3, 6, 6, 6, 3, 0, 0], [0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 3, 6, 6, 6, 3, 0, 0], [0, 0, 0, 0, 0, 0, 0, 8, 8, 8, 8, 8, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 0, 0], [0, 0, 0, 0, 0, 0, 0, 8, 6, 6, 6, 8, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 8, 8, 8, 8, 8, 8, 6, 8, 6, 8, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0], [0, 0, 8, 6, 6, 6, 6, 6, 6, 6, 6, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1], [0, 0, 8, 6, 6, 6, 6, 6, 6, 3, 6, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 8, 6, 6, 6, 6, 6, 6, 6, 6, 8, 0, 0, 0, 7, 7, 7, 7, 7, 7, 7, 0, 0], [0, 0, 8, 6, 6, 6, 6, 6, 6, 6, 6, 8, 0, 0, 0, 7, 6, 2, 6, 1, 6, 7, 0, 0], [0, 0, 8, 6, 6, 6, 6, 6, 6, 6, 6, 8, 0, 0, 0, 7, 6, 6, 6, 6, 6, 7, 0, 0], [0, 0, 8, 6, 6, 8, 8, 8, 8, 6, 6, 8, 0, 0, 0, 7, 6, 1, 6, 6, 6, 7, 0, 0], [0, 0, 8, 8, 8, 8, 6, 6, 8, 8, 8, 8, 0, 0, 0, 7, 6, 1, 6, 6, 6, 6, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 7, 7, 7, 6, 6, 0, 0], [0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0]]"
+            ]
+        }
+    ]
+}

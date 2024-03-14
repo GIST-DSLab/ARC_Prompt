@@ -1,0 +1,36 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the rows in the grid that contain the number 0.",
+                    "Q2: For each row identified in Q1, replace all numbers in the row with 0.",
+                    "Q3: For each row identified in Q1, replace the numbers in the same column in the rows above and below with 0."
+                ],
+                [
+                    "Q1: Identify the rows in the grid that contain the number 0.",
+                    "Q2: For each row identified in Q1, replace all numbers in the row with 0.",
+                    "Q3: For each row identified in Q1, replace the two numbers immediately to the right of the 0s with 0.",
+                    "Q4: For the remaining rows not identified in Q1, leave them as they are."
+                ],
+                [
+                    "Q1: Identify the rows in the grid that contain the number 0.",
+                    "Q2: For each row identified in Q1, replace all numbers in the row with 0.",
+                    "Q3: For each row identified in Q1, replace the two numbers immediately to the right of the 0s with 0.",
+                    "Q4: For the remaining rows not identified in Q1, leave them as they are."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the rows in the grid that contain the number 0.",
+                "Q2: For each row identified in Q1, replace all numbers in the row with 0.",
+                "Q3: For each row identified in Q1, replace the two numbers immediately to the right of the 0s with 0.",
+                "Q4: For the remaining rows not identified in Q1, leave them as they are."
+            ]
+        }
+    ]
+}

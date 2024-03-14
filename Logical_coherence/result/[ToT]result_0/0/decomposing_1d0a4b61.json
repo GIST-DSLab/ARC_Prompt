@@ -1,0 +1,38 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the pattern in the input grid. The pattern seems to be a repeating sequence of numbers (2, 5, 1, 8) with 1s as separators.",
+                    "Q2: Identify the areas in the grid where the pattern is interrupted by 0s.",
+                    "Q3: Determine the rules for filling in the 0s. From the examples, it seems that the 0s should be replaced with the numbers from the pattern, continuing from the last number before the 0s.",
+                    "Q4: Apply the rules determined in Q3 to the input grid of the quiz to fill in the 0s and generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grid. The pattern seems to be a repeating sequence of numbers (1, 2, 5, 1, 8, 2, 1) in both rows and columns.",
+                    "Q2: Identify the changes in the pattern in the output grid compared to the input grid. The pattern seems to be the same except for the presence of zeros in the output grid.",
+                    "Q3: Identify the location and pattern of zeros in the input grid. The zeros seem to form a square in the middle of the grid.",
+                    "Q4: Determine the rule for the transformation of the input grid to the output grid. The rule seems to be that the pattern is preserved except for the square of zeros in the middle.",
+                    "Q5: Apply the rule to the quiz input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the pattern in the input grid. The pattern seems to be a repeating sequence of numbers (2, 5, 1, 8) with 1s as separators.",
+                    "Q2: Identify the areas in the grid where the pattern is interrupted by 0s.",
+                    "Q3: Determine the pattern that should have been in the place of the 0s by following the sequence.",
+                    "Q4: Replace the 0s with the correct numbers from the sequence to complete the pattern."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the pattern in the input grid. The pattern seems to be a repeating sequence of numbers (2, 5, 1, 8) with 1s as separators.",
+                "Q2: Identify the areas in the grid where the pattern is interrupted by 0s.",
+                "Q3: Determine the rules for filling in the 0s. From the examples, it seems that the 0s should be replaced with the numbers from the pattern, continuing from the last number before the 0s.",
+                "Q4: Apply the rules determined in Q3 to the input grid of the quiz to fill in the 0s and generate the output grid."
+            ]
+        }
+    ]
+}

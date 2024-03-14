@@ -1,0 +1,55 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Determine the cells that contain the number 4 in the input grid.",
+                    "Q3: Identify the cells that are surrounded by 1s and contain the number 4 in the input grid.",
+                    "Q4: Determine the cells that contain the number 3 in the input grid.",
+                    "Q5: Identify the cells that are surrounded by 1s and contain the number 3 in the input grid.",
+                    "Q6: Determine the cells that contain the number 6 in the input grid.",
+                    "Q7: Identify the cells that are surrounded by 1s and contain the number 6 in the input grid.",
+                    "Q8: Replace the cells identified in Q3, Q5, and Q7 with the number 4 in the output grid.",
+                    "Q9: Replace the remaining cells surrounded by 1s with the number 1 in the output grid.",
+                    "Q10: Replace the remaining cells not surrounded by 1s with the number 0 in the output grid."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: If the cell is surrounded by 1s and contains a 4, change the surrounding 1s to 4s.",
+                    "Q3: If the cell is surrounded by 1s and contains a 6, change the surrounding 1s to 6s.",
+                    "Q4: If the cell is surrounded by 1s and contains a 3, change the surrounding 1s to 3s.",
+                    "Q5: If the cell is surrounded by 1s and contains an 8, change the surrounding 1s to 8s.",
+                    "Q6: Keep the cells that are not surrounded by 1s as they are."
+                ],
+                [
+                    "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                    "Q2: Determine the cells that contain the number 4 in the input grid.",
+                    "Q3: Identify the cells that contain the number 3 in the input grid.",
+                    "Q4: Determine the cells that contain the number 6 in the input grid.",
+                    "Q5: For the cells identified in Q1, change the cell value to 4 if it is not already 4.",
+                    "Q6: For the cells identified in Q2, change the cell value to 1 if it is not already 1.",
+                    "Q7: For the cells identified in Q3, change the cell value to 1 if it is not already 1.",
+                    "Q8: For the cells identified in Q4, change the cell value to 1 if it is not already 1."
+                ]
+            ],
+            "values": [
+                3,
+                0,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the cells that are surrounded by 1s in the input grid.",
+                "Q2: Determine the cells that contain the number 4 in the input grid.",
+                "Q3: Identify the cells that are surrounded by 1s and contain the number 4 in the input grid.",
+                "Q4: Determine the cells that contain the number 3 in the input grid.",
+                "Q5: Identify the cells that are surrounded by 1s and contain the number 3 in the input grid.",
+                "Q6: Determine the cells that contain the number 6 in the input grid.",
+                "Q7: Identify the cells that are surrounded by 1s and contain the number 6 in the input grid.",
+                "Q8: Replace the cells identified in Q3, Q5, and Q7 with the number 4 in the output grid.",
+                "Q9: Replace the remaining cells surrounded by 1s with the number 1 in the output grid.",
+                "Q10: Replace the remaining cells not surrounded by 1s with the number 0 in the output grid."
+            ]
+        }
+    ]
+}

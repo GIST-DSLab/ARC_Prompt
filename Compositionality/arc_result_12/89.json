@@ -1,0 +1,126 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "rotate_right_obj([[0, 0, 0], [0, 5, 0], [5, 5, 5]], [[1, 1], [2, 0], [2, 1], [2, 2]])",
+                "rotate_left_obj(state, object1)",
+                "horizontal_flip(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "rotate_right_obj([[0, 0, 0], [0, 5, 0], [5, 5, 5]], [[1, 1], [2, 0], [2, 1], [2, 2]])",
+                "rotate_left_obj(state, object1)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "rotate_right_obj([[0, 0, 0], [0, 5, 0], [5, 5, 5]], [[1, 1], [2, 0], [2, 1], [2, 2]])",
+                "rotate_left_obj(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "rotate_right_obj([[0, 0, 0], [0, 5, 0], [5, 5, 5]], [[1, 1], [2, 0], [2, 1], [2, 2]])->rotate_right_obj([[0, 0, 0], [0, 5, 0], [5, 5, 5]], [[1, 1], [2, 0], [2, 1], [2, 2]])",
+                "rotate_right_obj([[0, 0, 0], [0, 5, 0], [5, 5, 5]], [[1, 1], [2, 0], [2, 1], [2, 2]])->rotate_right_obj([[0, 0, 0], [0, 5, 0], [5, 5, 5]], [[1, 1], [2, 0], [2, 1], [2, 2]])",
+                "rotate_right_obj([[0, 0, 0], [0, 5, 0], [5, 5, 5]], [[1, 1], [2, 0], [2, 1], [2, 2]])->X_line([[0, 0, 0], [0, 5, 0], [5, 5, 5]], 1, 1, 1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)",
+                "rotate_left_obj(state, object1)->horizontal_flip_obj(state, object1)",
+                "rotate_left_obj(state, object1)->X_line(current_state, 1, 1, 1)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                20.001,
+                20.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)",
+                "rotate_left_obj(state, object1)->horizontal_flip_obj(state, object1)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)",
+                "rotate_left_obj(state, object1)->horizontal_flip_obj(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)",
+                "rotate_left_obj(state, object1)->horizontal_flip_obj(state, object1)->`X_line(state, 1, 1, 3)`",
+                "rotate_left_obj(state, object1)->horizontal_flip_obj(state, object1)->diagonal_line(state, 0, 0, 2, 2, 1)",
+                "rotate_left_obj(state, object1)->horizontal_flip_obj(state, object1)->vertical_flip(state)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "rotate_left_obj(state, object1)->horizontal_flip_obj(state, object1)->diagonal_line(state, 0, 0, 2, 2, 1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "rotate_left_obj(state, object1)->horizontal_flip_obj(state, object1)->diagonal_line(state, 0, 0, 2, 2, 1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)"
+            ],
+            "new_dsl_ys": [
+                "rotate_left_obj(state, object1)->horizontal_flip_obj(state, object1)->diagonal_line(state, 0, 0, 2, 2, 1)->diagonal_line(current_state, 0, 2, 2, 0, 2)",
+                "rotate_left_obj(state, object1)->horizontal_flip_obj(state, object1)->diagonal_line(state, 0, 0, 2, 2, 1)->diagonal_line(state, 2, 0, 0, 2, 2)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->obj_color(current_state, object1, 1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->move_right(current_state, object1)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->obj_color(current_state, object1, 1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->move_right(current_state, object1)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->obj_color(current_state, object1, 1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->move_right(current_state, object1)"
+            ],
+            "new_dsl_ys": [
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->obj_color(current_state, object1, 1)->horizontal_line(current_state, 0, 0, 0, 2, 2)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->obj_color(current_state, object1, 1)->horizontal_flip_obj(current_state, object1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->obj_color(current_state, object1, 1)->complete(current_state)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->move_right(current_state, object1)->move_down(current_state, object1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->move_right(current_state, object1)->obj_color(current_state, object1, 1)"
+            ],
+            "values": [
+                0.001,
+                20.0,
+                20.0,
+                20.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->obj_color(current_state, object1, 1)->horizontal_flip_obj(current_state, object1)",
+                "rotate_left_obj(state, object1)->vertical_flip_obj(current_state, object1)->horizontal_flip_obj(current_state, object1)->obj_color(current_state, object1, 1)->complete(current_state)"
+            ]
+        }
+    ]
+}

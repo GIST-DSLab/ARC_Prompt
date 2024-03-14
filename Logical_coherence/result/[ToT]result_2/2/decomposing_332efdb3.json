@@ -1,0 +1,39 @@
+{
+    "steps": [
+        {
+            "total_subquestions_ys": [
+                [
+                    "Q1: Identify the size of the input grid.",
+                    "Q2: Determine the pattern of the output grid based on the examples given.",
+                    "Q3: Identify the pattern of alternating 1s and 0s in the output grid.",
+                    "Q4: Apply the pattern to the input grid to generate the output grid."
+                ],
+                [
+                    "Q1: Identify the size of the input grid.",
+                    "Q2: Create a new grid of the same size.",
+                    "Q3: Fill the new grid with 1s.",
+                    "Q4: Identify the cells in the new grid that are at even-numbered rows and columns.",
+                    "Q5: Replace the cells identified in Q4 with 0s."
+                ],
+                [
+                    "Q1: Identify the size of the input grid.",
+                    "Q2: Determine the pattern of the output grid based on the examples given.",
+                    "Q3: Identify the pattern of alternating 1s and 0s in the output grid.",
+                    "Q4: Apply the pattern to the input grid to generate the output grid."
+                ]
+            ],
+            "values": [
+                0,
+                3,
+                0
+            ],
+            "select_new_ys": [
+                "Q1: Identify the size of the input grid.",
+                "Q2: Create a new grid of the same size.",
+                "Q3: Fill the new grid with 1s.",
+                "Q4: Identify the cells in the new grid that are at even-numbered rows and columns.",
+                "Q5: Replace the cells identified in Q4 with 0s."
+            ]
+        }
+    ]
+}
