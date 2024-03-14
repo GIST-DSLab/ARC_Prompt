@@ -41,7 +41,7 @@ the accuracy when both the results and the process are correct.
 
 </div>
 
-Analyzing LLMs’ reasoning capabilities by task difficulty, following prior categorization from https://github.com/volotat/ARC-Game. The
+Analyzing LLMs’ reasoning capabilities by task difficulty, following prior categorization from [ARC-Game](https://github.com/volotat/ARC-Game). The
 number of ARC tasks corresponding to each category is listed in the table, and the experiment was performed
 5 times for each task.
 
@@ -67,6 +67,9 @@ any tasks.
 If you want to get more detail about compositionality, please refer to this link.
 
 ## Productivity
+Based on 160 ARC tasks classified by [ConceptARC](https://github.com/victorvikram/ConceptARC), we evaluated the validity of a
+total of 2,913 generated examples.
+
 |Problem Category|Total available|The number of generated data|The number of valid augmentated data|Ratio(valid/generated)|
 |:---:|:---:|:---:|:---:|:---:|
 |Above Below|58|158|34|21.52%|
