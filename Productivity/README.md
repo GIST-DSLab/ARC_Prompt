@@ -1,15 +1,20 @@
-# Augmentation_with_GPT
-
-What I did: Augmenting Concept ARC Problem
+# Productivity
+We conduct experiments using ARC tasks to understand how well LLMs can
+generate new expressions based on inherent logical concepts. Productivity involves two main
+steps: inferring specific rules for generating images from example images and natural language
+expressions and using those rules to generate new, unseen images. However, solving ARC tasks,
+experimented on in the previous sections so far, is unsuitable for confirming these two processes.
+For precise evaluation, we propose a new experiment: _Given an ARC task and a basic rule shared
+with similar ARC tasks, can LLMs generate valid examples of the given task?_ If LLMs can understand
+a relationship between the given ARC task and the abstract rule, they should be able to infer specific
+rules for the given task and generate new valid examples. Through this, we want to see if LLMs
+can imitate human thinking productivity.
 
 How to augment
 1. Guessing input data by some characteristics in ARC Problem
-
-<img width="603" alt="스크린샷 2023-11-20 143112" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/7cd459d7-0cfa-49aa-81f9-7b4ea71e943a">
-
 2. Augmentation Process
 
-<img width="1033" alt="스크린샷 2023-10-30 165149" src="https://github.com/GIST-DSLab/Augmentation_with_GPT/assets/126467193/06d91890-7855-4d8c-8aae-1718605553e4">
+![overall_process_productivity_page-0001](https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/d4cefef0-b6df-4141-8751-6893ebf8bea4)
 
 Prompt(역변환 방법 프롬프트) is written for each Task (Concept ARC has 16 Tasks)
 
