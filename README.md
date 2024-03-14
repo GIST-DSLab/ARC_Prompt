@@ -58,13 +58,13 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 
 </div>
 
-If you want to get more detail about logical coherence, please refer to this link.
+If you want to get more detail about logical coherence, please refer to [this link](./Logical_coherence/).
 
 ## Compositionality
 The experiment results are as follows: out of 99 tasks, LLM was not able to solve
 any tasks. 
 
-If you want to get more detail about compositionality, please refer to this link.
+If you want to get more detail about compositionality, please refer to [this link](./Compositionality).
 
 ## Productivity
 Based on 160 ARC tasks classified by [ConceptARC](https://github.com/victorvikram/ConceptARC), we evaluated the validity of a
@@ -90,5 +90,5 @@ total of 2,913 generated examples.
 |Top Bottom 3D|55|215|25|11.63%|
 |Total|930|2913|509|17.12%|
 
-If you want to get more detail about compositionality, please refer to this link.
+If you want to get more detail about compositionality, please refer to [this link](./Productivity).
 
