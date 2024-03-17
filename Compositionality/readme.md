@@ -30,20 +30,21 @@ cd ARC_Prompt
 pip install -r requirements.txt
 ```
 
-## What is the compositionality?
-**Compositionality refers to the ability to generate complex linguistic expressions using simpler ones.** This characteristic allows individuals to effectively tackle more complex tasks by breaking sub-tasks down into simpler steps, supporting the notion that humans can solve more complex tasks when faced with them. Strong compositionality enables the resolution of complex tasks and facilitates transparent descriptions of the process, which is also an important aspect from the perspective of LLMs. This section tests compositionality by treating ARC tasks as stepwise compositions of simpler functions.
-
-So, this experiment part is conducted to determine the compositionality of the LLM using given DSLs.
-DSLs are given by \tot\data\prototype_arc\dsl.txt with python-coded.
-DSLs and tasks are given by \tot\prompts\arc.py
-In \tot\tasks\arc.py, ARCTask make LLM to generate answer. And ARCEnv apply the chosen dsl to current state and object.
-You can add your api in \tot\models.py.
-
 ## Quick Start
 The following minimal script will attempt to solve the arc (might be a bit slow as it's using GPT-4):
 ```
 python prototype_arc.py
 ```
+
+## What is the compositionality?
+**Compositionality refers to the ability to generate complex linguistic expressions using simpler ones.** This characteristic allows individuals to effectively tackle more complex tasks by breaking sub-tasks down into simpler steps, supporting the notion that humans can solve more complex tasks when faced with them. Strong compositionality enables the resolution of complex tasks and facilitates transparent descriptions of the process, which is also an important aspect from the perspective of LLMs. This section tests compositionality by treating ARC tasks as stepwise compositions of simpler functions.
+
+## How to experiment evaluate the logical coherence of LLM?
+So, this experiment part is conducted to determine the compositionality of the LLM using given DSLs.
+DSLs are given by ```tot\data\prototype_arc\dsl.txt``` with python-coded.
+DSLs and tasks are given by ```tot\prompts\arc.py```.
+In ```tot\tasks\arc.py```, ARCTask make LLM to generate answer. And ARCEnv apply the chosen dsl to current state and object.
+You can add your api in ```tot\models.py```.
 
 ## Result (for one task)
 ```json
