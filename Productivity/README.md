@@ -1,4 +1,37 @@
 # Productivity
+
+## Directory structure
+```
+├─GPT_DATA: 
+| The GPT_DATA directory includes code that is used during our experiments.
+|
+├─HF_Augmented_Data
+| This directory includes all of results about our experiments(json format).
+|
+├─visualization
+| This directory has visualization about results(pdf format).
+```
+
+## Setup
+1. Set up Azure OpanAI API key and write down api_key variable in the code
+  
+2. Write down api_base variable in the code
+
+3. Install package
+```
+git clone https://github.com/GIST-DSLab/ARC_Prompt.git
+cd ARC_Prompt
+pip install -r requirements.txt
+```
+
+## Quick Start
+```
+python GPT_prompt.py
+python GPT3.5_prompt.py or python GPT4.0_prompt.py
+python hand_filter.py
+```
+
+## What is the productivity?
 We conduct experiments using ARC tasks to understand how well LLMs can
 generate new expressions based on inherent logical concepts. Productivity involves two main
 steps: inferring specific rules for generating images from example images and natural language
@@ -10,7 +43,7 @@ a relationship between the given ARC task and the abstract rule, they should be 
 rules for the given task and generate new valid examples. Through this, we want to see if LLMs
 can imitate human thinking productivity.
 
-How to augment
+## How to conduct an experiment to evaluate the productivity of LLM?
 1. Guessing input data by some characteristics in ARC Problem
 2. Augmentation Process
 
@@ -34,11 +67,11 @@ If you want to use this method with other prompt, you may change prompt in GPT_p
 
    i. GPT3.5_prompt.py
 
-     This file is using GPT-3.5 API to make ARC Demonstration
+     This file is using GPT-3.5 API to make ARC examples
 
    ii. GPT4.0_prompt.py
 
-     This file is using GPT-4.0 API to make ARC Demonstration
+     This file is using GPT-4.0 API to make ARC examples
 
    iii. GPT_prompt.py
 
