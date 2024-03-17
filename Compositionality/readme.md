@@ -46,6 +46,21 @@ DSLs and tasks are given by ```tot\prompts\arc.py```.
 In ```tot\tasks\arc.py```, ARCTask make LLM to generate answer. And ARCEnv apply the chosen dsl to current state and object.
 You can add your api in ```tot\models.py```.
 
+Below figures represent all of the process of our experiments.
+
+<img src="https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/9fd63bba-acaf-427b-9c20-6e2a4cb32d70"  width="100%" height="100%"/>
+Since LLMs correctly understand the innated rules in DSLs, LLM generates valid outputs with
+required actions such as coloring, rotating, drawing a line, and flipping when we give information about DSL,
+current state, and object.
+
+</br>
+</br>
+
+<img src="https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/c3bf3d8b-91e4-4a43-b613-a3608aacbeac"  width="100%" height="100%"/>
+ An example of the single step in an experimental process. LLM solver observes the current state
+and chooses the DSL from the DSL list. Then, LLM validator evaluates the selected DSLs by score. Based
+on the score, the top two states are sent to the next step.
+
 ## Result (for one task)
 ```json
 {
