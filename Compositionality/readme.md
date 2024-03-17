@@ -39,7 +39,7 @@ python prototype_arc.py
 ## What is the compositionality?
 **Compositionality refers to the ability to generate complex linguistic expressions using simpler ones.** This characteristic allows individuals to effectively tackle more complex tasks by breaking sub-tasks down into simpler steps, supporting the notion that humans can solve more complex tasks when faced with them. Strong compositionality enables the resolution of complex tasks and facilitates transparent descriptions of the process, which is also an important aspect from the perspective of LLMs. This section tests compositionality by treating ARC tasks as stepwise compositions of simpler functions.
 
-## How to experiment evaluate the logical coherence of LLM?
+## How to conduct an experiment to evaluate the compositionality of LLM?
 So, this experiment part is conducted to determine the compositionality of the LLM using given DSLs.
 DSLs are given by ```tot\data\prototype_arc\dsl.txt``` with python-coded.
 DSLs and tasks are given by ```tot\prompts\arc.py```.
