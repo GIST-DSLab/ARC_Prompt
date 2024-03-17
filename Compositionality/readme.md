@@ -7,7 +7,16 @@ In \tot\tasks\arc.py, ARCTask make LLM to generate answer. And ARCEnv apply the 
 You can add your api in \tot\models.py.
 
 ## Setup
-Set up OpenAI API key and store in environment variable ``OPENAI_API_KEY`` (see [here](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety)). 
+1. Set up Azure OpanAI API key and write down api_key variable in the code
+  
+2. Write down api_base variable in the code
+
+3. Install package
+```
+git clone https://github.com/GIST-DSLab/ARC_Prompt.git
+cd ARC_Prompt
+pip install -r requirements.txt
+```
 
 ## Quick Start
 The following minimal script will attempt to solve the arc (might be a bit slow as it's using GPT-4):
