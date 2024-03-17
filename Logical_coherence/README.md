@@ -72,7 +72,7 @@ an ability is particularly relevant to the rule inference required in ARC tasks,
 is to identify common logical patterns among given examples and use them to deduce the most
 logically coherent answer.
 
-## How to experiment evaluate the logical coherence of LLM?
+## How to conduct an experiment to evaluate the logical coherence of LLM?
 To evalute the logical coherence of LLM with ARC tasks, We used a various prompt techniques such as chain of thought, least to most and tree of t thoughts
 
 Below figures explain all of the process.
