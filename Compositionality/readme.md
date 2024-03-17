@@ -1,10 +1,22 @@
 
 ## Compositionality
-This experiment part is conducted to determine the compositionality of the LLM using given DSLs.
-DSLs are given by \tot\data\prototype_arc\dsl.txt with python-coded.
-DSLs and tasks are given by \tot\prompts\arc.py
-In \tot\tasks\arc.py, ARCTask make LLM to generate answer. And ARCEnv apply the chosen dsl to current state and object.
-You can add your api in \tot\models.py.
+## Directory structure
+```
+├─arc_reult: 
+| The result directory contains results and preprocessed data for Chain of Thought, Least to Most, and Tree of Thoughts.
+├─arc_reult_12: 
+|
+├─tot
+|  ├─methods
+| The methods directory has tot process code such as generation, vote, parsing and regularization  parser.
+|  ├─prompts
+| The prompts directory has prompts code that used when tot generate suggestion or evaluate value.
+|  ├─tasks 
+| The tasks directory has code that manage arc tasks and their prompts.
+```
+
+## Explanation about python code files
+```prototype_arc.py```: This code solve ARC tasks with tree of thoughts.
 
 ## Setup
 1. Set up Azure OpanAI API key and write down api_key variable in the code
@@ -18,29 +30,20 @@ cd ARC_Prompt
 pip install -r requirements.txt
 ```
 
+## What is the compositionality?
+**Compositionality refers to the ability to generate complex linguistic expressions using simpler ones.** This characteristic allows individuals to effectively tackle more complex tasks by breaking sub-tasks down into simpler steps, supporting the notion that humans can solve more complex tasks when faced with them. Strong compositionality enables the resolution of complex tasks and facilitates transparent descriptions of the process, which is also an important aspect from the perspective of LLMs. This section tests compositionality by treating ARC tasks as stepwise compositions of simpler functions.
+
+So, this experiment part is conducted to determine the compositionality of the LLM using given DSLs.
+DSLs are given by \tot\data\prototype_arc\dsl.txt with python-coded.
+DSLs and tasks are given by \tot\prompts\arc.py
+In \tot\tasks\arc.py, ARCTask make LLM to generate answer. And ARCEnv apply the chosen dsl to current state and object.
+You can add your api in \tot\models.py.
+
 ## Quick Start
 The following minimal script will attempt to solve the arc (might be a bit slow as it's using GPT-4):
-```python
-import argparse
-from tot.methods.bfs import arc_solve
-from tot.tasks.arc import ARCTask
-import json
-import os
-import time
-
-args = argparse.Namespace(backend='tot3', temperature=0.7, task='arc', naive_run=False, prompt_sample='standard', method_generate='sample', method_evaluate='value', method_select='greedy', n_generate_sample=3, n_evaluate_sample=1, n_select_sample=1)
-
-task = ARCTask()
-for i in range(0, 98):
-    if not os.path.exists('arc_result'):
-        os.mkdir('arc_result')
-    ys, infos = arc_solve(args, task, i)
-    with open(f'arc_result/{i}.json', 'w') as f:
-        json.dump(infos, f, indent=4)
-    # if len(ys)>=1:
-    #     print(ys[0])  ##This is to print out the output for each step
 ```
-You can set your step number in \tot\tasks\arc.py, ARCTask self.steps and self.stops (Please set the same number)
+python prototype_arc.py
+```
 
 ## Result (for one task)
 ```json
