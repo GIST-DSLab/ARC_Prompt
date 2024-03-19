@@ -14,6 +14,8 @@
 
 ```itp_generator.py```: generates prompts for Inverse Transformation Prompting (ITP).
 
+```visualization.py```: visualizes results.
+
 ```utils.py```: contains functions to remove inadequate results.
 
 
@@ -26,13 +28,17 @@ echo $AZURE_OPENAI_DEPLOYMENT_NAME
 
 cd Productivity
 ```
-1. Run ITP Generator
+1. Generate prompts for ITP
 ```
 python itp_generator.py
 ```
-2. Run ARC Example Generator
+2. Generate ARC Examples
 ```
 python arc_example_generator.py
+```
+3. Visualize Results
+```
+python visualization.py
 ```
 
 ## What is Productivity?
