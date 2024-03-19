@@ -1,6 +1,8 @@
 import pandas as pd
 from utils import *
 from tqdm import tqdm
+import warnings
+warnings.filterwarnings('ignore')
 
 def convert(x):
     x = str(x)
