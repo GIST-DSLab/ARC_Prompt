@@ -70,7 +70,14 @@ python tot_metric.py
 ```
 python visualization.py
 ```
-5. All visualization results (HTML files) are located in each subdirectory of the result directory.
+5. Check visualization results (HTML files) that are located in each subdirectory of the result directory
+```
+xdg-open result/\[CoT\]result_0/cot_predict0_correct.html
+xdg-open result/\[CoT\]result_0/cot_predict0_incorrect.html
+...
+xdg-open result/\[ToT\]result_4/tot_result4_correct.html
+xdg-open result/\[ToT\]result_4/tot_result4_incorrect.html
+```
 
 
 ## What is Logical Coherence?
