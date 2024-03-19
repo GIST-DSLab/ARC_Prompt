@@ -50,7 +50,7 @@ def combine_data_from_directory(directory_path,):
 
     return combined_data
 
-top_folder_path = "C:/Users/metaverse/Desktop/Research1007/concept_data"
+top_folder_path = "./HF_Augmented_Data"
 
 combined_data = combine_data_from_directory(top_folder_path)
 
@@ -111,7 +111,7 @@ print(len(combined_data['test_input']))
 print(len(combined_data['test_input']))
 
 
-output_directory = "C:/Users/metaverse/Desktop/Research1007/GPT_DATA/Prompt.json"
+output_directory = "./GPT_Data/Prompt.json"
 
 with open(output_directory, "w") as json_file:
     json.dump(combined_data, json_file)
