@@ -1,49 +1,41 @@
 # Productivity
-
-## Directory structure
+## Directory Structure
 ```
-├─GPT_DATA: 
-| The GPT_DATA directory includes code that is used during our experiments.
+├─GPT_DATA: contains codes for experiments.
 |
-├─HF_Augmented_Data
-| This directory includes all of results about our experiments(json format).
+├─HF_Augmented_Data: contains all of the experimental results.
 |
-├─visualization
-| This directory has visualization about results(pdf format).
+├─visualization: contains visualization files for results.
 ```
 
-## Setup
-1. Set up Azure OpanAI API key and write down api_key variable in the code
-  
-2. Write down api_base variable in the code
 
-3. Install package
-```
-git clone https://github.com/GIST-DSLab/ARC_Prompt.git
-cd ARC_Prompt
-pip install -r requirements.txt
-```
+## Explanation about Python Codes
+```GPT_DATA/GPT3.5_prompt.py```: augments example inputs with GPT-3.5.
+
+```GPT_DATA/GPT4.0_prompt.py```: augments example inputs with GPT-4.
+
+```GPT_DATA/GPT_prompt.py```: generates prompts for Inverse Transformation Prompting (ITP).
+
+```GPT_DATA/hand_filter.py```: removes inadequate results with heuristic rules.
+
 
 ## Quick Start
 ```
-python GPT_prompt.py
-python GPT3.5_prompt.py or python GPT4.0_prompt.py
-python hand_filter.py
+python GPT_DATA/GPT_prompt.py
+python GPT_DATA/GPT3.5_prompt.py or python GPT_DATA/GPT4.0_prompt.py
+python GPT_DATA/hand_filter.py
 ```
 
-## What is the productivity?
-We conduct experiments using ARC tasks to understand how well LLMs can
-generate new expressions based on inherent logical concepts. Productivity involves two main
-steps: inferring specific rules for generating images from example images and natural language
-expressions and using those rules to generate new, unseen images. However, solving ARC tasks,
-experimented on in the previous sections so far, is unsuitable for confirming these two processes.
-For precise evaluation, we propose a new experiment: _Given an ARC task and a basic rule shared
-with similar ARC tasks, can LLMs generate valid examples of the given task?_ If LLMs can understand
-a relationship between the given ARC task and the abstract rule, they should be able to infer specific
-rules for the given task and generate new valid examples. Through this, we want to see if LLMs
-can imitate human thinking productivity.
+## What is Productivity?
+We conduct experiments using ARC tasks to understand how well LLMs can generate new expressions based on inherent logical concepts. 
+Productivity involves two main steps: inferring specific rules for generating images from example images and natural language expressions and using those rules to generate new, unseen images. 
+However, solving ARC tasks, experimented on in the previous sections so far, is unsuitable for confirming these two processes.
+For precise evaluation, we propose a new experiment: _Given an ARC task and a basic rule shared with similar ARC tasks, can LLMs generate valid examples of the given task?_ 
+If LLMs can understand a relationship between the given ARC task and the abstract rule, they should be able to infer specific rules for the given task and generate new valid examples. 
+Through this, we want to see if LLMs can imitate human thinking productivity.
 
-## How to conduct an experiment to evaluate the productivity of LLM?
+
+## How to Experiment to Evaluate the Productivity of LLM?
 1. Guessing input data by some characteristics in ARC Problem
 2. Augmentation Process
 
@@ -52,16 +44,16 @@ can imitate human thinking productivity.
 Prompt(역변환 방법 프롬프트) is written for each Task (Concept ARC has 16 Tasks)
 
 * dotted input(pink and green one) is augmentation target.
-* Chat GPT makes other inputs which is suitable to given output
+* Chat GPT makes other inputs that are suitable to the given output
 
   i. Make prompt file(Prompt.json) with GPT_prompt.py
   
-  ii. Use GPT API (GPT3.5_prompt.py / GPT4.0_prompt.py) to make Augmented DATA
+  ii. Use GPT API (GPT3.5_prompt.py / GPT4.0_prompt.py) to make augmented data
   
-  iii. I have chosen appropriate input by hand_filter.py
+  iii. Choose only appropriate results by hand_filter.py
 
 
-If you want to use this method with other prompt, you may change prompt in GPT_prompt.py
+If you want to use this method with other prompts, you may change the prompt in GPT_prompt.py
 
 3. Code File(GPT_DATA) to augment Concept ARC
 
@@ -93,7 +85,7 @@ If you want to use this method with other prompt, you may change prompt in GPT_p
      6) test_output: this array is just for deliver to Result file(to adapt ARC interface) <- this array is not so important
 
 
-## Result Table
+## Results
 |Problem Category|Total available|The number of generated data|The number of valid augmentated data|Ratio(valid/generated)|
 |:---:|:---:|:---:|:---:|:---:|
 |[Above Below](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/AboveBelow.pdf)|58|158|34|21.52%|
@@ -114,10 +106,6 @@ If you want to use this method with other prompt, you may change prompt in GPT_p
 |[Top Bottom 3D](https://github.com/GIST-DSLab/Augmentation_with_GPT/blob/main/visualization/TopBottom3D.pdf)|55|215|25|11.63%|
 |Total|930|2913|509|17.12%|
 
-      
-   v. hand_filter.py
-   
-   this python file is that I've used to filter inadequate data.
 
-## etc
+## Etc
 We modify [tanchongmin's code](https://github.com/tanchongmin/ARC-Challenge) to make the visualization code and use it to visualize the ARC grid. 
