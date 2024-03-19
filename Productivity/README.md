@@ -18,9 +18,8 @@
 ## Quick Start
 ```
 cd Productivity
-python making_prompt.py
-python gpt_3.5_arc_example_generator.py
-python gpt_4.0_arc_example_generator.py
+python ITP_generator.py
+python arc_example_generator.py
 ```
 
 ## What is Productivity?
