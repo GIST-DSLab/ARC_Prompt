@@ -2,8 +2,8 @@
 ## Directory Structure
 ```
 ├─data
-|  ├─training: contains JSON files for ARC training tasks.
 |  ├─evaluation: contains JSON files for ARC evaluation tasks.
+|  ├─training: contains JSON files for ARC training tasks.
 |
 ├─result: contains results and preprocessed data for each trial for each prompting technique.
 |
