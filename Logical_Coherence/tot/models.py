@@ -5,8 +5,8 @@ import time
 
 openai.api_type = "azure"
 openai.api_version = "2023-07-01-preview"
-openai.api_base = "Write your azure openai endpoint here" 
-openai.api_key = "Write your azure key here"
+openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
+openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT") 
 
 completion_tokens = prompt_tokens = 0
 

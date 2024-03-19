@@ -6,7 +6,6 @@ openai.api_type = "azure"
 openai.api_version = "2023-07-01-preview"
 openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
 openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT") 
-openai.deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME") 
 
 completion_tokens = prompt_tokens = 0
 
