@@ -4,8 +4,14 @@ import json
 
 openai.api_type = "azure"
 openai.api_version = "2023-07-01-preview"
-openai.api_base = "Write your azure openai endpoint here"
-openai.api_key = "Write your azure key here"
+openai.api_base = "" 
+openai.api_key = "" 
+
+if openai.api_key == "":
+    openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
+
+if openai.api_base == "":
+    openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT") 
 
 # 채팅 메시지 설정
 instructions = [{"role": "system", "content": "You are an ARC(Abstraction and Reasoning Corpus) solver."}]

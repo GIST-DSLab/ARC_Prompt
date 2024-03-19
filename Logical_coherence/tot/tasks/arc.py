@@ -2,8 +2,8 @@ import re
 import os
 import sympy
 import pandas as pd
-from tot.tasks.base import Task, DATA_PATH
-from tot.prompts.arc_reasoning import * 
+from tot.tasks.base import Task
+from tot.prompts.arc import * 
 import json
 import copy
 from glob import glob
@@ -11,7 +11,7 @@ from glob import glob
 class ARCTask(Task):
     def __init__(self, folder='evaluation'):
         super().__init__()
-        path = os.path.join(DATA_PATH, folder)
+        path = os.path.join('./data',folder)
         self.data = []
         self.data_list = glob(os.path.join(path, '*.json'))
         for i in range(len(self.data_list)):

@@ -4,8 +4,14 @@ import json
 
 openai.api_type = "azure"
 openai.api_version = "2023-07-01-preview"
-openai.api_base = "Write your azure openai endpoint here"
-openai.api_key = "Write your azure key here"
+openai.api_base = "" 
+openai.api_key = "" 
+
+if openai.api_key == "":
+    openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
+
+if openai.api_base == "":
+    openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT") 
 
 # 채팅 메시지 설정
 instructions = [{"role": "system", "content": "You are an ARC(Abstraction and Reasoning Corpus) solver."}]
@@ -80,7 +86,7 @@ def generate_text(prompt):
         print(f"Error generating text: {e}")
         return "No response due to content management policy."
 
-json_file_path = "C:/Users/metaverse/Desktop/Research1007/GPT_DATA/Prompt.json"
+json_file_path = "./Prompt.json"
 data = read_json_file(json_file_path)
 
 total_tasks = len(data['task'])  # 전체 작업 수
@@ -129,7 +135,7 @@ for i in range(total_tasks):
             }
             arc_data['test'].append(test_data)
 
-    output_file_path = f"C:/Users/metaverse/Desktop/Research1007/Augmented_Data/{data['task'][i]}_{i}_Aug.json"
+    output_file_path = f"../HF_Augmented_Data/{data['task'][i]}_{i}_Aug.json"
     with open(output_file_path, "w") as json_file:
         json.dump(arc_data, json_file)
 
