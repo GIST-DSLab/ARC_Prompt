@@ -4,15 +4,15 @@
 ## Directory structure
 ```
 ├─data
-|  ├─training: directory containing JSON files for ARC training tasks.
-|  ├─evaluation: directory containing JSON files for ARC evaluation tasks.
+|  ├─training: contains JSON files for ARC training tasks.
+|  ├─evaluation: contains JSON files for ARC evaluation tasks.
 |
-├─result: directory containing results and preprocessed data for each trial for each prompting technique.
+├─result: contains results and preprocessed data for each trial for each prompting technique.
 |
 ├─tot
-|  ├─methods: directory containing a code for prompting techniques such as generation, vote, parsing, and regularization parser.
-|  ├─prompts: directory containing a prompt code used when each prompting technique generates suggestions or evaluates value.
-|  ├─tasks: directory containing a code that manages ARC tasks and their prompts.
+|  ├─methods: contains a code for prompting techniques such as generation, vote, parsing, and regularization parser.
+|  ├─prompts: contains a prompt code used when each prompting technique generates suggestions or evaluates value.
+|  ├─tasks: contains codes that manage ARC tasks and their prompts.
 ```
 
 
