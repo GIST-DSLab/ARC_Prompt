@@ -41,17 +41,13 @@
 
 
 ## Quick Start
-0. Set Environment Variables
+0. Check Environment Variables & Move to the Directory
 ```
-export AZURE_OPENAI_API_KEY="REPLACE_WITH_YOUR_KEY_VALUE_HERE"
-export AZURE_OPENAI_ENDPOINT="REPLACE_WITH_YOUR_ENDPOINT_HERE"
-export AZURE_OPENAI_DEPLOYMENT_NAME="REPLACE_WITH_YOUR_DEPLOYMENT_NAME_HERE"
-
 echo $AZURE_OPENAI_API_KEY
 echo $AZURE_OPENAI_ENDPOINT
 echo $AZURE_OPENAI_DEPLOYMENT_NAME
 
-cd Logical_coherence
+cd Logical_Coherence
 ```
 1. Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903))
 ```
