@@ -2,39 +2,43 @@
 
 ## Directory structure
 ```
-├─result: 
-| result directory contains results and preprocessed data for Chain of Thought (CoT), Least to Most (LtM), and Tree of Thoughts (ToT). 
+├─data
+|  ├─training: directory containing JSON files for ARC training tasks
+|  ├─evaluation: directory containing JSON files for ARC evaluation tasks
+|
+├─result: directory that contains results and preprocessed data for prompting techniques such as Chain of Thought (CoT), Least to Most (LtM), and Tree of Thoughts (ToT)
 |
 ├─tot
-|  ├─methods
-|    methods directory has ToT process code such as generation, vote, parsing, and regularization  parser.
-|  ├─prompts
-|    prompts directory has prompts code used when each prompting technique generates suggestions or evaluates value.
-|  ├─tasks 
-|    tasks directory has code that manages ARC tasks and their prompts.
+|  ├─methods: directory containing a code for prompting techniques such as generation, vote, parsing, and regularization parser.
+|  ├─prompts: directory containing a prompt code used when each prompting technique generates suggestions or evaluates value.
+|  ├─tasks: directory containing a code that manages ARC tasks and their prompts.
 ```
 
-## Explanation about Python code files
+## Explanation about Python codes
 
-```arr_result.py```: This code seperate arc tasks following categorization from [ARC-Game](https://github.com/volotat/ARC-Game) and calculate the result about csv files that created by ```cot_solver.py```, ```ltm_solver.py```, ```tot_arc_solver.py```.
+```acc_result.py```: classifies ARC tasks by difficulty from [ARC-Game](https://github.com/volotat/ARC-Game) and calculate results with csv files that created by ```cot_solver.py```, ```ltm_solver.py```, ```tot_arc_solver.py```.
 
-```cot_making_prompt.py```: This code make some prompt that used when LLM solve ARC tasks with chain of thought method.
+```cot_making_prompt.py```: generates prompts for ```cot_solver.py```.
 
-```cot_solver.py```: This code solve ARC tasks with chain of thought.
+```cot_solver.py```: solves ARC tasks with CoT.
 
-```ltm_decomposing.py```: This code decompose the tasks to solve step-by-step by LLM.
+```ltm_decomposing.py```: decomposes ARC tasks into small step-by-step sub-tasks.
 
-```ltm_making_prompt.py```: This code generate prompt that used when LLM decompose the task to solve step-by-step.
+```ltm_making_prompt.py```: generates prompts for decomposing ARC tasks into sub-tasks.
 
-```ltm_making_prompt_CoT.py```: This code generate prompt with chain of thought that used when LLM decompose the task to solve step-by-step.
+```ltm_making_prompt_CoT.py```: generates prompts for solving ARC tasks with generated sub-tasks.
 
-```ltm_metric.py```: This code preprocess the result that made by ```ltm_solver.py```.
+```ltm_metric.py```: preprocesses the result that made by ```ltm_solver.py```.
 
-```tot_arc_solver.py```: This code solve ARC tasks with tree of thoughts.
+```ltm_solver.py```: solves ARC tasks with LtM.
 
-```utils.py```: This code include visualization function that used when visualization.py call.
+```metric.py```: ???????????????????????????????????????????????????
 
-```visualization.py```: This code visualize the result about csv files that created by ```cot_solver.py```, ```ltm_solver.py```, ```tot_arc_solver.py```.
+```tot_arc_solver.py```: solves ARC tasks with ToT.
+
+```utils.py```: includes visualization functions for ```visualization.py```.
+
+```visualization.py```: visualizes results in csv files that created by ```cot_solver.py```, ```ltm_solver.py```, ```tot_arc_solver.py```.
 
 ## Setup
 1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
