@@ -26,6 +26,7 @@
 ## Quick Start
 The following minimal script will attempt to solve ARC tasks (it might be a bit slow as it's using GPT-4):
 ```
+cd Compositionallity
 python prototype_arc.py
 ```
 
