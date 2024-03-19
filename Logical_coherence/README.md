@@ -68,7 +68,7 @@ This concept is crucial in human cognitive processes as it facilitates the const
 Such an ability is particularly relevant to the rule inference required in ARC tasks, where the challenge is to identify common logical patterns among given examples and use them to deduce the most logically coherent answer.
 
 
-## How to Experiment to Evaluate the Logical Coherence of LLM?
+## How to Experiment to Evaluate Logical Coherence of LLM?
 To evaluate the logical coherence of LLM with ARC tasks, We used various prompt techniques such as CoT, LtM, and ToT.
 
 The below figures explain the process.
