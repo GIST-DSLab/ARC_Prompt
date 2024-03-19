@@ -7,11 +7,11 @@
 |
 ├─tot
 |  ├─methods
-| methods directory has tot process code such as generation, vote, parsing, and regularization  parser.
+|    methods directory has ToT process code such as generation, vote, parsing, and regularization  parser.
 |  ├─prompts
-| prompts directory has prompts code used when each prompting technique generates suggestions or evaluates value.
+|    prompts directory has prompts code used when each prompting technique generates suggestions or evaluates value.
 |  ├─tasks 
-| tasks directory has code that manages arc tasks and their prompts.
+|    tasks directory has code that manages ARC tasks and their prompts.
 ```
 
 ## Explanation about Python code files
