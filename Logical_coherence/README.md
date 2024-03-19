@@ -16,7 +16,7 @@
 
 ## Explanation about Python codes
 
-```acc_result.py```: classifies ARC tasks by difficulty from [ARC-Game](https://github.com/volotat/ARC-Game) and calculate results with csv files that created by ```cot_solver.py```, ```ltm_solver.py```, ```tot_arc_solver.py```.
+```acc_result.py```: classifies ARC tasks by difficulty from [ARC-Game](https://github.com/volotat/ARC-Game) and calculate results with csv files.
 
 ```cot_making_prompt.py```: generates prompts for ```cot_solver.py```.
 
@@ -38,7 +38,7 @@
 
 ```utils.py```: includes visualization functions for ```visualization.py```.
 
-```visualization.py```: visualizes results in csv files that created by ```cot_solver.py```, ```ltm_solver.py```, ```tot_arc_solver.py```.
+```visualization.py```: visualizes results.
 
 ## Setup
 1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
