@@ -82,7 +82,7 @@ def generate_text(prompt):
         print(f"Error generating text: {e}")
         return "No response due to content management policy."
 
-json_file_path = "./Prompt.json"
+json_file_path = "./GPT_Data/Prompt.json"
 data = read_json_file(json_file_path)
 
 total_tasks = len(data['task'])  # 전체 작업 수
