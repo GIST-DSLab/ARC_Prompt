@@ -15,7 +15,6 @@
 
 
 ## Explanation about Python Codes
-
 ```acc_result.py```: classifies ARC tasks by difficulty from [ARC-Game](https://github.com/volotat/ARC-Game) and calculate results with csv files.
 
 ```cot_making_prompt.py```: generates prompts for ```cot_solver.py```.
