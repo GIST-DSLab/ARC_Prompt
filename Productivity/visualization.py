@@ -7,6 +7,8 @@ import matplotlib
 import numpy as np
 import base64
 from io import BytesIO
+import warnings
+warnings.filterwarnings('ignore')
 
 def string_to_array(grid):
     try:
@@ -108,6 +110,7 @@ def write_file(plot_html, name, dir_path='result'):
         file.write(html_content)
 
 target_dir = 'HF_Augmented_Data/'
+result_dir = 'visualization/'
 target_files = os.listdir(target_dir)
 kinds_of_problem = set()
 prev_name = ''
@@ -119,7 +122,7 @@ for i, target_file in enumerate(target_files):
 
     if i != 0:
         if kind_of_problem not in kinds_of_problem:
-            write_file(html, prev_name, dir_path=target_dir)
+            write_file(html, prev_name, dir_path=result_dir)
             print(f'{prev_name}: {augmented_count}')
             total_count += augmented_count
             augmented_count = 0
@@ -131,8 +134,10 @@ for i, target_file in enumerate(target_files):
         prev_name = kind_of_problem
         count = 0 
 
+
     with open(target_dir + target_file, 'r') as f:
         data = json.load(f)
+
     train_data = data['train']
     target_file_name = target_file.split('.json')[0]
     temp_html, temp_count = plot_2d_grid(train_data, target_file_name)
@@ -141,5 +146,5 @@ for i, target_file in enumerate(target_files):
 
 print(f'{prev_name}: {augmented_count}')
 total_count += augmented_count
-write_file(html, prev_name)
+write_file(html, prev_name, dir_path='visualization')
 print(f'total count: {total_count}')
