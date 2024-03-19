@@ -4,21 +4,16 @@ import backoff
 import time
 openai.api_type = "azure"
 openai.api_version = "2023-07-01-preview"
-openai.api_base = "Write your azure openai endpoint here" 
-openai.api_key = "Write your azure key here"
+openai.api_base = "" 
+openai.api_key = "" 
+
+if openai.api_key == "":
+    openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
+
+if openai.api_base == "":
+    openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT") 
 
 completion_tokens = prompt_tokens = 0
-
-api_key = os.getenv("OPENAI_API_KEY", "")
-if api_key != "":
-    openai.api_key = api_key
-else:
-    print("Warning: OPENAI_API_KEY is not set")
-    
-api_base = os.getenv("OPENAI_API_BASE", "")
-if api_base != "":
-    print("Warning: OPENAI_API_BASE is set to {}".format(api_base))
-    openai.api_base = api_base
 
 @backoff.on_exception(backoff.expo, openai.error.OpenAIError)
 def completions_with_backoff(**kwargs):
