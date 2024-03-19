@@ -129,3 +129,6 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 | Average | 56.67% | 23.67% | 0.00% | 0.95% |
 
 </div>
+
+# etc
+We modify [tanchongmin's code](https://github.com/tanchongmin/ARC-Challenge) to make the visualization code and use it to visualize the ARC grid. 
