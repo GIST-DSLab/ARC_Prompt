@@ -56,7 +56,7 @@ python ltm_solver.py
 ```
 python tot_arc_solver.py
 ```
-3. Visualize Results
+4. Visualize Results
 ```
 python visualization.py
 ```
