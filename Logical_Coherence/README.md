@@ -23,8 +23,6 @@
 
 ```ltm_decomposing.py```: decomposes ARC tasks into small step-by-step sub-tasks.
 
-```ltm_making_prompt.py```: generates prompts for decomposing ARC tasks into sub-tasks without any example sub-tasks.
-
 ```ltm_making_prompt_CoT.py```: generates prompts for decomposing ARC tasks into sub-tasks with CoT prompts as example sub-tasks.
 
 ```ltm_metric.py```: preprocesses the result that made by ```ltm_arc_solver.py```.
