@@ -41,6 +41,8 @@ python arc_example_generator.py
 python visualization.py
 ```
 
+4. All visualization results (HTML files) are located in the visualization directory.
+
 ## What is Productivity?
 **Productivity refers to the ability to generate unseen representations based on observed data.** 
 This characteristic allows humans to imagine different situations even from a single phenomenon, thus allowing for efficient learning without the need to learn from data inefficiently each time. 
