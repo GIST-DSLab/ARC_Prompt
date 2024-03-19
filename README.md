@@ -18,11 +18,11 @@ LLMs, proposing development paths for achieving human-level reasoning.
 
 
 ## Setup
-1. Set up Azure OpenAI API key and write down api_key variable in the code
+1. Set up Azure OpenAI API key
   
-2. Write down api_base variable in the code
+2. Write down *api_key* and *api_base* variables in the code
 
-3. Install package
+3. Install packages in *requirements.txt*
 ```
 git clone https://github.com/GIST-DSLab/ARC_Prompt.git
 cd ARC_Prompt
