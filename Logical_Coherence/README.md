@@ -49,18 +49,18 @@ echo $AZURE_OPENAI_DEPLOYMENT_NAME
 
 cd Logical_Coherence
 ```
-1. Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903))
+1. Run ARC Solver using Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903))
 ```
 python cot_making_prompt.py
 python cot_solver.py
 ```
-2. Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625))
+2. Run ARC Solver using Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625))
 ```
 python ltm_making_prompt_CoT.py
 python ltm_decomposing.py
 python ltm_arc_solver.py
 ```
-3. Tree-of-Thoughts ([ToT](https://arxiv.org/abs/2305.10601))
+3. Run ARC Solver using Tree-of-Thoughts ([ToT](https://arxiv.org/abs/2305.10601))
 ```
 python tot_arc_solver.py
 ```
