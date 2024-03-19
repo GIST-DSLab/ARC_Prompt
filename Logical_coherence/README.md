@@ -38,18 +38,19 @@
 ```visualization.py```: This code visualize the result about csv files that created by ```cot_solver.py```, ```ltm_solver.py```, ```tot_arc_solver.py```.
 
 ## Setup
-1. Set up Azure OpanAI API key and write down api_key variable in the code
-  
-2. Write down api_base variable in the code
+1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
 
-3. Install package
+2. Follow instructions from [Quickstart: Get started using GPT-35-Turbo and GPT-4 with Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-python).
+   
+3. Clone this repo and install packages in **requirements.txt** with the following code.
 ```
 git clone https://github.com/GIST-DSLab/ARC_Prompt.git
 cd ARC_Prompt
 pip install -r requirements.txt
 ```
+
 ## Quick Start
-1. Chain of thought
+1. Chain of Thought
 ```
 python cot_making_prompt.py
 python cot_solver.py
@@ -64,6 +65,7 @@ python ltm_solver.py
 ```
 python tot_arc_solver.py
 ```
+
 ## What is the logical coherence?
 **Logical coherence is the ability to understand a given logic and apply it consistently across different
 contexts.** This concept is crucial in human cognitive processes as it facilitates the construction of
