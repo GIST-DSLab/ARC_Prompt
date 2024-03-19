@@ -21,6 +21,7 @@
 
 ## Quick Start
 ```
+cd Productivity
 python GPT_DATA/GPT_prompt.py
 python GPT_DATA/GPT3.5_prompt.py or python GPT_DATA/GPT4.0_prompt.py
 python GPT_DATA/hand_filter.py
