@@ -20,10 +20,10 @@ for index_number in range(1, 2):
     subquestions_list = []
     prediction_list = []
     label_list = []
-    save_path = f'arc_result/{index_number}'
+    save_path = f'result/[ToT]result_{index_number}'
     pd_file_name = f'tot_result{index_number}.csv'
     for target_task_id in target_task_ids:
-        if not os.path.exists( f'arc_result/{index_number}/reasoning_{target_task_id}.json'):
+        if not os.path.exists( f'result/{index_number}/reasoning_{target_task_id}.json'):
             continue
 
         for i in range(len(task.data_list)):
@@ -36,8 +36,8 @@ for index_number in range(1, 2):
         if task_id == '1d0a4b61':
             print(1)
         task_file = f'tot/data/prototype_arc_reasoning/evaluation/{task_id}.json'
-        decomposing_file = f'arc_result/{index_number}/decomposing_{task_id}.json'
-        reasoning_file = f'arc_result/{index_number}/reasoning_{task_id}.json'
+        decomposing_file = f'result/{index_number}/decomposing_{task_id}.json'
+        reasoning_file = f'result/{index_number}/reasoning_{task_id}.json'
         eaxmple_prompt, quiz_prompt, label_prompt = task.get_input(idx)
 
         subquestions_prompot = decomposing_cot_prompt.format(examples=eaxmple_prompt, quiz=quiz_prompt)
