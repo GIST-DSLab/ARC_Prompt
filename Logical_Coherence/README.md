@@ -2,7 +2,9 @@
 ## Directory Structure
 ```
 ├─data
+|  ├─cot: contains JSONL files for ARC tasks with CoT.
 |  ├─evaluation: contains JSON files for ARC evaluation tasks.
+|  ├─l2m: contains JSONL files for ARC tasks with LtM.
 |  ├─training: contains JSON files for ARC training tasks.
 |
 ├─result: contains results and preprocessed data for each trial for each prompting technique.
