@@ -1,5 +1,6 @@
 # Logical coherence
 
+
 ## Directory structure
 ```
 ├─data
@@ -13,6 +14,7 @@
 |  ├─prompts: directory containing a prompt code used when each prompting technique generates suggestions or evaluates value.
 |  ├─tasks: directory containing a code that manages ARC tasks and their prompts.
 ```
+
 
 ## Explanation about Python codes
 
@@ -40,17 +42,6 @@
 
 ```visualization.py```: visualizes results.
 
-## Setup
-1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
-
-2. Follow instructions from [Quickstart: Get started using GPT-35-Turbo and GPT-4 with Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-python).
-   
-3. Clone this repo and install packages in **requirements.txt** with the following code.
-```
-git clone https://github.com/GIST-DSLab/ARC_Prompt.git
-cd ARC_Prompt
-pip install -r requirements.txt
-```
 
 ## Quick Start
 1. Chain of Thought ([CoT](https://arxiv.org/abs/2201.11903))
@@ -69,13 +60,13 @@ python ltm_solver.py
 python tot_arc_solver.py
 ```
 
+
 ## What is the logical coherence?
-**Logical coherence is the ability to understand a given logic and apply it consistently across different
-contexts.** This concept is crucial in human cognitive processes as it facilitates the construction of
-sentence structures based on consistent logic, which is essential for solving various tasks. Such
-an ability is particularly relevant to the rule inference required in ARC tasks, where the challenge
-is to identify common logical patterns among given examples and use them to deduce the most
-logically coherent answer.
+**Logical coherence is the ability to understand a given logic and to apply it consistently across different
+contexts.** 
+This concept is crucial in human cognitive processes as it facilitates the construction of sentence structures based on consistent logic, which is essential for solving various tasks. 
+Such an ability is particularly relevant to the rule inference required in ARC tasks, where the challenge is to identify common logical patterns among given examples and use them to deduce the most logically coherent answer.
+
 
 ## How to experiment to evaluate the logical coherence of LLM?
 To evaluate the logical coherence of LLM with ARC tasks, We used various prompt techniques such as CoT, LtM, and ToT.
@@ -84,27 +75,23 @@ The below figures explain the process.
 
 <img src="https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/132a2cf7-c10c-4756-8093-22e524fadf70"  width="50%" height="50%"/>
 
-Three types of prompts are shown on the left. Although all prompts are described as a 2D array of
-grids, we visualized them on the right for clarity. In default, all three techniques use prompts with two main
-components: a sample task and a target task. However, LtM and ToT use a different combination of the target
-task and its decomposition command. This deviation occurs because CoT strictly follows the given sub-task,
-while LtM and CoT decompose the task on their own.
+Three types of prompts are shown on the left. 
+Although all prompts are described as a 2D array of grids, we visualized them on the right for clarity. 
+By default, all three techniques use prompts with two main components: a sample task and a target task. 
+However, LtM and ToT use a different combination of the target task and its decomposition command. 
+This deviation occurs because CoT strictly follows the given sub-task, while LtM and CoT decompose the task on their own.
 
 <img src="https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/01a1283f-e81e-434f-9af1-1d2467eb0cc7"  width="50%" height="50%"/>
 
-Grey blocks illustrate prompt sets delivered to the LLM, including the sample task, target task, and
-LLM’s prior responses, as shown in Fig. 8. Green blocks denote the final answer. CoT relies on a single grey
-block, indicating that the LLM strictly follows the provided sub-tasks. Conversely, LtM and ToT prompt
-the LLM to generate and address sub-tasks sequentially, represented by decomposed results (red) and
-intermediate responses (blue). ToT further distinguishes itself from LtM by evaluating multiple suggestions
-for sub-task handling and selecting the most effective one through a voting mechanism.
+Grey blocks illustrate prompt sets delivered to the LLM, including the sample task, target task, and LLM’s prior responses, as shown in Fig. 8. 
+Green blocks denote the final answer. CoT relies on a single grey block, indicating that the LLM strictly follows the provided sub-tasks. 
+Conversely, LtM and ToT prompt the LLM to generate and address sub-tasks sequentially, represented by decomposed results (red) and intermediate responses (blue). 
+ToT further distinguishes itself from LtM by evaluating multiple suggestions for sub-task handling and selecting the most effective one through a voting mechanism.
 
 
 ## Results
-The accuracy is based on solving 100 random
-ARC tasks with CoT, LtM, and ToT prompts, each repeated 5 times. The accuracy outside the parentheses
-refers to the accuracy when only the results are correct, while the accuracy inside the parentheses indicates
-the accuracy when both the results and the process are correct.
+The accuracy is based on solving 100 random ARC tasks with CoT, LtM, and ToT prompts, each repeated 5 times. 
+The accuracy outside the parentheses refers to the accuracy when only the results are correct, while the accuracy inside the parentheses indicates the accuracy when both the results and the process are correct.
 
 <div align="center">
   
@@ -118,9 +105,8 @@ the accuracy when both the results and the process are correct.
 
 </div>
 
-Analyzing LLMs’ reasoning capabilities by task difficulty, following prior categorization from [ARC-Game](https://github.com/volotat/ARC-Game). The
-number of ARC tasks corresponding to each category is listed in the table, and the experiment was performed
-5 times for each task.
+Analyzing LLMs’ reasoning capabilities by task difficulty, following prior categorization from [ARC-Game](https://github.com/volotat/ARC-Game). 
+The number of ARC tasks corresponding to each category is listed in the table, and the experiment was performed 5 times for each task.
 
 <div align="center">
   
