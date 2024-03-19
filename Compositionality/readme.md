@@ -15,10 +15,12 @@
 |  ├─tasks: contains codes that manage ARC tasks and their prompts.
 ```
 
+
 ## Explanation about Python Codes
 ```prototype_arc.py```: solves ARC tasks with ToT.
 
 ```quickly_start.py```: ???????????????????????????????????????????????????????????
+
 
 ## Quick Start
 The following minimal script will attempt to solve ARC tasks (it might be a bit slow as it's using GPT-4):
@@ -26,11 +28,13 @@ The following minimal script will attempt to solve ARC tasks (it might be a bit 
 python prototype_arc.py
 ```
 
+
 ## What is Compositionality?
 **Compositionality refers to the ability to generate complex linguistic expressions using simpler ones.** 
 This characteristic allows individuals to effectively tackle more complex tasks by breaking sub-tasks down into simpler steps, supporting the notion that humans can solve more complex tasks when faced with them. 
 Strong compositionality enables the resolution of complex tasks and facilitates transparent descriptions of the process, which is also an important aspect from the perspective of LLMs. 
 This section tests compositionality by treating ARC tasks as stepwise compositions of simpler functions.
+
 
 ## How to Experiment to Evaluate Compositionality of LLM?
 The experiment is conducted to determine the compositionality of the LLM using given DSLs.
@@ -51,6 +55,7 @@ The below figures represent all of the processes of the experiment.
  An example of the single step in an experimental process. 
  The LLM solver observes the current state and chooses the DSL from the list. Then, the LLM validator evaluates the selected DSLs by score. 
  Based on the score, the top two states are sent to the next step.
+
 
 ## An Example Result for One Task
 ```json
