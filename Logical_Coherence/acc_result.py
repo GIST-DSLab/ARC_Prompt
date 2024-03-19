@@ -17,15 +17,10 @@ d = []
 f = []
 g = []
 
-def convert(x):
-    x = str(x)
-    # with open('test_conver_log_1.txt', 'a') as f:
-    #     b = x.replace('\n', '')
-    #     f.write(f'{b}\n\n\n')
-    return x.replace('\n', '').replace('  ', ' ') 
-
 def check_level(x):
     x = str(x)
+
+    # This case handle the error in the task_id
     if x == '576224':
         x = '00' + x
     elif x == '2.08E+20':
@@ -33,6 +28,7 @@ def check_level(x):
     elif x == '3560426':
         x = '0' + x
 
+    # Return the level of the task based on its ID
     if x in entry_list:
         return 'Entry'
     elif x in easy_list:
@@ -50,7 +46,7 @@ def check_level(x):
     else:
         return 'Unknown'
 
-
+# Load level data from JSON file that bring from ARC_Game repository
 with open('data\levels.json', 'r') as f:
     arc_level = json.load(f)
     entry_list = list(arc_level['Entry'].keys())
@@ -91,6 +87,7 @@ tot_acc_list = [0 for _ in range(len(target_correct_list))]
 target_str_list = ['Entry', 'Easy', 'Medium', 'Hard', 'Tedious', 'Multiple solutions', 'Unfixed']
 each_num_list = [0 for _ in range(len(target_str_list))]
 
+# Process results from different methods (Chain of tought, Least to Most, Tree of Thoughts) for multiple results
 for index in range(0,5):
     tot_file_name = f'tot_result{index}'
     tot_dir_path = f"result/[ToT]result_{index}/"
@@ -109,6 +106,7 @@ for index in range(0,5):
     cot_a['level'] = cot_a['task_id'].apply(check_level)
 
     if index == 0:
+        # Our experiments repreated 5 times about each method, so we consider this point to calculate the total number of each level.
         total_entry = cot_a['level'][cot_a['level'] == 'Entry'].shape[0] * 15
         total_easy = cot_a['level'][cot_a['level'] == 'Easy'].shape[0] * 15
         total_medium = cot_a['level'][cot_a['level'] == 'Medium'].shape[0] * 15
