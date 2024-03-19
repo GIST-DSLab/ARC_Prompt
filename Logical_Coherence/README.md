@@ -59,10 +59,12 @@ python cot_solver.py
 python ltm_making_prompt_CoT.py
 python ltm_decomposing.py
 python ltm_arc_solver.py
+python ltm_metric.py
 ```
 3. Run ARC Solver using Tree-of-Thoughts ([ToT](https://arxiv.org/abs/2305.10601))
 ```
 python tot_arc_solver.py
+python tot_metric.py
 ```
 4. Visualize Results
 ```
