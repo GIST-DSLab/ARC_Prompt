@@ -22,7 +22,15 @@
 
 
 ## Quick Start
-The following minimal script will attempt to solve ARC tasks (it might be a bit slow as it's using GPT-4):
+0. Check Environment Variables & Move to the Directory
+```
+echo $AZURE_OPENAI_API_KEY
+echo $AZURE_OPENAI_ENDPOINT
+echo $AZURE_OPENAI_DEPLOYMENT_NAME
+
+cd Compositionality
+```
+1. Run ARC Solver
 ```
 cd Compositionality
 python tot_arc_solver.py
