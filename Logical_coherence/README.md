@@ -23,9 +23,9 @@
 
 ```ltm_decomposing.py```: decomposes ARC tasks into small step-by-step sub-tasks.
 
-```ltm_making_prompt.py```: generates prompts for decomposing ARC tasks into sub-tasks.
+```ltm_making_prompt.py```: generates prompts for decomposing ARC tasks into sub-tasks without any example sub-tasks.
 
-```ltm_making_prompt_CoT.py```: generates prompts for solving ARC tasks with generated sub-tasks.
+```ltm_making_prompt_CoT.py```: generates prompts for decomposing ARC tasks into sub-tasks with CoT prompts as example sub-tasks.
 
 ```ltm_metric.py```: preprocesses the result that made by ```ltm_solver.py```.
 
@@ -48,7 +48,7 @@ python cot_solver.py
 ```
 2. Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625))
 ```
-python ltm_making_prompt.py or python ltm_makin_prompt_CoT.py
+python python ltm_makin_prompt_CoT.py
 python ltm_decomposing.py
 python ltm_solver.py
 ```
