@@ -2,7 +2,7 @@ import re
 import os
 import sympy
 import pandas as pd
-from tot.tasks.base import Task, DATA_PATH
+from tot.tasks.base import Task
 from tot.prompts.arc import * 
 import json
 import copy
@@ -12,7 +12,7 @@ import ast
 class ARCEnv:
     def __init__(self, dsl_file='dsl.txt'):
         self.dsl_list = ''
-        with open(os.path.join(DATA_PATH, 'prototype_arc', dsl_file), 'r', encoding='utf-8') as f:
+        with open(os.path.join('./data', dsl_file), 'r', encoding='utf-8') as f:
             self.dsl_list = f.read()
 
     
@@ -398,7 +398,7 @@ class ARCEnv:
 class ARCTask(Task):
     def __init__(self, dsl_file='dsl.txt', folder='arc.json'):
         super().__init__()
-        path = os.path.join(DATA_PATH, 'prototype_arc', folder)
+        path = os.path.join('data/', folder)
         # TODO arc dataset folder에서 json 파일읽어오는 부분 구현하기(그전에 구현해둔 것 있음)
         # TODO arc json에서 train(example)과 test(quiz) 따로 분리해두기 
         self.data = []
