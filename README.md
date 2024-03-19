@@ -1,4 +1,10 @@
 # Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus
+This repo is the experiments code for "Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus"
+
+> [Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus](https://arxiv.org/abs/2403.11793) </br>
+> </br>
+> Seungpil Lee, Woochang Sim, Donghyeon Shin, Sanha Hwang, Wongyu Seo, Jiwon Park, Seokki Lee, Sejin Kim, Sundong Kim
+
 The existing methods for evaluating the inference abilities of Large Language Models (LLMs) have been resultscentric,
 making it difficult to assess the inference process. We introduce a new approach using the Abstract
 and Reasoning Corpus (ARC) dataset to evaluate the inference and contextual understanding abilities of large
@@ -91,4 +97,17 @@ total of 2,913 generated examples.
 |Total|930|2913|509|17.12%|
 
 If you want to get more detail about compositionality, please refer to [this link](./Productivity).
+
+## Citation
+If you find this repo useful for your research, please consider citing our paper:
+```
+@misc{lee2024reasoning,
+      title={Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus}, 
+      author={Seungpil Lee and Woochang Sim and Donghyeon Shin and Sanha Hwang and Wongyu Seo and Jiwon Park and Seokki Lee and Sejin Kim and Sundong Kim},
+      year={2024},
+      eprint={2403.11793},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
