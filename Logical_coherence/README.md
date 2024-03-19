@@ -22,7 +22,7 @@
 
 ```cot_making_prompt.py```: generates prompts for ```cot_solver.py```.
 
-```cot_solver.py```: solves ARC tasks with CoT.
+```cot_solver.py```: solves ARC tasks with Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)).
 
 ```ltm_decomposing.py```: decomposes ARC tasks into small step-by-step sub-tasks.
 
@@ -32,11 +32,11 @@
 
 ```ltm_metric.py```: preprocesses the result that made by ```ltm_solver.py```.
 
-```ltm_solver.py```: solves ARC tasks with LtM.
+```ltm_solver.py```: solves ARC tasks with Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625)).
 
 ```metric.py```: ???????????????????????????????????????????????????
 
-```tot_arc_solver.py```: solves ARC tasks with ToT.
+```tot_arc_solver.py```: solves ARC tasks with Tree-of-Thoughts ([ToT](https://arxiv.org/abs/2305.10601)).
 
 ```utils.py```: includes visualization functions for ```visualization.py```.
 
@@ -44,18 +44,18 @@
 
 
 ## Quick Start
-1. Chain of Thought ([CoT](https://arxiv.org/abs/2201.11903))
+1. Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903))
 ```
 python cot_making_prompt.py
 python cot_solver.py
 ```
-2. Least to Most ([LtM](https://arxiv.org/abs/2205.10625))
+2. Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625))
 ```
 python ltm_making_prompt.py or python ltm_makin_prompt_CoT.py
 python ltm_decomposing.py
 python ltm_solver.py
 ```
-3. Tree of Thoughts ([ToT](https://arxiv.org/abs/2305.10601))
+3. Tree-of-Thoughts ([ToT](https://arxiv.org/abs/2305.10601))
 ```
 python tot_arc_solver.py
 ```
