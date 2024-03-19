@@ -20,7 +20,7 @@ LLMs, proposing development paths for achieving human-level reasoning.
 ## Setup
 1. Set up Azure OpenAI API key with this [link](https://learn.microsoft.com/azure/ai-services/openai/assistants-quickstart?tabs=command-line&pivots=programming-language-python).
 
-3. Write down *api_key* and *api_base* variables in the code.
+3. Write down *API_KEY* and *API_BASE* variables in the code.
 
 4. Clone this repo and install packages in *requirements.txt* with the following code.
 ```
