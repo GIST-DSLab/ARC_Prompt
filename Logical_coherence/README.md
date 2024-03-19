@@ -1,21 +1,20 @@
 # Logical coherence
 
-
 ## Directory structure
 ```
-├─reult: 
-| The result directory contains results and preprocessed data for Chain of Thought, Least to Most, and Tree of Thoughts. 
+├─result: 
+| result directory contains results and preprocessed data for Chain of Thought (CoT), Least to Most (LtM), and Tree of Thoughts (ToT). 
 |
 ├─tot
 |  ├─methods
-| The methods directory has tot process code such as generation, vote, parsing and regularization  parser.
+| methods directory has tot process code such as generation, vote, parsing, and regularization  parser.
 |  ├─prompts
-| The prompts directory has prompts code that used when tot generate suggestion or evaluate value.
+| prompts directory has prompts code used when each prompting technique generates suggestions or evaluates value.
 |  ├─tasks 
-| The tasks directory has code that manage arc tasks and their prompts.
+| tasks directory has code that manages arc tasks and their prompts.
 ```
 
-## Explanation about python code files
+## Explanation about Python code files
 
 ```arr_result.py```: This code seperate arc tasks following categorization from [ARC-Game](https://github.com/volotat/ARC-Game) and calculate the result about csv files that created by ```cot_solver.py```, ```ltm_solver.py```, ```tot_arc_solver.py```.
 
@@ -74,10 +73,10 @@ an ability is particularly relevant to the rule inference required in ARC tasks,
 is to identify common logical patterns among given examples and use them to deduce the most
 logically coherent answer.
 
-## How to conduct an experiment to evaluate the logical coherence of LLM?
-To evalute the logical coherence of LLM with ARC tasks, We used a various prompt techniques such as chain of thought, least to most and tree of t thoughts
+## How to experiment to evaluate the logical coherence of LLM?
+To evaluate the logical coherence of LLM with ARC tasks, We used various prompt techniques such as CoT, LtM, and ToT.
 
-Below figures explain all of the process.
+The below figures explain the process.
 
 <img src="https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/132a2cf7-c10c-4756-8093-22e524fadf70"  width="50%" height="50%"/>
 
@@ -97,7 +96,7 @@ intermediate responses (blue). ToT further distinguishes itself from LtM by eval
 for sub-task handling and selecting the most effective one through a voting mechanism.
 
 
-# result
+## Results
 The accuracy is based on solving 100 random
 ARC tasks with CoT, LtM, and ToT prompts, each repeated 5 times. The accuracy outside the parentheses
 refers to the accuracy when only the results are correct, while the accuracy inside the parentheses indicates
@@ -132,5 +131,5 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 
 </div>
 
-# etc
+## Etc
 We modify [tanchongmin's code](https://github.com/tanchongmin/ARC-Challenge) to make the visualization code and use it to visualize the ARC grid. 
