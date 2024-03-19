@@ -3,7 +3,7 @@ import json
 from collections import OrderedDict
 from tqdm import tqdm
 
-# ARC dataset 파일 경로
+# ARC dataset path
 train_path = './data/training/'
 evaluation_path = './data/evaluation/'
 
@@ -40,6 +40,7 @@ evaluation_prompt_sentence = []
 evaluation_completion_sentence = []
 evaluation_task_id = []
 
+# Sample task prompt
 start_prompt_sentence = """
 Do you know ARC problem?
 
@@ -72,6 +73,7 @@ Below problem is other pattern to solve. So you can understand below pattern wit
 
 start_completion_sentence = "<quiz answer>"
 
+# Make the prompt to give the LLM API
 for target_file in os.listdir(train_path):
     with open(train_path+target_file,'r') as f:
         data_train_dict[target_file.split('.')[0]] = json.load(f)
@@ -213,6 +215,7 @@ with open(f"data/cot/evaluation_dataset.jsonl", "w") as f:
         data_jsonl['completion'] = completion
         f.write(json.dumps(data_jsonl, ensure_ascii=False)+'\n')
 
+# Check the number of tasks and examples
 print(f'training_train_task_count: {training_train_task_count}')
 print(f'training_train_count: {training_train_count}')
 print(f'training_total_train_task_count: {training_total_train_task_count}')
