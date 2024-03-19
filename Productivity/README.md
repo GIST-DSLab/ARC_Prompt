@@ -1,7 +1,7 @@
 # Productivity
 ## Directory Structure
 ```
-├─GPT_DATA: contains Inverse Transformation Prompting (ITP) for experiments.
+├─GPT_DATA: contains prompts for Inverse Transformation Prompting (ITP).
 |
 ├─HF_Augmented_Data: contains all of the generated results.
 |
