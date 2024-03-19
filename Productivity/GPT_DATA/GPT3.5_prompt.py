@@ -1,17 +1,13 @@
 #Note: The openai-python library support for Azure OpenAI is in preview.
 import openai
 import json
+import os
 
 openai.api_type = "azure"
 openai.api_version = "2023-07-01-preview"
-openai.api_base = "" 
-openai.api_key = "" 
-
-if openai.api_key == "":
-    openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
-
-if openai.api_base == "":
-    openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT") 
+openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
+openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT") 
+openai.deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME") 
 
 # 채팅 메시지 설정
 instructions = [{"role": "system", "content": "You are an ARC(Abstraction and Reasoning Corpus) solver."}]
@@ -70,7 +66,7 @@ def read_json_file(file_path):
 def generate_text(prompt):
     try:
         response = openai.ChatCompletion.create(
-            engine = "Aug-GPT",
+            engine = openai.deployment_name,
             messages = instructions + [{"role": "user", "content": prompt}],
             temperature = 1.0,
             max_tokens = 4096,
