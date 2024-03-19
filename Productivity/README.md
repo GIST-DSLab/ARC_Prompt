@@ -20,9 +20,9 @@
 ## Quick Start
 ```
 cd Productivity
-python GPT_DATA/GPT_prompt.py
-python GPT_DATA/GPT3.5_prompt.py or python GPT_DATA/GPT4.0_prompt.py
-python GPT_DATA/hand_filter.py
+python making_prompt.py
+python gpt_3.5_arc_example_generator.py
+python gpt_4.0_arc_example_generator.py
 ```
 
 ## What is Productivity?
