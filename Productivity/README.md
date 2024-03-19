@@ -27,6 +27,13 @@ python GPT_DATA/hand_filter.py
 ```
 
 ## What is Productivity?
+Productivity refers to the ability to generate unseen representations based on observed data. 
+This characteristic allows humans to imagine different situations even from a single phenomenon, thus allowing for efficient learning without the need to learn from data inefficiently each time. 
+Similarly, when equipped with this ability, LLMs are expected to excel in unseen tasks, making it one of the key functions of essential reasoning. 
+The ability to generate new pairs within a limited set of rules could be helpful while solving ARC tasks, highlighting the need for productivity.
+
+
+## How to Experiment to Evaluate the Productivity of LLM?
 We conduct experiments using ARC tasks to understand how well LLMs can generate new expressions based on inherent logical concepts. 
 Productivity involves two main steps: inferring specific rules for generating images from example images and natural language expressions and using those rules to generate new, unseen images. 
 However, solving ARC tasks, experimented on in the previous sections so far, is unsuitable for confirming these two processes.
@@ -34,8 +41,6 @@ For precise evaluation, we propose a new experiment: _Given an ARC task and a ba
 If LLMs can understand a relationship between the given ARC task and the abstract rule, they should be able to infer specific rules for the given task and generate new valid examples. 
 Through this, we want to see if LLMs can imitate human thinking productivity.
 
-
-## How to Experiment to Evaluate the Productivity of LLM?
 1. Guessing input data by some characteristics in ARC Problem
 2. Augmentation Process
 
