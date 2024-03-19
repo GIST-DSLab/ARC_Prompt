@@ -213,6 +213,9 @@ for names in ['train', 'test']:
         evaluation_prompts = evaluation_temp_test_input
         evaluation_completions = evaluation_temp_test_output
 
+if os.path.exists('data/l2m') == False:
+    os.makedirs('data/l2m')
+
 with open(f"data/l2m/Decompose_evaluation_dataset_CoT.jsonl", "w") as f:
     for task_id, subquestion_prompt, completion, solve_prompt, quiz_prompt in zip(evaluation_task_id ,evaluation_subquestion_prompt_sentence, evaluation_completion_sentence, evaluation_solve_prompt_sentence, evaluation_quiz_prompt_sentence):
         data_jsonl = OrderedDict()
