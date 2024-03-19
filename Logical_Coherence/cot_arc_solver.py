@@ -102,9 +102,16 @@ for index_number in range(0,5):
     })
     df.to_csv(f'{save_file_name}.csv', index=None)
 
-    a = pd.read_csv('prediction.csv')
-    b = a['prediction']
-    c = a['label']
+    def refine_prediction(prediction):
+        if prediction:
+            return str(prediction).replace('  ', ' ')
+        else:
+            return prediction
+
+    df = pd.read_csv(f'{save_file_name}.csv', converters={"code": lambda x: str(x)})
+    df['refine_prediction']= df['refine_prediction'].apply(refine_prediction)
+    df['correct_flag'] = df['refine_prediction'] == df['label']
+    df.to_csv(f'{save_file_name}.csv', index=None)
 
     count = 0
     for pred, label in zip(b,c):

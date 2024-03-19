@@ -40,14 +40,6 @@ evaluation_prompt_sentence = []
 evaluation_completion_sentence = []
 evaluation_task_id = []
 
-# prompt에 사용할 format <- 기존에 사용한 start_prompt_sentence
-# start_prompt_sentence = "I give you some questions below forms.\n\n" \
-#                  "<example 1>\n\n" \
-#                  "<example 2>\n\n" \
-#                  "<example 3>\n\n" \
-#                  "<quiz>\n\n" \
-#                  "Are you understand?"
-
 start_prompt_sentence = """
 Do you know ARC problem?
 
