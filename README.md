@@ -21,8 +21,14 @@ LLMs, proposing development paths for achieving human-level reasoning.
 1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
 
 2. Follow instructions from [Quickstart: Get started using GPT-35-Turbo and GPT-4 with Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-python).
-   
-3. Clone this repo and install packages in **requirements.txt** with the following code.
+
+3. Set environment variables
+```
+export AZURE_OPENAI_API_KEY="REPLACE_WITH_YOUR_KEY_VALUE_HERE"
+export AZURE_OPENAI_ENDPOINT="REPLACE_WITH_YOUR_ENDPOINT_HERE"
+export AZURE_OPENAI_DEPLOYMENT_NAME="REPLACE_WITH_YOUR_DEPLOYMENT_NAME_HERE"
+```
+4. Clone this repo and install packages in **requirements.txt** with the following code.
 ```
 git clone https://github.com/GIST-DSLab/ARC_Prompt.git
 cd ARC_Prompt
