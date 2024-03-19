@@ -175,6 +175,9 @@ for file_name, value in tqdm(data_evaluation_dict.items()):
         if test_index == 0:
             break
 
+if not os.path.exists('data/cot'):
+    os.makedirs('data/cot')
+
 for names in ['train', 'test']:
     if names == 'train':
         training_prompts = training_temp_train_input
