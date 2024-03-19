@@ -1,6 +1,4 @@
 # Logical Coherence
-
-
 ## Directory Structure
 ```
 ├─data
