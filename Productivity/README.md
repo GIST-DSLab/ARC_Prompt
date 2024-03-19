@@ -12,7 +12,7 @@
 ## Explanation about Python Codes
 ```arc_example_generator.py```: augments example inputs with GPT.
 
-```ITP_generator.py```: generates prompts for Inverse Transformation Prompting (ITP).
+```itp_generator.py```: generates prompts for Inverse Transformation Prompting (ITP).
 
 
 ## Quick Start
@@ -26,7 +26,7 @@ cd Productivity
 ```
 1. Run ITP Generator
 ```
-python ITP_generator.py
+python itp_generator.py
 ```
 2. Run ARC Example Generator
 ```
