@@ -21,7 +21,7 @@
 
 ```cot_making_prompt.py```: generates prompts for ```cot_arc_solver.py```.
 
-```cot_arc_solver.py```: solves ARC tasks with Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)). And cot result calculates in this code.
+```cot_arc_solver.py```: solves ARC tasks with Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)) and calculate accuracy of results.
 
 ```ltm_decomposing.py```: decomposes ARC tasks into small step-by-step sub-tasks.
 
@@ -70,6 +70,8 @@ python tot_metric.py
 ```
 python visualization.py
 ```
+5. All visualization results (HTML files) are located in each subdirectory of the result directory.
+
 
 ## What is Logical Coherence?
 **Logical coherence is the ability to understand a given logic and to apply it consistently across different
