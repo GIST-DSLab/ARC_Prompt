@@ -1,7 +1,7 @@
 # Logical Coherence
 
 
-## Directory structure
+## Directory Structure
 ```
 ├─data
 |  ├─training: contains JSON files for ARC training tasks.
@@ -16,7 +16,7 @@
 ```
 
 
-## Explanation about Python codes
+## Explanation about Python Codes
 
 ```acc_result.py```: classifies ARC tasks by difficulty from [ARC-Game](https://github.com/volotat/ARC-Game) and calculate results with csv files.
 
@@ -61,14 +61,14 @@ python tot_arc_solver.py
 ```
 
 
-## What is the logical coherence?
+## What is Logical Coherence?
 **Logical coherence is the ability to understand a given logic and to apply it consistently across different
 contexts.** 
 This concept is crucial in human cognitive processes as it facilitates the construction of sentence structures based on consistent logic, which is essential for solving various tasks. 
 Such an ability is particularly relevant to the rule inference required in ARC tasks, where the challenge is to identify common logical patterns among given examples and use them to deduce the most logically coherent answer.
 
 
-## How to experiment to evaluate the logical coherence of LLM?
+## How to Experiment to Evaluate the Logical Coherence of LLM?
 To evaluate the logical coherence of LLM with ARC tasks, We used various prompt techniques such as CoT, LtM, and ToT.
 
 The below figures explain the process.
