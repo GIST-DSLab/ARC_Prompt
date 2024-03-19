@@ -16,9 +16,20 @@
 
 
 ## Quick Start
+0. Check Environment Variables & Move to the Directory
 ```
+echo $AZURE_OPENAI_API_KEY
+echo $AZURE_OPENAI_ENDPOINT
+echo $AZURE_OPENAI_DEPLOYMENT_NAME
+
 cd Productivity
+```
+1. Run ITP Generator
+```
 python ITP_generator.py
+```
+2. Run ARC Example Generator
+```
 python arc_example_generator.py
 ```
 
