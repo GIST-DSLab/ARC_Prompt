@@ -64,7 +64,7 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 
 </div>
 
-If you want to get more detail about logical coherence, please refer to [this link](./Logical_coherence/).
+If you want to get more detail about logical coherence, please refer to [this link](./Logical_Coherence/).
 
 ## Compositionality
 The experiment results are as follows: out of 99 tasks, LLM was not able to solve
