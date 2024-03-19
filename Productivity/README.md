@@ -118,3 +118,6 @@ If you want to use this method with other prompt, you may change prompt in GPT_p
    v. hand_filter.py
    
    this python file is that I've used to filter inadequate data.
+
+## etc
+We modify [tanchongmin's code](https://github.com/tanchongmin/ARC-Challenge) to make the visualization code and use it to visualize the ARC grid. 
