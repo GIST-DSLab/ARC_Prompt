@@ -50,6 +50,8 @@ export AZURE_OPENAI_DEPLOYMENT_NAME="REPLACE_WITH_YOUR_DEPLOYMENT_NAME_HERE"
 echo $AZURE_OPENAI_API_KEY
 echo $AZURE_OPENAI_ENDPOINT
 echo $AZURE_OPENAI_DEPLOYMENT_NAME
+
+cd Logical_coherence
 ```
 1. Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903))
 ```
