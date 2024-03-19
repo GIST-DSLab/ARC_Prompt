@@ -1,4 +1,4 @@
-# Logical coherence
+# Logical Coherence
 
 
 ## Directory structure
