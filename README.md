@@ -20,7 +20,7 @@ LLMs, proposing development paths for achieving human-level reasoning.
 ## Setup
 1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
 
-2. Follow instructions from [****](https://learn.microsoft.com/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-python).
+2. Follow instructions from [Quickstart: Get started using GPT-35-Turbo and GPT-4 with Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-python).
    
 3. Clone this repo and install packages in **requirements.txt** with the following code.
 ```
