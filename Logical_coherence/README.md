@@ -6,7 +6,7 @@
 |  ├─training: directory containing JSON files for ARC training tasks
 |  ├─evaluation: directory containing JSON files for ARC evaluation tasks
 |
-├─result: directory that contains results and preprocessed data for prompting techniques such as Chain of Thought (CoT), Least to Most (LtM), and Tree of Thoughts (ToT)
+├─result: directory containing results and preprocessed data for prompting techniques such as Chain of Thought (CoT), Least to Most (LtM), and Tree of Thoughts (ToT)
 |
 ├─tot
 |  ├─methods: directory containing a code for prompting techniques such as generation, vote, parsing, and regularization parser.
