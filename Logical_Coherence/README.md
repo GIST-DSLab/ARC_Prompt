@@ -21,7 +21,7 @@
 
 ```cot_making_prompt.py```: generates prompts for ```cot_arc_solver.py```.
 
-```cot_arc_solver.py```: solves ARC tasks with Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)) and calculate accuracy of results.
+```cot_arc_solver.py```: solves ARC tasks with Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)) and calculates accuracy of results.
 
 ```ltm_decomposing.py```: decomposes ARC tasks into small step-by-step sub-tasks.
 
