@@ -21,7 +21,7 @@ cot_task_ids = ['3ed85e70', '0f63c0b9', '17cae0c1', '47996f11', '4acc7107', '069
 
 data_path = f'./data/cot/'
 for index_number in range(0,5):
-    save_file_name = f"cot_predict{index_number}"
+    save_file_name = f"./result/[CoT]result_{index_number}/cot_predict{index_number}"
 
     load_dotenv()
 
