@@ -119,7 +119,7 @@ for i, target_file in enumerate(target_files):
 
     if i != 0:
         if kind_of_problem not in kinds_of_problem:
-            write_file(html, prev_name, save_dir=target_dir)
+            write_file(html, prev_name, dir_path=target_dir)
             print(f'{prev_name}: {augmented_count}')
             total_count += augmented_count
             augmented_count = 0
