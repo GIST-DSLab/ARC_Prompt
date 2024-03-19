@@ -10,13 +10,11 @@
 
 
 ## Explanation about Python Codes
-```GPT_DATA/GPT3.5_prompt.py```: augments example inputs with GPT-3.5.
+```gpt_3.5_arc_example_generator.py```: augments example inputs with GPT-3.5.
 
-```GPT_DATA/GPT4.0_prompt.py```: augments example inputs with GPT-4.
+```gpt_4.0_arc_example_generator.py```: augments example inputs with GPT-4.
 
-```GPT_DATA/GPT_prompt.py```: generates prompts for Inverse Transformation Prompting (ITP).
-
-```GPT_DATA/hand_filter.py```: removes inadequate results manually.
+```making_prompt.py```: generates prompts for Inverse Transformation Prompting (ITP).
 
 
 ## Quick Start
