@@ -50,7 +50,7 @@ pip install -r requirements.txt
 ```
 
 ## Quick Start
-1. Chain of Thought
+1. Chain of Thought ([CoT](https://proceedings.neurips.cc/paper_files/paper/2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf))
 ```
 python cot_making_prompt.py
 python cot_solver.py
