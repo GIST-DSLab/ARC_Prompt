@@ -3,8 +3,8 @@ import json
 import os
 from glob import glob
 import re
-from tot.tasks.arc_reasoning import ARCTask
-from tot.prompts.arc_reasoning import * 
+from tot.tasks.arc import ARCTask
+from tot.prompts.arc import * 
 
 task = ARCTask()
 # target_task_ids = ['2f0c5170', '0becf7df']
