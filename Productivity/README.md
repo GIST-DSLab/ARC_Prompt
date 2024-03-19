@@ -41,7 +41,7 @@ python arc_example_generator.py
 python visualization.py
 ```
 
-4. Check visualization results (HTML files) that are located in each subdirectory of the result directory
+4. Check visualization results (HTML files and PDF files) that are located in each subdirectory of the result directory
 ```
 xdg-open visualization/AboveBelow.html
 xdg-open visualization/AboveBelow.pdf
