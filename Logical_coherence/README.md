@@ -48,7 +48,7 @@ python cot_solver.py
 ```
 2. Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625))
 ```
-python ltm_makin_prompt_CoT.py
+python ltm_making_prompt_CoT.py
 python ltm_decomposing.py
 python ltm_solver.py
 ```
