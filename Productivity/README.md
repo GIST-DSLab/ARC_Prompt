@@ -10,11 +10,9 @@
 
 
 ## Explanation about Python Codes
-```gpt_3.5_arc_example_generator.py```: augments example inputs with GPT-3.5.
+```arc_example_generator.py```: augments example inputs with GPT.
 
-```gpt_4.0_arc_example_generator.py```: augments example inputs with GPT-4.
-
-```making_prompt.py```: generates prompts for Inverse Transformation Prompting (ITP).
+```ITP_generator.py```: generates prompts for Inverse Transformation Prompting (ITP).
 
 
 ## Quick Start
