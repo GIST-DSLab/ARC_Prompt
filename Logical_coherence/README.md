@@ -56,7 +56,10 @@ python ltm_solver.py
 ```
 python tot_arc_solver.py
 ```
-
+3. Visualize Results
+```
+python visualization.py
+```
 
 ## What is Logical Coherence?
 **Logical coherence is the ability to understand a given logic and to apply it consistently across different
