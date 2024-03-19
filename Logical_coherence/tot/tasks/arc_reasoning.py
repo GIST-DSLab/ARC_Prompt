@@ -11,7 +11,7 @@ from glob import glob
 class ARCTask(Task):
     def __init__(self, folder='evaluation'):
         super().__init__()
-        path = os.path.join(DATA_PATH, 'arc_reasoning', folder)
+        path = os.path.join(DATA_PATH, folder)
         self.data = []
         self.data_list = glob(os.path.join(path, '*.json'))
         for i in range(len(self.data_list)):
