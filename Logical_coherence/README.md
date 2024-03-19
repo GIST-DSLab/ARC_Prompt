@@ -50,18 +50,18 @@ pip install -r requirements.txt
 ```
 
 ## Quick Start
-1. Chain of Thought ([CoT](https://proceedings.neurips.cc/paper_files/paper/2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf))
+1. Chain of Thought ([CoT](https://arxiv.org/abs/2201.11903))
 ```
 python cot_making_prompt.py
 python cot_solver.py
 ```
-2. Least to Most
+2. Least to Most ([LtM](https://arxiv.org/abs/2205.10625))
 ```
 python ltm_making_prompt.py or python ltm_makin_prompt_CoT.py
 python ltm_decomposing.py
 python ltm_solver.py
 ```
-3. Tree of Thoughts
+3. Tree of Thoughts ([ToT](https://arxiv.org/abs/2305.10601))
 ```
 python tot_arc_solver.py
 ```
