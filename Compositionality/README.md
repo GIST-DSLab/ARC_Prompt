@@ -32,7 +32,6 @@ cd Compositionality
 ```
 1. Run ARC Solver
 ```
-cd Compositionality
 python tot_arc_solver.py
 ```
 
