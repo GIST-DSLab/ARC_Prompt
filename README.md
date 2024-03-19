@@ -22,7 +22,7 @@ LLMs, proposing development paths for achieving human-level reasoning.
   
 2. Write down *api_key* and *api_base* variables in the code
 
-3. Install packages in *requirements.txt*
+3. Clone this repo and install packages in *requirements.txt*
 ```
 git clone https://github.com/GIST-DSLab/ARC_Prompt.git
 cd ARC_Prompt
