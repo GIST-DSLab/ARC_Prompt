@@ -18,7 +18,7 @@ LLMs, proposing development paths for achieving human-level reasoning.
 
 
 ## Setup
-1. Set up Azure account and deploy a model with this [link](https://learn.microsoft.com/ko-kr/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
+1. Set up Azure account and deploy a model with this [link](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
 
 2. Get OpenAI API KEY and Endpoint with this [link](https://learn.microsoft.com/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-python).
    
