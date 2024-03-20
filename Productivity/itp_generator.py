@@ -1,6 +1,5 @@
-import os
 import json
-from utils import collect_data, read_data_from_json, combine_data_from_directory, augmented_path, prompt_path
+from utils import combine_data_from_directory, augmented_path, prompt_path
 
 prompt_data = []
 combined_data = combine_data_from_directory(augmented_path)

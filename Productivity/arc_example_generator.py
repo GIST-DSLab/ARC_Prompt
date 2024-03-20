@@ -1,8 +1,8 @@
 #Note: The openai-python library support for Azure OpenAI is in preview.
 import json
-from utils import read_json_file, extract_2d_arrays, generate_text, augmented_path, prompt_path
+from utils import read_data_from_json, extract_2d_arrays, generate_text, augmented_path, prompt_path
 
-data = read_json_file(prompt_path)
+data = read_data_from_json(prompt_path)
 total_tasks = len(data['task'])  # 전체 작업 수
 
 for i in range(total_tasks):

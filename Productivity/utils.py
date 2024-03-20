@@ -11,10 +11,13 @@ openai.deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 augmented_path = "./data/augmented"
 prompt_path = "./data/prompt/Prompt.json"
 
-def read_json_file(file_path):
+def read_data_from_json(file_path, task=None):
     try:
         with open(file_path, 'r') as json_file:
-            data = json.load(json_file)
+            if task is None:
+                data = json.load(json_file)
+            else:
+                data = json.load(json_file)[task]
             return data
     except FileNotFoundError:
         print(f"File not found: {file_path}")
@@ -23,25 +26,18 @@ def read_json_file(file_path):
         print(f"Error decoding JSON in file: {file_path}")
         return None
 
+
 def remove_input_by_order(data, order):
     del data['train'][order]
     return data
 
+
+# 이거 안쓰이고 있음 - 세진
 def collect_data(dataset):
     inputs = [example['input'] for example in dataset]
     outputs = [example['output'] for example in dataset]
     return inputs, outputs
 
-def read_data_from_json(json_file_path, task):
-    try:
-        with open(json_file_path, "r") as json_file:
-            return json.load(json_file)[task]
-    except FileNotFoundError:
-        print(f"File not found: {json_file_path}")
-        return None
-    except KeyError:
-        print(f"Key 'train' not found in the JSON data.")
-        return None
     
 def combine_data_from_directory(directory_path):
     combined_data = {
