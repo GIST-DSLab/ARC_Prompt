@@ -1,11 +1,11 @@
 # Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus
-This repo is the experiments code for "Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus"
+This repository is the experiment code for "Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus"
 
 > [Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus](https://arxiv.org/abs/2403.11793) </br>
 > </br>
 > Seungpil Lee, Woochang Sim, Donghyeon Shin, Sanha Hwang, Wongyu Seo, Jiwon Park, Seokki Lee, Sejin Kim, Sundong Kim
 
-The existing methods for evaluating the inference abilities of Large Language Models (LLMs) have been resultscentric,
+The existing methods for evaluating the inference abilities of Large Language Models (LLMs) have been result-centric,
 making it difficult to assess the inference process. We introduce a new approach using the Abstract
 and Reasoning Corpus (ARC) dataset to evaluate the inference and contextual understanding abilities of large
 language models in a process-centric manner. ARC demands rigorous logical structures for problem-solving,
@@ -34,8 +34,12 @@ git clone https://github.com/GIST-DSLab/ARC_Prompt.git
 cd ARC_Prompt
 pip install -r requirements.txt
 ```
+5. Follow the instructions for each part of the experiment.
+   1) [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence)
+   2) [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality)
+   3) [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity)
 
-## Logical coherence
+## [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence)
 The accuracy is based on solving 100 random
 ARC tasks with CoT, LtM, and ToT prompts, each repeated 5 times. The accuracy outside the parentheses
 refers to the accuracy when only the results are correct, while the accuracy inside the parentheses indicates
@@ -72,13 +76,13 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 
 If you want to get more detail about logical coherence, please refer to [this link](./Logical_Coherence/).
 
-## Compositionality
+## [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality)
 The experiment results are as follows: out of 99 tasks, LLM was not able to solve
 any tasks. 
 
 If you want to get more detail about compositionality, please refer to [this link](./Compositionality).
 
-## Productivity
+## [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity)
 Based on 160 ARC tasks classified by [ConceptARC](https://github.com/victorvikram/ConceptARC), we evaluated the validity of a
 total of 2,913 generated examples.
 
