@@ -20,7 +20,7 @@
 
 
 ## Quick Start
-0. Check Environment Variables & Move to the Directory
+0. Check environment variables & move to the productivity directory.
 ```
 echo $AZURE_OPENAI_API_KEY
 echo $AZURE_OPENAI_ENDPOINT
@@ -28,26 +28,29 @@ echo $AZURE_OPENAI_DEPLOYMENT_NAME
 
 cd Productivity
 ```
-1. Generate prompts for ITP
+1. Generate prompts for ITP.
 ```
 python itp_generator.py
 ```
-2. Generate ARC Examples
+2. Generate ARC Examples.
 ```
 python arc_example_generator.py
 ```
-3. Visualize Results
+3. Visualize results.
 ```
 python visualization.py
 ```
-
-4. Check visualization results (HTML files and PDF files) that are located in each subdirectory of the result directory
+4. Check visualization results (HTML files and PDF files) that are located in each subdirectory of the result directory.
 ```
 xdg-open visualization/AboveBelow.html
 xdg-open visualization/AboveBelow.pdf
 ...
 xdg-open visualization/TopBottom3D.html
 xdg-open visualization/TopBottom3D.pdf
+```
+5. Move to the origin directory.
+```
+cd ..
 ```
 
 ## What is Productivity?
