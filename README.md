@@ -35,9 +35,9 @@ cd ARC_Prompt
 pip install -r requirements.txt
 ```
 5. Follow the instructions for each part of the experiment.
-   1) [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence)
-   2) [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality)
-   3) [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity)
+   1) [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md)
+   2) [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality/README.md)
+   3) [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity/README.md)
 
 
 ## [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence)
