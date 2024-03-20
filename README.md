@@ -18,23 +18,23 @@ LLMs, proposing development paths for achieving human-level reasoning.
 
 
 ## Setup
-1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal)
+1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
 
-2. Follow instructions from [Quickstart: Get started using GPT-35-Turbo and GPT-4 with Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-python)
+2. Follow instructions from [Quickstart: Get started using GPT-35-Turbo and GPT-4 with Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-python).
 
-3. Set environment variables
+3. Set environment variables.
 ```
 export AZURE_OPENAI_API_KEY="REPLACE_WITH_YOUR_KEY_VALUE_HERE"
 export AZURE_OPENAI_ENDPOINT="REPLACE_WITH_YOUR_ENDPOINT_HERE"
 export AZURE_OPENAI_DEPLOYMENT_NAME="REPLACE_WITH_YOUR_DEPLOYMENT_NAME_HERE"
 ```
-4. Clone this repository & Install packages in [requirements.txt](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/requirements.txt)
+4. Clone this repository & install the required packages.
 ```
 git clone https://github.com/GIST-DSLab/ARC_Prompt.git
 cd ARC_Prompt
 pip install -r requirements.txt
 ```
-5. Follow **Quick Start** instructions in each README.md file
+5. Follow **Quick Start** instructions in each README.md file.
    1) [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md#quick-start)
    2) [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality/README.md#quick-start)
    3) [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity/README.md#quick-start)
