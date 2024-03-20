@@ -11,6 +11,7 @@ openai.deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 augmented_path = "./data/augmented"
 prompt_path = "./data/prompt/Prompt.json"
 
+
 def read_data_from_json(file_path, task=None):
     try:
         with open(file_path, 'r') as json_file:
@@ -26,7 +27,7 @@ def read_data_from_json(file_path, task=None):
         print(f"Error decoding JSON in file: {file_path}")
         return None
 
-
+# 이거 안쓰이고 있음 - 세진
 def remove_input_by_order(data, order):
     del data['train'][order]
     return data
@@ -66,6 +67,7 @@ def combine_data_from_directory(directory_path):
 
     return combined_data
 
+
 # 이거 안쓰이고 있음 - 세진
 def remove_except(input_str, exception_chars='0123456789[], '):
     inside_brackets = False
@@ -78,6 +80,7 @@ def remove_except(input_str, exception_chars='0123456789[], '):
         if inside_brackets or char in exception_chars:
             result.append(char)
     return ''.join(result)
+
 
 def extract_2d_arrays(input_str):
     cleaned_str = remove_except(input_str)
@@ -105,6 +108,7 @@ def extract_2d_arrays(input_str):
                     pass
 
     return extracted_arrays
+
 
 def generate_text(prompt):
     # 채팅 메시지 설정
