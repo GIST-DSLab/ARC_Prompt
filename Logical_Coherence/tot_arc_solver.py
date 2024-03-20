@@ -1,6 +1,6 @@
 import argparse
-from tot.methods.bfs import decomposing_arc, reasoning_arc
-from tot.tasks.arc import ARCTask
+from model.methods.bfs import decomposing_arc, reasoning_arc
+from model.tasks.arc import ARCTask
 import json
 import os
 from glob import glob

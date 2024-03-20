@@ -2,8 +2,8 @@ import re
 import os
 import sympy
 import pandas as pd
-from tot.tasks.base import Task
-from tot.prompts.arc import * 
+from model.tasks.base import Task
+from model.prompts.arc import * 
 import json
 import copy
 from glob import glob
