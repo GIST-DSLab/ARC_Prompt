@@ -16,6 +16,7 @@ LLMs, proposing development paths for achieving human-level reasoning.
 
 ![1710421234908-a8370feb-4cad-4839-bc28-138199ff19ad_1](https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/e69669f2-2046-40e3-982f-ff909eabc7a9)
 
+[test link](https://github.com/GIST-DSLab/ARC_Prompt/blob/master/Logical_Coherence/README.md#etc)
 
 ## Setup
 1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
@@ -38,7 +39,7 @@ pip install -r requirements.txt
    1) [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md)
    2) [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality/README.md)
    3) [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity/README.md)
-[test link](https://github.com/GIST-DSLab/ARC_Prompt/blob/master/Logical_Coherence/README.md#quick-start)
+
 
 ## [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence)
 The accuracy is based on solving 100 random
