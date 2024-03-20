@@ -44,11 +44,11 @@ python visualization.py
 ```
 4. Check visualization results (HTML files and PDF files) that are located in each subdirectory of the result directory.
 ```
-xdg-open visualization/AboveBelow.html
-xdg-open visualization/AboveBelow.pdf
+xdg-open result/AboveBelow.html
+xdg-open result/AboveBelow.pdf
 ...
-xdg-open visualization/TopBottom3D.html
-xdg-open visualization/TopBottom3D.pdf
+xdg-open result/TopBottom3D.html
+xdg-open result/TopBottom3D.pdf
 ```
 5. Move to the origin directory.
 ```
