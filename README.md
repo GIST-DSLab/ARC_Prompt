@@ -34,7 +34,7 @@ git clone https://github.com/GIST-DSLab/ARC_Prompt.git
 cd ARC_Prompt
 pip install -r requirements.txt
 ```
-5. Follow **Quick Start** instructions in each README.md file.
+5. Follow **Quick Start** instructions for each experiment.
    1) [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md#quick-start)
    2) [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality/README.md#quick-start)
    3) [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity/README.md#quick-start)
