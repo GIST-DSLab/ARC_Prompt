@@ -35,7 +35,7 @@
 
 ```tot_metric.py```: preprocesses the result that made by ```tot_arc_solver.py```.
 
-```utils.py```: includes visualization functions for ```visualization.py```.
+```utils.py```: contains functions for ```visualization.py```.
 
 ```visualization.py```: visualizes results.
 
