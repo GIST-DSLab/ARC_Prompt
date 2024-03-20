@@ -28,7 +28,7 @@ export AZURE_OPENAI_API_KEY="REPLACE_WITH_YOUR_KEY_VALUE_HERE"
 export AZURE_OPENAI_ENDPOINT="REPLACE_WITH_YOUR_ENDPOINT_HERE"
 export AZURE_OPENAI_DEPLOYMENT_NAME="REPLACE_WITH_YOUR_DEPLOYMENT_NAME_HERE"
 ```
-4. Clone this repo and install packages in **requirements.txt** with the following code.
+4. Clone this repo and install packages in [requirements.txt](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/requirements.txt) with the following code.
 ```
 git clone https://github.com/GIST-DSLab/ARC_Prompt.git
 cd ARC_Prompt
