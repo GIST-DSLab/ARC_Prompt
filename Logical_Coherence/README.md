@@ -41,7 +41,7 @@
 
 
 ## Quick Start
-0. Check environment variables & move to the directory
+0. Check environment variables & move to the logical coherence directory.
 ```
 echo $AZURE_OPENAI_API_KEY
 echo $AZURE_OPENAI_ENDPOINT
@@ -49,28 +49,28 @@ echo $AZURE_OPENAI_DEPLOYMENT_NAME
 
 cd Logical_Coherence
 ```
-1. Run ARC solver using Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903))
+1. Run ARC solver using Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)).
 ```
 python cot_making_prompt.py
 python cot_arc_solver.py
 ```
-2. Run ARC solver using Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625))
+2. Run ARC solver using Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625)).
 ```
 python ltm_making_prompt_CoT.py
 python ltm_decomposing.py
 python ltm_arc_solver.py
 python ltm_metric.py
 ```
-3. Run ARC solver using Tree-of-Thoughts ([ToT](https://arxiv.org/abs/2305.10601))
+3. Run ARC solver using Tree-of-Thoughts ([ToT](https://arxiv.org/abs/2305.10601)).
 ```
 python tot_arc_solver.py
 python tot_metric.py
 ```
-4. Visualize results
+4. Visualize results.
 ```
 python visualization.py
 ```
-5. Check visualization results (HTML files) that are located in each subdirectory of the result directory
+5. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
 ```
 xdg-open result/\[CoT\]result_0/cot_predict0_correct.html
 xdg-open result/\[CoT\]result_0/cot_predict0_incorrect.html
@@ -78,7 +78,7 @@ xdg-open result/\[CoT\]result_0/cot_predict0_incorrect.html
 xdg-open result/\[ToT\]result_4/tot_result4_correct.html
 xdg-open result/\[ToT\]result_4/tot_result4_incorrect.html
 ```
-6. Move to the origin directory
+6. Move to the origin directory.
 ```
 cd ..
 ```
