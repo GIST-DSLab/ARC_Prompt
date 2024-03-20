@@ -18,7 +18,7 @@ LLMs, proposing development paths for achieving human-level reasoning.
 
 [test link](Logical_Coherence/README.md#quick-start)
 
-[test_link2](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md#quick-start)
+[test_link2]()
 
 ## Setup
 1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
@@ -37,10 +37,10 @@ git clone https://github.com/GIST-DSLab/ARC_Prompt.git
 cd ARC_Prompt
 pip install -r requirements.txt
 ```
-5. Follow the instructions for each part of the experiment.
-   1) [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md)
-   2) [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality/README.md)
-   3) [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity/README.md)
+5. Follow **Quick Start** instructions for README.md for each experiment.
+   1) [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md#quick-start)
+   2) [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality/README.md#quick-start)
+   3) [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity/README.md#quick-start)
 
 
 ## [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence)
