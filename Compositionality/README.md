@@ -3,6 +3,8 @@
 ```
 ├─arc_result: contains results that consist of every step with selected DSLs
 |
+├─data: contains JSONL file for ARC tasks and TXT file for DSLs
+|
 ├─tot
 |  ├─methods: contains a code for prompting techniques such as generation, vote, parsing, and regularization parser.
 |  ├─prompts: contains a prompt code used when each prompting technique generates suggestions or evaluates value.
