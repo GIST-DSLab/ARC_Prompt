@@ -18,6 +18,8 @@ LLMs, proposing development paths for achieving human-level reasoning.
 
 [test link](Logical_Coherence/README.md#quick-start)
 
+[test_link2](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md#quick-start)
+
 ## Setup
 1. Follow instructions from [Create and deploy an Azure OpenAI Service resource](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal).
 
