@@ -1,5 +1,4 @@
 import os
-from tqdm import tqdm
 import json
 import os
 import matplotlib.pyplot as plt
@@ -7,8 +6,10 @@ import matplotlib
 import numpy as np
 import base64
 from io import BytesIO
+from utils import augmented_path, result_path
 import warnings
 warnings.filterwarnings('ignore')
+
 
 def string_to_array(grid):
     try:
@@ -32,6 +33,7 @@ def string_to_array(grid):
         output_grid_array = [-1]
         flag = False
     return output_grid_array, flag
+
 
 def plot_2d_grid(dataset_dict, file_name):
     count = 0
@@ -73,7 +75,6 @@ def plot_2d_grid(dataset_dict, file_name):
         axs[0, 1].imshow(np.array(output_), cmap=cmap, vmin=0, vmax=9)
         # plot gpt output if present
 
-
         plt.tight_layout()
 
         tmpfile = BytesIO()
@@ -109,9 +110,8 @@ def write_file(plot_html, name, dir_path='result'):
     with open(save_name, 'w') as file:
         file.write(html_content)
 
-target_dir = 'HF_Augmented_Data/'
-result_dir = 'visualization/'
-target_files = os.listdir(target_dir)
+
+target_files = os.listdir(augmented_path)
 kinds_of_problem = set()
 prev_name = ''
 html = ''
@@ -122,7 +122,7 @@ for i, target_file in enumerate(target_files):
 
     if i != 0:
         if kind_of_problem not in kinds_of_problem:
-            write_file(html, prev_name, dir_path=result_dir)
+            write_file(html, prev_name, dir_path=result_path)
             print(f'{prev_name}: {augmented_count}')
             total_count += augmented_count
             augmented_count = 0
@@ -134,8 +134,7 @@ for i, target_file in enumerate(target_files):
         prev_name = kind_of_problem
         count = 0 
 
-
-    with open(target_dir + target_file, 'r') as f:
+    with open(augmented_path + target_file, 'r') as f:
         data = json.load(f)
 
     train_data = data['train']
@@ -146,5 +145,5 @@ for i, target_file in enumerate(target_files):
 
 print(f'{prev_name}: {augmented_count}')
 total_count += augmented_count
-write_file(html, prev_name, dir_path='visualization')
+write_file(html, prev_name, dir_path=result_path)
 print(f'total count: {total_count}')

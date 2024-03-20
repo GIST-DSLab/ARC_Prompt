@@ -10,7 +10,7 @@ openai.deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 
 augmented_path = "./data/augmented"
 prompt_path = "./data/prompt/Prompt.json"
-
+result_path = './result/'
 
 def read_data_from_json(file_path, task=None):
     try:
