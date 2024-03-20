@@ -1,11 +1,11 @@
 # Productivity
 ## Directory Structure
 ```
-├─GPT_DATA: contains prompts for Inverse Transformation Prompting (ITP).
+├─data
+|  ├─augmented: contains ARC tasks with augmented examples.
+|  ├─prompt: contains prompts for Inverse Transformation Prompting (ITP).
 |
-├─HF_Augmented_Data: contains all of the generated results.
-|
-├─visualization: contains visualization files for results.
+├─result: contains visualization files for results.
 ```
 
 
@@ -14,9 +14,11 @@
 
 ```itp_generator.py```: generates prompts for Inverse Transformation Prompting (ITP).
 
+```remove_wrong_result.py```: contains functions to remove inadequate results manually.
+
 ```visualization.py```: visualizes results.
 
-```utils.py```: contains functions to remove inadequate results.
+```utils.py```: contains functions for other Python files such as ```arc_example_generator.py```, ```itp_generator.py```, and ```visualization.py```.
 
 
 ## Quick Start
