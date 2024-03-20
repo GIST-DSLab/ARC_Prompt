@@ -38,7 +38,7 @@ pip install -r requirements.txt
    1) [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md)
    2) [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality/README.md)
    3) [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity/README.md)
-[test link](#citation)
+[test link](https://github.com/GIST-DSLab/ARC_Prompt/blob/master/Logical_Coherence/README.md#quick-start)
 
 ## [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence)
 The accuracy is based on solving 100 random
