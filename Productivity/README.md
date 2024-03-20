@@ -18,7 +18,7 @@
 
 ```visualization.py```: visualizes results.
 
-```utils.py```: contains functions for ```arc_example_generator.py``` and ```itp_generator.py```.
+```utils.py```: contains functions for other Python files such as ```arc_example_generator.py```, ```itp_generator.py```, and ```visualization.py```.
 
 
 ## Quick Start
