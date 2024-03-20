@@ -95,7 +95,7 @@ To evaluate the logical coherence of LLM with ARC tasks, We used various prompt 
 
 The below figures explain the process.
 
-<img src="https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/132a2cf7-c10c-4756-8093-22e524fadf70"  width="50%" height="50%"/>
+<img src="https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/132a2cf7-c10c-4756-8093-22e524fadf70"  width="100%" height="100%"/>
 
 Three types of prompts are shown on the left. 
 Although all prompts are described as a 2D array of grids, we visualized them on the right for clarity. 
@@ -103,7 +103,7 @@ By default, all three techniques use prompts with two main components: a sample 
 However, LtM and ToT use a different combination of the target task and its decomposition command. 
 This deviation occurs because CoT strictly follows the given sub-task, while LtM and CoT decompose the task on their own.
 
-<img src="https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/01a1283f-e81e-434f-9af1-1d2467eb0cc7"  width="50%" height="50%"/>
+<img src="https://github.com/GIST-DSLab/ARC_Prompt/assets/22788924/01a1283f-e81e-434f-9af1-1d2467eb0cc7"  width="100%" height="100%"/>
 
 Grey blocks illustrate prompt sets delivered to the LLM, including the sample task, target task, and LLM’s prior responses, as shown in the above figure. 
 Green blocks denote the final answer. CoT relies on a single grey block, indicating that the LLM strictly follows the provided sub-tasks. 
