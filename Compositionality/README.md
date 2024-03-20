@@ -23,7 +23,7 @@
 
 
 ## Quick Start
-0. Check Environment Variables & Move to the Directory
+0. Check environment variables & move to Compositionality directory
 ```
 echo $AZURE_OPENAI_API_KEY
 echo $AZURE_OPENAI_ENDPOINT
@@ -31,11 +31,14 @@ echo $AZURE_OPENAI_DEPLOYMENT_NAME
 
 cd Compositionality
 ```
-1. Run ARC Solver
+1. Run ARC solver
 ```
 python tot_arc_solver.py
 ```
-
+2. Move to origin directory
+```
+cd ..
+```
 
 ## What is Compositionality?
 **Compositionality refers to the ability to generate complex linguistic expressions using simpler ones.** 
