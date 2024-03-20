@@ -23,7 +23,7 @@
 
 
 ## Quick Start
-0. Check environment variables & move to Compositionality directory
+0. Check environment variables & move to the compositionality directory.
 ```
 echo $AZURE_OPENAI_API_KEY
 echo $AZURE_OPENAI_ENDPOINT
@@ -31,11 +31,11 @@ echo $AZURE_OPENAI_DEPLOYMENT_NAME
 
 cd Compositionality
 ```
-1. Run ARC solver
+1. Run ARC solver.
 ```
 python tot_arc_solver.py
 ```
-2. Move to origin directory
+2. Move to the origin directory.
 ```
 cd ..
 ```
