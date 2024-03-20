@@ -134,7 +134,7 @@ for i, target_file in enumerate(target_files):
         prev_name = kind_of_problem
         count = 0 
 
-    with open(augmented_path + target_file, 'r') as f:
+    with open(f"{augmented_path}/{target_file}", 'r') as f:
         data = json.load(f)
 
     train_data = data['train']
