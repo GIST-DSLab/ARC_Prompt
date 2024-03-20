@@ -1,11 +1,11 @@
 # Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus
-This repo is the experiments code for "Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus"
+This repository is the experiment code for "Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus"
 
 > [Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus](https://arxiv.org/abs/2403.11793) </br>
 > </br>
 > Seungpil Lee, Woochang Sim, Donghyeon Shin, Sanha Hwang, Wongyu Seo, Jiwon Park, Seokki Lee, Sejin Kim, Sundong Kim
 
-The existing methods for evaluating the inference abilities of Large Language Models (LLMs) have been resultscentric,
+The existing methods for evaluating the inference abilities of Large Language Models (LLMs) have been result-centric,
 making it difficult to assess the inference process. We introduce a new approach using the Abstract
 and Reasoning Corpus (ARC) dataset to evaluate the inference and contextual understanding abilities of large
 language models in a process-centric manner. ARC demands rigorous logical structures for problem-solving,
@@ -22,20 +22,25 @@ LLMs, proposing development paths for achieving human-level reasoning.
 
 2. Follow instructions from [Quickstart: Get started using GPT-35-Turbo and GPT-4 with Azure OpenAI Service](https://learn.microsoft.com/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython&pivots=programming-language-python).
 
-3. Set environment variables
+3. Set environment variables.
 ```
 export AZURE_OPENAI_API_KEY="REPLACE_WITH_YOUR_KEY_VALUE_HERE"
 export AZURE_OPENAI_ENDPOINT="REPLACE_WITH_YOUR_ENDPOINT_HERE"
 export AZURE_OPENAI_DEPLOYMENT_NAME="REPLACE_WITH_YOUR_DEPLOYMENT_NAME_HERE"
 ```
-4. Clone this repo and install packages in **requirements.txt** with the following code.
+4. Clone this repository & install the required packages.
 ```
 git clone https://github.com/GIST-DSLab/ARC_Prompt.git
 cd ARC_Prompt
 pip install -r requirements.txt
 ```
+5. Follow **Quick Start** instructions for each experiment.
+   1) [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md#quick-start)
+   2) [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality/README.md#quick-start)
+   3) [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity/README.md#quick-start)
 
-## Logical coherence
+
+## [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence)
 The accuracy is based on solving 100 random
 ARC tasks with CoT, LtM, and ToT prompts, each repeated 5 times. The accuracy outside the parentheses
 refers to the accuracy when only the results are correct, while the accuracy inside the parentheses indicates
@@ -70,15 +75,13 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 
 </div>
 
-If you want to get more detail about logical coherence, please refer to [this link](./Logical_Coherence/).
 
-## Compositionality
+## [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality)
 The experiment results are as follows: out of 99 tasks, LLM was not able to solve
 any tasks. 
 
-If you want to get more detail about compositionality, please refer to [this link](./Compositionality).
 
-## Productivity
+## [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity)
 Based on 160 ARC tasks classified by [ConceptARC](https://github.com/victorvikram/ConceptARC), we evaluated the validity of a
 total of 2,913 generated examples.
 
@@ -102,7 +105,6 @@ total of 2,913 generated examples.
 |Top Bottom 3D|55|215|25|11.63%|
 |Total|930|2913|509|17.12%|
 
-If you want to get more detail about compositionality, please refer to [this link](./Productivity).
 
 ## Citation
 If you find this repo useful for your research, please consider citing our paper:
