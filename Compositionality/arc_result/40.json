@@ -1,0 +1,94 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "`obj_color(state, object15, 5)`",
+                "obj_color(state, object15, 5)",
+                "`obj_color(state, object15, 5)`"
+            ],
+            "values": [
+                20.0,
+                0.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`obj_color(state, object15, 5)`",
+                "`obj_color(state, object15, 5)`"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "`obj_color(state, object15, 5)`",
+                "`obj_color(state, object15, 5)`"
+            ],
+            "new_dsl_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`"
+            ],
+            "values": [
+                20.0
+            ],
+            "select_new_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`"
+            ],
+            "new_dsl_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`",
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`"
+            ],
+            "values": [
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`",
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`",
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`"
+            ],
+            "new_dsl_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`->`complete(state)`"
+            ],
+            "values": [
+                20.0
+            ],
+            "select_new_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`->`complete(state)`"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`->`complete(state)`"
+            ],
+            "new_dsl_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`->`complete(state)`->obj_color(state, object15, 5)",
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`",
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`"
+            ],
+            "values": [
+                0.0,
+                1.001,
+                1.001
+            ],
+            "select_new_ys": [
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`",
+                "`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`->`complete(state)`->`obj_color(state, object15, 5)`"
+            ]
+        }
+    ]
+}

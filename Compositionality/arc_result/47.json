@@ -1,0 +1,114 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "`move_right(state, object5)`",
+                "obj_color(state, object5, 0)"
+            ],
+            "values": [
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "`move_right(state, object5)`",
+                "obj_color(state, object5, 0)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "`move_right(state, object5)`",
+                "obj_color(state, object5, 0)"
+            ],
+            "new_dsl_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)",
+                "obj_color(state, object5, 0)->obj_color(state, object6, 0)",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)"
+            ],
+            "values": [
+                21.0,
+                0.001,
+                0.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)"
+            ],
+            "new_dsl_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)->obj_color(state, object17, 0)",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)->obj_color(state, object14, 0)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)->obj_color(state, object17, 0)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)->obj_color(state, object17, 0)"
+            ],
+            "new_dsl_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`",
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)->obj_color(state, object17, 0)->obj_color(state, object3, 0)",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)->obj_color(state, object17, 0)->obj_color(state, object3, 0)",
+                "obj_color(state, object5, 0)->obj_color(state, object14, 0)->obj_color(state, object17, 0)->obj_color(state, object3, 0)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`",
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`",
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`"
+            ],
+            "new_dsl_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`->`move_right(state, object14)`",
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`->`move_right(state, object4)`",
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`->`move_right(state, object3)`",
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`->move_right(state, object3)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.001,
+                0.0
+            ],
+            "select_new_ys": [
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`->`move_right(state, object3)`",
+                "`move_right(state, object5)`->`move_right(state, object17)`->`move_right(state, object17)`->`move_right(state, object16)`->`move_right(state, object14)`"
+            ]
+        }
+    ]
+}

@@ -2,8 +2,8 @@ import re
 import os
 import sympy
 import pandas as pd
-from tot.tasks.base import Task
-from tot.prompts.arc import * 
+from ARC_Prompt.Compositionality.tot.tasks.base import Task
+from ARC_Prompt.Compositionality.tot.prompts.arc import * 
 import json
 import copy
 import re
@@ -12,7 +12,7 @@ import ast
 class ARCEnv:
     def __init__(self, dsl_file='dsl.txt'):
         self.dsl_list = ''
-        with open(os.path.join('./data', dsl_file), 'r', encoding='utf-8') as f:
+        with open(os.path.join('ARC_Prompt/Compositionality/data', dsl_file), 'r', encoding='utf-8') as f:
             self.dsl_list = f.read()
 
     
