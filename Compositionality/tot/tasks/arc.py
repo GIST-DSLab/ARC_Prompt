@@ -405,7 +405,7 @@ class ARCTask(Task):
         with open(path, 'r') as f:
             self.data.append(json.load(f))
         self.value_cache = {}
-        self.steps = 10
+        self.steps = 5
         self.stops = ['\n'] * 5
         self.env = ARCEnv(dsl_file)
 
