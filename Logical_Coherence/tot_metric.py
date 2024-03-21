@@ -3,8 +3,8 @@ import json
 import os
 from glob import glob
 import re
-from tot.tasks.arc import ARCTask
-from tot.prompts.arc import * 
+from model.tasks.arc import ARCTask
+from model.prompts.arc import * 
 
 task = ARCTask()
 # target_task_ids = ['2f0c5170', '0becf7df']
@@ -23,7 +23,7 @@ for index_number in range(1, 2):
     save_path = f'result/[ToT]result_{index_number}'
     pd_file_name = f'tot_result{index_number}.csv'
     for target_task_id in target_task_ids:
-        if not os.path.exists( f'result/{index_number}/reasoning_{target_task_id}.json'):
+        if not os.path.exists( f'{save_path}/reasoning_{target_task_id}.json'):
             continue
 
         for i in range(len(task.data_list)):
@@ -35,9 +35,9 @@ for index_number in range(1, 2):
 
         if task_id == '1d0a4b61':
             print(1)
-        task_file = f'tot/data/prototype_arc_reasoning/evaluation/{task_id}.json'
-        decomposing_file = f'result/{index_number}/decomposing_{task_id}.json'
-        reasoning_file = f'result/{index_number}/reasoning_{task_id}.json'
+        task_file = f'data/evaluation/{task_id}.json'
+        decomposing_file = f'{save_path}/decomposing_{task_id}.json'
+        reasoning_file = f'{save_path}/reasoning_{task_id}.json'
         eaxmple_prompt, quiz_prompt, label_prompt = task.get_input(idx)
 
         subquestions_prompot = decomposing_cot_prompt.format(examples=eaxmple_prompt, quiz=quiz_prompt)

@@ -1,60 +1,8 @@
-import os
 import json
-
-def collect_data(dataset):
-    inputs = [example['input'] for example in dataset]
-    outputs = [example['output'] for example in dataset]
-    return inputs, outputs
-
-def read_data_from_json(json_file_path, task):
-    try:
-        # JSON 파일을 열고 읽기 모드로 엽니다.
-        with open(json_file_path, "r") as json_file:
-            # JSON 데이터를 읽습니다.
-            data = json.load(json_file)
-
-            train_data = data[task]
-
-            return train_data
-    except FileNotFoundError:
-        print(f"File not found: {json_file_path}")
-        return None
-    except KeyError:
-        print(f"Key 'train' not found in the JSON data.")
-        return None
-    
-def combine_data_from_directory(directory_path,):
-    combined_data = {
-        "input": [],
-        "output": [],
-        "task": [],
-        "prompt": [],
-        "result": [],
-        "test_input": [],
-        "test_output": []
-    }
-
-    for root, dirs, files in os.walk(directory_path):
-        for filename in files:
-            if filename.endswith(".json"):
-                json_file_path = os.path.join(root, filename)
-                data = collect_data(read_data_from_json(json_file_path, "train"))
-                test_data = collect_data(read_data_from_json(json_file_path, "test"))
-                if data is not None:
-                    combined_data["input"].append(data[0])
-                    combined_data["output"].append(data[1])
-                    combined_data["task"].append(os.path.basename(root))
-                    combined_data["result"].append(data[0])
-                    combined_data["test_input"].append(test_data[0])
-                    combined_data["test_output"].append(test_data[1])
-
-    return combined_data
-
-top_folder_path = "./HF_Augmented_Data"
-
-combined_data = combine_data_from_directory(top_folder_path)
+from utils import combine_data_from_directory, augmented_path, prompt_path
 
 prompt_data = []
+combined_data = combine_data_from_directory(augmented_path)
 
 for i in range(len(combined_data["input"])):
     cor_prompt = []
@@ -104,14 +52,12 @@ for i in range(len(combined_data["input"])):
     prompt_data.append(cor_prompt)
 
 combined_data['prompt'] = prompt_data
-print(len(prompt_data))
-print(len(combined_data['input']))
-print(len(combined_data['output']))
-print(len(combined_data['test_input']))
-print(len(combined_data['test_input']))
 
+print(f"{len(combined_data['prompt'])} prompts are generated successfully.")
+assert len(combined_data['prompt']) == len(combined_data['input']), "There are not enough train inputs in the generated prompts."
+assert len(combined_data['prompt']) == len(combined_data['output']), "There are not enough train outputs in the generated prompts."
+assert len(combined_data['prompt']) == len(combined_data['test_input']), "There are not enough test inputs in the generated prompts."
+assert len(combined_data['prompt']) == len(combined_data['test_output']), "There are not enough test outputs in the generated prompts."
 
-output_directory = "./GPT_Data/Prompt.json"
-
-with open(output_directory, "w") as json_file:
+with open(prompt_path, "w") as json_file:
     json.dump(combined_data, json_file)
