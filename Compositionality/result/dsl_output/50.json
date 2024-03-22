@@ -1,0 +1,124 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "`complete(state)`",
+                "complete([[7]])"
+            ],
+            "values": [
+                20.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "`complete(state)`",
+                "complete([[7]])"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "`complete(state)`",
+                "complete([[7]])"
+            ],
+            "new_dsl_ys": [
+                "`complete(state)`->`complete(state)`",
+                "`complete(state)`->`complete([[7]])`",
+                "complete([[7]])->complete([[7]])",
+                "complete([[7]])->complete([[7]])"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`complete(state)`->`complete(state)`",
+                "`complete(state)`->`complete([[7]])`"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "`complete(state)`->`complete(state)`",
+                "`complete(state)`->`complete([[7]])`"
+            ],
+            "new_dsl_ys": [
+                "`complete(state)`->`complete(state)`->complete([[7]])",
+                "`complete(state)`->`complete(state)`->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`complete(state)`->`complete([[7]])`->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "`complete(state)`->`complete([[7]])`->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`"
+            ],
+            "new_dsl_ys": [
+                "`complete(state)`->`complete([[7]])`->complete([[7]])->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->complete([[7]])->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->complete([[7]])->`complete([[7]])`",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`->`complete([[7]])`",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`->complete([[7]])"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                20.0,
+                20.0,
+                0.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`complete(state)`->`complete([[7]])`->complete([[7]])->`complete([[7]])`",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`->complete([[7]])"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "`complete(state)`->`complete([[7]])`->complete([[7]])->`complete([[7]])`",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`->complete([[7]])"
+            ],
+            "new_dsl_ys": [
+                "`complete(state)`->`complete([[7]])`->complete([[7]])->`complete([[7]])`->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->complete([[7]])->`complete([[7]])`->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->complete([[7]])->`complete([[7]])`->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`->complete([[7]])->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`->complete([[7]])->`complete([[7]])`",
+                "`complete(state)`->`complete([[7]])`->`complete([[7]])`->complete([[7]])->complete([[7]])"
+            ],
+            "values": [
+                21.001,
+                21.001,
+                21.001,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`complete(state)`->`complete([[7]])`->complete([[7]])->`complete([[7]])`->complete([[7]])",
+                "`complete(state)`->`complete([[7]])`->complete([[7]])->`complete([[7]])`->complete([[7]])"
+            ]
+        }
+    ]
+}

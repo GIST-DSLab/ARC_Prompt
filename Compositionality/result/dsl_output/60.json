@@ -1,0 +1,63 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 7)",
+                "obj_color(state, object1, 7)",
+                "obj_color(state, object1, 7)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 7)",
+                "obj_color(state, object1, 7)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "obj_color(state, object1, 7)",
+                "obj_color(state, object1, 7)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 7)->obj_color(state, object2, 7)"
+            ],
+            "values": [
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 7)->obj_color(state, object2, 7)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "obj_color(state, object1, 7)->obj_color(state, object2, 7)"
+            ],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        },
+        {
+            "step": 3,
+            "dsl_ys": [],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        },
+        {
+            "step": 4,
+            "dsl_ys": [],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        }
+    ]
+}
