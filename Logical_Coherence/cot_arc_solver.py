@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 import time
 from tqdm import tqdm
 import re
+
+# Set variable realted the azure openai.  
 openai.api_type = "azure"
 openai.api_version = "2023-07-01-preview"
 openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
