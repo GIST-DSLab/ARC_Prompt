@@ -1,3 +1,4 @@
+# Decomposing prompt
 decomposing_cot_prompt = """
 Do you know ARC problem?
 
@@ -65,6 +66,7 @@ N is the index of last question.
 (The answers to the last question should allow you to generate the output grid for the quiz, and you shouldn't solve the quiz yet in this process. You should only create the subquestions for solving the quiz. )
 """
 
+# Vote prompt when we used decomposing vote process
 decomposing_vote_prompt = '''
 First, consider how to solve the problem below.
 {examples}
@@ -75,6 +77,7 @@ First, consider how to solve the problem below.
 Then, given an instruction and several choices, decide which choice is most promising. Analyze each choice in detail, then conclude in the last line "The best choice is "s", where s the integer id of the choice.
 '''
 
+# Reasoning prompt when we reason(solve) the tasks
 reasoning_standard_prompt = '''
 Do you know ARC problem?
 
@@ -91,6 +94,7 @@ To solve subquestions.
 
 '''
 
+# Vote prompt when we used reasoning vote process
 reasoning_vote_prompt = '''
 First, consider how to solve the problem below.
 {examples}
@@ -100,6 +104,7 @@ First, consider how to solve the problem below.
 
 Then, given a question and some answer, you need to choose which answer is the best answer to the question. Analyze each choice in detail and then conclude on the last line, "The best answer is 's'," where s is the integer ID of the answer.'''
 
+# Value prompt when we used reasoning value process
 reasoning_value_prompt = '''
 Do you know ARC problem?
 
