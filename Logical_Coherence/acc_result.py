@@ -105,8 +105,8 @@ for index in range(0,5):
     l2m_a['level'] = l2m_a['task_id'].apply(check_level)
     cot_a['level'] = cot_a['task_id'].apply(check_level)
 
+     # Our experiments repreated 5 times about each method, so we consider this point to calculate the total number of each level.
     if index == 0:
-        # Our experiments repreated 5 times about each method, so we consider this point to calculate the total number of each level.
         total_entry = cot_a['level'][cot_a['level'] == 'Entry'].shape[0] * 15
         total_easy = cot_a['level'][cot_a['level'] == 'Easy'].shape[0] * 15
         total_medium = cot_a['level'][cot_a['level'] == 'Medium'].shape[0] * 15
@@ -116,6 +116,7 @@ for index in range(0,5):
         total_unfixed = cot_a['level'][cot_a['level'] == 'Unfixed'].shape[0] * 15
         each_num_list = [total_entry / 15, total_easy / 15, total_medium / 15, total_hard / 15, total_tedious / 15, total_multiple_solutions / 15, total_unfixed / 15]
 
+    # Check the correct tasks & calculate the number of correct tasks.
     for correct_index, correct_count in enumerate(target_correct_list):
         tot_temp = tot_a[tot_a['level'] == target_str_list[correct_index]]
         l2m_temp = l2m_a[l2m_a['level'] == target_str_list[correct_index]]
@@ -132,6 +133,8 @@ for index in range(0,5):
     cot_a.to_csv(cot_dir_path+cot_file_name+'_level.csv', index=None)
 
 total_num_list = [total_entry, total_easy, total_medium, total_hard, total_tedious, total_multiple_solutions, total_unfixed]
+
+# Calculate accuracy for each category.
 for i, total_num in enumerate(total_num_list):
     target_acc_list[i] = target_correct_list[i]/total_num
     cot_acc_list[i] = cot_correct_list[i]/(total_num / 3)
