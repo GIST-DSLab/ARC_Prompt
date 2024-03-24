@@ -3,6 +3,7 @@ import json
 from collections import OrderedDict
 from tqdm import tqdm
 
+# Set the variables
 train_path = './data/training/'
 evaluation_path = './data/evaluation/'
 
@@ -41,6 +42,7 @@ evaluation_task_id = []
 evaluation_quiz_prompt_sentence = []
 evaluation_solve_prompt_sentence = []
 
+# Sample task prompt
 CoT_solve_prompt = """
 Do you know ARC problem?
 
@@ -72,7 +74,7 @@ Below problem is other pattern to solve. So you can understand below pattern wit
 
 """
 
-
+# Decomposing prompt
 CoT_subquestion_prompt1 = """
 Do you know ARC problem?
 
@@ -125,6 +127,7 @@ So, the output of the example-quiz is [[0, 0, 0, 0, 0, 3, 0, 0, 0, 0], [0, 0, 0,
 Below is a real problem. You can decompose the problem into subquestions.
 """
 
+# Decomposing prompt
 CoT_subquestion_prompt2 = """
 I want to you answer the format that is below
 '''
@@ -142,6 +145,7 @@ for target_file in os.listdir(evaluation_path):
     with open(evaluation_path+target_file,'r') as f:
         data_evaluation_dict[target_file.split('.')[0]] = json.load(f)
 
+# Make the prompt to give the LLM API
 for file_name, value in tqdm(data_evaluation_dict.items()):
     evaluation_task_count += 1
     example_number = 1
