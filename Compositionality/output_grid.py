@@ -1,12 +1,16 @@
 from model.tasks.arc import ARCEnv
 import json
 import pandas as pd
+
+# Set the variables.
 env=ARCEnv(dsl_file='dsl.txt')
 task_id_list=[]
 dsl_list=[]
 task_list=[]
 output=[]
 task_id_map = pd.read_csv('result\\task_id_map.csv', converters={"code": lambda x: str(x)})
+
+# Make the prediction output grids with productivity experiment result(DSLs)
 with open("data\\arc.json") as json_file:
     data=json.load(json_file)
     for idx, task in enumerate(data):
