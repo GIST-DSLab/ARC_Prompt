@@ -1,7 +1,7 @@
 import itertools
 import numpy as np
 from functools import partial
-from tot.models import gpt
+from model.models import gpt
 import re
 import copy
 

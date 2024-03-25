@@ -1,4 +1,4 @@
-from tot.tasks.arc import ARCEnv
+from model.tasks.arc import ARCEnv
 import json
 import pandas as pd
 env=ARCEnv(dsl_file='dsl.txt')
