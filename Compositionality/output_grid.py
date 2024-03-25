@@ -10,7 +10,6 @@ task_id_map = pd.read_csv('result\\task_id_map.csv', converters={"code": lambda 
 with open("data\\arc.json") as json_file:
     data=json.load(json_file)
     for idx, task in enumerate(data):
-        # if idx!=19 and idx!=24 and idx!=48 and idx!=57 and idx!=60 and idx!=76 and idx!=96: #After the newly experiment, I'll change the code.
         num=str(idx)
         with open(f"result\\dsl_output\\{num}.json") as dsl_file:
             dsl=json.load(dsl_file)
@@ -34,8 +33,6 @@ with open("data\\arc.json") as json_file:
                 except:
                     temp_state = []
             task_list.append(temp_state)
-            # print(task_id_map[task_id_map['pre_task_id'] == idx].aft_task_id.values[0])
-            # task_id_list.append(task_id_map[idx])
             task_id_list.append(str(task_id_map[task_id_map['pre_task_id'] == idx].aft_task_id.values[0]))
             
 df = pd.DataFrame({

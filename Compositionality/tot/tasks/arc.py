@@ -504,8 +504,6 @@ class ARCTask(Task):
     def value_prompt_wrap(self, task, examples, quiz, dsl_y, state_y):
         return value_prompt.format(dsl_list=self.env.dsl_list, examples=examples, quiz=quiz, used_dsls=dsl_y, current_state=state_y)
     
-    # TODO 어떤식으로 value 측정할 것인지 고민하고 해당 내용을 바탕으로 value_prompt 구성하기
-    # value_outputs으로 얻은 결과를 평가하는 부분
     @staticmethod
     def value_outputs_unwrap(value_outputs: list) -> float:
         value_names = [_.split('\n')[-1] for _ in value_outputs]

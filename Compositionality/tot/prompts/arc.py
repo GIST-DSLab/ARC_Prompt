@@ -1,4 +1,3 @@
-# TODO prompt 내용 넣기
 ###########################################
 # ARC + ARC example + test
 standard_prompt = '''
@@ -86,7 +85,6 @@ Applying 'horizontal_flip' with arguments,
 '''
 
 ###########################################
-# TODO prompt 내용 넣기
 cot_prompt = '''
 Do you know ARC problem?
 
@@ -126,11 +124,9 @@ Current_state:
 {y}
 '''
 
-# TODO prompt 내용 넣기
 propose_prompt = '''Given an instruction and several choices, decide which choice is most promising. Analyze each choice in detail, then conclude in the last line "The best choice is {s}", where s the integer id of the choice.
 '''
 
-# TODO prompt 내용 넣기
 value_prompt = '''
 Do you know ARC problem?
 
@@ -156,7 +152,6 @@ Evaluate the Current_state to solve this quiz(sure/maybe/impossible):
 '''
 
 #########################################################################
-# TODO prompt 내용 넣기
 dsl_standard_prompt = '''
 Do you know ARC problem?
 
@@ -371,7 +366,6 @@ Don't make space between arguments.
 
 '''
 #########################################################################
-# TODO prompt 내용 넣기
 dsl_cot_prompt = '''
 Do you know ARC problem?
 
