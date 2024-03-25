@@ -5,7 +5,7 @@
 |
 ├─data: contains JSONL file for ARC tasks and TXT file for DSLs
 |
-├─tot
+├─model
 |  ├─methods: contains a code for prompting techniques such as generation, vote, parsing, and regularization parser.
 |  ├─prompts: contains a prompt code used when each prompting technique generates suggestions or evaluates value.
 |  ├─tasks: contains codes that manage ARC tasks and their prompts.
