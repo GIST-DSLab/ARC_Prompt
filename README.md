@@ -79,6 +79,16 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 ## [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality)
 The experiment results are as follows: out of 99 tasks, LLM solves 3 tasks. 
 
+<div align="center">
+  
+|| Entry     | Easy     | Medium  | Hard   |
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Tasks     | 2        | 19      | 46     | 14      |
+| Correct     | 0        | 0      | 3     | 0      |
+| ToT       | 0.00%   | 0.00%  | 6.52%  | 0.00%   |
+
+</div>
+
 
 ## [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity)
 Based on 160 ARC tasks classified by [ConceptARC](https://github.com/victorvikram/ConceptARC), we evaluated the validity of a
