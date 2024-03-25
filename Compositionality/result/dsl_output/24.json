@@ -1,0 +1,55 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "`rotate_right_obj(state, object1)`",
+                "`obj_color(state, object2, 0)`",
+                "`vertical_flip(state)`"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "`rotate_right_obj(state, object1)`",
+                "`obj_color(state, object2, 0)`"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "`rotate_right_obj(state, object1)`",
+                "`obj_color(state, object2, 0)`"
+            ],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        },
+        {
+            "step": 2,
+            "dsl_ys": [],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        },
+        {
+            "step": 3,
+            "dsl_ys": [],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        },
+        {
+            "step": 4,
+            "dsl_ys": [],
+            "new_dsl_ys": [],
+            "values": [],
+            "select_new_ys": []
+        }
+    ]
+}
