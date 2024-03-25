@@ -9,6 +9,7 @@ import copy
 from glob import glob
 
 class ARCTask(Task):
+    # Set the variables.
     def __init__(self, folder='evaluation'):
         super().__init__()
         path = os.path.join('./data',folder)
@@ -22,10 +23,11 @@ class ARCTask(Task):
         self.stops = ['\n'] * 4
         self.steps = 0
         self.current_idx = 0
-
+    
     def __len__(self) -> int:
         return len(self.data)
-    
+
+    # Read given task idx information from json file.
     def get_input(self, idx: int):
         target_data = self.data[idx]
         self.current_file_name = self.data_list[idx]
@@ -56,7 +58,8 @@ class ARCTask(Task):
                                     f"then output grids?\n\n" 
                     quiz_number += 1
         return examples_prompt, quiz_prompt, target_data['test'][test_index][keys]
-    
+
+    # 해당 함수 안 쓰고 있는데 주석 처리 끝난 후 한번 더 다시 확인해보기 - 우창창
     def test_output(self, idx: int, output: str):
         expression = output.strip().split('\n')[-1].lower().replace('answer: ', '').split('=')[0]
         numbers = re.findall(r'\d+', expression)
@@ -68,6 +71,7 @@ class ARCTask(Task):
         except Exception as e:
             return {'r': 0}
 
+    # Wrap the prompt that used to solve the task.
     def reasoning_standard_prompt_wrap(self, examples: str, quiz: str, subquestions: list, subanswers: list) -> str:
         prompt = reasoning_standard_prompt.format(examples=examples, quiz=quiz)
         try:
@@ -84,9 +88,11 @@ class ARCTask(Task):
 
         return prompt
 
+    # Wrap the prompt that used to decompose the task.
     def decomposing_cot_prompt_wrap(self, examples: str, quiz: str) -> str:
         return decomposing_cot_prompt.format(examples=examples, quiz=quiz)
-    
+
+    # Wrap the prompt that used to self-evaluate the given suggestion(Value).
     def reasoning_value_prompt_wrap(self, examples, quiz, subquestions, subanswers, new_subanswers_ys):
         prompt = reasoning_value_prompt.format(examples=examples, quiz=quiz)
         split_answers = new_subanswers_ys[0].split('\n')
@@ -100,13 +106,15 @@ class ARCTask(Task):
         prompt += f'\nEvaluate the Current_state to solve this quiz(sure/maybe/impossible):'
 
         return prompt
-    
+
+    # Unwrap the prompt that used to self-evaluate the given suggestion(value).
     def reasoning_value_outputs_unwrap(self, value_outputs: list) -> float:
         value_names = [_.split('\n')[-1] for _ in value_outputs]
         value_map = {'impossible': 0.001, 'maybe': 1, 'sure': 20}  # TODO: ad hoc
         value = sum(value * target_value.count(name) for name, value in value_map.items() for target_value in value_names)
         return value
-    
+
+    # Wrap the prompt that used to self-evalutate the task(Vote).
     def decomposing_vote_prompt_wrap(self, examples: str, quiz: str, ys: list) -> str:
         prompt = decomposing_vote_prompt.format(examples=examples, quiz=quiz)
         for i, y in enumerate(ys, 1):
@@ -114,6 +122,7 @@ class ARCTask(Task):
             prompt += f"\nChoice {i}:\n{subquestions}\n"
         return prompt
 
+    # Unwrap the prompt that used to self-evalutate the task(Vote).
     def decomposing_vote_outputs_unwrap(self, vote_outputs: list, n_candidates: int) -> list:
         vote_results = [0] * n_candidates
         for vote_output in vote_outputs:
@@ -126,7 +135,8 @@ class ARCTask(Task):
             else:
                 print(f'vote no match: {[vote_output]}')
         return vote_results
-    
+
+    # Wrap the prompt that used to self-evalutate the task(Vote).
     def reasoning_vote_prompt_wrap(self, examples: str, quiz: str, subquestions:list,  subanswers: list, ys:list) -> str:
         prompt = reasoning_vote_prompt.format(examples=examples, quiz=quiz)
         if subquestions:
@@ -145,7 +155,8 @@ class ARCTask(Task):
             prompt += f'\nAnswer {i}:\n{temp}\n'
 
         return prompt
-    
+
+    # Unwrap the prompt that used to self-evalutate the task(Vote).
     def reasoning_vote_outputs_unwrap(self, vote_outputs: list, n_candidates: int) -> list:
         vote_results = [0] * n_candidates
         for vote_output in vote_outputs:
