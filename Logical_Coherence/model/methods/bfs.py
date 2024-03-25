@@ -151,11 +151,7 @@ def reasoning_arc(args, task, idx, subquestions, to_print=True):
             values = reasoning_get_votes(task, examples, quiz, current_subquestions, subanswers_ys, new_subanswers_ys, args.n_evaluate_sample)
 
         # Select the suggestion using value standard 
-        if args.method_select == 'sample':
-            ps = np.array(values) / sum(values)
-            select_ids = np.random.choice(ids, size=args.n_select_sample, p=ps).tolist()
-        elif args.method_select == 'greedy':
-            select_ids = sorted(ids, key=lambda x: values[x], reverse=True)[:args.n_select_sample]
+        select_ids = sorted(ids, key=lambda x: values[x], reverse=True)[:args.n_select_sample]
         select_new_ys = new_subanswers_ys[select_ids[0]]
 
         # log
