@@ -73,12 +73,12 @@ class ARCEnv:
 
     # horizontal_flip function is a flip by y-axis about the given state.
     def horizontal_flip(self, state, objects):
-        N = len(state)  # state의 높이를 얻습니다.
-        M = len(state[0])  # state의 너비를 얻습니다.
-        temp_state = copy.deepcopy(state)  # 원본 state의 깊은 복사본을 생성합니다.
+        N = len(state)
+        M = len(state[0])
+        temp_state = copy.deepcopy(state)
 
         for i in range(N):
-            for j in range(M):  # 중앙을 기준으로 왼쪽과 오른쪽을 교환합니다.
+            for j in range(M):
                 temp_state[i][M-1-j] = state[i][j]
         new_objects={}
         for object in objects:
@@ -399,8 +399,6 @@ class ARCTask(Task):
     def __init__(self, dsl_file='dsl.txt', folder='arc.json'):
         super().__init__()
         path = os.path.join('data/', folder)
-        # TODO arc dataset folder에서 json 파일읽어오는 부분 구현하기(그전에 구현해둔 것 있음)
-        # TODO arc json에서 train(example)과 test(quiz) 따로 분리해두기 
         self.data = []
         with open(path, 'r') as f:
             self.data.append(json.load(f))
@@ -412,12 +410,7 @@ class ARCTask(Task):
     def __len__(self) -> int:
         return len(self.data)
     
-    # TODO get_input을 다른 task들과 달리 리턴을 튜플로 하는 형식으로 바꿔야할 듯 -> (examples, quiz)
-    # get_input은 solve 혹은 naive_solve에서 for loop전에 호출되고 그 이후에 호출되지 않음 
-    # => 즉 get_input을 통해 풀어야 할 문제 셋팅을 가져옴 
     def get_input(self, idx: int):
-        # TODO 해당 부분을 아래와 같은 형식이 될 수 있도록 코드 수정하기(아래는 대략적인 예시)
-        # examples 부분
         '''
         Example 1
         If input grids are like that
@@ -455,7 +448,6 @@ class ARCTask(Task):
                                     f"{target_data['train'][train_index][keys]}.\n\n"
 
             example_number += 1
-        # quiz 부분
         '''
         Quiz
         If input grids are like that
@@ -476,66 +468,40 @@ class ARCTask(Task):
                 else:
                     quiz_prompt += f"then output grids?\n" 
         return examples_prompt, quiz_prompt, original_object, target_data['test'][test_index]['input']
-    
-    # TODO 아마 아래 모든 인자값들을 examples, quiz, y로 바꿔야 할 듯(이때 y는 thoughts(action 혹은 dsl)임)
 
     def test_output(self, idx: int, output: str):
-        # TODO log 기록 용도 - examples, quiz, y, description 등을 기록하기
         expression = output.strip().split('\n')[-1].lower().replace('answer: ', '').split('=')[0]
         numbers = re.findall(r'\d+', expression)
         problem_numbers = re.findall(r'\d+', self.data[idx])
         if sorted(numbers) != sorted(problem_numbers):
             return {'r': 0}
         try:
-            # print(sympy.simplify(expression))
             return {'r': int(sympy.simplify(expression) == 24)}
         except Exception as e:
-            # print(e)
             return {'r': 0}
 
-    # TODO examples, quiz, y 등을 인자로 받고 staandard_prompt 문자열 안에 format으로 붙여넣기
     def standard_prompt_wrap(self, examples: str, quiz: str, object: str, dsl_y: str='', state_y: str='') -> str:
         if dsl_y == '':
             prompt = dsl_standard_init_prompt.format(examples=examples, quiz=quiz, object=object, dsl_list=self.env.dsl_list)
         else:
-            # TODO y에서 LLM이 선택한 dsl만 파싱하기
             used_dsls = ''
             prompt = dsl_standard_prompt.format(examples=examples, quiz=quiz, object=object, used_dsls=dsl_y, current_state=state_y, dsl_list=self.env.dsl_list)
         
         return prompt
 
-    # TODO examples, quiz, y 등을 인자로 받고 cot_prompt_wrap 문자열 안에 format으로 붙여넣기
     def cot_prompt_wrap(self, examples: str, quiz: str, dsl_y: str='', state_y: str='') -> str:
         return cot_prompt.format(input=x) + y
     
-    # TODO examples, quiz, y 등을 인자로 받고 propose_prompt_wrap 문자열 안에 format으로 붙여넣기
     def propose_prompt_wrap(self, examples: str, quiz: str, dsl_y: str='', state_y: str='') -> str:
         if dsl_y == '':
             prompt = dsl_standard_init_prompt.format(examples=examples, quiz=quiz, dsl_list=self.env.dsl_list)
         else:
-            # TODO y에서 LLM이 선택한 dsl만 파싱하기
             used_dsls = ''
             prompt = dsl_standard_prompt.format(examples=examples, quiz=quiz, used_dsls=dsl_y, current_state=state_y)
 
-        # TODO 아래 부분은 ARC에 맞게 수정하기
-        # current_numbers = get_current_numbers(y if y else x)
-        # if current_numbers == '24':
-        #     prompt = cot_prompt.format(input=x) + 'Steps:' + y
-        #     # print([prompt])
-        # else:
-        #     prompt = propose_prompt.format(input=current_numbers)
-
         return prompt
     
-    # TODO examples, quiz, y 등을 인자로 받고 value_prompt_wrap 문자열 안에 format으로 붙여넣기
-    # ? value_last_step_prompt가 ARC에 필요할까?
     def value_prompt_wrap(self, task, examples, quiz, dsl_y, state_y):
-        # last_line = y.strip().split('\n')[-1]
-        # if 'left: ' not in last_line:  # last step
-        #     ans = last_line.lower().replace('answer: ', '')
-        #     # print([value_last_step_prompt.format(input=x, answer=ans)])
-        #     return value_last_step_prompt.format(input=x, answer=ans)
-        # current_numbers = get_current_numbers(y)
         return value_prompt.format(dsl_list=self.env.dsl_list, examples=examples, quiz=quiz, used_dsls=dsl_y, current_state=state_y)
     
     # TODO 어떤식으로 value 측정할 것인지 고민하고 해당 내용을 바탕으로 value_prompt 구성하기
