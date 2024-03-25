@@ -29,7 +29,20 @@ cd Compositionality
 ```
 python tot_arc_solver.py
 ```
-2. Move to the origin directory.
+2. Apply result dsls to generate expected output grids.
+```
+python output_grid.py
+```
+3. Visualize result.
+```
+python visualize.py
+```
+4. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
+```
+xdg-open result/result_correct.html
+xdg-open result/result_incorrect.html
+```
+5. Move to the origin directory.
 ```
 cd ..
 ```
@@ -62,126 +75,18 @@ The below figures represent all of the processes of the experiment.
  Based on the score, the top two states are sent to the next step.
 
 
-## An Example Result for One Task
-```json
-{
-    "steps": [
-        {
-            "step": 0,
-            "dsl_ys": [
-                ""
-            ],
-            "new_dsl_ys": [
-                "obj_color(state, object1, 2)",
-                "obj_color(state, object1, 2)"
-            ],
-            "values": [
-                20.0,
-                20.0
-            ],
-            "select_new_ys": [
-                "obj_color(state, object1, 2)",
-                "obj_color(state, object1, 2)"
-            ]
-        },
-        {
-            "step": 1,
-            "dsl_ys": [
-                "obj_color(state, object1, 2)",
-                "obj_color(state, object1, 2)"
-            ],
-            "new_dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)"
-            ],
-            "values": [
-                0.0,
-                0.0,
-                0.0,
-                0.0
-            ],
-            "select_new_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)"
-            ]
-        },
-        {
-            "step": 2,
-            "dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)"
-            ],
-            "new_dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)"
-            ],
-            "values": [
-                0.001,
-                0.001,
-                0.001,
-                0.001,
-                0.001
-            ],
-            "select_new_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)"
-            ]
-        },         
-        {
-            "step": 3,
-            "dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)"
-            ],
-            "new_dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)"
-            ],
-            "values": [
-                20.0,
-                20.0,
-                20.0,
-                20.0
-            ],
-            "select_new_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)"
-            ]
-        },
-        {
-            "step": 4,
-            "dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)"
-            ],
-            "new_dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)"
-            ],
-            "values": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-            ],
-            "select_new_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)"
-            ]
-        }
-    ]
-}
-```
+## Results
+The accuracy is based on solving 99 random ARC tasks with ToT prompt and DSL. These tasks are included in Logical_Coherence experiment. 
+
+<div align="center">
+  
+|| Entry     | Easy     | Medium  | Hard   |
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Tasks     | 2        | 19      | 46     | 14      |
+| Correct     | 0        | 0      | 3     | 0      |
+| ToT       | 0.00%   | 0.00%  | 6.52%  | 0.00%   |
+
+</div>
+
+## Etc
+We modify [tanchongmin's code](https://github.com/tanchongmin/ARC-Challenge) to make the visualization code and use it to visualize the ARC grid. 
