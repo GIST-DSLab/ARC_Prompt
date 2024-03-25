@@ -2,6 +2,8 @@ import os
 import openai
 import backoff 
 import time
+
+# Set variable realted the azure openai.  
 openai.api_type = "azure"
 openai.api_version = "2023-07-01-preview"
 openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
@@ -9,6 +11,7 @@ openai.api_base = os.getenv("AZURE_OPENAI_ENDPOINT")
 
 completion_tokens = prompt_tokens = 0
 
+# Call the OpenAI API
 @backoff.on_exception(backoff.expo, openai.error.OpenAIError)
 def completions_with_backoff(**kwargs):
     time.sleep(20)
