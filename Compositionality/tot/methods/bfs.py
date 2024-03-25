@@ -36,7 +36,6 @@ def arc_get_value(task, examples, quiz, dsl_y, state_y, n_evaluate_sample, cache
         task.value_cache[value_prompt] = value
     return value
 
-# TODO key, value로 리턴하게끔하면 좋을 듯
 def arc_get_values(task, examples, quiz, new_dsl_ys, state_ys, n_evaluate_sample, cache_value=True):
     ids = list(range(len(new_dsl_ys)))
     value_list = []
@@ -89,7 +88,6 @@ def arc_solve(args, task, idx, to_print=True):
                 if len(state_y) == 0:
                     new_dsl_ys = arc_get_samples(task, examples, quiz, object, '', state, args.n_generate_sample, prompt_sample=args.prompt_sample, stop=task.stops[step])
                 else:
-                    # TODO (수정해야할 부분)여기서 dsl_y을 이렇게 넣어줘도 될까? 맞아야 된다면 dsl_y는 step_size가 1이상일때 a -> b 와 같이 되어야 함.
                     arr=arc_get_samples(task, examples, quiz, object_y, dsl_y, state_y, args.n_generate_sample, prompt_sample=args.prompt_sample, stop=task.stops[step])
                     new_dsl_ys+=arr    
             elif args.method_generate == 'propose':
@@ -118,8 +116,6 @@ def arc_solve(args, task, idx, to_print=True):
             # values = arc_get_values(task, examples, quiz, new_object_ys, new_dsl_ys, new_state_ys, args.n_evaluate_sample)
             values = arc_get_values(task, examples, quiz, new_dsl_ys, new_state_ys, args.n_evaluate_sample)
 
-        # selection
-        # TODO 이 부분해결해야함.
         if args.method_select == 'sample':
             ps = np.array(values) / sum(values)
             select_ids = np.random.choice(ids, size=args.n_select_sample, p=ps).tolist()
@@ -129,14 +125,8 @@ def arc_solve(args, task, idx, to_print=True):
         select_new_object = [new_object_ys[select_id] for select_id in select_ids]
         select_new_state = [new_state_ys[select_id] for select_id in select_ids]
 
-        # log
         if to_print: 
             print({'step': step, 'dsl_ys': dsl_ys, 'new_dsl_ys': new_dsl_ys, 'values': values, 'select_new_ys': select_new_ys})
-        
-        # if to_print: 
-        #     sorted_new_ys, sorted_values = zip(*sorted(zip(new_dsl_ys, values), key=lambda x: x[1], reverse=True))
-        #     for sorted_dsl in sorted_values:
-        #         print(f'-- new_ys --: {sorted_dsl}\n-- sol values --: {values[sorted_dsl]}\n-- choices --: {select_new_ys}\n')
         
         infos.append({'step': step, 'dsl_ys': dsl_ys, 'new_dsl_ys': new_dsl_ys, 'values': values, 'select_new_ys': select_new_ys})
         dsl_ys = select_new_ys
@@ -144,7 +134,6 @@ def arc_solve(args, task, idx, to_print=True):
         object_ys = select_new_object
         new_dsl_ys = []
     
-    # TODO 일단 대충 돌아가게끔 만듬. 그런나 수정할 부분들 많음. 
     if to_print: 
         print(f"dsl_ys: {dsl_ys}, state_ys: {state_ys}")
     return dsl_ys, {'steps': infos}
