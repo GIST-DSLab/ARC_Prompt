@@ -1,6 +1,6 @@
 import argparse
-from tot.methods.bfs import arc_solve
-from tot.tasks.arc import ARCTask
+from model.methods.bfs import arc_solve
+from model.tasks.arc import ARCTask
 import json
 import os
 import time
