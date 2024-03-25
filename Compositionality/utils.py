@@ -1,3 +1,4 @@
+# We modify from tanchongmin's code and use it to visualize
 import json
 import os
 import matplotlib.pyplot as plt
@@ -6,6 +7,7 @@ import numpy as np
 import base64
 from io import BytesIO
 
+# Convert string value to list
 def string_to_array(grid):
     try:
         if isinstance(grid[0][0], int): return grid
@@ -29,6 +31,7 @@ def string_to_array(grid):
         flag = False
     return output_grid_array, flag
 
+# Create the grid wit matplotlib
 def plot_2d_grid(task_id, answer, mode):
     for count, index in enumerate(task_id.keys()):
         if task_id[index] == '2.08E+20':
@@ -136,7 +139,7 @@ def plot_2d_grid(task_id, answer, mode):
 
     return html
 
-
+# Make the visualization html file
 def write_file(plot_html, trial, total_count, correct, method_name="obj", save_dir='result', save_name="test", mode='correct'):
     ''' Writes the output to a html file for easy reference next time '''
 
