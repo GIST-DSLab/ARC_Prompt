@@ -25,7 +25,7 @@ cot_result = pd.read_csv(cot_dir_path + cot_file_name+'.csv', converters={"code"
 l2m_result = pd.read_csv(l2m_dir_path + l2m_file_name+'.csv', converters={"code": lambda x: str(x)})
 tot_result = pd.read_csv(tot_dir_path + tot_file_name+'.csv', converters={"code": lambda x: str(x)})
 
-# Visualize for each prompt method resuls
+# Visualize for each prompt method results
 for result, save_dir, save_name in [(cot_result, cot_dir_path, cot_file_name), (l2m_result, l2m_dir_path, l2m_file_name), (tot_result, tot_dir_path, tot_file_name)]:
     print(f'================== current: {save_name} ==================')
     count = []
