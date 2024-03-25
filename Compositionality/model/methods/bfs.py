@@ -50,8 +50,6 @@ def arc_get_values(task, examples, quiz, new_dsl_ys, state_ys, n_evaluate_sample
 def arc_get_samples(task, examples, quiz, object, dsl_y, state_y, n_generate_sample, prompt_sample, stop):
     if prompt_sample == 'standard':
         prompt = task.standard_prompt_wrap(examples, quiz, object, dsl_y, state_y)
-    elif prompt_sample == 'cot':
-        prompt = task.cot_prompt_wrap(examples, quiz, dsl_y, state_y)
     else:
         raise ValueError(f'prompt_sample {prompt_sample} not recognized')
     samples = gpt(prompt, n=n_generate_sample, stop=None)
