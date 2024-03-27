@@ -27,6 +27,7 @@ cd Compositionality
 ```
 1. Run ARC solver.
 ```
+python obj_create.py
 python tot_arc_solver.py
 ```
 2. Apply result dsls to generate expected output grids.
