@@ -17,7 +17,7 @@
 
 ```Pnp.py```: Detects the object for each ARC tasks' input grid.
 
-More explanation is in this paper : [Unraveling the ARC Puzzle: Mimicking Human Solutions with Object-Centric Decision Transformer](https://openreview.net/forum?id=F9QfmL6IjZ)
+More explanation about PnP algorithm is in this paper : [Unraveling the ARC Puzzle: Mimicking Human Solutions with Object-Centric Decision Transformer](https://openreview.net/forum?id=F9QfmL6IjZ)
 
 
 ## Quick Start
