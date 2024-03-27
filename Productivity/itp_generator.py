@@ -4,6 +4,7 @@ from utils import combine_data_from_directory, augmented_path, prompt_path
 prompt_data = []
 combined_data = combine_data_from_directory(augmented_path)
 
+# Make the inverse transformation prompt for each kinds of conceptARC categories.
 for i in range(len(combined_data["input"])):
     cor_prompt = []
     for j in range(len(combined_data['input'][i])):

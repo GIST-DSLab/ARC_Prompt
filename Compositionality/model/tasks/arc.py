@@ -396,6 +396,7 @@ class ARCEnv:
                 # return state, object
 
 class ARCTask(Task):
+    # Set the variables.
     def __init__(self, dsl_file='dsl.txt', folder='arc.json'):
         super().__init__()
         path = os.path.join('data/', folder)
@@ -409,7 +410,8 @@ class ARCTask(Task):
 
     def __len__(self) -> int:
         return len(self.data)
-    
+        
+    # Read given task idx information from json file.
     def get_input(self, idx: int):
         '''
         Example 1
@@ -469,6 +471,7 @@ class ARCTask(Task):
                     quiz_prompt += f"then output grids?\n" 
         return examples_prompt, quiz_prompt, original_object, target_data['test'][test_index]['input']
 
+    # 해당 함수 안 쓰고 있는데 주석 처리 끝난 후 한번 더 다시 확인해보기 - 우창
     def test_output(self, idx: int, output: str):
         expression = output.strip().split('\n')[-1].lower().replace('answer: ', '').split('=')[0]
         numbers = re.findall(r'\d+', expression)
@@ -480,6 +483,7 @@ class ARCTask(Task):
         except Exception as e:
             return {'r': 0}
 
+    # Wrap the prompt that used to predict dsl about the task.
     def standard_prompt_wrap(self, examples: str, quiz: str, object: str, dsl_y: str='', state_y: str='') -> str:
         if dsl_y == '':
             prompt = dsl_standard_init_prompt.format(examples=examples, quiz=quiz, object=object, dsl_list=self.env.dsl_list)
@@ -489,24 +493,14 @@ class ARCTask(Task):
         
         return prompt
 
-    def cot_prompt_wrap(self, examples: str, quiz: str, dsl_y: str='', state_y: str='') -> str:
-        return cot_prompt.format(input=x) + y
-    
-    def propose_prompt_wrap(self, examples: str, quiz: str, dsl_y: str='', state_y: str='') -> str:
-        if dsl_y == '':
-            prompt = dsl_standard_init_prompt.format(examples=examples, quiz=quiz, dsl_list=self.env.dsl_list)
-        else:
-            used_dsls = ''
-            prompt = dsl_standard_prompt.format(examples=examples, quiz=quiz, used_dsls=dsl_y, current_state=state_y)
-
-        return prompt
-    
+    # Wrap the prompt that used to self-evaluate the given suggestion(Value).
     def value_prompt_wrap(self, task, examples, quiz, dsl_y, state_y):
         return value_prompt.format(dsl_list=self.env.dsl_list, examples=examples, quiz=quiz, used_dsls=dsl_y, current_state=state_y)
-    
+
+    # UnWrap the prompt that used to self-evaluate the given suggestion(Value).
     @staticmethod
     def value_outputs_unwrap(value_outputs: list) -> float:
         value_names = [_.split('\n')[-1] for _ in value_outputs]
-        value_map = {'impossible': 0.001, 'maybe': 1, 'sure': 20}  # TODO: ad hoc
+        value_map = {'impossible': 0.001, 'maybe': 1, 'sure': 20}  
         value = sum(value * target_value.count(name) for name, value in value_map.items() for target_value in value_names)
         return value

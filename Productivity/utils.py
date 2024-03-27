@@ -7,6 +7,7 @@ import numpy as np
 import base64
 from io import BytesIO
 
+# Set variable realted the azure openai.  
 openai.api_type = "azure"
 openai.api_version = "2023-07-01-preview"
 openai.api_key = os.getenv("AZURE_OPENAI_API_KEY")
@@ -17,6 +18,8 @@ augmented_path = "./data/augmented"
 prompt_path = "./data/prompt/Prompt.json"
 result_path = './result/'
 
+
+# Read data from given json file
 def read_data_from_json(file_path, task=None):
     try:
         with open(file_path, 'r') as json_file:
@@ -32,19 +35,20 @@ def read_data_from_json(file_path, task=None):
         print(f"Error decoding JSON in file: {file_path}")
         return None
 
-# 이거 안쓰이고 있음 - 세진
+# Remove target example index(order)
 def remove_input_by_order(data, order):
     del data['train'][order]
     return data
 
 
-# 이거 안쓰이고 있음 - 세진
+# Bring the inputs, outputs data with dataset. 
 def collect_data(dataset):
     inputs = [example['input'] for example in dataset]
     outputs = [example['output'] for example in dataset]
     return inputs, outputs
 
-    
+
+# Bring the dataset from json file and then save dictionary format.
 def combine_data_from_directory(directory_path):
     combined_data = {
         "input": [],
@@ -73,7 +77,7 @@ def combine_data_from_directory(directory_path):
     return combined_data
 
 
-# 이거 안쓰이고 있음 - 세진
+# Postprocessing
 def remove_except(input_str, exception_chars='0123456789[], '):
     inside_brackets = False
     result = []
@@ -86,7 +90,7 @@ def remove_except(input_str, exception_chars='0123456789[], '):
             result.append(char)
     return ''.join(result)
 
-
+# Extract the 2d arrays from LLM a genereated result.
 def extract_2d_arrays(input_str):
     cleaned_str = remove_except(input_str)
 
@@ -115,8 +119,8 @@ def extract_2d_arrays(input_str):
     return extracted_arrays
 
 
+# Generate the example with ITP prompt and example pairs.
 def generate_text(prompt):
-    # 채팅 메시지 설정
     instructions = [{"role": "system", "content": "You are an ARC(Abstraction and Reasoning Corpus) solver."}]
 
     try:
@@ -133,35 +137,10 @@ def generate_text(prompt):
         return response.choices[0].message['content'].strip() if response.choices else "No response."
     
     except openai.error.InvalidRequestError as e:
-        # 콘텐츠 관리 정책에 걸려서 응답이 없는 경우 처리
         print(f"Error generating text: {e}")
         return "No response due to content management policy."
-    
-# 이거 안쓰이고 있음 - 세진
-def string_to_array(grid):
-    try:
-        if isinstance(grid[0][0], int): return grid
-    except:
-        print(1)
 
-    grid_array = []
-    if type(grid) == float:
-        target_grid = '[]'
-    else:
-        target_grid = grid.replace(']', '').split(', [')
-
-    for index in range(len(target_grid)):
-        grid_array.append(np.fromstring(target_grid[index].strip('['), sep=',', dtype=np.int64))
-
-    try:
-        output_grid_array = np.array(grid_array)
-        flag = True
-    except:
-        output_grid_array = [-1]
-        flag = False
-    return output_grid_array, flag
-
-
+# Make the visualization grid with matplotlib.
 def plot_2d_grid(dataset_dict, file_name):
     count = 0
     html = f'''<h2> ========================= file name: {file_name} =========================</h2>\n'''
@@ -219,7 +198,7 @@ def plot_2d_grid(dataset_dict, file_name):
     
     return html, count
 
-
+# Save the visualization html file.
 def write_file(plot_html, name, dir_path='result'):
     ''' Writes the output to a html file for easy reference next time '''
     # Create the HTML content

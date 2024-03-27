@@ -4,7 +4,7 @@ from utils import write_file, plot_2d_grid, augmented_path, result_path
 import warnings
 warnings.filterwarnings('ignore')
 
-
+# Set the variables.
 target_files = os.listdir(augmented_path)
 kinds_of_problem = set()
 prev_name = ''
@@ -12,6 +12,7 @@ html = ''
 augmented_count = 0
 total_count = 0
 
+# Make the visualization html files for each kinds of conceptARC categories.
 for i, target_file in enumerate(target_files):
     kind_of_problem = target_file.split('_')[0]
 

@@ -4,7 +4,7 @@ from tqdm import tqdm
 import warnings
 warnings.filterwarnings('ignore')
 
-
+# Set the variables.
 tot_dir_path="result\\Result.csv"
 tot_result=pd.read_csv(tot_dir_path)
 save_dir = 'result'
@@ -12,7 +12,7 @@ save_dir = 'result'
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
-
+# Visualize for productivity experiment result.
 print(f'================== current ==================')
 count = []
 correct_list = []

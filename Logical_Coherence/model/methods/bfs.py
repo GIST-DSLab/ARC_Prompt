@@ -5,7 +5,7 @@ from model.models import gpt
 import re
 import copy
 
-
+# Parse instructions from LLM response.
 def decomposing_parsing_info(output_list):
     subquestions_pattern = r"Q[1-9].*"
     temp_list = []
@@ -15,6 +15,7 @@ def decomposing_parsing_info(output_list):
         temp_list.append(subquestions_p.findall(outputs))
     return temp_list
 
+# Parse answer from LLM response.
 def reasoning_parsing_info(output_list, is_last=False):
     reasoning_pattern = r"((.|\n)*)" if is_last else r"A[1-9].*"
     temp_list = []
@@ -27,18 +28,21 @@ def reasoning_parsing_info(output_list, is_last=False):
             temp_list.append(subquestions_p.findall(outputs))
     return temp_list
 
+# (Value format)LLM self-evaluate the response result to LLM.
 def reasoning_get_value(task, examples, quiz, current_subquestions, subanswers_ys, new_subanswers_ys, n_evaluate_sample):
     value_prompt = task.reasoning_value_prompt_wrap(examples, quiz, current_subquestions, subanswers_ys, new_subanswers_ys)
     value_outputs = gpt(value_prompt, n=n_evaluate_sample, stop=None)
     value = task.reasoning_value_outputs_unwrap(value_outputs)
     return value
 
+# (Vote format)LLM self-evaluate the response result to LLM.
 def reasoning_get_votes(task, examples, quiz, current_subquestions, subanswers_ys, new_subquesions_ys, n_evaluate_sample):
     vote_prompt = task.reasoning_vote_prompt_wrap(examples, quiz, current_subquestions, subanswers_ys, new_subquesions_ys)
     vote_outputs = gpt(vote_prompt, n=n_evaluate_sample, stop=None)
     values = task.reasoning_vote_outputs_unwrap(vote_outputs, len(new_subquesions_ys))
     return values
 
+# LLM self-evaluate each suggestion that created by reasoning_get_samples.
 def reasoning_get_values(task, examples, quiz, current_subquestions, subanswers_ys, new_subanswers_ys, n_evaluate_sample):
     ids = list(range(len(new_subanswers_ys)))
     value_list = []
@@ -47,6 +51,7 @@ def reasoning_get_values(task, examples, quiz, current_subquestions, subanswers_
         value_list.append(value)
     return value_list
 
+# Generate the result with instructions(that consisf of subquestions and subanswers)
 def reasoning_get_samples(task, examples, quiz, subquestions, subanswers, n_generate_sample, is_last, stop):
     prompt = task.reasoning_standard_prompt_wrap(examples, quiz, subquestions, subanswers)
     if prompt == -1:
@@ -62,12 +67,14 @@ def reasoning_get_samples(task, examples, quiz, subquestions, subanswers, n_gene
     except:
         return -1
 
+# Generate the result with instructions(that consisf of subquestions and subanswers)
 def decomposing_get_votes(task, examples, quiz, new_subquesions_ys, n_evaluate_sample):
     vote_prompt = task.decomposing_vote_prompt_wrap(examples, quiz, new_subquesions_ys)
     vote_outputs = gpt(vote_prompt, n=n_evaluate_sample, stop=None)
     values = task.decomposing_vote_outputs_unwrap(vote_outputs, len(new_subquesions_ys))
     return values
 
+# Generate the result with instructions(that consisf of subquestions and subanswers)
 def decomposing_get_samples(task, examples, quiz, n_generate_sample, stop):
     prompt = task.decomposing_cot_prompt_wrap(examples, quiz)
     samples = gpt(prompt, n=n_generate_sample, stop=None)
@@ -75,6 +82,7 @@ def decomposing_get_samples(task, examples, quiz, n_generate_sample, stop):
     new_subquesions_ys = decomposing_parsing_info(samples)
     return new_subquesions_ys
 
+# Decompose process.
 def decomposing_arc(args, task, idx, to_print=True):
     global gpt
     gpt = partial(gpt, model=args.backend, temperature=args.temperature)
@@ -83,16 +91,16 @@ def decomposing_arc(args, task, idx, to_print=True):
     subquestions_ys = ['']  # current output candidates
     infos = []
     new_subquestions_ys = []
-    # dsl generation
+    # Generate the decomposing suggestions
     new_subquestions_ys = decomposing_get_samples(task, examples, quiz, args.n_generate_sample, stop=task.stops)
     # new_dsl_ys = list(itertools.chain(*new_dsl_ys))
 
 
     ids = list(range(len(new_subquestions_ys)))
-    # dsl evaluation
+    # Evaluate with value method
     values = decomposing_get_votes(task, examples, quiz, new_subquestions_ys, args.n_evaluate_sample)
 
-    # selection
+    # Select the suggestion using value standard 
     if args.method_select == 'sample':
         ps = np.array(values) / sum(values)
         select_ids = np.random.choice(ids, size=args.n_select_sample, p=ps).tolist()
@@ -111,6 +119,7 @@ def decomposing_arc(args, task, idx, to_print=True):
         print(f"subquestions_ys: {subquestions_ys}")
     return subquestions_ys, {'steps': infos}
 
+# Reason(solve) tasks
 def reasoning_arc(args, task, idx, subquestions, to_print=True):
     global gpt
     gpt = partial(gpt, model=args.backend, temperature=args.temperature)
@@ -119,10 +128,12 @@ def reasoning_arc(args, task, idx, subquestions, to_print=True):
     subanswers_ys = ['']  # current output candidates
     infos = []
 
+    # Solve task with step-by-step.
     for step in range(len(subquestions)):
         # dsl generation
         current_subquestions = subquestions[:step+1]
-        
+
+         # Generate the reasoning suggestion.
         if step == len(subquestions) - 1:
             new_subanswers_ys = reasoning_get_samples(task, examples, quiz, current_subquestions, subanswers_ys, args.n_generate_sample, is_last=True, stop=task.stops)
         else:
@@ -132,18 +143,15 @@ def reasoning_arc(args, task, idx, subquestions, to_print=True):
             return -1, -1
         ids = list(range(len(new_subanswers_ys)))
 
-        # dsl evaluation
         if step == len(subquestions) - 1:
+            # Evaluate with value method if last instruction(subquestion)
             values = reasoning_get_values(task, examples, quiz, current_subquestions, subanswers_ys, new_subanswers_ys, args.n_evaluate_sample)
         else:
+            # Evaluate with vote method if it is not last instruction(subquestion)
             values = reasoning_get_votes(task, examples, quiz, current_subquestions, subanswers_ys, new_subanswers_ys, args.n_evaluate_sample)
 
-        # selection
-        if args.method_select == 'sample':
-            ps = np.array(values) / sum(values)
-            select_ids = np.random.choice(ids, size=args.n_select_sample, p=ps).tolist()
-        elif args.method_select == 'greedy':
-            select_ids = sorted(ids, key=lambda x: values[x], reverse=True)[:args.n_select_sample]
+        # Select the suggestion using value standard 
+        select_ids = sorted(ids, key=lambda x: values[x], reverse=True)[:args.n_select_sample]
         select_new_ys = new_subanswers_ys[select_ids[0]]
 
         # log

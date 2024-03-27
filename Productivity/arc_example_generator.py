@@ -3,8 +3,9 @@ import json
 from utils import read_data_from_json, extract_2d_arrays, generate_text, augmented_path, prompt_path
 
 data = read_data_from_json(prompt_path)
-total_tasks = len(data['task'])  # 전체 작업 수
+total_tasks = len(data['task'])  
 
+# Generate the example outputs with inverse transformation prompt
 for i in range(total_tasks):
     arc_data = {
         "train": [],
@@ -20,6 +21,7 @@ for i in range(total_tasks):
         }
 
         prompt = data['prompt'][i][j]
+        # Generate the example output and then extract array.
         text = extract_2d_arrays(generate_text(prompt))
         aug_data['input'].append(data['input'][i][j])
         aug_data['output'].append(data['output'][i][j])
@@ -34,6 +36,7 @@ for i in range(total_tasks):
             }
             arc_data['train'].append(train_data)
 
+    # Save the file
     for j in range(len(data['test_input'][i])):
         aug_data = {
             "input": [],

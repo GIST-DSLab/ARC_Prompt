@@ -4,11 +4,15 @@ from tqdm import tqdm
 import warnings
 warnings.filterwarnings('ignore')
 
+# Postprocessing
 def convert(x):
     x = str(x)
     return x.replace('\n', '').replace('  ', ' ') 
 
+# Specify the target index among the results to visualize
 index = 4
+
+# Set the variables.
 cot_dir_path = f"result/[CoT]result_{index}/"
 l2m_dir_path = f"result/[L2M]result_{index}/"
 tot_dir_path = f"result/[ToT]result_{index}/"
@@ -21,6 +25,7 @@ cot_result = pd.read_csv(cot_dir_path + cot_file_name+'.csv', converters={"code"
 l2m_result = pd.read_csv(l2m_dir_path + l2m_file_name+'.csv', converters={"code": lambda x: str(x)})
 tot_result = pd.read_csv(tot_dir_path + tot_file_name+'.csv', converters={"code": lambda x: str(x)})
 
+# Visualize for each prompt method results
 for result, save_dir, save_name in [(cot_result, cot_dir_path, cot_file_name), (l2m_result, l2m_dir_path, l2m_file_name), (tot_result, tot_dir_path, tot_file_name)]:
     print(f'================== current: {save_name} ==================')
     count = []

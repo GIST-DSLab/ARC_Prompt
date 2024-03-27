@@ -77,8 +77,17 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 
 
 ## [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality)
-The experiment results are as follows: out of 99 tasks, LLM was not able to solve
-any tasks. 
+The accuracy is based on solving 99 random ARC tasks with ToT prompt and DSL. These tasks are included in Logical_Coherence experiment. 
+
+<div align="center">
+  
+|| Entry     | Easy     | Medium  | Hard   |
+|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Tasks     | 2        | 19      | 46     | 14      |
+| Correct     | 0        | 0      | 3     | 0      |
+| ToT       | 0.00%   | 0.00%  | 6.52%  | 0.00%   |
+
+</div>
 
 
 ## [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity)
