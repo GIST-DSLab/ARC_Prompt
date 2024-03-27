@@ -6,7 +6,7 @@ import copy
 
 # type = "tr" or "ev", j_num = 1 ~ 400, pair = "train" or "test" ,p_num = 0 ~ 9, io = 0 ~ 1
 def get_grid ():
-    with open("arc_no_object.json", 'r') as f:
+    with open("data\\arc_no_object.json", 'r') as f:
         data = json.load(f)
     return data
     
@@ -72,7 +72,7 @@ if __name__ == "__main__":
             new.append(new_2)
 
     # if no file -> create, if file -> overwrite
-    file_path = 'arc_obj_w.json'
+    file_path = 'data\\arc_obj_w.json'
     if not os.path.exists(file_path):
         with open(file_path, 'w') as f:
             json.dump(new, f, indent=4)
