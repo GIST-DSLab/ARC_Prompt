@@ -15,6 +15,12 @@
 ## Explanation about Python Codes
 ```tot_arc_solver.py```: solves ARC tasks with ToT.
 
+```obj_create.py```: make arc.json from arc_no_object.json to contain the object information.
+
+```PnP.py```: Detects the object for each ARC tasks' input grid.
+
+More explanation about PnP algorithm is in this paper : [Unraveling the ARC Puzzle: Mimicking Human Solutions with Object-Centric Decision Transformer](https://openreview.net/forum?id=F9QfmL6IjZ)
+
 
 ## Quick Start
 0. Check environment variables & move to the compositionality directory.
@@ -27,6 +33,7 @@ cd Compositionality
 ```
 1. Run ARC solver.
 ```
+python obj_create.py
 python tot_arc_solver.py
 ```
 2. Apply result dsls to generate expected output grids.
