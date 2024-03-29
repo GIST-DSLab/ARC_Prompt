@@ -26,7 +26,6 @@ cmap = colors.ListedColormap(
             '#AFFBFF', # 18 skyblue_select
             '#B73C55'  # 19 maroon_select
         ])
-# norm = colors.Normalize(vmin=0, vmax=9)
 norm = colors.Normalize(vmin=0, vmax=19)
 
 
@@ -34,7 +33,7 @@ def get_node_number (col, i, j): ## start from 0 to (col * row -1)
     temp = i * (col) + j
     return temp
 
-def find_near_node (grid, i ,j):
+def find_near_node (grid, i, j):
     temp = np.zeros(3*3).reshape((3,3))
     if grid[i][j] == 0: 
         return temp
@@ -43,15 +42,15 @@ def find_near_node (grid, i ,j):
             try :
                 if grid [i + r][j + c] == grid [i][j] and i + r >= 0 and j + c >= 0:
                     if r == 0 or c == 0:
-                        temp[r + 1][c + 1] = 1 # same color direct ajacent
+                        temp[r + 1][c + 1] = 1 # same color direct adjacent
                     else :
-                        temp[r + 1][c + 1] = 2 # same color diagonal ajacent
+                        temp[r + 1][c + 1] = 2 # same color diagonal adjacent
 
                 elif grid [i + r][j + c] != grid [i][j] and grid [i + r][j + c] != 0 and i + r >= 0 and j + c >= 0:
                     if r == 0 or c == 0:
-                        temp[r + 1][c + 1] = 4 # different color direct ajacent
+                        temp[r + 1][c + 1] = 4 # different color direct adjacent
                     else :
-                        temp[r + 1][c + 1] = 5 # different color diagonal ajacent
+                        temp[r + 1][c + 1] = 5 # different color diagonal adjacent
             except :
                 continue
     temp[1][1] = 0
@@ -77,13 +76,12 @@ def grid_to_adj(grid):
                             adj[node_num][curr_node] = temp[r][c]
     return np.array(adj)
 
-# class ############################################################################################################
 class node :
     def __init__(self, grid, i, j):
         self.color = grid[i][j]
         self.number = get_node_number(len(grid[0]), i, j)
         self.coordinate = [3 * j, 3 * (len(grid) - i - 1)]
-        self.coor2 = [j,i]
+        self.coor2 = [j, i]
         self.object = -1
 
 def grid_to_node (grid):
@@ -274,50 +272,4 @@ def get_object (grid):
             node_ob[i][j] = nodes[i * (len(grid[0])) + j].object + 1
 
     return nodes, adj, node_ob
-
-if __name__ == "__main__":
-    grid = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-            [0, 0, 0, 0, 0, 0, 0, 5, 5, 0], 
-            [0, 5, 5, 0, 0, 0, 0, 5, 5, 0], 
-            [0, 0, 5, 5, 0, 0, 0, 0, 0, 0], 
-            [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
-            [0, 0, 0, 0, 0, 0, 0, 0, 0, 5], 
-            [0, 0, 0, 0, 0, 5, 5, 0, 0, 5], 
-            [0, 5, 0, 0, 0, 0, 0, 0, 0, 5], 
-            [0, 5, 0, 0, 5, 0, 0, 0, 0, 0], 
-            [0, 0, 0, 5, 5, 0, 0, 0, 0, 0]]
-
-    kk = get_object(grid) # nodes, adj, node_ob
-    print(kk[2])
-    
-
-
-    for i in range(0, len(kk[2])):
-        print(kk[2][i])
-
-    print("###############")
-        
-        
-    obj = get_object(grid)
-
-    def PnP_result_to_grid_coord (PnP_result):
-        gg = PnP_result[-1]
-
-        m = np.amax(gg)
-        
-        obj_coord_list = []
-        for i in range(m):
-            obj_coord_list.append([])
-        
-        for i in range(len(gg)):
-            for j in range(len(gg[0])):
-                if gg[i][j] != 0:
-                    obj_coord_list[gg[i][j]-1].append([i, j])
-
-        return obj_coord_list
-
-    for p in range(len(PnP_result_to_grid_coord(obj))):
-        print("Object", p+1)
-        print(PnP_result_to_grid_coord(obj)[p])
-
     
