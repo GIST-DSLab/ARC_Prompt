@@ -1,4 +1,4 @@
-import PnP
+import pnp
 import os
 import json
 import numpy as np
