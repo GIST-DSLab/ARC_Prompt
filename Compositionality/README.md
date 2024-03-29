@@ -1,25 +1,29 @@
 # Compositionality
 ## Directory Structure
 ```
-├─arc_result: contains results that consist of every step with selected DSLs
-|
 ├─data: contains JSONL file for ARC tasks and TXT file for DSLs
 |
 ├─model
 |  ├─methods: contains a code for prompting techniques such as generation, vote, parsing, and regularization parser.
 |  ├─prompts: contains a prompt code used when each prompting technique generates suggestions or evaluates value.
 |  ├─tasks: contains codes that manage ARC tasks and their prompts.
+|
+├─result: contains results that consist of every step with selected DSLs
 ```
 
 
 ## Explanation about Python Codes
+```obj_create.py```: makes arc.json from arc_no_object.json to contain the object information from ```PnP.py```.
+
+```output_grid.py```: makes output grids according to the result of ```tot_arc_solver.py```.
+
+```pnp.py```: detects the object for each ARC task's input grid using [PnP algorithm](https://openreview.net/forum?id=F9QfmL6IjZ).
+
 ```tot_arc_solver.py```: solves ARC tasks with ToT.
 
-```obj_create.py```: make arc.json from arc_no_object.json to contain the object information.
+```ults.py```: contains functions for ```visualization.py```.
 
-```PnP.py```: Detects the object for each ARC tasks' input grid.
-
-More explanation about PnP algorithm is in this paper : [Unraveling the ARC Puzzle: Mimicking Human Solutions with Object-Centric Decision Transformer](https://openreview.net/forum?id=F9QfmL6IjZ)
+```visualization.py```: visualizes results.
 
 
 ## Quick Start
@@ -31,18 +35,21 @@ echo $AZURE_OPENAI_DEPLOYMENT_NAME
 
 cd Compositionality
 ```
-1. Run ARC solver.
+1. Detect objects in ARC tasks.
 ```
 python obj_create.py
+```
+2. Run ARC solver.
+```
 python tot_arc_solver.py
 ```
-2. Apply result dsls to generate expected output grids.
+3. Generate the expected output grid for each ARC task.
 ```
 python output_grid.py
 ```
-3. Visualize result.
+3. Visualize results.
 ```
-python visualize.py
+python visualization.py
 ```
 4. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
 ```
