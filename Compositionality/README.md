@@ -94,11 +94,11 @@ The accuracy is based on solving 99 random ARC tasks with ToT prompt and DSL. Th
 
 <div align="center">
   
-|| Entry     | Easy     | Medium  | Hard   |
-|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Tasks     | 2        | 19      | 46     | 14      |
-| Correct     | 0        | 0      | 3     | 0      |
-| ToT       | 0.00%   | 0.00%  | 6.52%  | 0.00%   |
+|| Entry     | Easy     | Medium  | Hard   | Tedious  | Multiple solutions  | Unfixed |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Tasks     | 2        | 19      | 46     | 14      | 11      | 6      | 1      |
+| Correct     | 0        | 0      | 3     | 0      | 0      | 0      | 0      |
+| ToT       | 0.00%   | 0.00%  | 6.52%  | 0.00%   | 0.00%   | 0.00%   | 0.00%   |
 
 </div>
 
