@@ -133,7 +133,7 @@ The number of ARC tasks corresponding to each category is listed in the table, a
 <div align="center">
   
 |         | Entry   | Easy   | Medium | Hard  | Etc   |
-|:-------:|:-------:|:------:|:------:|:-----:|------:|
+|:-------:|:-------:|:------:|:------:|:-----:|:-----:|
 | Tasks   | 2       | 20     | 46     | 14    | 18    |
 | Trials  | 10      | 100    | 230    | 70    | 90    |
 | CoT     | 100.00% | 30.00% | 0.00%  | 0.00% | 0.00% |
