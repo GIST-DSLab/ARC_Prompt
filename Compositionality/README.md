@@ -97,11 +97,11 @@ We also classify the tasks based on [ARC-Game](https://github.com/volotat/ARC-Ga
 
 <div align="center">
   
-|          | Entry | Easy  | Medium | Hard  | Tedious | Multiple Solutions | Unfixed | Total |
-|:--------:|:-----:|:-----:|:------:|:-----:|:-------:|:------------------:|:-------:|:-----:|
-| Tasks    | 2     | 19    | 46     | 14    | 11      | 6                  | 1       | 99    |
-| Correct  | 0     | 0     | 3      | 0     | 0       | 0                  | 0       | 3     |
-| Accuracy | 0.00% | 0.00% | 6.52%  | 0.00% | 0.00%   | 0.00%              | 0.00%   | 3.03% |
+|          | Entry | Easy  | Medium | Hard  | Etc   | Total |
+|:--------:|:-----:|:-----:|:------:|:-----:|:-----:|:-----:|
+| Tasks    | 2     | 19    | 46     | 14    | 18    | 99    |
+| Correct  | 0     | 0     | 3      | 0     | 0     | 3     |
+| Accuracy | 0.00% | 0.00% | 6.52%  | 0.00% | 0.00% | 3.03% |
 
 </div>
 
