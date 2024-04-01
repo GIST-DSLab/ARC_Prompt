@@ -90,15 +90,18 @@ The below figures represent all of the processes of the experiment.
 
 
 ## Results
-The accuracy is based on solving 99 random ARC tasks with ToT prompt and DSL. These tasks are included in Logical_Coherence experiment. 
+The accuracy is based on solving 99 random ARC tasks with ToT prompt and DSL.
+We selected 99 of the 100 ARC tasks that were the same as the Logical_Coherence experiment as targets for this experiment. 
+One task was excluded because an error occurred. 
+We also classified the tasks based on [ARC-Game](https://github.com/volotat/ARC-Game) and organized the experiment results.
 
 <div align="center">
   
-|| Entry     | Easy     | Medium  | Hard   | Tedious  | Multiple solutions  | Unfixed |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Tasks     | 2        | 19      | 46     | 14      | 11      | 6      | 1      |
-| Correct     | 0        | 0      | 3     | 0      | 0      | 0      | 0      |
-| ToT       | 0.00%   | 0.00%  | 6.52%  | 0.00%   | 0.00%   | 0.00%   | 0.00%   |
+|          | Entry | Easy  | Medium | Hard  | Tedious | Multiple solutions | Unfixed |
+|:--------:|:-----:|:-----:|:------:|:-----:|:-------:|:------------------:|:-------:|
+| Tasks    | 2     | 19    | 46     | 14    | 11      | 6                  | 1       |
+| Correct  | 0     | 0     | 3      | 0     | 0       | 0                  | 0       |
+| Accuracy | 0.00% | 0.00% | 6.52%  | 0.00% | 0.00%   | 0.00%              | 0.00%   |
 
 </div>
 
