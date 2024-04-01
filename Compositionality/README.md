@@ -97,7 +97,7 @@ We also classified the tasks based on [ARC-Game](https://github.com/volotat/ARC-
 
 <div align="center">
   
-|          | Entry | Easy  | Medium | Hard  | Tedious | Multiple solutions | Unfixed |
+|          | Entry | Easy  | Medium | Hard  | Tedious | Multiple Solutions | Unfixed |
 |:--------:|:-----:|:-----:|:------:|:-----:|:-------:|:------------------:|:-------:|
 | Tasks    | 2     | 19    | 46     | 14    | 11      | 6                  | 1       |
 | Correct  | 0     | 0     | 3      | 0     | 0       | 0                  | 0       |
