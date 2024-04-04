@@ -32,7 +32,7 @@ def string_to_array(grid):
     return output_grid_array, flag
 
 # Create the grid wit matplotlib
-def plot_2d_grid(task_id, answer, mode):
+def plot_2d_grid(task_id, answer, csv_map, data_path, mode):
     for count, index in enumerate(task_id.keys()):
         if task_id[index] == '2.08E+20':
             task_id[index] == '20818e16'
@@ -41,7 +41,8 @@ def plot_2d_grid(task_id, answer, mode):
             using_task_id = task_id[index] if len(task_id[index]) == 8 else ('').join(['0' for _ in range(8-len(task_id[index]))])+str(task_id[index])
 
         try:
-            with open(f'data/evaluation/{using_task_id}.json', 'r') as f:
+            with open(data_path, 'r') as f:
+                target_index = int(csv_map[csv_map['aft_task_id'].astype(str) == using_task_id]['pre_task_id'].values)
                 data = json.load(f)
         except Exception as e:
             print(e)
@@ -54,10 +55,10 @@ def plot_2d_grid(task_id, answer, mode):
         tuples = list(zip(map(norm, cvals), colors))
         cmap = matplotlib.colors.LinearSegmentedColormap.from_list("", tuples)
 
-        fig, axs = plt.subplots(len(data['test']), 3, figsize=(5, len(data['test']) * 3 * 0.7))
+        fig, axs = plt.subplots(len(data[target_index]['test']), 3, figsize=(5, len(data[target_index]['test']) * 3 * 0.7))
         axs = axs.reshape(-1, 3)
 
-        for i, example in enumerate(data['test']):
+        for i, example in enumerate(data[target_index]['test']):
             axs[i, 0].set_title(f'Test Input {i + 1}')
             rows, cols = np.array(example['input']).shape
             axs[i, 0].set_xticks(np.arange(cols + 1) - 0.5, minor=True)
@@ -105,9 +106,9 @@ def plot_2d_grid(task_id, answer, mode):
         else:
             html += '<img src=\'data:image/png;base64,{}\'>'.format(encoded)
 
-        fig, axs = plt.subplots(len(data['train']), 2, figsize=(5, len(data['train']) * 3 * 0.7))
+        fig, axs = plt.subplots(len(data[target_index]['train']), 2, figsize=(5, len(data[target_index]['train']) * 3 * 0.7))
         axs = axs.reshape(-1, 2) 
-        for i, example in enumerate(data['train']):
+        for i, example in enumerate(data[target_index]['train']):
             axs[i, 0].set_title(f'Training Input {i + 1}')
             rows, cols = np.array(example['input']).shape
             axs[i, 0].set_xticks(np.arange(cols + 1) - 0.5, minor=True)

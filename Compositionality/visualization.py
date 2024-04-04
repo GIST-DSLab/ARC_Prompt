@@ -5,9 +5,11 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Set the variables.
-tot_dir_path="result\\Result.csv"
+tot_dir_path="result/Result.csv"
 tot_result=pd.read_csv(tot_dir_path)
 save_dir = 'result'
+csv_map = pd.read_csv('result/task_id_map.csv')
+data_path = 'data/arc.json'
 
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
@@ -23,5 +25,5 @@ print(f'len correct_list: {len(correct_list[0])}')
 print(f'len incorrect_list: {len(incorrect_list[0])}')
 for mode in ['correct', 'incorrect']:
     target = correct_list if mode == 'correct' else incorrect_list
-    html = plot_2d_grid(target[0]['task_id'], target[0],mode=mode)
+    html = plot_2d_grid(target[0]['task_id'], target[0], csv_map, data_path=data_path, mode=mode)
     write_file(plot_html=html, trial=str(0), method_name='', total_count=len(correct_list)+len(incorrect_list), correct=target[0]['task_id'].shape[0], mode=mode, save_dir=save_dir, save_name='result')
