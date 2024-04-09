@@ -1,0 +1,259 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "pixel_color(state, 5, 3, 3)",
+                "pixel_color(state, 5, 3, 3)"
+            ],
+            "values": [
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "pixel_color(state, 5, 3, 3)",
+                "pixel_color(state, 5, 3, 3)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "pixel_color(state, 5, 3, 3)",
+                "pixel_color(state, 5, 3, 3)"
+            ],
+            "new_dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`",
+                "pixel_color(state, 5, 3, 3)->pixel_color(state, 6, 4, 3)",
+                "pixel_color(state, 5, 3, 3)->pixel_color(state, 6, 4, 3)",
+                "pixel_color(state, 5, 3, 3)->pixel_color(state, 6, 4, 3)",
+                "pixel_color(state, 5, 3, 3)->pixel_color(state, 7, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->pixel_color(state, 6, 4, 3)"
+            ],
+            "values": [
+                0.001,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`",
+                "pixel_color(state, 5, 3, 3)->pixel_color(state, 6, 4, 3)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`",
+                "pixel_color(state, 5, 3, 3)->pixel_color(state, 6, 4, 3)"
+            ],
+            "new_dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->pixel_color(state, 7, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->pixel_color(state, 6, 4, 3)->pixel_color(state, 7, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->pixel_color(state, 6, 4, 3)->pixel_color(state, 7, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->pixel_color(state, 6, 4, 3)->pixel_color(state, 7, 5, 3)"
+            ],
+            "values": [
+                20.0,
+                0.002,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->pixel_color(state, 7, 5, 3)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->pixel_color(state, 7, 5, 3)"
+            ],
+            "new_dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->pixel_color(state, 7, 5, 3)->pixel_color(state, 8, 4, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->pixel_color(state, 7, 5, 3)->`pixel_color(state, 8, 4, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->pixel_color(state, 7, 5, 3)->`pixel_color(state, 8, 4, 3)`"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)"
+            ],
+            "new_dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->pixel_color(state, 8, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->pixel_color(state, 8, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->pixel_color(state, 8, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->pixel_color(state, 8, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`"
+            ],
+            "values": [
+                0.0,
+                0.001,
+                0.0,
+                0.0,
+                0.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`"
+            ],
+            "new_dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->pixel_color(state, 6, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->pixel_color(state, 6, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->pixel_color(state, 6, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`"
+            ],
+            "values": [
+                0.0,
+                0.001,
+                0.0,
+                0.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`"
+            ],
+            "new_dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 8, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 8, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->pixel_color(state, 6, 6, 3)"
+            ],
+            "values": [
+                0.0,
+                0.001,
+                0.001,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`"
+            ],
+            "new_dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->pixel_color(state, 8, 6, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 8, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 8, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 8, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->pixel_color(state, 5, 3, 3)"
+            ],
+            "values": [
+                0.001,
+                0.002,
+                0.002,
+                0.002,
+                21.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 8, 6, 3)`"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 8, 6, 3)`"
+            ],
+            "new_dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 7, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 8, 6, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 8, 6, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 8, 6, 3)`->`pixel_color(state, 8, 6, 6)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 8, 6, 3)`->`pixel_color(state, 5, 3, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 8, 6, 3)`->pixel_color(state, 5, 3, 3)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.0
+            ],
+            "select_new_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 7, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 8, 6, 3)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 7, 5, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 8, 6, 3)"
+            ],
+            "new_dsl_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 7, 5, 3)->pixel_color(state, 6, 6, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 7, 5, 3)->pixel_color(state, 8, 6, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 7, 5, 3)->pixel_color(state, 6, 6, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 8, 6, 3)->`pixel_color(state, 7, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 8, 6, 3)->`pixel_color(state, 8, 6, 3)`",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 8, 6, 3)->`pixel_color(state, 7, 6, 3)`"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 7, 5, 3)->pixel_color(state, 6, 6, 3)",
+                "pixel_color(state, 5, 3, 3)->`pixel_color(state, 6, 4, 3)`->`pixel_color(state, 7, 5, 3)`->pixel_color(state, 8, 4, 3)->`pixel_color(state, 8, 5, 3)`->`pixel_color(state, 6, 5, 3)`->`pixel_color(state, 6, 6, 3)`->`pixel_color(state, 7, 4, 3)`->pixel_color(state, 7, 5, 3)->pixel_color(state, 8, 6, 3)"
+            ]
+        }
+    ]
+}

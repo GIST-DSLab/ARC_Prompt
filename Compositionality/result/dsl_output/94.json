@@ -6,107 +6,249 @@
                 ""
             ],
             "new_dsl_ys": [
-                "obj_color(state, object3, 3)",
-                "obj_color(state, object2, 2)",
-                "obj_color(state, object5, 2)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_right_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_right_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ],
             "values": [
-                0.0,
-                20.001,
+                0.001,
+                0.001,
                 0.001
             ],
             "select_new_ys": [
-                "obj_color(state, object2, 2)",
-                "obj_color(state, object5, 2)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_right_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ]
         },
         {
             "step": 1,
             "dsl_ys": [
-                "obj_color(state, object2, 2)",
-                "obj_color(state, object5, 2)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_right_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object2, 2)->obj_color(state, object3, 1)",
-                "obj_color(state, object2, 2)->obj_color(state, object3, 3)",
-                "obj_color(state, object5, 2)->obj_color(state, object14, 2)",
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)",
-                "obj_color(state, object5, 2)->obj_color(state, object14, 2)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_right_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_right_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_right_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_right_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ],
             "values": [
-                1.0,
-                1.0,
+                20.0,
+                20.0,
                 0.0,
-                21.001,
                 0.0
             ],
             "select_new_ys": [
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)",
-                "obj_color(state, object2, 2)->obj_color(state, object3, 1)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ]
         },
         {
             "step": 2,
             "dsl_ys": [
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)",
-                "obj_color(state, object2, 2)->obj_color(state, object3, 1)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)",
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object14, 2)",
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)",
-                "obj_color(state, object2, 2)->obj_color(state, object3, 1)->obj_color(state, object5, 3)",
-                "obj_color(state, object2, 2)->obj_color(state, object3, 1)->obj_color(state, object6, 5)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ],
             "values": [
-                20.0,
-                1.0,
-                20.0,
                 0.0,
-                20.0
+                0.001,
+                0.0,
+                0.0,
+                0.0,
+                0.0
             ],
             "select_new_ys": [
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)",
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ]
         },
         {
             "step": 3,
             "dsl_ys": [
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)",
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)->obj_color(state, object14, 2)",
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)->obj_color(state, object14, 2)",
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)->obj_color(state, object4, 5)",
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)->obj_color(state, object9, 4)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ],
             "values": [
-                20.001,
-                20.001,
-                1.0,
-                0.0
+                0.001,
+                0.001,
+                0.001,
+                0.001
             ],
             "select_new_ys": [
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)->obj_color(state, object14, 2)",
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)->obj_color(state, object14, 2)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ]
         },
         {
             "step": 4,
             "dsl_ys": [
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)->obj_color(state, object14, 2)",
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)->obj_color(state, object14, 2)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)->obj_color(state, object14, 2)->obj_color(state, object9, 1)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ],
             "values": [
+                20.001,
+                20.001,
+                20.001,
+                20.001,
+                20.001,
+                20.001
+            ],
+            "select_new_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ],
+            "new_dsl_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ],
+            "new_dsl_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ],
+            "new_dsl_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ],
+            "new_dsl_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ],
+            "values": [
+                21.0,
+                21.0,
+                21.0,
+                21.0,
+                21.0,
+                21.0
+            ],
+            "select_new_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ],
+            "new_dsl_ys": [
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001,
                 0.001
             ],
             "select_new_ys": [
-                "obj_color(state, object5, 2)->obj_color(state, object3, 3)->obj_color(state, object8, 4)->obj_color(state, object14, 2)->obj_color(state, object9, 1)"
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])",
+                "rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->`rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])`->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])->rotate_left_state([[6, 3, 5], [6, 8, 0], [4, 0, 0]])"
             ]
         }
     ]

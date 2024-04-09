@@ -1,0 +1,259 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(current_state, 0, 0, 9, 0, 2)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)",
+                "obj_color(state, object1, 1)->horizontal_line(current_state, 1, 0, 1, 9, 2)",
+                "obj_color(state, object1, 1)->`horizontal_line(state, 0, 0, 0, 9, 2)`",
+                "obj_color(state, object1, 1)->horizontal_flip_obj(current_state, object1)"
+            ],
+            "values": [
+                0.0,
+                1.0,
+                0.0,
+                1.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)",
+                "obj_color(state, object1, 1)->`horizontal_line(state, 0, 0, 0, 9, 2)`"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)",
+                "obj_color(state, object1, 1)->`horizontal_line(state, 0, 0, 0, 9, 2)`"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->`horizontal_line(state, 0, 0, 0, 9, 2)`",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 2)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)",
+                "obj_color(state, object1, 1)->`horizontal_line(state, 0, 0, 0, 9, 2)`->horizontal_line(state, 9, 0, 9, 9, 2)",
+                "obj_color(state, object1, 1)->`horizontal_line(state, 0, 0, 0, 9, 2)`->`horizontal_line(state, 9, 0, 9, 9, 3)`",
+                "obj_color(state, object1, 1)->`horizontal_line(state, 0, 0, 0, 9, 2)`->`horizontal_line(state, 9, 0, 9, 9, 3)`"
+            ],
+            "values": [
+                1.0,
+                1.0,
+                20.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->`horizontal_line(state, 0, 0, 0, 9, 2)`"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->`horizontal_line(state, 0, 0, 0, 9, 2)`"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->`horizontal_line(state, 0, 0, 0, 9, 2)`->`horizontal_line(state, 9, 0, 9, 9, 2)`",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->`horizontal_line(state, 0, 0, 0, 9, 2)`->horizontal_line(state, 9, 0, 9, 9, 2)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->`horizontal_line(state, 0, 0, 0, 9, 2)`->horizontal_line(state, 9, 0, 9, 9, 3)"
+            ],
+            "values": [
+                1.0,
+                1.0,
+                1.0,
+                20.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->`horizontal_line(state, 0, 0, 0, 9, 2)`->`horizontal_line(state, 9, 0, 9, 9, 2)`",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->`horizontal_line(state, 0, 0, 0, 9, 2)`->`horizontal_line(state, 9, 0, 9, 9, 2)`",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->`horizontal_line(state, 0, 0, 0, 9, 2)`->`horizontal_line(state, 9, 0, 9, 9, 2)`->vertical_line(state, 0, 9, 9, 9, 2)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->`horizontal_line(state, 0, 0, 0, 9, 2)`->`horizontal_line(state, 9, 0, 9, 9, 2)`->horizontal_line(state, 9, 0, 9, 9, 2)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->pixel_color(state, 0, 0, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)"
+            ],
+            "values": [
+                1.0,
+                21.0,
+                22.001,
+                41.0,
+                41.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 3)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_line(state, 4, 0, 4, 9, 2)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)"
+            ],
+            "values": [
+                0.0,
+                1.0,
+                1.0,
+                21.001,
+                21.001,
+                21.001
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->horizontal_flip(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                21.001
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->complete(state)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->complete(state)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->complete(state)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 5, 9, 5, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 5, 9, 5, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 4, 9, 4, 1)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.001,
+                0.001,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 4, 9, 4, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 5, 9, 5, 1)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 4, 9, 4, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 5, 9, 5, 1)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 4, 9, 4, 1)->vertical_line(state, 0, 5, 9, 5, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 4, 9, 4, 1)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 4, 9, 4, 1)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 5, 9, 5, 1)->horizontal_line(state, 0, 0, 0, 9, 1)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 5, 9, 5, 1)->horizontal_line(state, 9, 0, 9, 9, 1)"
+            ],
+            "values": [
+                20.0,
+                21.0,
+                21.0,
+                20.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 4, 9, 4, 1)->horizontal_flip(state)",
+                "obj_color(state, object1, 1)->vertical_line(state, 0, 0, 9, 0, 2)->vertical_line(state, 0, 9, 9, 9, 3)->horizontal_line(state, 0, 0, 0, 9, 1)->horizontal_line(state, 9, 0, 9, 9, 1)->horizontal_flip(state)->complete(state)->vertical_line(state, 0, 5, 9, 5, 1)->vertical_line(state, 0, 4, 9, 4, 1)->horizontal_flip(state)"
+            ]
+        }
+    ]
+}

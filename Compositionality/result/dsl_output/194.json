@@ -1,0 +1,267 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                0.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                40.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete(state)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->complete(state)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->`obj_color(state, object1, 1)`",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object1, 1)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->complete(state)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object2, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->complete(state)->obj_color(state, object1, 9)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->complete(state)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)",
+                "obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)->complete([[1, 1, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 9, 9, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]])->complete(state)->obj_color(state, object1, 1)->obj_color(state, object1, 9)->obj_color(state, object1, 1)->obj_color(state, object2, 9)->complete(state)"
+            ]
+        }
+    ]
+}

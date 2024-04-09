@@ -6,87 +6,245 @@
                 ""
             ],
             "new_dsl_ys": [
-                "vertical_flip(state)",
-                "vertical_flip(state)"
+                "`move_right(state, object1)`",
+                "`move_right(state, object1)`",
+                "rotate_right_obj(state, object1)"
             ],
             "values": [
-                0.0,
-                0.0
+                0.001,
+                0.001,
+                0.001
             ],
             "select_new_ys": [
-                "vertical_flip(state)",
-                "vertical_flip(state)"
+                "`move_right(state, object1)`",
+                "`move_right(state, object1)`"
             ]
         },
         {
             "step": 1,
             "dsl_ys": [
-                "vertical_flip(state)",
-                "vertical_flip(state)"
+                "`move_right(state, object1)`",
+                "`move_right(state, object1)`"
             ],
             "new_dsl_ys": [
-                "vertical_flip(state)->vertical_flip(state)",
-                "vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)",
+                "`move_right(state, object1)`->move_right(state, object2)",
+                "`move_right(state, object1)`->`move_right(state, object2)`",
+                "`move_right(state, object1)`->move_right(state, object2)"
             ],
             "values": [
+                0.001,
+                0.001,
                 0.0,
-                0.0
+                0.001
             ],
             "select_new_ys": [
-                "vertical_flip(state)->vertical_flip(state)",
-                "vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)",
+                "`move_right(state, object1)`->move_right(state, object2)"
             ]
         },
         {
             "step": 2,
             "dsl_ys": [
-                "vertical_flip(state)->vertical_flip(state)",
-                "vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)",
+                "`move_right(state, object1)`->move_right(state, object2)"
             ],
             "new_dsl_ys": [
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object2)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object2)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object2)"
             ],
             "values": [
-                0.001,
-                0.001,
-                0.001
+                21.002,
+                21.002,
+                21.002,
+                0.0,
+                0.0,
+                0.0
             ],
             "select_new_ys": [
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)"
             ]
         },
         {
             "step": 3,
             "dsl_ys": [
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)"
             ],
             "new_dsl_ys": [
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)"
             ],
             "values": [
-                0.0
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
             ],
             "select_new_ys": [
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)"
             ]
         },
         {
             "step": 4,
             "dsl_ys": [
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)"
             ],
             "new_dsl_ys": [
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)"
             ],
             "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)"
+            ],
+            "new_dsl_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object4)`",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
                 0.001
             ],
             "select_new_ys": [
-                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object4)`"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object4)`"
+            ],
+            "new_dsl_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object4)`->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object4)`->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object4)`->move_right(state, object4)"
+            ],
+            "values": [
+                21.001,
+                21.001,
+                21.001,
+                21.001,
+                21.001
+            ],
+            "select_new_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)"
+            ],
+            "new_dsl_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object1)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object6)"
+            ],
+            "values": [
+                0.0,
+                0.001,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object1)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object1)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object1)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object1)->move_right(state, object1)"
+            ],
+            "values": [
+                21.001,
+                41.001,
+                21.001,
+                1.0,
+                1.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object4)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object4)"
+            ],
+            "new_dsl_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object6)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object6)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object6)->move_right(state, object6)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object4)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object4)->move_right(state, object4)"
+            ],
+            "values": [
+                1.0,
+                0.001,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object6)->move_right(state, object4)",
+                "`move_right(state, object1)`->move_right(state, object2)->move_right(state, object3)->move_right(state, object4)->move_right(state, object5)->`move_right(state, object6)`->move_right(state, object7)->move_right(state, object4)->move_right(state, object6)->move_right(state, object6)"
             ]
         }
     ]

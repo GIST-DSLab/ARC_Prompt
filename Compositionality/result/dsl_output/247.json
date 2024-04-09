@@ -1,0 +1,265 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "`X_line(state, 5, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "`X_line(state, 5, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "`X_line(state, 5, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`"
+            ],
+            "new_dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)",
+                "`X_line(state, 5, 5, 0)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)",
+                "`X_line(state, 5, 5, 0)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->`complete([[0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0], [6, 0, 6, 6, 6, 6, 6, 6, 6, 0, 6], [6, 6, 0, 6, 6, 6, 6, 6, 0, 6, 6], [6, 6, 6, 0, 6, 6, 6, 0, 6, 6, 6], [6, 6, 6, 6, 0, 6, 0, 6, 6, 6, 6], [6, 6, 6, 6, 6, 0, 6, 6, 6, 6, 6], [6, 6, 6, 6, 0, 6, 0, 6, 6, 6, 6], [6, 6, 6, 0, 6, 6, 6, 0, 6, 6, 6], [6, 6, 0, 6, 6, 6, 6, 6, 0, 6, 6], [6, 0, 6, 6, 6, 6, 6, 6, 6, 0, 6], [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 0]])`"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                0.0,
+                20.0,
+                0.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`"
+            ],
+            "new_dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                0.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`"
+            ],
+            "new_dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`X_line(state, 5, 5, 6)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`horizontal_line(state, 5, 0, 5, 10, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_flip(state)`"
+            ],
+            "values": [
+                20.0,
+                0.001,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`horizontal_line(state, 5, 0, 5, 10, 0)`"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`horizontal_line(state, 5, 0, 5, 10, 0)`"
+            ],
+            "new_dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`vertical_line(state, 0, 5, 10, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`vertical_line(state, 0, 5, 10, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`vertical_line(state, 0, 5, 10, 5, 0)`"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`"
+            ],
+            "new_dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`X_line(state, 5, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->complete(state)",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->complete(state)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                20.0,
+                0.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`X_line(state, 5, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->complete(state)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`X_line(state, 5, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`X_line(state, 5, 5, 0)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`X_line(state, 5, 5, 0)`->`X_line(state, 5, 5, 0)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`X_line(state, 5, 5, 0)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->complete(state)->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->complete(state)->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->complete(state)->`complete(state)`"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`X_line(state, 5, 5, 0)`->`complete(state)`",
+                "`X_line(state, 5, 5, 0)`->complete(state)->complete(state)->complete(state)->`complete(state)`->`complete(state)`->`vertical_line(state, 0, 5, 10, 5, 0)`->`horizontal_line(state, 5, 0, 5, 10, 0)`->`X_line(state, 5, 5, 0)`->`X_line(state, 5, 5, 0)`"
+            ]
+        }
+    ]
+}

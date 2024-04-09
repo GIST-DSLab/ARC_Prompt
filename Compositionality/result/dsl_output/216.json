@@ -1,0 +1,255 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "values": [
+                0.0,
+                20.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 2, 11, 8, 3, 4)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 9, 3, 4)",
+                "vertical_line(state, 2, 11, 8, 3, 4)->horizontal_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.0,
+                0.0,
+                0.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "values": [
+                0.001,
+                0.0,
+                0.001,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.001,
+                0.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "values": [
+                0.002,
+                0.002,
+                0.002,
+                20.001,
+                0.002
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ],
+            "values": [
+                0.002,
+                0.001,
+                0.0,
+                0.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)",
+                "vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 8, 3, 2, 11, 4)->vertical_line(state, 2, 11, 8, 3, 4)"
+            ]
+        }
+    ]
+}

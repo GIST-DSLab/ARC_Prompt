@@ -6,109 +6,82 @@
                 ""
             ],
             "new_dsl_ys": [
-                "`obj_color(state, object1, 2)`",
-                "obj_color(state, object1, 2)",
-                "obj_color(state, object1, 2)"
+                "`X_line(state, 7, 12, 6)`",
+                "X_line(state, 7, 12, 6)"
             ],
             "values": [
-                21.0,
-                1.0,
-                1.0
+                0.0,
+                20.0
             ],
             "select_new_ys": [
-                "`obj_color(state, object1, 2)`",
-                "obj_color(state, object1, 2)"
+                "X_line(state, 7, 12, 6)",
+                "`X_line(state, 7, 12, 6)`"
             ]
         },
         {
             "step": 1,
             "dsl_ys": [
-                "`obj_color(state, object1, 2)`",
-                "obj_color(state, object1, 2)"
+                "X_line(state, 7, 12, 6)",
+                "`X_line(state, 7, 12, 6)`"
             ],
             "new_dsl_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(current_state, object2, 2)`",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)"
+                "X_line(state, 7, 12, 6)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)",
+                "`X_line(state, 7, 12, 6)`->complete(state)",
+                "`X_line(state, 7, 12, 6)`->`complete(state)`"
             ],
             "values": [
                 20.0,
-                0.0,
-                1.0,
-                1.0,
-                1.0
+                20.0,
+                20.0,
+                0.0
             ],
             "select_new_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)"
+                "X_line(state, 7, 12, 6)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)"
             ]
         },
         {
             "step": 2,
             "dsl_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)"
+                "X_line(state, 7, 12, 6)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)"
             ],
             "new_dsl_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)"
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)"
             ],
             "values": [
-                1.0,
-                1.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
             ],
             "select_new_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`"
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)"
             ]
         },
         {
             "step": 3,
             "dsl_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`"
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)"
             ],
             "new_dsl_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`"
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)"
             ],
             "values": [
-                21.001,
-                21.001,
-                21.001,
-                21.001
-            ],
-            "select_new_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`"
-            ]
-        },
-        {
-            "step": 4,
-            "dsl_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`"
-            ],
-            "new_dsl_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`->`obj_color(state, object5, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`->`obj_color(state, object5, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`->`obj_color(state, object5, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`->`obj_color(state, object5, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`->`obj_color(state, object5, 2)`"
-            ],
-            "values": [
+                0.0,
                 0.0,
                 0.0,
                 0.0,
@@ -116,8 +89,170 @@
                 0.0
             ],
             "select_new_ys": [
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`->`obj_color(state, object5, 2)`",
-                "`obj_color(state, object1, 2)`->`obj_color(state, object2, 2)`->`obj_color(state, object3, 2)`->`obj_color(state, object4, 2)`->`obj_color(state, object5, 2)`"
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                20.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->`complete(state)`",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`->complete(state)"
+            ],
+            "values": [
+                20.0,
+                0.0,
+                20.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->X_line(state, 7, 4, 6)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->X_line(state, 7, 12, 6)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->X_line(state, 7, 4, 6)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->X_line(state, 7, 4, 6)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->`X_line(state, 7, 12, 6)`->complete(state)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->X_line(state, 7, 4, 6)->X_line(state, 7, 4, 6)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->X_line(state, 7, 4, 6)->X_line(state, 7, 4, 6)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->X_line(state, 7, 4, 6)->X_line(state, 7, 4, 6)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->X_line(state, 7, 4, 6)->X_line(state, 7, 4, 6)",
+                "X_line(state, 7, 12, 6)->complete(state)->complete(state)->complete(state)->complete(state)->X_line(state, 7, 12, 6)->complete(state)->complete(state)->X_line(state, 7, 4, 6)->X_line(state, 7, 4, 6)"
             ]
         }
     ]

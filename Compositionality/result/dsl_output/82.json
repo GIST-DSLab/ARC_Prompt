@@ -6,124 +6,255 @@
                 ""
             ],
             "new_dsl_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`",
-                "horizontal_line(state, 0, 0, 0, 8, 1)",
-                "diagonal_line(state, 0, 0, 2, 2, 1)"
+                "move_left(state, object1)",
+                "move_left(state, object1)",
+                "move_left(state, object1)"
             ],
             "values": [
-                41.001,
-                20.0,
-                0.0
+                1.0,
+                1.0,
+                1.0
             ],
             "select_new_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`",
-                "horizontal_line(state, 0, 0, 0, 8, 1)"
+                "move_left(state, object1)",
+                "move_left(state, object1)"
             ]
         },
         {
             "step": 1,
             "dsl_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`",
-                "horizontal_line(state, 0, 0, 0, 8, 1)"
+                "move_left(state, object1)",
+                "move_left(state, object1)"
             ],
             "new_dsl_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`horizontal_line(state, 0, 4, 0, 8, 6)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`obj_color(state, object1, 9)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)",
-                "horizontal_line(state, 0, 0, 0, 8, 1)->horizontal_line(state, 1, 0, 1, 8, 1)",
-                "horizontal_line(state, 0, 0, 0, 8, 1)->horizontal_line(state, 1, 0, 1, 8, 9)",
-                "horizontal_line(state, 0, 0, 0, 8, 1)->horizontal_line(state, 1, 0, 1, 8, 9)"
+                "move_left(state, object1)->move_left(state, object2)",
+                "move_left(state, object1)->move_left(state, object2)",
+                "move_left(state, object1)->move_left(state, object2), move_left(state, object3), move_left(state, object4), move_left(state, object5), move_left(state, object6), move_left(state, object7)",
+                "move_left(state, object1)->",
+                "move_left(state, object1)->move_left(state, object2)",
+                "move_left(state, object1)->move_left(state, object2)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                20.0,
+                20.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "move_left(state, object1)->move_left(state, object2), move_left(state, object3), move_left(state, object4), move_left(state, object5), move_left(state, object6), move_left(state, object7)",
+                "move_left(state, object1)->"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "move_left(state, object1)->move_left(state, object2), move_left(state, object3), move_left(state, object4), move_left(state, object5), move_left(state, object6), move_left(state, object7)",
+                "move_left(state, object1)->"
+            ],
+            "new_dsl_ys": [
+                "move_left(state, object1)->move_left(state, object2), move_left(state, object3), move_left(state, object4), move_left(state, object5), move_left(state, object6), move_left(state, object7)->`move_left(state, object1)`",
+                "move_left(state, object1)->move_left(state, object2), move_left(state, object3), move_left(state, object4), move_left(state, object5), move_left(state, object6), move_left(state, object7)->move_left(state, {'object1': [[3, 6], [3, 7], [3, 8], [4, 6], [4, 7], [4, 8], [5, 6], [5, 7], [5, 8]], 'object2': [[4, 0]], 'object3': [[4, 2]], 'object4': [[4, 4], [4, 6]], 'object5': [[4, 10], [4, 12]], 'object6': [[4, 14]], 'object7': [[4, 16]]})",
+                "move_left(state, object1)->->move_left(state, object1)",
+                "move_left(state, object1)->->move_left(state, object1)",
+                "move_left(state, object1)->->move_left(state, object2)"
+            ],
+            "values": [
+                20.001,
+                0.001,
+                0.0,
+                0.0,
+                1.001
+            ],
+            "select_new_ys": [
+                "move_left(state, object1)->move_left(state, object2), move_left(state, object3), move_left(state, object4), move_left(state, object5), move_left(state, object6), move_left(state, object7)->`move_left(state, object1)`",
+                "move_left(state, object1)->->move_left(state, object2)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "move_left(state, object1)->move_left(state, object2), move_left(state, object3), move_left(state, object4), move_left(state, object5), move_left(state, object6), move_left(state, object7)->`move_left(state, object1)`",
+                "move_left(state, object1)->->move_left(state, object2)"
+            ],
+            "new_dsl_ys": [
+                "move_left(state, object1)->move_left(state, object2), move_left(state, object3), move_left(state, object4), move_left(state, object5), move_left(state, object6), move_left(state, object7)->`move_left(state, object1)`->move_left(state, object1)",
+                "move_left(state, object1)->move_left(state, object2), move_left(state, object3), move_left(state, object4), move_left(state, object5), move_left(state, object6), move_left(state, object7)->`move_left(state, object1)`->move_left(state, object1)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object3)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object3)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.001,
+                20.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object3)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object3)"
+            ],
+            "new_dsl_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object2)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)"
             ],
             "values": [
                 1.0,
-                0.0,
+                0.001,
                 1.0,
                 1.0,
                 1.0,
                 1.0
             ],
             "select_new_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`horizontal_line(state, 0, 4, 0, 8, 6)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)"
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)"
             ]
         },
         {
-            "step": 2,
+            "step": 5,
             "dsl_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`horizontal_line(state, 0, 4, 0, 8, 6)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)"
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)"
             ],
             "new_dsl_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`horizontal_line(state, 0, 4, 0, 8, 6)`->`obj_color(state, object1, 1)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`horizontal_line(state, 0, 4, 0, 8, 6)`->`horizontal_line(state, 1, 4, 1, 8, 6)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`horizontal_line(state, 0, 4, 0, 8, 6)`->`horizontal_line(state, 1, 4, 1, 8, 6)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 0, 0, 3, 6)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 1, 4, 1, 8, 6)"
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)"
             ],
             "values": [
-                20.0,
-                0.0,
-                0.0,
-                0.001,
                 1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)"
+            ],
+            "new_dsl_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)"
+            ],
+            "values": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object5)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object5)"
+            ],
+            "new_dsl_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object5)->move_left(state, object4)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object5)->move_left(state, object3)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object5)->move_left(state, object2)"
+            ],
+            "values": [
+                1.0,
+                1.0,
+                1.0,
+                0.0,
+                0.0,
                 0.0
             ],
             "select_new_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`horizontal_line(state, 0, 4, 0, 8, 6)`->`obj_color(state, object1, 1)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)"
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)"
             ]
         },
         {
-            "step": 3,
+            "step": 8,
             "dsl_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`horizontal_line(state, 0, 4, 0, 8, 6)`->`obj_color(state, object1, 1)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)"
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)"
             ],
             "new_dsl_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`horizontal_line(state, 0, 4, 0, 8, 6)`->`obj_color(state, object1, 1)`->vertical_line(state, 0, 4, 2, 4, 9)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->`horizontal_line(state, 0, 4, 0, 8, 6)`->`obj_color(state, object1, 1)`->obj_color(state, object1, 1)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->horizontal_line(state, 0, 4, 0, 8, 6)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->`obj_color(state, object1, 1)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->obj_color(state, object1, 1)"
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)"
             ],
             "values": [
+                20.001,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)"
+            ],
+            "new_dsl_ys": [
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object5)->move_left(state, object6)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object5)->move_left(state, object6)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object5)->move_left(state, object2)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)->move_left(state, object5)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)->move_left(state, object7)"
+            ],
+            "values": [
+                1.0,
+                1.0,
                 0.0,
-                0.0,
-                0.001,
                 21.001,
-                0.001
+                41.001
             ],
             "select_new_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->`obj_color(state, object1, 1)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->horizontal_line(state, 0, 4, 0, 8, 6)"
-            ]
-        },
-        {
-            "step": 4,
-            "dsl_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->`obj_color(state, object1, 1)`",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->horizontal_line(state, 0, 4, 0, 8, 6)"
-            ],
-            "new_dsl_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->`obj_color(state, object1, 1)`->vertical_line(state, 0, 4, 2, 4, 9)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->`obj_color(state, object1, 1)`->vertical_line(state, 0, 4, 2, 4, 9)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->`obj_color(state, object1, 1)`->horizontal_line(state, 0, 4, 0, 8, 6)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 0, 0, 3, 1)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 2, 0, 2, 3, 1)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->horizontal_line(state, 0, 4, 0, 8, 6)->obj_color(state, object1, 9)"
-            ],
-            "values": [
-                0.001,
-                0.001,
-                0.001,
-                0.001,
-                0.001,
-                0.001
-            ],
-            "select_new_ys": [
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->`obj_color(state, object1, 1)`->vertical_line(state, 0, 4, 2, 4, 9)",
-                "`vertical_line(state, 0, 4, 2, 4, 9)`->horizontal_line(state, 0, 4, 0, 8, 6)->horizontal_line(state, 0, 4, 2, 4, 9)->`obj_color(state, object1, 1)`->vertical_line(state, 0, 4, 2, 4, 9)"
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)->move_left(state, object7)",
+                "move_left(state, object1)->->move_left(state, object2)->move_left(state, object2)->move_left(state, object3)->move_left(state, object4)->move_left(state, object4)->move_left(state, object5)->move_left(state, object6)->move_left(state, object5)"
             ]
         }
     ]

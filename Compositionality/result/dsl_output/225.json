@@ -1,0 +1,257 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)"
+            ],
+            "values": [
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)"
+            ],
+            "values": [
+                21.001,
+                21.001,
+                21.001,
+                21.001,
+                21.001
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->obj_color(state, object1, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->move_right(state, object1)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->move_left(state, object1)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`"
+            ],
+            "values": [
+                0.0,
+                20.0,
+                0.0,
+                0.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)->obj_color(state, object3, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)->`obj_color(state, object3, 2)`",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)->pixel_color(state, 4, 1, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, object1)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, object1)"
+            ],
+            "values": [
+                20.0,
+                0.001,
+                0.001,
+                1.001,
+                41.001,
+                1.001
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)->obj_color(state, object3, 2)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)->obj_color(state, object3, 2)"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)->obj_color(state, object3, 2)->pixel_color(state, 6, 4, 2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)->obj_color(state, object3, 2)->move_right(state,object2)",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->pixel_color(state, 2, 7, 2)->obj_color(state, object3, 2)->obj_color(state, object1, 2)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                21.001,
+                20.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object4': [[9, 1]], 'object5': [[9, 4]], 'object6': [[9, 8]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(current_state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                0.0,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 9]], 'object2': [[4, 3]], 'object3': [[6, 6]]})"
+            ],
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 9]], 'object2': [[4, 3]], 'object3': [[6, 6]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]]})"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 9]], 'object2': [[4, 3]], 'object3': [[6, 6]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]]})"
+            ],
+            "new_dsl_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 9]], 'object2': [[4, 3]], 'object3': [[6, 6]]})->move_right(state, {'object1': [[2, 9]], 'object2': [[4, 3]], 'object3': [[6, 6]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 9]], 'object2': [[4, 3]], 'object3': [[6, 6]]})->move_right(state, {'object1': [[2, 9]], 'object2': [[4, 3]], 'object3': [[6, 6]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 9]], 'object2': [[4, 3]], 'object3': [[6, 6]]})->move_right(state, {'object1': [[2, 9]], 'object2': [[4, 3]], 'object3': [[6, 6]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]]})->move_right(state, {'object1': [[2, 8]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]]})->move_right(state, {'object1': [[2, 8]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]]})->move_right(state, {'object1': [[2, 8]]})"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]]})->move_right(state, {'object1': [[2, 8]]})",
+                "vertical_line(state, 9, 1, 0, 1, 2)->vertical_line(state, 9, 4, 0, 4, 2)->vertical_line(state, 9, 8, 0, 8, 2)->`move_right(state, object1)->move_right(state, object2)->move_right(state, object3)`->move_right(state, {'object1': [[2, 7]], 'object2': [[4, 1]], 'object3': [[6, 4]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]], 'object2': [[4, 2]], 'object3': [[6, 5]]})->move_right(state, {'object1': [[2, 8]]})->move_right(state, {'object1': [[2, 8]]})"
+            ]
+        }
+    ]
+}

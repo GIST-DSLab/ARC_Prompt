@@ -6,118 +6,257 @@
                 ""
             ],
             "new_dsl_ys": [
-                "obj_color(state, object2, 3)",
-                "`obj_color(state, object2, 3)`",
-                "obj_color(state, object2, 3)"
+                "`move_left(state, object1)`",
+                "`rotate_left_obj(state, object1)`"
             ],
             "values": [
-                20.0,
-                1.0,
+                0.0,
                 20.0
             ],
             "select_new_ys": [
-                "obj_color(state, object2, 3)",
-                "obj_color(state, object2, 3)"
+                "`rotate_left_obj(state, object1)`",
+                "`move_left(state, object1)`"
             ]
         },
         {
             "step": 1,
             "dsl_ys": [
-                "obj_color(state, object2, 3)",
-                "obj_color(state, object2, 3)"
+                "`rotate_left_obj(state, object1)`",
+                "`move_left(state, object1)`"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)",
-                "obj_color(state, object2, 3)->`obj_color(state, object1, 8)`",
-                "obj_color(state, object2, 3)->`obj_color(state, object1, 8)`",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)"
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`rotate_left_obj(state, object1)`",
+                "`rotate_left_obj(state, object1)`->complete(current_state)",
+                "`move_left(state, object1)`->`move_left(state, object1)`",
+                "`move_left(state, object1)`->move_left(state, object1)",
+                "`move_left(state, object1)`->`move_left(state, object1)`"
             ],
             "values": [
                 21.001,
-                0.001,
-                0.001,
                 21.001,
-                21.001,
-                21.001
+                20.0,
+                0.0,
+                40.001,
+                0.0
             ],
             "select_new_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)"
+                "`move_left(state, object1)`->move_left(state, object1)",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`"
             ]
         },
         {
             "step": 2,
             "dsl_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)"
+                "`move_left(state, object1)`->move_left(state, object1)",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->`obj_color(state, object5, 8)`"
+                "`move_left(state, object1)`->move_left(state, object1)->complete(state)",
+                "`move_left(state, object1)`->move_left(state, object1)->move_left(state, object1)",
+                "`move_left(state, object1)`->move_left(state, object1)->move_left(state, object1)",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(current_state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`"
             ],
             "values": [
                 20.0,
+                0.001,
+                0.001,
                 20.0,
-                20.0,
-                20.0,
-                20.0,
-                20.0
+                20.001,
+                21.002
             ],
             "select_new_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)"
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`"
             ]
         },
         {
             "step": 3,
             "dsl_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)"
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object7, 4)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object7, 4)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object3, 8)"
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`complete(current_state)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`complete([[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 4, 0, 0], [0, 0, 0, 0, 4, 0, 0, 4, 0, 0], [0, 0, 0, 4, 0, 0, 0, 4, 0, 0], [0, 0, 0, 4, 0, 0, 0, 4, 0, 0], [0, 0, 0, 4, 0, 0, 0, 4, 0, 0], [0, 0, 0, 4, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 0, 4, 0, 0, 0, 0], [0, 0, 0, 4, 4, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]])`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->rotate_left_obj(state, object1)"
             ],
             "values": [
-                1.0,
-                1.0,
-                20.0
+                0.0,
+                20.0,
+                20.0,
+                0.001,
+                21.001,
+                0.0
             ],
             "select_new_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object3, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object7, 4)"
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`"
             ]
         },
         {
             "step": 4,
             "dsl_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object3, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object7, 4)"
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object3, 8)->obj_color(state, object4, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object3, 8)->obj_color(state, object4, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object7, 4)->`obj_color(state, object3, 8)`",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object7, 4)->`obj_color(state, object3, 8)`",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object7, 4)->`obj_color(state, object3, 8)`"
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)"
             ],
             "values": [
-                20.0,
-                20.0,
-                20.0,
-                20.0,
+                21.001,
+                21.001,
+                21.001,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`"
+            ],
+            "new_dsl_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.001,
+                0.0,
                 20.0
             ],
             "select_new_ys": [
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object3, 8)->obj_color(state, object4, 8)",
-                "obj_color(state, object2, 3)->obj_color(state, object1, 8)->obj_color(state, object5, 8)->obj_color(state, object3, 8)->obj_color(state, object4, 8)"
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`"
+            ],
+            "new_dsl_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_right(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`->`move_right(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`->move_down(state, object1)",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`->`move_down(state, object1)`"
+            ],
+            "values": [
+                21.001,
+                21.001,
+                0.0,
+                21.002,
+                21.001,
+                1.0
+            ],
+            "select_new_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`->`move_right(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`->`move_right(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`"
+            ],
+            "new_dsl_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`->`move_right(state, object1)`->move_down(state, object1)",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`->`move_right(state, object1)`->move_down(state, object1)",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->`rotate_left_obj(state, object1)`->`move_right(state, object1)`->`move_right(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                1.001,
+                1.001,
+                21.001
+            ],
+            "select_new_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`"
+            ],
+            "new_dsl_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`->`horizontal_flip(state)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`->`horizontal_flip(state)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`->`horizontal_flip(state)`"
+            ],
+            "values": [
+                0.001,
+                0.0,
+                0.0,
+                1.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`->`move_down(state, object1)`"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`->`move_down(state, object1)`"
+            ],
+            "new_dsl_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_right(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`->`move_down(state, object1)`->`move_right(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`vertical_flip(state)`->`move_down(state, object1)`->move_right(state, object1)"
+            ],
+            "values": [
+                20.001,
+                0.0,
+                20.001,
+                0.001,
+                0.001,
+                0.0
+            ],
+            "select_new_ys": [
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`",
+                "`rotate_left_obj(state, object1)`->`move_down(state, object1)`->`complete(state)`->`move_down(state, object1)`->`move_down(state, object1)`->move_down(state, object1)->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`->`move_down(state, object1)`"
             ]
         }
     ]
