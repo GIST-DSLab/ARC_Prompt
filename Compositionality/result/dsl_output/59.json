@@ -6,118 +6,255 @@
                 ""
             ],
             "new_dsl_ys": [
-                "`X_line(state, 8, 0, 2)`",
-                "X_line(state, 8, 2, 6)",
-                "`X_line(state, 4, 0, 2)`"
+                "diagonal_line(state, 0, 0, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)"
             ],
             "values": [
-                0.0,
-                0.001,
-                0.001
+                20.0,
+                20.0
             ],
             "select_new_ys": [
-                "X_line(state, 8, 2, 6)",
-                "`X_line(state, 4, 0, 2)`"
+                "diagonal_line(state, 0, 0, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)"
             ]
         },
         {
             "step": 1,
             "dsl_ys": [
-                "X_line(state, 8, 2, 6)",
-                "`X_line(state, 4, 0, 2)`"
+                "diagonal_line(state, 0, 0, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)"
             ],
             "new_dsl_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->pixel_color(state, 9, 9, 2)"
             ],
             "values": [
-                0.001,
-                20.001
+                20.001,
+                20.001,
+                20.001,
+                0.0,
+                0.0,
+                0.0
             ],
             "select_new_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)"
             ]
         },
         {
             "step": 2,
             "dsl_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)"
             ],
             "new_dsl_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)->X_line(state, 4, 3, 4)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)->X_line(state, 0, 1, 5)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)->vertical_line(state, 1, 9, 9, 9, 6)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->obj_color(state, object3, 0)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->`X_line(state, 8, 5, 2)`"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 0, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 0, 4)"
             ],
             "values": [
-                0.0,
-                0.0,
                 20.0,
-                0.001,
-                21.001,
+                20.0,
+                0.0,
+                20.001,
+                20.0,
                 20.0
             ],
             "select_new_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)->vertical_line(state, 1, 9, 9, 9, 6)"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)"
             ]
         },
         {
             "step": 3,
             "dsl_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)->vertical_line(state, 1, 9, 9, 9, 6)"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)"
             ],
             "new_dsl_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 7, 4)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->`X_line(state, 8, 8, 3)`",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 5, 2)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)->vertical_line(state, 1, 9, 9, 9, 6)->X_line(state, 8, 8, 3)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)->vertical_line(state, 1, 9, 9, 9, 6)->horizontal_line(state, 6, 0, 6, 9, 5)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 6, 4)->vertical_line(state, 1, 9, 9, 9, 6)->horizontal_line(state, 7, 1, 7, 9, 4)"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 0, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->complete(state)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)"
             ],
             "values": [
+                0.0,
+                0.0,
                 20.0,
-                0.001,
+                0.0,
                 20.0,
-                0.001,
-                0.001,
-                1.0
+                20.0
             ],
             "select_new_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 7, 4)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 5, 2)"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 0, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)"
             ]
         },
         {
             "step": 4,
             "dsl_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 7, 4)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 5, 2)"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 0, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)"
             ],
             "new_dsl_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 7, 4)->X_line(state, 8, 5, 2)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 7, 4)->X_line(state, 8, 5, 2)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 7, 4)->X_line(state, 8, 5, 2)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 5, 2)->X_line(state, 8, 7, 4)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 5, 2)->X_line(state, 8, 7, 4)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 5, 2)->X_line(state, 8, 7, 4)"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->complete(state)"
             ],
             "values": [
+                0.001,
+                0.001,
+                0.001,
+                20.0,
+                20.001,
+                0.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 0, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 9, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 4)"
+            ],
+            "values": [
+                1.0,
+                0.0,
+                1.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 4)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 4)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 1, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 4)->obj_color(state, object1, 4)"
+            ],
+            "values": [
+                20.0,
+                1.0,
+                20.0,
                 0.0,
                 0.0,
-                0.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 0, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 8, 4)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)->diagonal_line(current_state, 0, 9, 9, 0, 2)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)->pixel_color(state, 9, 8, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)->horizontal_line(state, 9, 2, 9, 8, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)->horizontal_line(state, 9, 2, 9, 7, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)->horizontal_line(state, 9, 2, 9, 8, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)->pixel_color(state, 9, 2, 4)"
+            ],
+            "values": [
+                0.001,
+                20.001,
+                0.001,
+                20.001,
+                20.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)->pixel_color(state, 9, 8, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)->horizontal_line(state, 9, 2, 9, 7, 4)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)->pixel_color(state, 9, 8, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)->horizontal_line(state, 9, 2, 9, 7, 4)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)->pixel_color(state, 9, 8, 4)->pixel_color(state, 9, 2, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)->pixel_color(state, 9, 8, 4)->pixel_color(state, 9, 2, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)->pixel_color(state, 9, 8, 4)->pixel_color(state, 9, 2, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)->horizontal_line(state, 9, 2, 9, 7, 4)->horizontal_line(state, 9, 2, 9, 7, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)->horizontal_line(state, 9, 2, 9, 7, 4)->horizontal_line(state, 9, 2, 9, 7, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(state, 9, 1, 2)->horizontal_line(state, 9, 2, 9, 7, 4)->horizontal_line(state, 9, 2, 9, 7, 4)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
                 0.001,
                 0.001,
                 0.001
             ],
             "select_new_ys": [
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 5, 2)->X_line(state, 8, 7, 4)",
-                "X_line(state, 8, 2, 6)->X_line(state, 8, 4, 6)->X_line(state, 8, 0, 2)->X_line(state, 8, 5, 2)->X_line(state, 8, 7, 4)"
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)->pixel_color(state, 9, 8, 4)->pixel_color(state, 9, 2, 4)",
+                "diagonal_line(state, 0, 0, 9, 9, 2)->diagonal_line(state, 0, 9, 9, 0, 4)->pixel_color(state, 9, 9, 4)->pixel_color(state, 9, 0, 4)->pixel_color(state, 9, 0, 2)->pixel_color(state, 9, 9, 2)->pixel_color(state, 9, 1, 4)->pixel_color(current_state, 9, 1, 2)->pixel_color(state, 9, 8, 4)->pixel_color(state, 9, 2, 4)"
             ]
         }
     ]

@@ -6,86 +6,80 @@
                 ""
             ],
             "new_dsl_ys": [
-                "`pixel_color(state, 8, 4, 9)`",
-                "diagonal_line(state, 0, 0, 8, 8, 9)",
-                "`pixel_color(state, 8, 4, 9)`"
+                "vertical_flip(state)",
+                "`vertical_flip(state)`",
+                "horizontal_flip(state)"
             ],
             "values": [
-                20.0,
-                1.0,
+                0.0,
+                0.0,
                 20.0
             ],
             "select_new_ys": [
-                "`pixel_color(state, 8, 4, 9)`",
-                "`pixel_color(state, 8, 4, 9)`"
+                "horizontal_flip(state)",
+                "vertical_flip(state)"
             ]
         },
         {
             "step": 1,
             "dsl_ys": [
-                "`pixel_color(state, 8, 4, 9)`",
-                "`pixel_color(state, 8, 4, 9)`"
+                "horizontal_flip(state)",
+                "vertical_flip(state)"
             ],
             "new_dsl_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`"
+                "vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->horizontal_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)"
             ],
             "values": [
-                20.0,
-                20.0,
-                20.0,
-                20.0,
-                20.0,
-                20.0
+                0.001,
+                1.0,
+                0.001
             ],
             "select_new_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`"
+                "vertical_flip(state)->horizontal_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)"
             ]
         },
         {
             "step": 2,
             "dsl_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`"
+                "vertical_flip(state)->horizontal_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)"
             ],
             "new_dsl_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`"
+                "vertical_flip(state)->horizontal_flip(state)->complete(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
             ],
             "values": [
                 0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
+                20.0,
+                20.0,
+                20.0
             ],
             "select_new_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`"
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
             ]
         },
         {
             "step": 3,
             "dsl_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`"
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
             ],
             "new_dsl_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->complete(state)",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->complete(state)",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->`complete(state)`"
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
             ],
             "values": [
+                20.0,
                 20.0,
                 20.0,
                 20.0,
@@ -93,23 +87,158 @@
                 20.0
             ],
             "select_new_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->complete(state)"
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
             ]
         },
         {
             "step": 4,
             "dsl_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->complete(state)"
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
             ],
             "new_dsl_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->`complete(state)`->complete(state)",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->`complete(state)`->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->complete(state)->`complete(state)`",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->complete(state)->complete(state)",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->complete(state)->complete(state)"
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+            ],
+            "values": [
+                20.0,
+                0.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+            ],
+            "new_dsl_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                20.0,
+                20.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)"
+            ],
+            "new_dsl_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->complete(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                0.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)"
+            ],
+            "new_dsl_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->complete(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                0.001,
+                20.0
+            ],
+            "select_new_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
+            ],
+            "new_dsl_ys": [
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
             ],
             "values": [
                 20.0,
@@ -120,8 +249,8 @@
                 20.0
             ],
             "select_new_ys": [
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->`complete(state)`->complete(state)",
-                "`pixel_color(state, 8, 4, 9)`->`complete(state)`->`complete(state)`->`complete(state)`->`complete(state)`"
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)",
+                "vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->complete(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)->vertical_flip(state)"
             ]
         }
     ]

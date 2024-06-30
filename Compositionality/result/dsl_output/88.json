@@ -6,96 +6,231 @@
                 ""
             ],
             "new_dsl_ys": [
-                "rotate_right_obj(state, object1)",
-                "rotate_right_obj(state, object1)",
-                "rotate_right_obj(state, object1)"
+                "move_down(state, object1)"
             ],
             "values": [
-                21.0,
-                21.0,
-                21.0
+                1.0
             ],
             "select_new_ys": [
-                "rotate_right_obj(state, object1)",
-                "rotate_right_obj(state, object1)"
+                "move_down(state, object1)"
             ]
         },
         {
             "step": 1,
             "dsl_ys": [
-                "rotate_right_obj(state, object1)",
-                "rotate_right_obj(state, object1)"
+                "move_down(state, object1)"
             ],
             "new_dsl_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)"
+                "move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->`move_right(state, object2)`"
             ],
             "values": [
-                0.0
+                0.0,
+                0.0,
+                1.0
             ],
             "select_new_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)"
+                "move_down(state, object1)->`move_right(state, object2)`",
+                "move_down(state, object1)->move_down(state, object2)"
             ]
         },
         {
             "step": 2,
             "dsl_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)"
+                "move_down(state, object1)->`move_right(state, object2)`",
+                "move_down(state, object1)->move_down(state, object2)"
             ],
             "new_dsl_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)"
+                "move_down(state, object1)->`move_right(state, object2)`->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)"
             ],
             "values": [
+                1.001,
+                0.001,
                 0.001
             ],
             "select_new_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)"
+                "move_down(state, object1)->`move_right(state, object2)`->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)"
             ]
         },
         {
             "step": 3,
             "dsl_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)"
+                "move_down(state, object1)->`move_right(state, object2)`->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)"
             ],
             "new_dsl_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)",
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)",
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)"
+                "move_down(state, object1)->`move_right(state, object2)`->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)"
             ],
             "values": [
-                1.0,
-                1.0,
-                1.0
+                20.0,
+                21.001,
+                21.001
             ],
             "select_new_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)",
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)"
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)"
             ]
         },
         {
             "step": 4,
             "dsl_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)",
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)"
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)"
             ],
             "new_dsl_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)",
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)",
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object7)",
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)",
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object2)",
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object7)"
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)"
+            ],
+            "new_dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)"
+            ],
+            "values": [
+                21.001,
+                21.001,
+                21.001,
+                21.001,
+                21.001
+            ],
+            "select_new_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)"
+            ],
+            "values": [
+                0.0,
+                0.001,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)"
+            ],
+            "new_dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)"
             ],
             "values": [
                 0.001,
                 0.001,
                 0.001,
                 0.001,
-                0.0,
+                0.001,
                 0.001
             ],
             "select_new_ys": [
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)",
-                "rotate_right_obj(state, object1)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)->rotate_right_obj(current_state, object3)"
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)",
+                "move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object2)->move_down(state, object1)->move_down(state, object1)"
             ]
         }
     ]

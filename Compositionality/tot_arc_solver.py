@@ -13,10 +13,10 @@ task = ARCTask()
 
 # Solve ARC task with tot prompts and DSLs
 for i in range(99):
-    if not os.path.exists('arc_result'):
-        os.mkdir('arc_result')
+    if not os.path.exists('result\\dsl_output'):
+        os.mkdir('result\\dsl_output')
 
     ys, infos = arc_solve(args, task, i)
 
-    with open(f'arc_result/{i}.json', 'w') as f:
+    with open(f'result\\dsl_output\\{i}.json', 'w') as f:
         json.dump(infos, f, indent=4)

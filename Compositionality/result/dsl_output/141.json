@@ -1,0 +1,257 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "rotate_right_obj(state, object1)",
+                "X_line(state, 4, 1, 2)",
+                "rotate_right_obj(state, object1)"
+            ],
+            "values": [
+                0.0,
+                20.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 4, 1, 2)",
+                "rotate_right_obj(state, object1)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "X_line(state, 4, 1, 2)",
+                "rotate_right_obj(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)",
+                "rotate_right_obj(state, object1)->X_line(Current_state, 3, 3, 2)",
+                "rotate_right_obj(state, object1)->X_line(state, 3, 1, 2)",
+                "rotate_right_obj(state, object1)->X_line(Current_state, 3, 0, 2)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "rotate_right_obj(state, object1)->X_line(state, 3, 1, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "rotate_right_obj(state, object1)->X_line(state, 3, 1, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)"
+            ],
+            "new_dsl_ys": [
+                "rotate_right_obj(state, object1)->X_line(state, 3, 1, 2)->X_line(state, 3, 1, 2)",
+                "rotate_right_obj(state, object1)->X_line(state, 3, 1, 2)->X_line(state, 3, 1, 2)",
+                "rotate_right_obj(state, object1)->X_line(state, 3, 1, 2)->X_line(state, 3, 1, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->complete(state)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->`X_line(state, 4, 7, 2)`",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                22.001,
+                1.001
+            ],
+            "select_new_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->`X_line(state, 4, 7, 2)`",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->`X_line(state, 4, 7, 2)`",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->`X_line(state, 4, 7, 2)`->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->`X_line(state, 4, 7, 2)`->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->`X_line(state, 4, 7, 2)`->`X_line(state, 4, 7, 2)`",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                20.0,
+                21.0,
+                0.0,
+                21.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 5, 2, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 1, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 5, 1, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 2, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 5, 2, 2)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                1.0,
+                1.0,
+                0.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 5, 2, 2)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 5, 2, 2)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 2, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 5, 2, 2)->X_line(state, 3, 0, 2)"
+            ],
+            "values": [
+                21.0,
+                21.0,
+                1.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 0, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 0, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 0, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)"
+            ],
+            "values": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 8, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 5, 6, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 0, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 0, 2)"
+            ],
+            "values": [
+                21.001,
+                21.001,
+                21.001,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 8, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 5, 6, 2)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 8, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 5, 6, 2)"
+            ],
+            "new_dsl_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 8, 2)->X_line(state, 4, 0, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 8, 2)->complete(state)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 8, 2)->X_line(state, 4, 0, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 5, 6, 2)->X_line(state, 5, 6, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 5, 6, 2)->X_line(state, 3, 8, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 5, 6, 2)->X_line(state, 5, 6, 2)"
+            ],
+            "values": [
+                41.0,
+                20.0,
+                41.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 8, 2)->X_line(state, 4, 0, 2)",
+                "X_line(state, 4, 1, 2)->X_line(state, 5, 1, 2)->X_line(state, 3, 0, 2)->X_line(state, 5, 2, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 7, 2)->X_line(state, 4, 8, 2)->X_line(state, 4, 0, 2)"
+            ]
+        }
+    ]
+}

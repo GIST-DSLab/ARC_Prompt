@@ -13,6 +13,8 @@
 
 
 ## Explanation about Python Codes
+```id_generator.py```: mapping ARC problem with corresponding task ID.
+
 ```obj_create.py```: makes arc.json from arc_no_object.json to contain the object information from ```PnP.py```.
 
 ```output_grid.py```: makes output grids according to the result of ```tot_arc_solver.py```.
@@ -21,7 +23,7 @@
 
 ```tot_arc_solver.py```: solves ARC tasks with ToT.
 
-```ults.py```: contains functions for ```visualization.py```.
+```utils.py```: contains functions for ```visualization.py```.
 
 ```visualization.py```: visualizes results.
 
@@ -43,20 +45,24 @@ python obj_create.py
 ```
 python tot_arc_solver.py
 ```
-3. Generate the expected output grid for each ARC task.
+3. Map the problem with Task ID.
+```
+python id_generator.py
+```
+4. Generate the expected output grid for each ARC task.
 ```
 python output_grid.py
 ```
-3. Visualize results.
+5. Visualize results.
 ```
 python visualization.py
 ```
-4. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
+6. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
 ```
 xdg-open result/result_correct.html
 xdg-open result/result_incorrect.html
 ```
-5. Move to the origin directory.
+7. Move to the origin directory.
 ```
 cd ..
 ```
@@ -90,18 +96,16 @@ The below figures represent all of the processes of the experiment.
 
 
 ## Results
-The accuracy is based on solving 99 random ARC tasks with ToT prompts and DSLs.
-We select 99 of the 100 ARC tasks that are the same as the experiment of [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence/README.md#results) as targets for this experiment. 
-One task is excluded because an error occurred. 
+The accuracy is based on solving the problems in the training set, 260 questions with the same input/output dimensions, with ToT prompts and DSLs.
 We also classify the tasks based on [ARC-Game](https://github.com/volotat/ARC-Game) and organize experimental results like below.
 
 <div align="center">
   
 |          | Entry | Easy  | Medium | Hard  | Etc   | Total |
 |:--------:|:-----:|:-----:|:------:|:-----:|:-----:|:-----:|
-| Tasks    | 2     | 19    | 46     | 14    | 18    | 99    |
-| Correct  | 0     | 0     | 3      | 0     | 0     | 3     |
-| Accuracy | 0.00% | 0.00% | 6.52%  | 0.00% | 0.00% | 3.03% |
+| Tasks    | 5     | 152    | 65     | 10    | 28    | 260    |
+| Correct  | 0     | 1     | 0      | 0     | 1     | 2     |
+| Accuracy | 0.000% | 0.006% | 0.000%  | 0.000% | 0.036% | 0.008% |
 
 </div>
 

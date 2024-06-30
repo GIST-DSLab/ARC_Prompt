@@ -1,0 +1,259 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)",
+                "horizontal_line(state, 0, 1, 2, 1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)"
+            ],
+            "values": [
+                0.001,
+                0.0,
+                0.001
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "values": [
+                20.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)->complete(state)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)->complete(state)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)->complete(state)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.001,
+                20.001,
+                20.001
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object1': [[0, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)->complete([[0, 2, 0], [0, 2, 0], [0, 2, 0]])",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, object2, 2)->complete([[0, 2, 0], [0, 2, 0], [0, 2, 0]])"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)",
+                "diagonal_line(state, 0, 1, 2, 1, 2)->vertical_line(state, 0, 1, 2, 1, 2)->obj_color(state, object1, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)->obj_color(state, {'object2': [[2, 1]]}, 2)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,263 @@
+{
+    "steps": [
+        {
+            "step": 0,
+            "dsl_ys": [
+                ""
+            ],
+            "new_dsl_ys": [
+                "horizontal_flip_obj(state, object1)",
+                "horizontal_line(state, 0, 3, 0, 5, 8)",
+                "horizontal_flip_obj(state, object1)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "horizontal_flip_obj(state, object1)",
+                "horizontal_line(state, 0, 3, 0, 5, 8)"
+            ]
+        },
+        {
+            "step": 1,
+            "dsl_ys": [
+                "horizontal_flip_obj(state, object1)",
+                "horizontal_line(state, 0, 3, 0, 5, 8)"
+            ],
+            "new_dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_line(state, 0, 3, 0, 5, 8)->horizontal_line(state, 0, 3, 0, 5, 8)",
+                "horizontal_line(state, 0, 3, 0, 5, 8)->horizontal_line(state, 1, 4, 1, 5, 8)",
+                "horizontal_line(state, 0, 3, 0, 5, 8)->horizontal_line(state, 1, 4, 1, 5, 8)"
+            ],
+            "values": [
+                21.0,
+                21.0,
+                21.0,
+                1.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)"
+            ],
+            "new_dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object2)"
+            ],
+            "values": [
+                21.001,
+                20.001,
+                21.001,
+                21.001,
+                20.001
+            ],
+            "select_new_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.001,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)"
+            ]
+        },
+        {
+            "step": 4,
+            "dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)"
+            ],
+            "new_dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]]})",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)"
+            ],
+            "values": [
+                0.0,
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})"
+            ],
+            "new_dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})"
+            ],
+            "values": [
+                0.001,
+                1.001,
+                0.001,
+                0.001,
+                0.001,
+                1.001
+            ],
+            "select_new_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})"
+            ],
+            "new_dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)"
+            ],
+            "values": [
+                0.002,
+                0.002,
+                0.002,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)"
+            ],
+            "new_dsl_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object1)"
+            ],
+            "values": [
+                0.001,
+                0.001,
+                0.001,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)",
+                "horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, {'object1': [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]], 'object2': [[3, 5], [4, 3], [4, 4], [4, 5], [5, 4]]})->horizontal_flip_obj(state, object1)->horizontal_flip_obj([[0, 0, 0, 8, 0, 8, 0, 0, 0], [0, 0, 0, 8, 8, 0, 0, 0, 0], [0, 0, 0, 0, 0, 8, 0, 0, 0], [0, 0, 0, 0, 0, 4, 0, 0, 0], [0, 0, 0, 4, 4, 4, 0, 0, 0], [0, 0, 0, 0, 4, 0, 0, 0, 0]], [[0, 3], [0, 5], [1, 4], [1, 5], [2, 3]])->horizontal_flip_obj(state, object1)->horizontal_flip_obj(state, object2)"
+            ]
+        }
+    ]
+}

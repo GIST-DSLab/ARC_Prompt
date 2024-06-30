@@ -6,116 +6,239 @@
                 ""
             ],
             "new_dsl_ys": [
-                "`rotate_right_obj(state, object1)`",
-                "rotate_right_obj(state, object1)",
-                "`rotate_right_obj(state, object1)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)"
             ],
             "values": [
-                0.001,
-                0.0,
-                0.001
+                1.0
             ],
             "select_new_ys": [
-                "`rotate_right_obj(state, object1)`",
-                "`rotate_right_obj(state, object1)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)"
             ]
         },
         {
             "step": 1,
             "dsl_ys": [
-                "`rotate_right_obj(state, object1)`",
-                "`rotate_right_obj(state, object1)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)"
             ],
             "new_dsl_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 7)"
             ],
             "values": [
-                1.001,
-                1.001,
-                1.001,
-                1.001,
-                1.001,
-                1.001
+                1.0,
+                1.0,
+                0.0
             ],
             "select_new_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)"
             ]
         },
         {
             "step": 2,
             "dsl_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)"
             ],
             "new_dsl_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(current_state, object1)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_left_obj(current_state, object1)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(current_state, object1)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 7, 6, 3)"
             ],
             "values": [
                 0.0,
                 21.0,
-                21.0,
-                0.0,
                 0.0
             ],
             "select_new_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)"
             ]
         },
         {
             "step": 3,
             "dsl_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)"
             ],
             "new_dsl_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(current_state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`move_right(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`move_right(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`move_right(state, object2)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 9)->diagonal_line(state, 0, 6, 9, 3, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 9)->vertical_line(state, 1, 0, 9, 0, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 9)->diagonal_line(state, 1, 0, 7, 6, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 6, 5, 7)"
             ],
             "values": [
-                0.001,
-                20.001,
-                20.001,
                 1.0,
-                1.0,
-                1.0
+                0.0,
+                1.001,
+                20.0,
+                20.0,
+                0.0
             ],
             "select_new_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)"
             ]
         },
         {
             "step": 4,
             "dsl_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)"
             ],
             "new_dsl_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`move_right(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object2)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 0, 0, 9, 9, 6)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 0, 6, 9, 5, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 0, 9, 9, 0, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 9)"
             ],
             "values": [
                 20.0,
+                0.001,
+                0.001,
+                21.001,
+                21.001,
+                21.001
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)"
+            ]
+        },
+        {
+            "step": 5,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 0, 0, 9, 9, 6)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 6, 9, 0, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 0, 9, 9, 0, 3)"
+            ],
+            "values": [
+                1.0,
+                1.0,
+                1.0,
+                0.001,
+                1.001,
+                1.001
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 0, 9, 9, 0, 3)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 0, 9, 9, 0, 3)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 0, 0, 9, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 0, 0, 9, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->`diagonal_line(state, 7, 6, 9, 8, 7)`",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 3, 3, 7, 7, 3)"
+            ],
+            "values": [
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 3, 3, 7, 7, 3)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 3, 3, 7, 7, 3)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 7, 3, 0, 10, 6)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 3, 3, 7, 7, 3)->diagonal_line(state, 3, 3, 7, 7, 3)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 3, 3, 7, 7, 3)->diagonal_line(state, 7, 3, 9, 9, 6)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 3, 3, 7, 7, 3)->diagonal_line(state, 7, 3, 9, 9, 6)"
+            ],
+            "values": [
+                20.0,
+                21.001,
+                20.0,
+                1.0,
+                0.001,
+                0.001
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 7, 6, 3, 9, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 3, 6, 7, 3, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 3, 6, 7, 3, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)->diagonal_line(state, 3, 6, 0, 0, 9)"
+            ],
+            "values": [
+                0.0,
+                0.001,
+                0.001,
+                0.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)->diagonal_line(state, 3, 6, 0, 0, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 3, 6, 7, 3, 9)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)->diagonal_line(state, 3, 6, 0, 0, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 3, 6, 7, 3, 9)"
+            ],
+            "new_dsl_ys": [
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)->diagonal_line(state, 3, 6, 0, 0, 9)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)->diagonal_line(state, 3, 6, 0, 0, 9)->diagonal_line(state, 9, 5, 0, 6, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)->diagonal_line(state, 3, 6, 0, 0, 9)->diagonal_line(state, 7, 6, 0, 10, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 3, 6, 7, 3, 9)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 9, 5, 0, 0, 4)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 3, 6, 7, 3, 9)->diagonal_line(state, 9, 5, 0, 0, 4)"
+            ],
+            "values": [
+                0.001,
+                1.0,
+                20.001,
+                0.002,
+                0.0,
                 0.0
             ],
             "select_new_ys": [
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`move_right(state, object2)`",
-                "`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object1)`->`rotate_right_obj(state, object2)`->`rotate_right_obj(state, object2)`"
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)->diagonal_line(state, 3, 6, 0, 0, 9)->diagonal_line(state, 7, 6, 0, 10, 7)",
+                "diagonal_line(state, 0, 6, 9, 5, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 0, 9, 9, 0, 3)->diagonal_line(state, 1, 0, 9, 8, 7)->diagonal_line(state, 3, 3, 9, 9, 3)->diagonal_line(state, 3, 3, 0, 0, 3)->diagonal_line(state, 9, 5, 0, 0, 4)->diagonal_line(state, 3, 6, 9, 0, 9)->diagonal_line(state, 3, 6, 0, 0, 9)->diagonal_line(state, 9, 5, 0, 6, 4)"
             ]
         }
     ]

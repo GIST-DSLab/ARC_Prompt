@@ -6,102 +6,135 @@
                 ""
             ],
             "new_dsl_ys": [
-                "obj_color(state, object1, 2)",
-                "obj_color(state, object1, 2)"
+                "obj_color(state, object1, 4)",
+                "obj_color(state, object1, 4)"
             ],
             "values": [
-                20.0,
-                20.0
+                0.0,
+                0.0
             ],
             "select_new_ys": [
-                "obj_color(state, object1, 2)",
-                "obj_color(state, object1, 2)"
+                "obj_color(state, object1, 4)",
+                "obj_color(state, object1, 4)"
             ]
         },
         {
             "step": 1,
             "dsl_ys": [
-                "obj_color(state, object1, 2)",
-                "obj_color(state, object1, 2)"
+                "obj_color(state, object1, 4)",
+                "obj_color(state, object1, 4)"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)"
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)"
             ],
             "values": [
+                21.001,
+                21.001,
+                21.001,
+                21.001,
+                21.001,
+                21.001
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)"
+            ]
+        },
+        {
+            "step": 2,
+            "dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)"
+            ],
+            "values": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)"
+            ]
+        },
+        {
+            "step": 3,
+            "dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)"
+            ],
+            "values": [
+                0.0,
                 0.0,
                 0.0,
                 0.0,
                 0.0
             ],
             "select_new_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)"
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)"
             ]
         },
         {
-            "step": 2,
+            "step": 4,
             "dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)"
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)"
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)"
             ],
             "values": [
-                0.001,
-                0.001,
-                0.001,
-                0.001,
-                0.001
-            ],
-            "select_new_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)"
-            ]
-        },         
-        {
-            "step": 3,
-            "dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)"
-            ],
-            "new_dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)"
-            ],
-            "values": [
+                20.0,
+                20.0,
                 20.0,
                 20.0,
                 20.0,
                 20.0
             ],
             "select_new_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)"
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)"
             ]
         },
         {
-            "step": 4,
+            "step": 5,
             "dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)"
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)"
             ],
             "new_dsl_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)"
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)"
             ],
             "values": [
                 0.0,
@@ -112,8 +145,116 @@
                 0.0
             ],
             "select_new_ys": [
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)",
-                "obj_color(state, object1, 2)->obj_color(state, object2, 2)->obj_color(state, object3, 2)->obj_color(state, object4, 2)->obj_color(state, object5, 2)"
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 6,
+            "dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 7,
+            "dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 8,
+            "dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0,
+                20.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ]
+        },
+        {
+            "step": 9,
+            "dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ],
+            "new_dsl_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)->`complete(state)`",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)->`complete(state)`",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "select_new_ys": [
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)->`complete(state)`",
+                "obj_color(state, object1, 4)->obj_color(state, object2, 4)->obj_color(state, object3, 4)->obj_color(state, object4, 4)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)->complete(state)"
             ]
         }
     ]
