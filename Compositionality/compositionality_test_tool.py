@@ -1,7 +1,7 @@
 import sys
 import numpy as np
 import pandas as pd
-from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QGridLayout, QPushButton, QLabel, QFrame, 
+from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QGridLayout, QPushButton, QLabel, QFrame, QSpacerItem, QSizePolicy,
                              QVBoxLayout, QHBoxLayout, QScrollArea, QProgressBar, QLineEdit, QDialog, QDialogButtonBox, QCheckBox)
 from PyQt5.QtGui import QPainter, QBrush, QColor, QPen
 from PyQt5.QtCore import Qt, pyqtSignal
@@ -268,8 +268,18 @@ class MainWindow(QMainWindow):
         self.mistake_checkbox = QCheckBox('Mistake')
         self.object_incompleteness_checkbox = QCheckBox('Object Incompleteness')
         self.dsl_incompleteness_checkbox = QCheckBox('DSL Incompleteness')
+
+        # 스타일 시트로 글씨 크기 조정 및 굵게 설정
+        checkbox_style = "font-size: 24px;"
+        self.mistake_checkbox.setStyleSheet(checkbox_style)
+        self.object_incompleteness_checkbox.setStyleSheet(checkbox_style)
+        self.dsl_incompleteness_checkbox.setStyleSheet(checkbox_style)
+
+        # 동일한 간격으로 체크박스 배치
         checkbox_layout.addWidget(self.mistake_checkbox)
+        checkbox_layout.addSpacerItem(QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum))
         checkbox_layout.addWidget(self.object_incompleteness_checkbox)
+        checkbox_layout.addSpacerItem(QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum))
         checkbox_layout.addWidget(self.dsl_incompleteness_checkbox)
         self.test_layout.addLayout(checkbox_layout)
 
