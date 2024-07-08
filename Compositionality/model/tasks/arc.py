@@ -392,8 +392,8 @@ class ARCEnv:
             elif action == 'complete' and len(args)==1:
                 return self.complete(state, object)
             else:
-                raise ValueError(f'dsl {dsl} not recognized')
-                # return state, object
+                # raise ValueError(f'dsl {dsl} not recognized')
+                return state, object
 
 class ARCTask(Task):
     # Set the variables.
