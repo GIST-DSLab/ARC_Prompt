@@ -13,6 +13,8 @@
 
 
 ## Explanation about Python Codes
+```compositionality_test_tool.py```: A GUI tool for experimenting with compositionality in humans.
+
 ```id_generator.py```: mapping ARC problem with corresponding task ID.
 
 ```obj_create.py```: makes arc.json from arc_no_object.json to contain the object information from ```PnP.py```.
@@ -66,6 +68,30 @@ xdg-open result/result_incorrect.html
 ```
 cd ..
 ```
+
+## Quick Start - GUI testing tool
+If you want to the GUI tool for experimenting with compositionality in humans, then you can follow the steps below.
+
+0. move to the compositionality directory.
+```
+cd Compositionality
+```
+1. Run python code
+```
+python compositionality_test_tool.py
+```
+2. Enter the user ID. This will be used later to record user logs in the CSV file.
+3. Click the 'Main Test,' but if you want to practice before taking the main test, then click the 'Exercise Test'.
+
+Detail about dsl button.
+* ```Rotate Left```, ```Rotate Right```, ```Flip Vertical```, and ```Flip Horizontal``` transform the entire grid.
+* ```X Line``` and ```Pixel Color``` perform their functions after selecting coordinates and choosing a color in the test output grid.
+* ```Horizontal Line```, ```Vertical Line```, and ```Diagonal Line``` require selecting two coordinates to perform their functions. To select the two coordinates, you need to click the coordinates while holding down the Shift or Control key.
+* ```X Line```, ```Horizontal Line```, ```Vertical Line```, and ```Diagonal Line``` do not color the selected coordinates.
+* ```Move Right```, ```Move Left```, ```Move Up```, ```Move Down```, ```Rotate Right Obj```, ```Rotate Left Obj```, ```Flip Vertical Obj```, and ```Flip Horizontal Obj``` functions can be used by clicking on the object on the right side of the GUI screen and then selecting the desired function.
+* The ```Object Color``` function colors an object with the selected color after you click on the object, choose a color, and then click the function button.
+* Click ```Complete``` when you have finished solving the problem. This will move you to the next problem.
+* You can use up to 10 DSLs per problem. ```Complete``` is also considered using a DSL. The number of used DSLs is displayed as "Step:" below the selected color. When the step count reaches 10, you will move to the next problem.
 
 ## What is Compositionality?
 **Compositionality refers to the ability to generate complex linguistic expressions using simpler ones.** 

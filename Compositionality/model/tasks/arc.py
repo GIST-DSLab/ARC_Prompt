@@ -25,9 +25,9 @@ class ARCEnv:
             for x in range(N):
                 for y in range(N):
                     rotated_state[N-1-y][x] = state[x][y]
-            for object in objects:
+            for object in objects: 
                 new_obj=[]
-                for [x, y] in object:
+                for [x, y] in object: # 이 부분에서 object가 objects[object]로 되어야지 오류가 발생하지 않을 것 같음 - 지원님/석기님한테 물어보기
                     new_x=N-1-y
                     new_y=x
                     new_obj.append([new_x, new_y])
