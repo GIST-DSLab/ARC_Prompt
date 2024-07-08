@@ -39,12 +39,12 @@ class GridWidget(QWidget):
     position_selected = pyqtSignal(list)
     object_selected = pyqtSignal(str)
 
-    def __init__(self, grid_data, color_palette, editable=True):
+    def __init__(self, grid_data, color_palette, editable=True, mode='normal'):
         super().__init__()
         self.grid_data = grid_data
         self.color_palette = color_palette
         self.editable = editable
-        self.cell_size = 40
+        self.cell_size = 10 if mode == 'normal' else 20
         self.selected_positions = []
         self.selected_object = None
         self.setMinimumSize(self.grid_data.shape[1] * self.cell_size, 
@@ -95,7 +95,7 @@ class GridWidget(QWidget):
                     painter.drawRect(x * self.cell_size, y * self.cell_size, self.cell_size, self.cell_size)
 
             if self.selected_object:
-                painter.setPen(QPen(QColor("#FFD700"), 3, Qt.SolidLine))
+                painter.setPen(QPen(QColor("#FFFFFF"), 3, Qt.SolidLine))
                 obj_coords = self.selected_object
                 for y, x in obj_coords:
                     if 0 <= y < self.grid_data.shape[0] and 0 <= x < self.grid_data.shape[1]:
@@ -221,7 +221,7 @@ class MainWindow(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('ARC Solver')
+        self.setWindowTitle('ARC Test Tool')
         self.setGeometry(300, 300, 2600, 1800)
         colors = ["#000000", "#0074D9", "#FF4136", "#2ECC40", "#FFDC00", "#AAAAAA", "#F012BE", "#FF851B", "#7FDBFF", "#870C25"]
         self.color_palette = ColorPalette(colors)
@@ -253,15 +253,15 @@ class MainWindow(QMainWindow):
         self.test_layout = QVBoxLayout(self.test_scroll_widget)
         self.test_scroll_area.setWidget(self.test_scroll_widget)
 
-        self.input_widget = GridWidget(np.zeros((10, 10)), self.color_palette, editable=False)
-        self.output_widget = GridWidget(np.zeros((10, 10)), self.color_palette, editable=True)
+        self.input_widget = GridWidget(np.zeros((10, 10)), self.color_palette, editable=False, mode='test')
+        self.output_widget = GridWidget(np.zeros((10, 10)), self.color_palette, editable=True, mode='test')
         self.output_widget.data_changed.connect(self.update_temp_state)
         self.output_widget.position_selected.connect(self.store_selected_positions)
 
         self.test_layout.addWidget(QLabel('Test Input'))
-        self.test_layout.addWidget(self.input_widget)
+        self.test_layout.addWidget(self.center_widget(self.input_widget))
         self.test_layout.addWidget(QLabel('Your Solution (Test output)'))
-        self.test_layout.addWidget(self.output_widget)
+        self.test_layout.addWidget(self.center_widget(self.output_widget))
 
         self.step_label = QLabel(f'Step: {self.steps}')
         self.step_label.setStyleSheet("font-size: 24px; font-weight: bold;")
@@ -285,6 +285,14 @@ class MainWindow(QMainWindow):
 
         self.load_problem()
         self.show()
+
+    def center_widget(self, widget):
+        container = QWidget()
+        layout = QVBoxLayout(container)
+        layout.addStretch()
+        layout.addWidget(widget, 0, Qt.AlignCenter)
+        layout.addStretch()
+        return container
 
     def update_selected_color(self, color_index):
         self.selected_color = color_index
@@ -633,16 +641,18 @@ class MainWindow(QMainWindow):
 
             example_layout = QHBoxLayout()
 
-            example_input_widget = GridWidget(input_grid, self.color_palette, editable=False)
-            example_output_widget = GridWidget(output_grid, self.color_palette, editable=False)
+            input_container = QWidget()
+            input_layout = QVBoxLayout(input_container)
+            input_layout.addWidget(QLabel(f'Example {i+1}: Input'), 0, Qt.AlignCenter)
+            input_layout.addWidget(self.center_widget(GridWidget(input_grid, self.color_palette, editable=False)))
 
-            input_label = QLabel(f'Example {i+1}: Input')
-            output_label = QLabel(f'Example {i+1}: Output')
+            output_container = QWidget()
+            output_layout = QVBoxLayout(output_container)
+            output_layout.addWidget(QLabel(f'Example {i+1}: Output'), 0, Qt.AlignCenter)
+            output_layout.addWidget(self.center_widget(GridWidget(output_grid, self.color_palette, editable=False)))
 
-            example_layout.addWidget(input_label)
-            example_layout.addWidget(example_input_widget)
-            example_layout.addWidget(output_label)
-            example_layout.addWidget(example_output_widget)
+            example_layout.addWidget(input_container)
+            example_layout.addWidget(output_container)
 
             self.example_layout.addLayout(example_layout)
 
@@ -674,24 +684,28 @@ class MainWindow(QMainWindow):
 
         for obj_name, coordinates in self.objects.items():
             obj_layout = QVBoxLayout()
-            obj_label = QLabel(obj_name)
-            obj_label.setStyleSheet("""
-                QLabel {
-                    border: 1px solid black;
-                    padding: 5px;
+            obj_button = QPushButton(obj_name)
+            obj_button.setStyleSheet("""
+                QPushButton {
+                    border: 2px solid black;
+                    background-color: #FFA500;
+                    color: black;
+                    font-weight: bold;
+                    padding: 10px;
+                    text-align: center;
                 }
-                QLabel:hover {
-                    background-color: #f0f0f0;
+                QPushButton:hover {
+                    background-color: #FFB732;
                 }
             """)
-            obj_label.mousePressEvent = lambda event, obj_name=obj_name: self.select_object(obj_name)
-            obj_layout.addWidget(obj_label)
+            obj_button.clicked.connect(lambda checked, name=obj_name: self.select_object(name))
+            obj_layout.addWidget(obj_button)
 
             obj_grid = np.zeros_like(self.input_widget.grid_data)
             for y, x in coordinates:
                 obj_grid[y, x] = self.temp_state[y, x]
 
-            obj_widget = GridWidget(obj_grid, self.color_palette, editable=False)
+            obj_widget = self.center_widget(GridWidget(obj_grid, self.color_palette, editable=False))
             obj_layout.addWidget(obj_widget)
 
             self.object_layout.addLayout(obj_layout)
