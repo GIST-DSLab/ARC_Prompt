@@ -27,11 +27,14 @@ class ARCEnv:
                     rotated_state[N-1-y][x] = state[x][y]
             for object in objects: 
                 new_obj=[]
-                for [x, y] in object: # 이 부분에서 object가 objects[object]로 되어야지 오류가 발생하지 않을 것 같음 - 지원님/석기님한테 물어보기
-                    new_x=N-1-y
-                    new_y=x
-                    new_obj.append([new_x, new_y])
-                new_objects[object]=new_obj
+                try:
+                    for [x, y] in object: # 이 부분에서 object가 objects[object]로 되어야지 오류가 발생하지 않을 것 같음 - 지원님/석기님한테 물어보기
+                        new_x=N-1-y
+                        new_y=x
+                        new_obj.append([new_x, new_y])
+                    new_objects[object]=new_obj
+                except:
+                    rotated_state, new_objects = state, objects # 위의 부분처럼하면 오류가 발생하기 때문에 state 및 object의 변화를 주지 않기 위해서
             return rotated_state, new_objects
 
     # rotate_right_state function is a clockwise rotation about the given state. Only for square not rectengular.
