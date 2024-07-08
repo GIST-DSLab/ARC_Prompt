@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import pandas as pd
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QGridLayout, QPushButton, QLabel, QFrame, 
-                             QVBoxLayout, QHBoxLayout, QScrollArea, QProgressBar, QLineEdit, QDialog, QDialogButtonBox)
+                             QVBoxLayout, QHBoxLayout, QScrollArea, QProgressBar, QLineEdit, QDialog, QDialogButtonBox, QCheckBox)
 from PyQt5.QtGui import QPainter, QBrush, QColor, QPen
 from PyQt5.QtCore import Qt, pyqtSignal
 import json
@@ -262,6 +262,16 @@ class MainWindow(QMainWindow):
         self.test_layout.addWidget(self.center_widget(self.input_widget))
         self.test_layout.addWidget(QLabel('Your Solution (Test output)'))
         self.test_layout.addWidget(self.center_widget(self.output_widget))
+
+        # Checkboxes 추가
+        checkbox_layout = QHBoxLayout()
+        self.mistake_checkbox = QCheckBox('Mistake')
+        self.object_incompleteness_checkbox = QCheckBox('Object Incompleteness')
+        self.dsl_incompleteness_checkbox = QCheckBox('DSL Incompleteness')
+        checkbox_layout.addWidget(self.mistake_checkbox)
+        checkbox_layout.addWidget(self.object_incompleteness_checkbox)
+        checkbox_layout.addWidget(self.dsl_incompleteness_checkbox)
+        self.test_layout.addLayout(checkbox_layout)
 
         self.step_label = QLabel(f'Step: {self.steps}')
         self.step_label.setStyleSheet("font-size: 24px; font-weight: bold;")
@@ -588,7 +598,10 @@ class MainWindow(QMainWindow):
             'dsl': self.dsl,
             'steps': self.steps,
             'correct': correct,
-            'output': user_output
+            'output': user_output,
+            'mistake': self.mistake_checkbox.isChecked(),
+            'object_incompleteness': self.object_incompleteness_checkbox.isChecked(),
+            'dsl_incompleteness': self.dsl_incompleteness_checkbox.isChecked()
         }
         df = pd.DataFrame([log_entry])
         if not os.path.isfile('result/user_log.csv'):
@@ -615,10 +628,17 @@ class MainWindow(QMainWindow):
         self.step_label.setText(f'Step: {self.steps}')
         self.update_display()
 
+        self.reset_checkboxes() 
+
     def load_next_problem(self):
         self.log_data()  # Log the data before moving to the next problem
         self.problem_index += 1
         self.load_problem()
+    
+    def reset_checkboxes(self):
+        self.mistake_checkbox.setChecked(False)
+        self.object_incompleteness_checkbox.setChecked(False)
+        self.dsl_incompleteness_checkbox.setChecked(False)
 
     def update_display(self):
         while self.example_layout.count():
