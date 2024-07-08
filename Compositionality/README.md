@@ -81,7 +81,7 @@ cd Compositionality
 python compositionality_test_tool.py
 ```
 2. Enter the user ID. This will be used later to record user logs in the CSV file.
-3. Click the 'Main Test,' but if you want to practice before taking the main test, then click the 'Exercise Test'.
+3. Click the 'Main Test,' but if you want to practice before taking the main test, then click the 'Exercise Test'. 
 
 Detail about dsl button.
 * ```Rotate Left```, ```Rotate Right```, ```Flip Vertical```, and ```Flip Horizontal``` transform the entire grid.
@@ -91,6 +91,7 @@ Detail about dsl button.
 * ```Move Right```, ```Move Left```, ```Move Up```, ```Move Down```, ```Rotate Right Obj```, ```Rotate Left Obj```, ```Flip Vertical Obj```, and ```Flip Horizontal Obj``` functions can be used by clicking on the object on the right side of the GUI screen and then selecting the desired function.
 * The ```Object Color``` function colors an object with the selected color after you click on the object, choose a color, and then click the function button.
 * Click ```Complete``` when you have finished solving the problem. This will move you to the next problem.
+* If you cannot solve the given problem with the provided DSLs, if the object information in the object list is incompleteness, or if you made a mistake, then check the corresponding checkboxes for DSL Incompleteness, Object Incompleteness, or Mistake. These will be recorded in a CSV log for analysis.
 * You can use up to 10 DSLs per problem. ```Complete``` is also considered using a DSL. The number of used DSLs is displayed as "Step:" below the selected color. When the step count reaches 10, you will move to the next problem.
 
 ## What is Compositionality?
