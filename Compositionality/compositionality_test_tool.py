@@ -16,6 +16,9 @@ def load_arc_data(file_path):
         data = json.load(f)
     return data
 
+def load_task_id_map(file_path):
+    return pd.read_csv(file_path)
+
 class UserDialog(QDialog):
     def __init__(self):
         super().__init__()
@@ -33,6 +36,35 @@ class UserDialog(QDialog):
 
     def get_user_id(self):
         return self.user_id_input.text()
+
+class SearchDialog(QDialog):
+    def __init__(self, task_id_map):
+        super().__init__()
+        self.setWindowTitle('Search Problem')
+        self.layout = QVBoxLayout()
+        self.label = QLabel('Enter problem index or ID:')
+        self.search_input = QLineEdit()
+        self.button_box = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
+        self.button_box.accepted.connect(self.accept)
+        self.button_box.rejected.connect(self.reject)
+        self.layout.addWidget(self.label)
+        self.layout.addWidget(self.search_input)
+        self.layout.addWidget(self.button_box)
+        self.setLayout(self.layout)
+        self.task_id_map = task_id_map
+        self.selected_problem_index = None
+
+    def get_search_input(self):
+        search_term = self.search_input.text()
+        if search_term.isdigit():
+            search_term = int(search_term)
+            if search_term in self.task_id_map['pre_task_id'].values:
+                self.selected_problem_index = search_term
+            else:
+                aft_task_id = self.task_id_map[self.task_id_map['aft_task_id'] == search_term]['pre_task_id']
+                if not aft_task_id.empty:
+                    self.selected_problem_index = int(aft_task_id.iloc[0])
+        return self.selected_problem_index
 
 class GridWidget(QWidget):
     data_changed = pyqtSignal(np.ndarray)
@@ -190,6 +222,7 @@ class MainWindow(QMainWindow):
         self.exercise_problem_index = 0  # Index for exercise problems
         self.main_problem_index = 0  # Index for main problems
         self.current_test_type = None  # To store the current test type (exercise or main)
+        self.task_id_map = load_task_id_map('result/task_id_map.csv')
 
         self.user_dialog = UserDialog()
         if self.user_dialog.exec_() == QDialog.Accepted:
@@ -213,9 +246,13 @@ class MainWindow(QMainWindow):
         main_test_button = QPushButton('Main Test', self)
         main_test_button.clicked.connect(self.load_main_test)
 
+        search_test_button = QPushButton('Search Main Test', self)
+        search_test_button.clicked.connect(self.search_main_test)
+
         layout.addWidget(QLabel(f'Welcome, {self.user_id}'))
         layout.addWidget(exercise_test_button)
         layout.addWidget(main_test_button)
+        layout.addWidget(search_test_button)
 
         self.show()
 
@@ -230,6 +267,17 @@ class MainWindow(QMainWindow):
         self.current_test_type = 'main'
         self.problem_index = self.main_problem_index
         self.initUI()
+
+    def search_main_test(self):
+        search_dialog = SearchDialog(self.task_id_map)
+        if search_dialog.exec_() == QDialog.Accepted:
+            selected_index = search_dialog.get_search_input()
+            if selected_index is not None:
+                self.data = load_arc_data('data/arc.json')
+                self.current_test_type = 'main'
+                self.main_problem_index = selected_index
+                self.problem_index = self.main_problem_index
+                self.initUI()
 
     def initUI(self):
         self.setWindowTitle('ARC Test Tool')
@@ -631,10 +679,14 @@ class MainWindow(QMainWindow):
         correct_output = self.current_problem['test'][0]['output']
         user_output = self.temp_state.tolist()
         correct = (user_output == correct_output)
+        problem_id = None
+        if self.current_test_type == 'main':
+            problem_id = self.task_id_map[self.task_id_map['pre_task_id'] == self.problem_index]['aft_task_id'].values[0]
         log_entry = {
             'user_id': self.user_id,
             'test_type': self.current_test_type,
             'problem': self.problem_index,
+            'problem_id': problem_id,
             'dsl': self.dsl,
             'steps': self.steps,
             'correct': correct,
