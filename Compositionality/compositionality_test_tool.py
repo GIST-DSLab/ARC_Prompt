@@ -187,6 +187,9 @@ class MainWindow(QMainWindow):
         self.selected_color = -1
         self.steps = 0
         self.dsl = []  # To store the list of used functions
+        self.exercise_problem_index = 0  # Index for exercise problems
+        self.main_problem_index = 0  # Index for main problems
+        self.current_test_type = None  # To store the current test type (exercise or main)
 
         self.user_dialog = UserDialog()
         if self.user_dialog.exec_() == QDialog.Accepted:
@@ -218,10 +221,14 @@ class MainWindow(QMainWindow):
 
     def load_exercise_test(self):
         self.data = load_arc_data('data/exercise_arc.json')
+        self.current_test_type = 'exercise'
+        self.problem_index = self.exercise_problem_index
         self.initUI()
 
     def load_main_test(self):
         self.data = load_arc_data('data/arc.json')
+        self.current_test_type = 'main'
+        self.problem_index = self.main_problem_index
         self.initUI()
 
     def initUI(self):
@@ -238,7 +245,7 @@ class MainWindow(QMainWindow):
 
         self.progress_bar = QProgressBar()
         self.progress_bar.setMaximum(len(self.data))
-        self.progress_bar.setValue(0)
+        self.progress_bar.setValue(self.problem_index + 1)
         self.progress_bar.setFormat('%v / %m')
         main_layout.addWidget(self.progress_bar)
 
@@ -611,9 +618,14 @@ class MainWindow(QMainWindow):
             self.output_widget.update_grid_size(self.temp_state)
             self.output_widget.update()
 
-            self.load_next_problem()
             self.steps = 0  # Add this line to reset steps
             self.step_label.setText(f'Step: {self.steps}')  # Update the step label
+
+            if self.problem_index + 1 >= len(self.data):  # 마지막 문제인 경우
+                self.log_data() 
+                self.show_test_selection()  # 이전 Main Test와 Exercise Test 보여주는 부분으로 돌아감
+            else:
+                self.load_next_problem()
 
     def log_data(self):
         correct_output = self.current_problem['test'][0]['output']
@@ -621,6 +633,7 @@ class MainWindow(QMainWindow):
         correct = (user_output == correct_output)
         log_entry = {
             'user_id': self.user_id,
+            'test_type': self.current_test_type,
             'problem': self.problem_index,
             'dsl': self.dsl,
             'steps': self.steps,
@@ -631,10 +644,10 @@ class MainWindow(QMainWindow):
             'dsl_incompleteness': self.dsl_incompleteness_checkbox.isChecked()
         }
         df = pd.DataFrame([log_entry])
-        if not os.path.isfile('result/user_log.csv'):
-            df.to_csv('result/user_log.csv', mode='w', header=True, index=False)
+        if not os.path.isfile('result/human_log.csv'):
+            df.to_csv('result/human_log.csv', mode='w', header=True, index=False)
         else:
-            df.to_csv('result/user_log.csv', mode='a', header=False, index=False)
+            df.to_csv('result/human_log.csv', mode='a', header=False, index=False)
         self.dsl = []  # Reset the dsl list for the next problem
 
     def load_problem(self):
@@ -665,7 +678,15 @@ class MainWindow(QMainWindow):
 
     def load_next_problem(self):
         self.log_data()  # Log the data before moving to the next problem
-        self.problem_index += 1
+
+        # Update the correct index based on the current test type
+        if self.current_test_type == 'exercise':
+            self.exercise_problem_index += 1
+            self.problem_index = self.exercise_problem_index
+        elif self.current_test_type == 'main':
+            self.main_problem_index += 1
+            self.problem_index = self.main_problem_index
+
         self.load_problem()
     
     def reset_checkboxes(self):
