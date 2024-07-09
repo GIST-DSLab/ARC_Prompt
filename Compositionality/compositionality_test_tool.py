@@ -136,7 +136,7 @@ class ColorPalette(QWidget):
     def __init__(self, colors):
         super().__init__()
         self.colors = colors
-        self.selected_color = 0
+        self.selected_color = -1
         self.initUI()
 
     def initUI(self):
@@ -163,9 +163,13 @@ class ColorPalette(QWidget):
         self.update_selected_color_label()
 
     def update_selected_color_label(self):
-        selected_color = self.colors[self.selected_color]
-        self.selected_color_label.setText(f"Selected Color: {selected_color}")
-        self.selected_color_display.setStyleSheet(f"background-color: {selected_color}")
+        if self.selected_color == -1:
+            self.selected_color_label.setText("Selected Color: ")
+            self.selected_color_display.setStyleSheet("background-color: none")
+        else:
+            selected_color = self.colors[self.selected_color]
+            self.selected_color_label.setText(f"Selected Color: {selected_color}")
+            self.selected_color_display.setStyleSheet(f"background-color: {selected_color}")
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -180,7 +184,7 @@ class MainWindow(QMainWindow):
         self.selected_object = None
         self.selected_positions = []
         self.arc_task = ARCTask()
-        self.selected_color = 0
+        self.selected_color = -1
         self.steps = 0
         self.dsl = []  # To store the list of used functions
 
@@ -316,6 +320,7 @@ class MainWindow(QMainWindow):
 
     def update_selected_color(self, color_index):
         self.selected_color = color_index
+        self.color_palette.update_selected_color_label()
 
     def store_selected_positions(self, positions):
         if self.selected_object:
@@ -401,6 +406,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def pixel_color(self):
+        if self.selected_color == -1:
+            return
         if self.temp_state is not None and self.selected_positions and len(self.selected_positions) == 1:
             y, x = self.selected_positions[-1]
             self.temp_state[y, x] = self.selected_color
@@ -534,6 +541,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def x_line(self):
+        if self.selected_color == -1:
+            return
         if self.temp_state is not None and self.selected_positions and len(self.selected_positions) == 1:
             y, x = self.selected_positions[-1]
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'X_line(self.temp_state, {y}, {x}, {self.selected_color})')
@@ -544,6 +553,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def horizontal_line(self):
+        if self.selected_color == -1:
+            return
         if self.temp_state is not None and len(self.selected_positions) == 2:
             y1, x1 = self.selected_positions[0]
             y2, x2 = self.selected_positions[1]
@@ -555,6 +566,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def vertical_line(self):
+        if self.selected_color == -1:
+            return
         if self.temp_state is not None and len(self.selected_positions) == 2:
             y1, x1 = self.selected_positions[0]
             y2, x2 = self.selected_positions[1]
@@ -566,6 +579,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def diagonal_line(self):
+        if self.selected_color == -1:
+            return
         if self.temp_state is not None and len(self.selected_positions) == 2:
             y1, x1 = self.selected_positions[0]
             y2, x2 = self.selected_positions[1]
@@ -577,6 +592,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def obj_color(self):
+        if self.selected_color == -1:
+            return
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'obj_color(self.temp_state, {self.selected_object}, {self.selected_color})')
             # self.remove_overlapping_positions()
@@ -639,6 +656,12 @@ class MainWindow(QMainWindow):
         self.update_display()
 
         self.reset_checkboxes() 
+        self.reset_selected_color()  # Reset selected color when loading a new problem
+
+    def reset_selected_color(self):
+        self.selected_color = -1
+        self.color_palette.selected_color = -1
+        self.color_palette.update_selected_color_label()
 
     def load_next_problem(self):
         self.log_data()  # Log the data before moving to the next problem
