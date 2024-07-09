@@ -34,7 +34,7 @@ class ARCEnv:
                         new_obj.append([new_x, new_y])
                     new_objects[object]=new_obj
                 except:
-                    rotated_state, new_objects = state, objects # 위의 부분처럼하면 오류가 발생하기 때문에 state 및 object의 변화를 주지 않기 위해서
+                    return state, objects # 위의 부분처럼하면 오류가 발생하기 때문에 state 및 object의 변화를 주지 않기 위해서
             return rotated_state, new_objects
 
     # rotate_right_state function is a clockwise rotation about the given state. Only for square not rectengular.
