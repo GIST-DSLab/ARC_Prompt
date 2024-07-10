@@ -1,7 +1,7 @@
 import sys
 import numpy as np
 import pandas as pd
-from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QGridLayout, QPushButton, QLabel, QFrame, QSpacerItem, QSizePolicy,
+from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QGridLayout, QPushButton, QLabel, QFrame, QSpacerItem, QSizePolicy, QTextEdit,
                              QVBoxLayout, QHBoxLayout, QScrollArea, QProgressBar, QLineEdit, QDialog, QDialogButtonBox, QCheckBox)
 from PyQt5.QtGui import QPainter, QBrush, QColor, QPen
 from PyQt5.QtCore import Qt, pyqtSignal
@@ -223,6 +223,7 @@ class MainWindow(QMainWindow):
         self.main_problem_index = 0  # Index for main problems
         self.current_test_type = None  # To store the current test type (exercise or main)
         self.task_id_map = load_task_id_map('result/task_id_map.csv')
+        self.memo_text = None 
 
         self.user_dialog = UserDialog()
         if self.user_dialog.exec_() == QDialog.Accepted:
@@ -280,28 +281,38 @@ class MainWindow(QMainWindow):
                 self.initUI()
     
     def search_problem(self):
+        mode = self.current_test_type
         search_term = self.search_input.text()
         if search_term.isdigit():
             search_term = int(search_term)
-            if search_term in self.task_id_map['pre_task_id'].values:
-                selected_index = search_term
-            else:
-                aft_task_id = self.task_id_map[self.task_id_map['aft_task_id'] == search_term]['pre_task_id']
-                if not aft_task_id.empty:
-                    selected_index = int(aft_task_id.iloc[0])
+            if mode == 'main':
+                if search_term in self.task_id_map['pre_task_id'].values:
+                    selected_index = search_term
                 else:
-                    selected_index = None
+                    aft_task_id = self.task_id_map[self.task_id_map['aft_task_id'] == search_term]['pre_task_id']
+                    if not aft_task_id.empty:
+                        selected_index = int(aft_task_id.iloc[0])
+                    else:
+                        selected_index = None
+            else:
+                selected_index = search_term
         else:
             selected_index = None
 
         if selected_index is not None:
-            self.data = load_arc_data('data/arc.json')
-            self.current_test_type = 'main'
+            if mode == 'main':
+                self.data = load_arc_data('data/arc.json')
+            elif mode == 'exercise':
+                self.data = load_arc_data('data/exercise_arc.json')
+            self.current_test_type = mode
             self.main_problem_index = selected_index
             self.problem_index = self.main_problem_index
             self.load_problem(selected_index)
         else:
             self.search_label.setText('Search Problem (Index or ID): Invalid Input')
+
+    def save_memo(self):
+        self.memo_text = self.memo_input.toPlainText()
 
     def initUI(self):
         self.setWindowTitle('ARC Test Tool')
@@ -373,6 +384,17 @@ class MainWindow(QMainWindow):
         self.test_layout.addWidget(self.color_palette)
 
         self.add_transformation_buttons()
+
+        # Memo Text Box 및 버튼 추가
+        memo_layout = QHBoxLayout()
+        self.memo_input = QTextEdit()
+        self.memo_input.setFixedHeight(100)  # 높이를 4~5줄로 설정
+        self.memo_button = QPushButton('Memo')
+        self.memo_button.clicked.connect(self.save_memo)
+        memo_layout.addWidget(QLabel('Memo:'))
+        memo_layout.addWidget(self.memo_input)
+        memo_layout.addWidget(self.memo_button)
+        self.test_layout.addLayout(memo_layout)
 
         # Search Text Box 및 버튼 추가
         search_layout = QHBoxLayout()
@@ -727,7 +749,8 @@ class MainWindow(QMainWindow):
             'output': user_output,
             'mistake': self.mistake_checkbox.isChecked(),
             'object_incompleteness': self.object_incompleteness_checkbox.isChecked(),
-            'dsl_incompleteness': self.dsl_incompleteness_checkbox.isChecked()
+            'dsl_incompleteness': self.dsl_incompleteness_checkbox.isChecked(),
+            'memo': self.memo_text if self.memo_text else None 
         }
         df = pd.DataFrame([log_entry])
         if not os.path.isfile('result/human_log.csv'):
@@ -735,6 +758,8 @@ class MainWindow(QMainWindow):
         else:
             df.to_csv('result/human_log.csv', mode='a', header=False, index=False)
         self.dsl = []  # Reset the dsl list for the next problem
+        # self.memo_text = None
+        self.memo_input.clear()
 
     def load_problem(self, index=None):
         if self.problem_index >= len(self.data):
@@ -752,11 +777,14 @@ class MainWindow(QMainWindow):
         self.input_widget.selected_object = None
         self.output_widget.selected_object = None
         self.steps = 0
+        self.memo_text = None
         self.step_label.setText(f'Step: {self.steps}')
         self.update_display()
 
         self.reset_checkboxes() 
         self.reset_selected_color()  # Reset selected color when loading a new problem
+
+        self.memo_input.clear()
 
     def reset_selected_color(self):
         self.selected_color = -1
