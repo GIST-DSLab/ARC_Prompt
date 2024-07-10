@@ -666,7 +666,6 @@ class MainWindow(QMainWindow):
             self.output_widget.update_grid_size(self.temp_state)
             self.output_widget.update()
 
-            self.steps = 0  # Add this line to reset steps
             self.step_label.setText(f'Step: {self.steps}')  # Update the step label
 
             if self.problem_index + 1 >= len(self.data):  # 마지막 문제인 경우
