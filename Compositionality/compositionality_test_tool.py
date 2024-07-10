@@ -232,7 +232,7 @@ class MainWindow(QMainWindow):
             sys.exit()
 
     def show_test_selection(self):
-        self.setWindowTitle('Test Selection')
+        self.setWindowTitle('Mode')
         self.setGeometry(300, 300, 400, 200)
 
         layout = QVBoxLayout()
@@ -246,13 +246,13 @@ class MainWindow(QMainWindow):
         main_test_button = QPushButton('Main Test', self)
         main_test_button.clicked.connect(self.load_main_test)
 
-        search_test_button = QPushButton('Search Main Test', self)
-        search_test_button.clicked.connect(self.search_main_test)
+        # search_test_button = QPushButton('Search Main Test', self)
+        # search_test_button.clicked.connect(self.search_main_test)
 
         layout.addWidget(QLabel(f'Welcome, {self.user_id}'))
         layout.addWidget(exercise_test_button)
         layout.addWidget(main_test_button)
-        layout.addWidget(search_test_button)
+        # layout.addWidget(search_test_button)
 
         self.show()
 
@@ -278,6 +278,30 @@ class MainWindow(QMainWindow):
                 self.main_problem_index = selected_index
                 self.problem_index = self.main_problem_index
                 self.initUI()
+    
+    def search_problem(self):
+        search_term = self.search_input.text()
+        if search_term.isdigit():
+            search_term = int(search_term)
+            if search_term in self.task_id_map['pre_task_id'].values:
+                selected_index = search_term
+            else:
+                aft_task_id = self.task_id_map[self.task_id_map['aft_task_id'] == search_term]['pre_task_id']
+                if not aft_task_id.empty:
+                    selected_index = int(aft_task_id.iloc[0])
+                else:
+                    selected_index = None
+        else:
+            selected_index = None
+
+        if selected_index is not None:
+            self.data = load_arc_data('data/arc.json')
+            self.current_test_type = 'main'
+            self.main_problem_index = selected_index
+            self.problem_index = self.main_problem_index
+            self.load_problem(selected_index)
+        else:
+            self.search_label.setText('Search Problem (Index or ID): Invalid Input')
 
     def initUI(self):
         self.setWindowTitle('ARC Test Tool')
@@ -349,6 +373,17 @@ class MainWindow(QMainWindow):
         self.test_layout.addWidget(self.color_palette)
 
         self.add_transformation_buttons()
+
+        # Search Text Box 및 버튼 추가
+        search_layout = QHBoxLayout()
+        self.search_label = QLabel('Search Problem (Index or ID): ')
+        self.search_input = QLineEdit()
+        self.search_button = QPushButton('Search')
+        self.search_button.clicked.connect(self.search_problem)
+        search_layout.addWidget(self.search_label)
+        search_layout.addWidget(self.search_input)
+        search_layout.addWidget(self.search_button)
+        self.test_layout.addLayout(search_layout)
 
         self.object_scroll_area = QScrollArea()
         self.object_scroll_area.setWidgetResizable(True)
@@ -701,14 +736,15 @@ class MainWindow(QMainWindow):
             df.to_csv('result/human_log.csv', mode='a', header=False, index=False)
         self.dsl = []  # Reset the dsl list for the next problem
 
-    def load_problem(self):
+    def load_problem(self, index=None):
         if self.problem_index >= len(self.data):
             print("No more problems to load")
             return
-        self.current_problem = self.data[self.problem_index]
-        self.progress_bar.setValue(self.problem_index + 1)
+        self.current_problem = self.data[self.problem_index] if index is None else self.data[index]
+        self.progress_bar.setValue(self.problem_index + 1) if index is None else index+1
         self.progress_bar.setFormat(f'{self.problem_index + 1} / {len(self.data)}')
 
+        self.dsl = []  # Reset the dsl list when loading a new problem
         self.selected_object = None
         self.selected_positions = []
         self.input_widget.selected_positions = []
