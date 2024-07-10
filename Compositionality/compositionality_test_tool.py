@@ -555,7 +555,16 @@ class MainWindow(QMainWindow):
 
     def rotate_right(self):
         if self.temp_state is not None:
-            self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, 'rotate_right_state(temp_state)')
+            temp_state = self.temp_state
+            objects = self.objects
+            try:
+                self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, 'rotate_right_state(temp_state)')
+            except Exception as e:
+                if len(self.temp_state) != len(self.temp_state[0]):
+                    self.temp_state = temp_state
+                    self.objects = objects
+                else:
+                    raise e
             # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
