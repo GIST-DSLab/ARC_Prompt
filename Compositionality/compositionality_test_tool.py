@@ -224,6 +224,7 @@ class MainWindow(QMainWindow):
         self.current_test_type = None  # To store the current test type (exercise or main)
         self.task_id_map = load_task_id_map('result/task_id_map.csv')
         self.memo_text = None 
+        self.full_dsl = []
 
         self.user_dialog = UserDialog()
         if self.user_dialog.exec_() == QDialog.Accepted:
@@ -518,6 +519,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def pixel_color(self):
+        self.full_dsl.append(f'pixel_color({self.selected_positions}, {self.selected_color})')
+        
         if self.selected_color == -1:
             return
         if self.temp_state is not None and self.selected_positions and len(self.selected_positions) == 1:
@@ -545,8 +548,19 @@ class MainWindow(QMainWindow):
                     self.objects[obj_name] = new_coords
 
     def rotate_left(self):
+        self.full_dsl.append(f'rotate_left_state(temp_state)')
+
         if self.temp_state is not None:
-            self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, 'rotate_left_state(temp_state)')
+            temp_state = self.temp_state
+            objects = self.objects
+            try:
+                self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, 'rotate_left_state(temp_state)')
+            except Exception as e:
+                if len(self.temp_state) != len(self.temp_state[0]):
+                    self.temp_state = temp_state
+                    self.objects = objects
+                else:
+                    raise e
             # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
@@ -554,6 +568,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def rotate_right(self):
+        self.full_dsl.append(f'rotate_right_state(temp_state)')
+
         if self.temp_state is not None:
             temp_state = self.temp_state
             objects = self.objects
@@ -572,6 +588,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def flip_vertical(self):
+        self.full_dsl.append(f'vertical_flip(temp_state)')
+
         if self.temp_state is not None:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, 'vertical_flip(temp_state)')
             # self.remove_overlapping_positions()
@@ -581,6 +599,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def flip_horizontal(self):
+        self.full_dsl.append(f'horizontal_flip(temp_state)')
+
         if self.temp_state is not None:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, 'horizontal_flip(temp_state)')
             # self.remove_overlapping_positions()
@@ -590,6 +610,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def move_right(self):
+        self.full_dsl.append(f'move_right(self.temp_state, {self.selected_object})')
+
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'move_right(self.temp_state, {self.selected_object})')
             # self.remove_overlapping_positions()
@@ -599,6 +621,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def move_left(self):
+        self.full_dsl.append(f'move_left(self.temp_state, {self.selected_object})')
+
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'move_left(self.temp_state, {self.selected_object})')
             # self.remove_overlapping_positions()
@@ -608,6 +632,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def move_up(self):
+        self.full_dsl.append(f'move_up(self.temp_state, {self.selected_object})')
+
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'move_up(self.temp_state, {self.selected_object})')
             # self.remove_overlapping_positions()
@@ -617,6 +643,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def move_down(self):
+        self.full_dsl.append(f'move_down(self.temp_state, {self.selected_object})')
+
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'move_down(self.temp_state, {self.selected_object})')
             # self.remove_overlapping_positions()
@@ -626,6 +654,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def rotate_right_obj(self):
+        self.full_dsl.append(f'rotate_right_obj(self.temp_state, {self.selected_object})')
+
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'rotate_right_obj(self.temp_state, {self.selected_object})')
             # self.remove_overlapping_positions()
@@ -635,6 +665,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def rotate_left_obj(self):
+        self.full_dsl.append(f'rotate_left_obj(self.temp_state, {self.selected_object})')
+
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'rotate_left_obj(self.temp_state, {self.selected_object})')
             # self.remove_overlapping_positions()
@@ -644,6 +676,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def vertical_flip_obj(self):
+        self.full_dsl.append(f'vertical_flip_obj(self.temp_state, {self.selected_object})')
+
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'vertical_flip_obj(self.temp_state, {self.selected_object})')
             # self.remove_overlapping_positions()
@@ -653,6 +687,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def horizontal_flip_obj(self):
+        self.full_dsl.append(f'horizontal_flip_obj(self.temp_state, {self.selected_object})')
+
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'horizontal_flip_obj(self.temp_state, {self.selected_object})')
             # self.remove_overlapping_positions()
@@ -662,6 +698,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def x_line(self):
+        self.full_dsl.append(f'X_line(self.temp_state, {self.selected_positions}, {self.selected_color})')
+
         if self.selected_color == -1:
             return
         if self.temp_state is not None and self.selected_positions and len(self.selected_positions) == 1:
@@ -674,6 +712,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def horizontal_line(self):
+        self.full_dsl.append(f'horizontal_line(self.temp_state, {self.selected_positions}, {self.selected_color})')
+
         if self.selected_color == -1:
             return
         if self.temp_state is not None and len(self.selected_positions) == 2:
@@ -687,6 +727,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def vertical_line(self):
+        self.full_dsl.append(f'vertical_line(self.temp_state, {self.selected_positions}, {self.selected_color})')
+
         if self.selected_color == -1:
             return
         if self.temp_state is not None and len(self.selected_positions) == 2:
@@ -700,6 +742,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def diagonal_line(self):
+        self.full_dsl.append(f'diagonal_line(self.temp_state, {self.selected_positions}, {self.selected_color})')
+
         if self.selected_color == -1:
             return
         if self.temp_state is not None and len(self.selected_positions) == 2:
@@ -713,6 +757,8 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def obj_color(self):
+        self.full_dsl.append(f'obj_color(self.temp_state, {self.selected_object}, {self.selected_color})')
+
         if self.selected_color == -1:
             return
         if self.temp_state is not None and self.selected_object:
@@ -724,6 +770,7 @@ class MainWindow(QMainWindow):
             self.output_widget.update()
 
     def complete(self):
+        self.full_dsl.append('complete(self.temp_state)')
         if self.temp_state is not None:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, 'complete(self.temp_state)')
             # self.remove_overlapping_positions()
@@ -753,6 +800,7 @@ class MainWindow(QMainWindow):
             'problem': self.problem_index,
             'problem_id': problem_id,
             'dsl': self.dsl,
+            'full_dsl': self.full_dsl,
             'steps': self.steps,
             'correct': correct,
             'output': user_output,
@@ -767,6 +815,7 @@ class MainWindow(QMainWindow):
         else:
             df.to_csv('result/human_log.csv', mode='a', header=False, index=False)
         self.dsl = []  # Reset the dsl list for the next problem
+        self.full_dsl = []
         # self.memo_text = None
         self.memo_input.clear()
 
@@ -779,6 +828,7 @@ class MainWindow(QMainWindow):
         self.progress_bar.setFormat(f'{self.problem_index + 1} / {len(self.data)}')
 
         self.dsl = []  # Reset the dsl list when loading a new problem
+        self.full_dsl = []
         self.selected_object = None
         self.selected_positions = []
         self.input_widget.selected_positions = []
