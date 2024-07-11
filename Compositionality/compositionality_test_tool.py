@@ -390,11 +390,11 @@ class MainWindow(QMainWindow):
         memo_layout = QHBoxLayout()
         self.memo_input = QTextEdit()
         self.memo_input.setFixedHeight(100)  # 높이를 4~5줄로 설정
-        self.memo_button = QPushButton('Memo')
-        self.memo_button.clicked.connect(self.save_memo)
+        # self.memo_button = QPushButton('Memo')
+        # self.memo_button.clicked.connect(self.save_memo)
         memo_layout.addWidget(QLabel('Memo:'))
         memo_layout.addWidget(self.memo_input)
-        memo_layout.addWidget(self.memo_button)
+        # memo_layout.addWidget(self.memo_button)
         self.test_layout.addLayout(memo_layout)
 
         # Search Text Box 및 버튼 추가
@@ -520,7 +520,7 @@ class MainWindow(QMainWindow):
 
     def pixel_color(self):
         self.full_dsl.append(f'pixel_color({self.selected_positions}, {self.selected_color})')
-        
+
         if self.selected_color == -1:
             return
         if self.temp_state is not None and self.selected_positions and len(self.selected_positions) == 1:
@@ -807,7 +807,7 @@ class MainWindow(QMainWindow):
             'mistake': self.mistake_checkbox.isChecked(),
             'object_incompleteness': self.object_incompleteness_checkbox.isChecked(),
             'dsl_incompleteness': self.dsl_incompleteness_checkbox.isChecked(),
-            'memo': self.memo_text if self.memo_text else None 
+            'memo': self.memo_input.toPlainText() if self.memo_input.toPlainText() else None 
         }
         df = pd.DataFrame([log_entry])
         if not os.path.isfile('result/human_log.csv'):
@@ -824,8 +824,8 @@ class MainWindow(QMainWindow):
             print("No more problems to load")
             return
         self.current_problem = self.data[self.problem_index] if index is None else self.data[index]
-        self.progress_bar.setValue(self.problem_index + 1) if index is None else index+1
-        self.progress_bar.setFormat(f'{self.problem_index + 1} / {len(self.data)}')
+        self.progress_bar.setValue(self.problem_index + 1) if index is None else self.progress_bar.setValue(index + 1)
+        self.progress_bar.setFormat(f'{self.problem_index + 1} / {len(self.data)}') if index is None else self.progress_bar.setFormat(f'{index + 1} / {len(self.data)}')
 
         self.dsl = []  # Reset the dsl list when loading a new problem
         self.full_dsl = []
