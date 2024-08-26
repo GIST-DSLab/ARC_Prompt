@@ -1,0 +1,247 @@
+DSL functions list
+
+[python code]
+
+def rotate_left_state(state):
+    N = len(state)
+    rotated_state = copy.deepcopy(state)
+    if N == len(state[0]):
+        temp_state = copy.deepcopy(state)
+        for x in range(N):
+            for y in range(N):
+                rotated_state[N-1-y][x] = state[x][y]
+    return rotated_state
+
+
+def rotate_right_state(state):
+    N = len(state)
+    rotated_state = copy.deepcopy(state)
+    if N == len(state[0]):
+        for x in range(N):
+            for y in range(N):
+                rotated_state[y][N-1-x] = state[x][y]
+    return rotated_state
+
+
+def vertical_flip(state):
+    temp_state = copy.deepcopy(state)
+    N = len(state)
+    M = len(state[0])
+    for i in range(N):
+        for j in range(M):
+            temp_state[N-1-i][j] = state[i][j]
+    return temp_state
+
+
+def horizontal_flip(state):
+    N = len(state)
+    M = len(state[0])
+    flipped_state = copy.deepcopy(state)
+    for i in range(N):
+        for j in range(M // 2):
+            flipped_state[i][j], flipped_state[i][M-1-j] = state[i][M-1-j], state[i][j]
+    return flipped_state
+
+
+def move_right(state, object):
+    move_state = copy.deepcopy(state)
+    new_obj = []
+    for x, y in object:
+        move_state[x][y] = 0
+    for x, y in object:
+        new_x, new_y = x, y + 1
+        if 0 <= new_x < len(state) and 0 <= new_y < len(state[0]):
+            move_state[new_x][new_y] = state[x][y]
+            new_obj.append([new_x, new_y])
+    return move_state
+
+
+def move_left(state, object):
+    move_state = copy.deepcopy(state)
+    new_obj = []
+    for x, y in object:
+        move_state[x][y] = 0
+    for x, y in object:
+        new_x, new_y = x, y - 1
+        if 0 <= new_x < len(state) and 0 <= new_y < len(state[0]):
+            move_state[new_x][new_y] = state[x][y]
+            new_obj.append([new_x, new_y])
+    return move_state
+
+
+def move_up(state, object):
+    move_state = copy.deepcopy(state)
+    new_obj = []
+    for x, y in object:
+        move_state[x][y] = 0
+    for x, y in object:
+        new_x, new_y = x-1, y
+        if 0 <= new_x < len(state) and 0 <= new_y < len(state[0]):
+            move_state[new_x][new_y] = state[x][y]
+            new_obj.append([new_x, new_y])
+    return move_state
+
+
+def move_down(state, object):
+    move_state = copy.deepcopy(state)
+    new_obj = []
+    for x, y in object:
+        move_state[x][y] = 0
+    for x, y in object:
+        new_x, new_y = x+1, y
+        if 0 <= new_x < len(state) and 0 <= new_y < len(state[0]):
+            move_state[new_x][new_y] = state[x][y]
+            new_obj.append([new_x, new_y])
+    return move_state
+
+
+def rotate_right_obj(state, object):
+    rotate_state = copy.deepcopy(state)
+    new_obj = []
+    max_x = max(x for x, _ in object)
+    min_x = min(x for x, _ in object)
+    max_y = max(y for _, y in object)
+    min_y = min(y for _, y in object)
+    fixed_x = (max_x + min_x) // 2
+    fixed_y = (max_y + min_y) // 2
+
+    for x, y in object:
+        rotate_state[x][y] = 0
+
+    for x, y in object:
+        moved_x = y - fixed_y + fixed_x
+        moved_y = -x + fixed_x + fixed_y
+        if 0 <= moved_x < len(state) and 0 <= moved_y < len(state[0]):
+            rotate_state[moved_x][moved_y] = state[x][y]
+            new_obj.append([moved_x, moved_y])
+
+    return rotate_state
+
+
+def rotate_left_obj(state, object):
+    rotate_state = copy.deepcopy(state)
+    new_obj = []
+    max_x = max(x for x, _ in object)
+    min_x = min(x for x, _ in object)
+    max_y = max(y for _, y in object)
+    min_y = min(y for _, y in object)
+    fixed_x = (max_x + min_x) // 2
+    fixed_y = (max_y + min_y) // 2
+
+    for x, y in object:
+        rotate_state[x][y] = 0
+
+    for x, y in object:
+        moved_x = -y + fixed_y + fixed_x
+        moved_y = x - fixed_x + fixed_y
+        if 0 <= moved_x < len(state) and 0 <= moved_y < len(state[0]):
+            rotate_state[moved_x][moved_y] = state[x][y]
+            new_obj.append([moved_x, moved_y])
+
+    return rotate_state
+
+
+def vertical_flip_obj(state, object):
+    flip_state = copy.deepcopy(state)
+    new_obj = []
+    max_x = max(x for x, _ in object)
+    min_x = min(x for x, _ in object)
+
+    for x, y in object:
+        flip_state[x][y] = 0
+
+    for x, y in object:
+        flip_state[max_x + min_x - x][y] = state[x][y]
+        new_obj.append([max_x + min_x - x, y])
+
+    return flip_state
+
+
+def horizontal_flip_obj(state, object):
+    flip_state = copy.deepcopy(state)
+    new_obj = []
+    max_y = max(y for _, y in object)
+    min_y = min(y for _, y in object)
+
+    for x, y in object:
+        flip_state[x][y] = 0
+
+    for x, y in object:
+        flip_state[x][max_y + min_y - y] = state[x][y]
+        new_obj.append([x, max_y + min_y - y])
+
+    return flip_state
+
+
+def X_line(state, r, c, color):
+    X_state = copy.deepcopy(state)
+    x_move = [-1, 1]
+    y_move = [-1, 1]
+
+    for i in x_move:
+        for j in y_move:
+            moved_x, moved_y = r + i, c + j
+            while 0 <= moved_x < len(state) and 0 <= moved_y < len(state[0]):
+                X_state[moved_x][moved_y] = color
+                moved_x += i
+                moved_y += j
+
+    return X_state
+
+
+def horizontal_line(state, r1, c1, r2, c2, color):
+    line_state = copy.deepcopy(state)
+    if r1 == r2:
+        if c1 < c2:
+            if c2 < len(state[0]):
+                for i in range(c1+1, c2):
+                    line_state[r1][i] = color
+        else:
+            if c1 < len(state[0]):
+                for i in range(c2+1, c1):
+                    line_state[r1][i] = color
+    return line_state
+
+
+def vertical_line(state, r1, c1, r2, c2, color):
+    line_state = copy.deepcopy(state)
+    if c1 == c2:
+        if r1 < r2:
+            if r2 < len(state):
+                for i in range(r1+1, r2):
+                    line_state[i][c1] = color
+        else:
+            if r1 < len(state):
+                for i in range(r2+1, r1):
+                    line_state[i][c1] = color
+    return line_state
+
+
+def diagonal_line(state, r1, c1, r2, c2, color):
+    line_state = copy.deepcopy(state)
+    if abs(r1 - r2) == abs(c1 - c2):
+        dr = 1 if r2 > r1 else -1
+        dc = 1 if c2 > c1 else -1
+        r, c = r1 + dr, c1 + dc
+        while r != r2 and c != c2:
+            line_state[r][c] = color
+            r += dr
+            c += dc
+    return line_state
+
+
+def obj_color(state, object, color):
+    color_state = copy.deepcopy(state)
+    for x, y in object:
+        color_state[x][y] = color
+    return color_state
+
+
+def pixel_color(state, r, c, color):
+    temp_state = copy.deepcopy(state)
+    temp_state[r][c] = color
+    return temp_state
+
+
+def complete(state):
+    return state

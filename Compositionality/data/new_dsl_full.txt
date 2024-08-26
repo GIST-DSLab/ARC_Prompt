@@ -1,0 +1,363 @@
+DSL functions list
+
+[python code]
+
+# rotate_left_state function is a counterclockwise rotation about the given state.
+# This function rotates a square grid (NxN) counterclockwise by 90 degrees.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# Returns:
+# - A new 2D list representing the grid after the counterclockwise rotation.
+def rotate_left_state(state):
+    N = len(state)
+    rotated_state = copy.deepcopy(state)
+    if N == len(state[0]):
+        temp_state = copy.deepcopy(state)
+        for x in range(N):
+            for y in range(N):
+                rotated_state[N-1-y][x] = state[x][y]
+    return rotated_state
+
+# rotate_right_state function is a clockwise rotation about the given state.
+# This function rotates a square grid (NxN) clockwise by 90 degrees.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# Returns:
+# - A new 2D list representing the grid after the clockwise rotation.
+def rotate_right_state(state):
+    N = len(state)
+    rotated_state = copy.deepcopy(state)
+    if N == len(state[0]):
+        for x in range(N):
+            for y in range(N):
+                rotated_state[y][N-1-x] = state[x][y]
+    return rotated_state
+
+# vertical_flip function is a flip by x-axis about the given state.
+# This function flips the grid vertically, swapping the top and bottom rows.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# Returns:
+# - A new 2D list representing the grid after the vertical flip.
+def vertical_flip(state):
+    temp_state = copy.deepcopy(state)
+    N = len(state)
+    M = len(state[0])
+    for i in range(N):
+        for j in range(M):
+            temp_state[N-1-i][j] = state[i][j]
+    return temp_state
+
+# horizontal_flip function is a flip by y-axis about the given state.
+# This function flips the grid horizontally, swapping the left and right columns.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# Returns:
+# - A new 2D list representing the grid after the horizontal flip.
+def horizontal_flip(state):
+    N = len(state)
+    M = len(state[0])
+    flipped_state = copy.deepcopy(state)
+    for i in range(N):
+        for j in range(M // 2):
+            flipped_state[i][j], flipped_state[i][M-1-j] = state[i][M-1-j], state[i][j]
+    return flipped_state
+
+# move_right function moves all pixels in the selected object to the right by one column.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel to move.
+# Returns:
+# - A new 2D list representing the grid after the object is moved to the right.
+def move_right(state, object):
+    move_state = copy.deepcopy(state)
+    new_obj = []
+    for x, y in object:
+        move_state[x][y] = 0
+    for x, y in object:
+        new_x, new_y = x, y + 1
+        if 0 <= new_x < len(state) and 0 <= new_y < len(state[0]):
+            move_state[new_x][new_y] = state[x][y]
+            new_obj.append([new_x, new_y])
+    return move_state
+
+# move_left function moves all pixels in the selected object to the left by one column.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel to move.
+# Returns:
+# - A new 2D list representing the grid after the object is moved to the left.
+def move_left(state, object):
+    move_state = copy.deepcopy(state)
+    new_obj = []
+    for x, y in object:
+        move_state[x][y] = 0
+    for x, y in object:
+        new_x, new_y = x, y - 1
+        if 0 <= new_x < len(state) and 0 <= new_y < len(state[0]):
+            move_state[new_x][new_y] = state[x][y]
+            new_obj.append([new_x, new_y])
+    return move_state
+
+# move_up function moves all pixels in the selected object up by one row.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel to move.
+# Returns:
+# - A new 2D list representing the grid after the object is moved up.
+def move_up(state, object):
+    move_state = copy.deepcopy(state)
+    new_obj = []
+    for x, y in object:
+        move_state[x][y] = 0
+    for x, y in object:
+        new_x, new_y = x-1, y
+        if 0 <= new_x < len(state) and 0 <= new_y < len(state[0]):
+            move_state[new_x][new_y] = state[x][y]
+            new_obj.append([new_x, new_y])
+    return move_state
+
+# move_down function moves all pixels in the selected object down by one row.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel to move.
+# Returns:
+# - A new 2D list representing the grid after the object is moved down.
+def move_down(state, object):
+    move_state = copy.deepcopy(state)
+    new_obj = []
+    for x, y in object:
+        move_state[x][y] = 0
+    for x, y in object:
+        new_x, new_y = x+1, y
+        if 0 <= new_x < len(state) and 0 <= new_y < len(state[0]):
+            move_state[new_x][new_y] = state[x][y]
+            new_obj.append([new_x, new_y])
+    return move_state
+
+# rotate_right_obj function makes a clockwise rotation about the given object.
+# This function rotates the selected object within the grid 90 degrees clockwise around its center.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel in the object.
+# Returns:
+# - A new 2D list representing the grid after the object is rotated clockwise.
+def rotate_right_obj(state, object):
+    rotate_state = copy.deepcopy(state)
+    new_obj = []
+    max_x = max(x for x, _ in object)
+    min_x = min(x for x, _ in object)
+    max_y = max(y for _, y in object)
+    min_y = min(y for _, y in object)
+    fixed_x = (max_x + min_x) // 2
+    fixed_y = (max_y + min_y) // 2
+
+    for x, y in object:
+        rotate_state[x][y] = 0
+
+    for x, y in object:
+        moved_x = y - fixed_y + fixed_x
+        moved_y = -x + fixed_x + fixed_y
+        if 0 <= moved_x < len(state) and 0 <= moved_y < len(state[0]):
+            rotate_state[moved_x][moved_y] = state[x][y]
+            new_obj.append([moved_x, moved_y])
+
+    return rotate_state
+
+# rotate_left_obj function makes a counterclockwise rotation about the given object.
+# This function rotates the selected object within the grid 90 degrees counterclockwise around its center.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel in the object.
+# Returns:
+# - A new 2D list representing the grid after the object is rotated counterclockwise.
+def rotate_left_obj(state, object):
+    rotate_state = copy.deepcopy(state)
+    new_obj = []
+    max_x = max(x for x, _ in object)
+    min_x = min(x for x, _ in object)
+    max_y = max(y for _, y in object)
+    min_y = min(y for _, y in object)
+    fixed_x = (max_x + min_x) // 2
+    fixed_y = (max_y + min_y) // 2
+
+    for x, y in object:
+        rotate_state[x][y] = 0
+
+    for x, y in object:
+        moved_x = -y + fixed_y + fixed_x
+        moved_y = x - fixed_x + fixed_y
+        if 0 <= moved_x < len(state) and 0 <= moved_y < len(state[0]):
+            rotate_state[moved_x][moved_y] = state[x][y]
+            new_obj.append([moved_x, moved_y])
+
+    return rotate_state
+
+# vertical_flip_obj function makes a vertical flip of the selected object.
+# This function flips the selected object within the grid vertically.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel in the object.
+# Returns:
+# - A new 2D list representing the grid after the object is flipped vertically.
+def vertical_flip_obj(state, object):
+    flip_state = copy.deepcopy(state)
+    new_obj = []
+    max_x = max(x for x, _ in object)
+    min_x = min(x for x, _ in object)
+
+    for x, y in object:
+        flip_state[x][y] = 0
+
+    for x, y in object:
+        flip_state[max_x + min_x - x][y] = state[x][y]
+        new_obj.append([max_x + min_x - x, y])
+
+    return flip_state
+
+# horizontal_flip_obj function makes a horizontal flip of the selected object.
+# This function flips the selected object within the grid horizontally.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel in the object.
+# Returns:
+# - A new 2D list representing the grid after the object is flipped horizontally.
+def horizontal_flip_obj(state, object):
+    flip_state = copy.deepcopy(state)
+    new_obj = []
+    max_y = max(y for _, y in object)
+    min_y = min(y for _, y in object)
+
+    for x, y in object:
+        flip_state[x][y] = 0
+
+    for x, y in object:
+        flip_state[x][max_y + min_y - y] = state[x][y]
+        new_obj.append([x, max_y + min_y - y])
+
+    return flip_state
+
+# X_line function makes a diagonal X-line in all directions from a given pixel until they reach the end of the grid.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - r: The row index of the starting pixel.
+# - c: The column index of the starting pixel.
+# - color: The color to be used for the X-line.
+# Returns:
+# - A new 2D list representing the grid after the X-line is drawn.
+def X_line(state, r, c, color):
+    X_state = copy.deepcopy(state)
+    x_move = [-1, 1]
+    y_move = [-1, 1]
+
+    for i in x_move:
+        for j in y_move:
+            moved_x, moved_y = r + i, c + j
+            while 0 <= moved_x < len(state) and 0 <= moved_y < len(state[0]):
+                X_state[moved_x][moved_y] = color
+                moved_x += i
+                moved_y += j
+
+    return X_state
+
+# horizontal_line function draws a horizontal line between two pixels if they are on the same row.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - r1: The row index of the first pixel.
+# - c1: The column index of the first pixel.
+# - r2: The row index of the second pixel.
+# - c2: The column index of the second pixel.
+# - color: The color to be used for the line.
+# Returns:
+# - A new 2D list representing the grid after the horizontal line is drawn.
+def horizontal_line(state, r1, c1, r2, c2, color):
+    line_state = copy.deepcopy(state)
+    if r1 == r2:
+        if c1 < c2:
+            if c2 < len(state[0]):
+                for i in range(c1+1, c2):
+                    line_state[r1][i] = color
+        else:
+            if c1 < len(state[0]):
+                for i in range(c2+1, c1):
+                    line_state[r1][i] = color
+    return line_state
+
+# vertical_line function draws a vertical line between two pixels if they are in the same column.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - r1: The row index of the first pixel.
+# - c1: The column index of the first pixel.
+# - r2: The row index of the second pixel.
+# - c2: The column index of the second pixel.
+# - color: The color to be used for the line.
+# Returns:
+# - A new 2D list representing the grid after the vertical line is drawn.
+def vertical_line(state, r1, c1, r2, c2, color):
+    line_state = copy.deepcopy(state)
+    if c1 == c2:
+        if r1 < r2:
+            if r2 < len(state):
+                for i in range(r1+1, r2):
+                    line_state[i][c1] = color
+        else:
+            if r1 < len(state):
+                for i in range(r2+1, r1):
+                    line_state[i][c1] = color
+    return line_state
+
+# diagonal_line function draws a diagonal line between two pixels if they form a 45-degree angle.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - r1: The row index of the first pixel.
+# - c1: The column index of the first pixel.
+# - r2: The row index of the second pixel.
+# - c2: The column index of the second pixel.
+# - color: The color to be used for the line.
+# Returns:
+# - A new 2D list representing the grid after the diagonal line is drawn.
+def diagonal_line(state, r1, c1, r2, c2, color):
+    line_state = copy.deepcopy(state)
+    if abs(r1 - r2) == abs(c1 - c2):
+        dr = 1 if r2 > r1 else -1
+        dc = 1 if c2 > c1 else -1
+        r, c = r1 + dr, c1 + dc
+        while r != r2 and c != c2:
+            line_state[r][c] = color
+            r += dr
+            c += dc
+    return line_state
+
+# obj_color function changes the color of the selected object.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel in the object.
+# - color: The new color to be applied to the object.
+# Returns:
+# - A new 2D list representing the grid after the object's color is changed.
+def obj_color(state, object, color):
+    color_state = copy.deepcopy(state)
+    for x, y in object:
+        color_state[x][y] = color
+    return color_state
+
+# pixel_color function changes the color of the selected pixel.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - r: The row index of the pixel to change.
+# - c: The column index of the pixel to change.
+# - color: The new color to be applied to the pixel.
+# Returns:
+# - A new 2D list representing the grid after the pixel's color is changed.
+def pixel_color(state, r, c, color):
+    temp_state = copy.deepcopy(state)
+    temp_state[r][c] = color
+    return temp_state
+
+# complete function returns the current state as the final answer of the quiz.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# Returns:
+# - The same 2D list representing the final grid state.
+def complete(state):
+    return state

@@ -3,7 +3,6 @@ from utils import *
 from tqdm import tqdm
 import json
 
-
 arc_level = None
 entry_list = []
 easy_list = []

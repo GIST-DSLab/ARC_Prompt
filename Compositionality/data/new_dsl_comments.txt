@@ -1,0 +1,172 @@
+DSL functions list
+
+[python code]
+
+# rotate_left_state function is a counterclockwise rotation about the given state.
+# This function rotates a square grid (NxN) counterclockwise by 90 degrees.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# Returns:
+# - A new 2D list representing the grid after the counterclockwise rotation.
+
+
+# rotate_right_state function is a clockwise rotation about the given state.
+# This function rotates a square grid (NxN) clockwise by 90 degrees.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# Returns:
+# - A new 2D list representing the grid after the clockwise rotation.
+
+
+# vertical_flip function is a flip by x-axis about the given state.
+# This function flips the grid vertically, swapping the top and bottom rows.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# Returns:
+# - A new 2D list representing the grid after the vertical flip.
+
+
+# horizontal_flip function is a flip by y-axis about the given state.
+# This function flips the grid horizontally, swapping the left and right columns.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# Returns:
+# - A new 2D list representing the grid after the horizontal flip.
+
+
+# move_right function moves all pixels in the selected object to the right by one column.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel to move.
+# Returns:
+# - A new 2D list representing the grid after the object is moved to the right.
+
+
+# move_left function moves all pixels in the selected object to the left by one column.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel to move.
+# Returns:
+# - A new 2D list representing the grid after the object is moved to the left.
+
+
+# move_up function moves all pixels in the selected object up by one row.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel to move.
+# Returns:
+# - A new 2D list representing the grid after the object is moved up.
+
+
+# move_down function moves all pixels in the selected object down by one row.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel to move.
+# Returns:
+# - A new 2D list representing the grid after the object is moved down.
+
+
+# rotate_right_obj function makes a clockwise rotation about the given object.
+# This function rotates the selected object within the grid 90 degrees clockwise around its center.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel in the object.
+# Returns:
+# - A new 2D list representing the grid after the object is rotated clockwise.
+
+# rotate_left_obj function makes a counterclockwise rotation about the given object.
+# This function rotates the selected object within the grid 90 degrees counterclockwise around its center.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel in the object.
+# Returns:
+# - A new 2D list representing the grid after the object is rotated counterclockwise.
+
+# vertical_flip_obj function makes a vertical flip of the selected object.
+# This function flips the selected object within the grid vertically.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel in the object.
+# Returns:
+# - A new 2D list representing the grid after the object is flipped vertically.
+
+# horizontal_flip_obj function makes a horizontal flip of the selected object.
+# This function flips the selected object within the grid horizontally.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel in the object.
+# Returns:
+# - A new 2D list representing the grid after the object is flipped horizontally.
+
+
+# X_line function makes a diagonal X-line in all directions from a given pixel until they reach the end of the grid.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - r: The row index of the starting pixel.
+# - c: The column index of the starting pixel.
+# - color: The color to be used for the X-line.
+# Returns:
+# - A new 2D list representing the grid after the X-line is drawn.
+
+
+# horizontal_line function draws a horizontal line between two pixels if they are on the same row.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - r1: The row index of the first pixel.
+# - c1: The column index of the first pixel.
+# - r2: The row index of the second pixel.
+# - c2: The column index of the second pixel.
+# - color: The color to be used for the line.
+# Returns:
+# - A new 2D list representing the grid after the horizontal line is drawn.
+
+
+# vertical_line function draws a vertical line between two pixels if they are in the same column.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - r1: The row index of the first pixel.
+# - c1: The column index of the first pixel.
+# - r2: The row index of the second pixel.
+# - c2: The column index of the second pixel.
+# - color: The color to be used for the line.
+# Returns:
+# - A new 2D list representing the grid after the vertical line is drawn.
+
+
+# diagonal_line function draws a diagonal line between two pixels if they form a 45-degree angle.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - r1: The row index of the first pixel.
+# - c1: The column index of the first pixel.
+# - r2: The row index of the second pixel.
+# - c2: The column index of the second pixel.
+# - color: The color to be used for the line.
+# Returns:
+# - A new 2D list representing the grid after the diagonal line is drawn.
+
+
+# obj_color function changes the color of the selected object.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - object: A list of lists where each inner list contains the coordinates [x, y] of a pixel in the object.
+# - color: The new color to be applied to the object.
+# Returns:
+# - A new 2D list representing the grid after the object's color is changed.
+
+
+# pixel_color function changes the color of the selected pixel.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# - r: The row index of the pixel to change.
+# - c: The column index of the pixel to change.
+# - color: The new color to be applied to the pixel.
+# Returns:
+# - A new 2D list representing the grid after the pixel's color is changed.
+
+
+# complete function returns the current state as the final answer of the quiz.
+# Parameters:
+# - state: A 2D list representing the current grid state.
+# Returns:
+# - The same 2D list representing the final grid state.
+
