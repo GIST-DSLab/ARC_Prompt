@@ -33,9 +33,9 @@ for index_number in range(0,5):
     for target_task_id in tqdm(target_task_ids):
         # Select the target_task information in total evaluation dataset files.
         for i in range(len(task.data_list)):
-                if target_task_id in task.data_list[i]:
-                    idx = i
-                    break
+            if target_task_id in task.data_list[i]:
+                idx = i
+                break
         
         target_decomposing_file_name = f'{save_dir}/decomposing_{target_task_id}.json'
         target_reasoning_file_name = f'{save_dir}/reasoning_{target_task_id}.json'
