@@ -41,6 +41,8 @@ pip install -r requirements.txt
 
 
 ## [Logical Coherence](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Logical_Coherence)
+
+### Comparison Across Prompting Techniques
 The accuracy is based on solving 100 random
 ARC tasks with CoT, LtM, and ToT prompts, each repeated 5 times. The accuracy outside the parentheses
 refers to the accuracy when only the results are correct, while the accuracy inside the parentheses indicates
@@ -58,6 +60,16 @@ the accuracy when both the results and the process are correct.
 
 </div>
 
+### Inferential Coherence of LLMs
+
+We conducted five repeated experiments using CoT on 400 tasks from the ARC Training set. Then, for the tasks that were answered correctly at least once, we augmented 100 problems using re-arc and measured Inferential Coherence, repeating this experiment five times. The results are shown in the figure below
+
+![3 1_cdf-1](https://github.com/user-attachments/assets/80c3c380-4aac-43c6-9742-bdcc8b2fb7d0)|![3 1_pdf-1](https://github.com/user-attachments/assets/f9a372e4-f36c-47c4-acb7-b88a03520358)|
+---|---|
+
+
+
+<!--
 Analyzing LLMs’ reasoning capabilities by task difficulty, following prior categorization from [ARC-Game](https://github.com/volotat/ARC-Game). The
 number of ARC tasks corresponding to each category is listed in the table, and the experiment was performed
 5 times for each task.
@@ -74,10 +86,24 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 | Average | 56.67% | 23.67% | 0.00% | 0.95% |
 
 </div>
-
+-->
 
 ## [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality)
 
+To measure the compositionality of the LLM, experiments were conducted on 158 problems. The results, based on whether the test output and human description were provided, are shown in the table below.
+
+<div align="center">
+   
+|      | w/o Human Description     | w/ Human Description  | 
+|:-----:|:-----:|:-----:|
+| w/o Test Output     | 2        | 20      | 
+| w/ Test Output    | 10       | 100     | 
+
+</div>
+
+
+
+<!--
 The accuracy is based on solving the problems in the training set, 260 questions with the same input/output dimensions, with ToT prompts and DSLs.
 <div align="center">
   
@@ -88,7 +114,7 @@ The accuracy is based on solving the problems in the training set, 260 questions
 | Accuracy | 0.000% | 0.006% | 0.000%  | 0.000% | 0.036% | 0.008% |
 
 </div>
-
+-->
 
 ## [Productivity](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Productivity)
 Based on 160 ARC tasks classified by [ConceptARC](https://github.com/victorvikram/ConceptARC), we evaluated the validity of a
