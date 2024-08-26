@@ -96,11 +96,12 @@ To measure the compositionality of the LLM, experiments were conducted on 158 pr
    
 |      | w/o Human Description     | w/ Human Description  | 
 |:-----:|:-----:|:-----:|
-| w/o Test Output     | 2        | 20      | 
-| w/ Test Output    | 10       | 100     | 
+| w/o Test Output     | 2%(5%)        | 8%(15%)      | 
+| w/ Test Output    | 9%(17%)       | 14%(29%)     | 
 
 </div>
 
+The above table is the average accuracy from 10 repeated experiment based on the presence or absence of test output and human descriptions. The accuracy values in parentheses are the estimates obtained when LLMs understand the given DSL perferctly.
 
 
 <!--
