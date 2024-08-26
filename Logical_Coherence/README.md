@@ -120,10 +120,10 @@ The accuracy outside the parentheses refers to the accuracy when only the result
 |Iteration|Chain of thought|Least to Most|Tree of Thoughts|
 |:---:|:---:|:---:|:---:|
 |1|11% (3%)|6% (4%)|7% (3%)|
-|2|10% (2%)|7% (4%)|5% (1%)|
+|2|10% (2%)|7% (4%)|4% (1%)|
 |3|10% (5%)|6% (3%)|7% (2%)|
 |4|10% (4%)|4% (2%)|7% (4%)|
-|5|12% (6%)|5% (2%)|6% (2%)|
+|5|10% (6%)|5% (2%)|6% (2%)|
 
 </div>
 
