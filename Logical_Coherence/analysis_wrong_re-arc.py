@@ -1,3 +1,4 @@
+# We modify from tanchongmin's code and use it to visualize such like load_json_data, array_to_string, string_to_array, load_task_mapping, plot_2d_grid
 import pandas as pd
 import os
 import json
@@ -10,7 +11,7 @@ total_task_id = set()
 
 re_arc_dir = 'data/re_arc/tasks'
 
-
+# Load json data
 def load_json_data(folder):
     json_files = [pos_json for pos_json in os.listdir(folder) if pos_json.endswith('.json')]
     data = {}
@@ -19,7 +20,7 @@ def load_json_data(folder):
             data[js] = json.load(json_file)
     return data
 
-
+# Convert list value to string
 def array_to_string(grid):
     # if grid is already in string form, just return it
     if isinstance(grid[0][0], str): return grid
@@ -28,7 +29,7 @@ def array_to_string(grid):
     newgrid = [[mapping[grid[i][j]] for j in range(len(grid[0]))] for i in range(len(grid))]
     return newgrid
 
-
+# Convert string value to list
 def string_to_array(grid):
     # if grid is already in integer form, just return it
     if isinstance(grid[0][0], int): return grid
@@ -38,13 +39,13 @@ def string_to_array(grid):
     newgrid = [[revmap[grid[i][j]] for j in range(len(grid[0]))] for i in range(len(grid))]
     return newgrid
 
-
+# Load mapping tasks
 def load_task_mapping(csv_file):
     df = pd.read_csv(csv_file)
     task_mapping = pd.Series(df.task_name.values, index=df.task_id).to_dict()
     return task_mapping
 
-
+# Create the grid pair wit matplotlib 
 def plot_2d_grid(data, file_name, task_id, output_base_folder='evaluation_IO_each_without_label_3'):
     cvals = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     colors = ["#000000", "#0074D9", "#FF4136", "#2ECC40", "#FFDC00", "#AAAAAA", "#F012BE", "#FF851B", "#7FDBFF",
@@ -99,7 +100,7 @@ def plot_2d_grid(data, file_name, task_id, output_base_folder='evaluation_IO_eac
         plt.savefig(output_file_path, format='png', dpi=300)
         plt.close()
 
-
+# Get the set that is incorrect tasks
 for i in range(5):
     cot_file_name = f'[iter_{i}]accuracy_each_task'
     cot_dir_path = base_dir + f'{i}/'
@@ -110,12 +111,13 @@ for i in range(5):
 
     total_task_id.update(all_wrong_task_id)
 
-
+# Set the save directory
 save = 'result/all_wrong_re_arc/'
 
 if not os.path.exists(save):
     os.makedirs(save)
 
+# Make the incorrect tasks visualization
 for file_name in total_task_id:
     with open(f'{re_arc_dir}/{file_name}.json', 'r') as f:
         target_data = json.load(f)

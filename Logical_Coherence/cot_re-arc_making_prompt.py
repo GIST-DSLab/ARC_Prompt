@@ -5,6 +5,7 @@ import random
 import pandas as pd
 from collections import OrderedDict
 
+# Set the seed for augmentation
 SEED = 777
 INCORRECT_NUM = 20
 MAX_AUG_NUM = 100
@@ -12,6 +13,7 @@ MAX_AUG_NUM = 100
 np.random.seed(SEED)
 random.seed(SEED)
 
+# Set the directory
 re_arc_dir = 'data/re_arc/tasks'
 save_dir = 'data/cot'
 train_dir = './data/training/'
@@ -20,6 +22,7 @@ cot_result_dir = 'result/[CoT-train]result_'
 train_data_dict = {}
 evaluation_data_dict = {}
 
+# Load the task ids
 for target_file in os.listdir(train_dir):
     with open(train_dir + target_file, 'r') as f:
         train_data_dict[target_file.split('.')[0]] = json.load(f)
@@ -60,6 +63,7 @@ Below problem is other pattern to solve. So you can understand below pattern wit
 
 start_completion_sentence = "<quiz answer>"
 
+# Variables to store the re-arc prompt and completion
 correct_task_id_set = set()
 incorrect_task_id_set = set()
 target_incorrect_task_id_set = []

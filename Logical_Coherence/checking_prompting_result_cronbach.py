@@ -1,6 +1,7 @@
 import pandas as pd
 import pingouin as pg
 
+# Set the variables.
 total_cot_results = dict()
 total_l2m_results = dict()
 total_tot_results = dict()
@@ -26,6 +27,7 @@ for id in task_ids_list:
 for id in train_task_ids_list:
     total_train_cot_results[id] = []
 
+# Preprocess to calculate cronbach alpha
 for index in range(0,5):
     tot_file_name = f'tot_result{index}'
     tot_dir_path = f"result/[ToT]result_{index}/"
@@ -65,6 +67,7 @@ df_total_l2m = pd.DataFrame(total_l2m_results).T
 df_total_cot = pd.DataFrame(total_cot_results).T
 df_total_train_cot = pd.DataFrame(total_train_cot_results).T
 
+# Calculate cronbach alpha
 df_tot_cronbach_alpha = pg.cronbach_alpha(data=df_total_tot)
 df_l2m_cronbach_alpha = pg.cronbach_alpha(data=df_total_l2m)
 df_cot_cronbach_alpha = pg.cronbach_alpha(data=df_total_cot)
