@@ -94,6 +94,32 @@ Detail about dsl button.
 * If you cannot solve the given problem with the provided DSLs, if the object information in the object list is incompleteness, or if you made a mistake, then check the corresponding checkboxes for ```DSL Incompleteness```, ```Object Incompleteness```, or ```Mistake```. These will be recorded in a CSV log for analysis.
 * You can use up to 10 DSLs per problem. ```Complete``` is also considered using a DSL. The number of used DSLs is displayed as "Step:" below the selected color. When the step count reaches 10, you will move to the next problem.
 
+<table border="0" cellspacing="0" cellpadding="10">
+  <tr>
+    <th></th>
+    <th>Coordinate</th>
+    <th>Object</th>
+    <th>Grid</th>
+  </tr>
+  <tr>
+    <td><strong>Color Change</strong></td>
+    <td>Pixel Color, X Line, Horizontal Line, Vertical Line, Diagonal Line</td>
+    <td>Object Color</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td><strong>Transformation</strong></td>
+    <td>X</td>
+    <td>Rotate Left Obj, Rotate Right Obj, Horizontal Flip Obj, Vertical Flip Obj, Move Left, Move Right, Move Up, Move Down</td>
+    <td>Rotate Left, Rotate Right, Horizontal Flip, Vertical Flip</td>
+  </tr>
+  <tr>
+    <td><strong>Complete</strong></td>
+    <td colspan="3" align="center">Complete</td>
+  </tr>
+</table>
+
+
 ## What is Compositionality?
 **Compositionality refers to the ability to generate complex linguistic expressions using simpler ones.** 
 This characteristic allows individuals to effectively tackle more complex tasks by breaking sub-tasks down into simpler steps, supporting the notion that humans can solve more complex tasks when faced with them. 
