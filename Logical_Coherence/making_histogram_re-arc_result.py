@@ -1,11 +1,15 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 
 base_dir = 'result/[CoT-re-arc_correct]result_'
-
+save_dir = 'result/re-arc-figures'
 
 df_concat = pd.DataFrame()
+
+if not os.path.exists(save_dir):
+    os.makedirs(save_dir)
 
 for num_iter in range(0,5):
     df = pd.DataFrame()
@@ -96,8 +100,6 @@ total_info = {
 df_info = pd.DataFrame(total_info)
 df_info.to_csv(f'result/num_tasks_with_consecutive_correct_answers.csv', index=False)
 
-exit()
-
 plt.figure(figsize=(10, 6))
 plt.plot(x_values, y_values, linestyle='-') # marker='o'
 plt.xlabel('Number of Consecutive Correct Answers (x)')
@@ -141,7 +143,7 @@ plt.ylim(0, 1)  # y축을 0에서 1 사이로 설정
 plt.grid(True)
 
 # 플롯을 파일로 저장합니다.
-plt.savefig(f'result/average_cumulative_accuracy_plot.png', dpi=300)  # 파일명과 해상도를 지정
+plt.savefig(f'{save_dir}/average_cumulative_accuracy_plot.png', dpi=300)  # 파일명과 해상도를 지정
 
 # 플롯을 화면에 보여줍니다.
 # plt.show()
@@ -168,7 +170,7 @@ for task_id in unique_tasks:
     plt.grid(True)
 
     # 플롯을 파일로 저장합니다.
-    plt.savefig(f'result/cumulative_accuracy_plot_{task_id}.png', dpi=300)  # 파일명과 해상도를 지정
+    plt.savefig(f'{save_dir}/cumulative_accuracy_plot_{task_id}.png', dpi=300)  # 파일명과 해상도를 지정
 
     # 플롯을 화면에 보여줍니다.
     # plt.show()
@@ -187,7 +189,7 @@ plt.xlim(0, 1)  # 정확도는 0에서 1 사이이므로 x축을 0에서 1로 �
 plt.grid(True)
 
 # 플롯을 파일로 저장합니다.
-plt.savefig(f'result/tasks_by_accuracy_plot.png', dpi=300)  # 파일명과 해상도를 지정
+plt.savefig(f'{save_dir}/tasks_by_accuracy_plot.png', dpi=300)  # 파일명과 해상도를 지정
 
 # 플롯을 화면에 보여줍니다.
 # plt.show()
