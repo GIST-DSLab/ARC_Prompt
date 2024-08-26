@@ -142,6 +142,6 @@ for i, total_num in enumerate(total_num_list):
     
 
 df = pd.DataFrame(index=target_str_list, data={'each_num': each_num_list, 'total_num': total_num_list, 'correct_num': target_correct_list, 'total_acc': target_acc_list, 'cot_acc': cot_acc_list, 'ltm_acc': l2m_acc_list, 'tot_acc': tot_acc_list})
-df.to_csv('result/acc.csv')
+df.to_csv('result/prompting_acc.csv')
 
 
