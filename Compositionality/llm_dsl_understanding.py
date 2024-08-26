@@ -23,6 +23,9 @@ openai.deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 input_price = 0.005 / 1_000
 output_price = 0.015 / 1_000
 
+if not os.path.exists(f'result/llm_dsl_understanding'):
+    os.mkdir(f'result/llm_dsl_understanding')
+
 for num_iter in range(START,END+1):
     iter_dir = f'result/llm_dsl_understanding/{num_iter}'
     if not os.path.exists(iter_dir):
@@ -303,6 +306,8 @@ for num_iter in range(START,END+1):
                         df_result.to_csv(result_csv_file_path, index=False)
                     else:
                         df_result.to_csv(result_csv_file_path, mode='a', header=False, index=False)
+
+                    exit()
                 except Exception as e:
                     print(f"Error: {problem_num}")
                     print(e)
