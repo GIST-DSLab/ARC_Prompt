@@ -18,7 +18,7 @@ from model.errors import save_exception_log, InvalidDSLUsageError, InvalidObject
 from model.models import cot_chatgpt
 from model.prompts.arc import cot_format_prompt, test_output_info, add_info
 
-openai.deployment_name = "TIST-C3" #os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
+openai.deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 MODE = 'main'
 PROMPT_TESTING_MODE = False
 START = 1
