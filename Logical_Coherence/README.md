@@ -112,20 +112,34 @@ ToT further distinguishes itself from LtM by evaluating multiple suggestions for
 
 
 ## Results
-The accuracy is based on solving 100 random ARC tasks with CoT, LtM, and ToT prompts, each repeated 5 times. 
-The accuracy outside the parentheses refers to the accuracy when only the results are correct, while the accuracy inside the parentheses indicates the accuracy when both the results and the process are correct.
+
+### Comparison Across Prompting Techniques
+
+The accuracy is based on solving 100 random
+ARC tasks with CoT, LtM, and ToT prompts, each repeated 5 times. The accuracy outside the parentheses
+refers to the accuracy when only the results are correct, while the accuracy inside the parentheses indicates
+the accuracy when both the results and the process are correct.
 
 <div align="center">
   
 |Iteration|Chain of thought|Least to Most|Tree of Thoughts|
 |:---:|:---:|:---:|:---:|
-|1|11% (3%)|6% (4%)|7% (3%)|
-|2|10% (2%)|7% (4%)|4% (1%)|
-|3|10% (5%)|6% (3%)|7% (2%)|
-|4|10% (4%)|4% (2%)|7% (4%)|
-|5|10% (6%)|5% (2%)|6% (2%)|
+|1|11%(3%)|6%(4%)|7%(3%)|
+|2|10%(2%)|7%(4%)|4%(1%)|
+|3|10%(5%)|6%(3%)|7%(2%)|
+|4|10%(4%)|4%(2%)|7%(4%)|
+|5|10%(6%)|5%(2%)|6%(2%)|
 
 </div>
+
+### Inferential Coherence of LLMs
+
+We conducted five repeated experiments using CoT on 400 tasks from the ARC Training set. Then, for the tasks that were answered correctly at least once, we augmented 100 problems using re-arc and measured Inferential Coherence, repeating this experiment five times. The results are shown in the figure below
+
+![3 1_cdf-1](https://github.com/user-attachments/assets/80c3c380-4aac-43c6-9742-bdcc8b2fb7d0)|![3 1_pdf-1](https://github.com/user-attachments/assets/f9a372e4-f36c-47c4-acb7-b88a03520358)|
+---|---|
+
+<!--
 
 Analyzing LLMs’ reasoning capabilities by task difficulty, following prior categorization from [ARC-Game](https://github.com/volotat/ARC-Game). 
 The number of ARC tasks corresponding to each category is listed in the table, and the experiment was performed 5 times for each task.
@@ -142,6 +156,8 @@ The number of ARC tasks corresponding to each category is listed in the table, a
 | Average | 56.67%  | 23.67% | 0.00%  | 0.95% | 0.00% |
 
 </div>
+
+-->
 
 ## Etc
 We modify [tanchongmin's code](https://github.com/tanchongmin/ARC-Challenge) to make the visualization code and use it to visualize the ARC grid. 
