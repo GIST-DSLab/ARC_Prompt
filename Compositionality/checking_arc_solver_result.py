@@ -273,6 +273,7 @@ if __name__ == '__main__':
 
     # Pivot the dataframe to get the desired format
     df_pivot = df.pivot_table(index='Experiment', columns='Configuration', values='Correct Rate')
+    df_pivot = df_pivot.rename(columns={'test-output-True_additional-info-MC-LARC': 'accuracy'})
 
     df_correct_problem_index.to_csv(f'result/{method}/[{mode}_{start}-{end}]correct_index.csv')
     df_correct_problem_id.to_csv(f'result/{method}/[{mode}_{start}-{end}]correct_id.csv')
