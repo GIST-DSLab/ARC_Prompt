@@ -14,14 +14,14 @@ from io import BytesIO
 from model.tasks.arc import ARCTask  # ARCTask import
 import copy
 
-# 컬러맵 설정
+# Set up color map
 cvals = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 colors = ["#000000", "#0074D9", "#FF4136", "#2ECC40", "#FFDC00", "#AAAAAA", "#F012BE", "#FF851B", "#7FDBFF", "#870C25"]
 norm = plt.Normalize(min(cvals), max(cvals))
 tuples = list(zip(map(norm, cvals), colors))
 cmap = matplotlib.colors.LinearSegmentedColormap.from_list("", tuples)
 
-
+# Make the grid image
 def generate_image(grid):
     rows, cols = np.array(grid).shape
     fig, axs = plt.subplots(1, 1, figsize=(cols * 0.7, rows * 0.7))
@@ -44,7 +44,7 @@ def generate_image(grid):
     qimage = QImage.fromData(buf.getvalue())
     return qimage
 
-
+# Tool for viewing the results of the Compositionality of Tasks (COT) task
 class JsonViewer(QWidget):
     def __init__(self, json_data):
         super().__init__()
@@ -59,7 +59,7 @@ class JsonViewer(QWidget):
         tabs = QTabWidget()
         layout.addWidget(tabs)
 
-        # Problem 탭에 problem 정보와 함께 다른 정보도 포함
+        # Problem tab info
         problem_info = {
             'Problem': self.json_data.get('problem', ''),
             'Problem ID': self.json_data.get('problem_id', ''),
@@ -68,20 +68,20 @@ class JsonViewer(QWidget):
         problem_content = "\n".join([f"{key}: {value}" for key, value in problem_info.items()])
         tabs.addTab(self.createTextTab('Problem', problem_content), 'Problem')
 
-        # DSL Step (기존 Step)
+        # DSL Step tab info
         tabs.addTab(self.createJsonStepsTab('DSL Steps', self.json_data['json'][0]), 'DSL Steps')
 
-        # Input Grid
+        # Input Grid tab info
         tabs.addTab(self.createImageTab('Input Grid', self.json_data['input_grid'][0]), 'Input Grid')
 
-        # Label Grid
+        # Label Grid tab info
         tabs.addTab(self.createImageTab('Label Grid', self.json_data['label_grid'][0]), 'Label Grid')
 
-        # Prediction Grid (기존 Final Grid)
+        # Prediction Grid tab info
         tabs.addTab(self.createImageTab('Prediction Grid', self.json_data['final_grid'][0]), 'Prediction Grid')
 
         self.setLayout(layout)
-        self.resize(800, 600)  # PKL File Selector와 동일한 사이즈로 설정
+        self.resize(800, 600)
 
     def createTextTab(self, title, content):
         widget = QWidget()
@@ -118,15 +118,14 @@ class JsonViewer(QWidget):
         widget = QWidget()
         layout = QVBoxLayout(widget)
         label = QLabel(title)
-        table = QTableWidget(len(steps_data)+1, 5)  # Object 열을 추가하여 열 수를 5개로 설정
+        table = QTableWidget(len(steps_data)+1, 5)  
         table.setHorizontalHeaderLabels(['Step', 'DSL', 'Object', 'Grid', 'Description'])
 
-        # 컬럼 길이 조정
-        table.setColumnWidth(0, 50)  # Step 컬럼의 길이 줄이기
-        table.setColumnWidth(1, 150)  # DSL 컬럼의 길이
-        table.setColumnWidth(2, 150)  # Object 컬럼
-        table.setColumnWidth(3, 150)  # Grid 컬럼
-        table.setColumnWidth(4, 350)  # Description 컬럼의 길이 늘리기
+        table.setColumnWidth(0, 50)  
+        table.setColumnWidth(1, 150)  
+        table.setColumnWidth(2, 150)  
+        table.setColumnWidth(3, 150) 
+        table.setColumnWidth(4, 350)  
 
         temp_state = copy.deepcopy(self.json_data['input_grid'][0])
         temp_object = copy.deepcopy(self.json_data['objects'][0])
@@ -139,19 +138,19 @@ class JsonViewer(QWidget):
 
         table.setItem(0, 0, QTableWidgetItem(str(0)))
         table.setItem(0, 1, QTableWidgetItem('init'))
-        table.setItem(0, 2, QTableWidgetItem(json.dumps(temp_object)))  # Object 정보 추가
+        table.setItem(0, 2, QTableWidgetItem(json.dumps(temp_object)))  
         table.setCellWidget(0, 3, grid_item)
         table.setItem(0, 4, QTableWidgetItem('Initial Grid'))
         table.setRowHeight(0, pixmap.height() + 10)
 
         for i, step in enumerate(steps_data):
-            # Step과 DSL, Object, Description 추가
+            # set the step number, dsl, object, and description in dsl_steps tab of the json viewer
             table.setItem(i+1, 0, QTableWidgetItem(str(step['step'])))
             table.setItem(i+1, 1, QTableWidgetItem(step['dsl']))
-            table.setItem(i+1, 2, QTableWidgetItem(json.dumps(temp_object)))  # Object 정보 추가
+            table.setItem(i+1, 2, QTableWidgetItem(json.dumps(temp_object)))  
             table.setItem(i+1, 4, QTableWidgetItem(step['description']))
 
-            # DSL 적용하여 Grid 이미지 생성
+            # Get the grid image for the step
             try:
                 temp_state, temp_object = self.task.env.step(temp_state, temp_object, step['dsl'], check_mode=True, analysis_mode=True)
                 grid_image = generate_image(temp_state)
@@ -160,9 +159,7 @@ class JsonViewer(QWidget):
                 grid_item.setPixmap(pixmap)
                 grid_item.setAlignment(Qt.AlignCenter)
                 table.setCellWidget(i+1, 3, grid_item)
-
-                # 이미지 크기에 맞춰 행 높이 조정
-                table.setRowHeight(i+1, pixmap.height() + 10)  # 이미지 크기 + 여유 공간
+                table.setRowHeight(i+1, pixmap.height() + 10) 
             except Exception as e:
                 table.setItem(i+1, 3, QTableWidgetItem(f"Error: {e}"))
 
@@ -171,7 +168,7 @@ class JsonViewer(QWidget):
         layout.addWidget(table)
         return widget
 
-
+# Tool for selecting and viewing pkl files
 class FileSelector(QWidget):
     def __init__(self):
         super().__init__()
@@ -181,7 +178,6 @@ class FileSelector(QWidget):
         self.setWindowTitle('PKL File Selector')
         main_layout = QVBoxLayout(self)
 
-        # Directory 선택 및 필터링 옵션 레이아웃
         dir_layout = QHBoxLayout()
 
         self.directoryLabel = QLabel('No directory selected')
@@ -198,7 +194,6 @@ class FileSelector(QWidget):
         dir_layout.addWidget(self.selectDirButton)
         dir_layout.addWidget(self.filterBox)
 
-        # 파일 목록 및 내용 표시 레이아웃
         self.fileListWidget = QTableWidget()
         self.fileListWidget.setColumnCount(2)
         self.fileListWidget.setHorizontalHeaderLabels(['File Name', 'Correct'])
@@ -229,7 +224,7 @@ class FileSelector(QWidget):
                 try:
                     with gzip.open(file_path, 'rb') as f:
                         json_data = pickle.load(f)
-                        correct_value = json_data.get('correct', [None])[0]  # 'correct' 값을 가져옴
+                        correct_value = json_data.get('correct', [None])[0]  
                         self.pkl_files.append((pkl_file, correct_value))
                 except (OSError, pickle.UnpicklingError) as e:
                     print(f"Failed to load {pkl_file}: {e}")

@@ -122,13 +122,12 @@ final_combined_df = pd.DataFrame(final_data + excluded_processed_data, columns=c
 final_save_path = f'result/filtered_final_merged_logs_{MODE}.csv'
 final_combined_df.to_csv(final_save_path, index=False)
 
-# TODO user에 따른 csv파일 저장하도록 만들기
-
 # Save the excluded dataframe to a separate CSV file for reference
 excluded_save_path = f'result/excluded_final_merged_logs_{MODE}.csv'
 excluded_df = pd.DataFrame(excluded_processed_data, columns=columns)
 excluded_df.to_csv(excluded_save_path, index=False)
 
+# Save the priority order to a text file
 with open(f'result/filtered_final_merged_logs_priority_order_{MODE}.txt', 'w') as f:
     f.write(str(priority_order))
 

@@ -13,6 +13,7 @@ import time
 import gzip
 import pickle
 
+# Set the range of iterations, mode, and deployment name 
 START = 1
 END = 2
 PROMPT_TESTING_MODE = False
@@ -26,6 +27,7 @@ output_price = 0.015 / 1_000
 if not os.path.exists(f'result/llm_dsl_understanding'):
     os.mkdir(f'result/llm_dsl_understanding')
 
+# Test the understanding of the DSLs for each iteration
 for num_iter in range(START,END+1):
     iter_dir = f'result/llm_dsl_understanding/{num_iter}'
     if not os.path.exists(iter_dir):
@@ -39,7 +41,7 @@ for num_iter in range(START,END+1):
         json_error_count = 0
         finish_reason_error_count = 0
         task = ARCTask()
-        prompt_testing_problem_list = [1, 20, 95] #[1, 4, 100, 6, 103, 10, 20, 250, 62, 95]
+        prompt_testing_problem_list =[1, 4, 100, 6, 103, 10, 20, 250, 62, 95]
         prompt_testing_mode = PROMPT_TESTING_MODE
         excluding_complete_step = EXCLUDING_COMPLETE_STEP
 
@@ -47,21 +49,25 @@ for num_iter in range(START,END+1):
             os.mkdir(save_dir)
 
         for i in ['full']: # ['no', 'comments', 'functions', 'full']
-            given_dsl_txt = i #'comments'
+            # Set the variables for the DSL file and CSV file paths
+            given_dsl_txt = i
             dsl_file = f'' if given_dsl_txt == 'no' else f'data/new_dsl_{given_dsl_txt}.txt'
             finish_reason_error_csv_file_path = f'{save_dir}/[finish_reason_error]checking_test-{prompt_testing_mode}_dsl-{given_dsl_txt}.csv'
             json_error_csv_file_path = f'{save_dir}/[json_error]checking_test-{prompt_testing_mode}_dsl-{given_dsl_txt}.csv'
             result_csv_file_path = f'{save_dir}/[total-result]checking_test-{prompt_testing_mode}_dsl-{given_dsl_txt}.csv'
             except_error_csv_file_path = f'{save_dir}/[except_error]checking_test-{prompt_testing_mode}_dsl-{given_dsl_txt}.csv'
 
+            # Set the problem list based on the prompt testing mode if prompt_testing_mode is True
             if prompt_testing_mode:
                 problem_list = prompt_testing_problem_list
 
+            # Check if the result CSV file exists and remove the problems that are already solved
             if os.path.isfile(result_csv_file_path):
                 previous_result_df = pd.read_csv(result_csv_file_path, encoding='iso-8859-1')
                 previous_problem_list = previous_result_df['problem'].unique()
                 problem_list = list(set(problem_list) - set(previous_problem_list))
 
+            # Set the prompt for the DSL understanding experiment
             fixed_prompt = '''
             Do you know ARC problem?
             
@@ -90,6 +96,7 @@ for num_iter in range(START,END+1):
             Generate the grid step by step by applying the DSLs in the 'dsl_list' to the input grid.
             '''
 
+            # Set the response format message for the experiment
             format_message = '''
             Apply the dsl_list to the given input grid in order to create the final output grid. Leave a log as follows each time you apply a DSL from the dsl_list:
             {
@@ -136,6 +143,7 @@ for num_iter in range(START,END+1):
             And generate step by step. If you can't generate the final output grid, you should keep trying.
             '''
 
+            # Preprocess the DSL string to replace square brackets with parentheses
             def preprocessing_dsl(dsl):
                 dsl_name = dsl.split('(')[0]
                 dsl_args = dsl[len(dsl_name):].replace('[', '').replace(']', '').replace('(', '').replace(')', '')
@@ -148,6 +156,7 @@ for num_iter in range(START,END+1):
             else:
                 dsl_list_prompt = ''
 
+            # Test the understanding of the DSLs for each problem in the problem list and save the results to a CSV file and a pickle file for each problem
             for problem_num in tqdm(problem_list):
                 try:
                     print(f'Problem number: {problem_num}')
@@ -196,7 +205,7 @@ for num_iter in range(START,END+1):
                         else:
                             df_log.to_csv(finish_reason_error_csv_file_path, mode='a', header=False, index=False)
 
-                    # TODO 밑에 정확도 측정하는 if else문 추가하기. 이를 위해서 아마 파싱을 잘 해야할 것 같음.
+                    # Parse the JSON logs from the Azure openAI API response
                     pattern = re.compile(r'\{(?:[^{}]|(?:\{[^{}]*\}))*\}', re.DOTALL)
                     matches = pattern.findall(str_gpt_output)
 
@@ -266,6 +275,7 @@ for num_iter in range(START,END+1):
                     result_local_time = time.localtime(result_time)
                     format_result_local_time = time.strftime('%Y-%m-%d %H:%M:%S', result_local_time)
 
+                    # Save the total results to a pickle file
                     total_result_log_data = {
                         "problem": [problem_num],
                         "problem_id": [problem_id],
@@ -289,6 +299,7 @@ for num_iter in range(START,END+1):
                     with gzip.open(total_result_file_path, 'wb') as f:
                         pickle.dump(total_result_log_data, f)
 
+                    # Save the results to a CSV file
                     result_log_data = {
                         "problem": [problem_num],
                         "problem_id": [problem_id],
@@ -309,6 +320,7 @@ for num_iter in range(START,END+1):
 
                     exit()
                 except Exception as e:
+                    # Handle the exceptions and save the error logs to a CSV file
                     print(f"Error: {problem_num}")
                     print(e)
 

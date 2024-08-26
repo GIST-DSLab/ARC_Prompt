@@ -18,12 +18,14 @@ from model.errors import save_exception_log, InvalidDSLUsageError, InvalidObject
 from model.models import cot_chatgpt
 from model.prompts.arc import cot_format_prompt, test_output_info, add_info
 
+# Set the deplyment_name, mode, method, start, and end values
 openai.deployment_name = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
 MODE = 'main'
 PROMPT_TESTING_MODE = False
 START = 1
 END = 10
 
+# Solve ARC task with CoT prompts and DSLs
 def main(i, include_test_output, additional_info, mode):
     input_price = 0.005 / 1_000
     output_price = 0.015 / 1_000
@@ -81,12 +83,6 @@ def main(i, include_test_output, additional_info, mode):
             total_dsl_list = []
 
             if not os.path.exists(total_result_file_path):
-                # TODO-1: tot에서 sample prompt 내용 확인해서 재사용 가능한지 판단하기 => 사용 가능
-                # TODO-2: tot에서 sample prompt 내용을 이용해서 prompt 생성하기
-
-                # TODO-3: models에 있는 chatgpt 함수 사용해서 예외가 있는지 확인해보기, 만약 output token수가 부족하다고 생각되어지면 dsl_chatgpt에 mode를 추가해서 사용하기
-
-                # TODO prompt 부분
                 examples, quiz, object, state, label_grid = task.get_input(problem_index)
                 init_state = copy.deepcopy(state)
                 init_object = copy.deepcopy(object)
@@ -109,13 +105,14 @@ def main(i, include_test_output, additional_info, mode):
                 prompt = task.cot_prompt_wrap(examples=examples, quiz=quiz, object=object, step=0, test_output_info=test_output_info_prompt if include_test_output else '', add_info=add_info_prompt if additional_info != False else '')
 
 
-                # TODO openai api 호출하는 부분
+                # Call the Azure OpenAI API
                 gpt_output, finish_reason, res_choices, input_prompt, success_flag, num_tokens_input_list, num_tokens_output_list, num_tokens_total_list, parsed_logs = cot_chatgpt(
                     prompt, step=task.steps, assistant_prompt=cot_format_prompt, model=openai.deployment_name,
                     temperature=0.7, max_tokens=4096, n=1, stop=None, use_env=True)
 
                 str_gpt_output = " ".join(gpt_output)
 
+                # Case when the model does not return a valid response
                 if finish_reason != 'stop':
                     finish_reason_error_count += 1
 
@@ -138,14 +135,14 @@ def main(i, include_test_output, additional_info, mode):
                     else:
                         df_log.to_csv(finish_reason_error_csv_file_path, mode='a', header=False, index=False)
 
-                # TODO 파싱해서 가져온 dsl을 환경에 적용하기
+                # Parse the logs and step through the task
                 for log in parsed_logs:
                     dsl = log['dsl']
                     total_dsl_list.append(dsl)
                     state, object = task.env.step(state, object, dsl)
 
                 label_output = ast.literal_eval(df_filtered_problem[df_filtered_problem['problem'] == problem_index]['output'].values[0])
-                # TODO 해당 task에 대한 정보 저장하기
+
                 if np.array_equal(state, label_output):
                     count += 1
                     correct = True
@@ -156,6 +153,7 @@ def main(i, include_test_output, additional_info, mode):
                 result_local_time = time.localtime(result_time)
                 format_result_local_time = time.strftime('%Y-%m-%d %H:%M:%S', result_local_time)
 
+                # Save the total result log
                 total_result_log_data = {
                     "problem": [str(problem_index)],
                     "problem_id": [problem_id],
@@ -177,9 +175,11 @@ def main(i, include_test_output, additional_info, mode):
                     "time": [format_result_local_time],
                 }
 
+                # Use gzip to compress the total result log
                 with gzip.open(total_result_file_path, 'wb') as f:
                     pickle.dump(total_result_log_data, f)
 
+                # Save the result log
                 result_log_data = {
                     "problem": [str(problem_index)],
                     "problem_id": [problem_id],
@@ -196,7 +196,7 @@ def main(i, include_test_output, additional_info, mode):
                 with open(target_task_file_name, 'w') as f:
                     json.dump(result_log_data, f, indent=4)
 
-        # TODO 예외 처리 부분
+        # Part of the code that handles exceptions
         except InvalidObjectUsageError as e:
             InvalidObjectUsageError_flag = True
             save_exception_log(e, problem_index, problem_id, except_error_csv_file_path, InvalidObjectUsageError_flag,

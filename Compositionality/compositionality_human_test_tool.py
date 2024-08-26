@@ -9,16 +9,20 @@ import json
 import os
 from model.tasks.arc import ARCTask
 
+# Set the maximum number of steps that is same as the LLM's maximum number of steps
 MAXSTEPS = 10
 
+# Load the ARC data
 def load_arc_data(file_path):
     with open(file_path, 'r') as f:
         data = json.load(f)
     return data
 
+# Load the task id map
 def load_task_id_map(file_path):
     return pd.read_csv(file_path)
 
+# User ID Dialog
 class UserDialog(QDialog):
     def __init__(self):
         super().__init__()
@@ -37,6 +41,7 @@ class UserDialog(QDialog):
     def get_user_id(self):
         return self.user_id_input.text()
 
+# Search problem index
 class SearchDialog(QDialog):
     def __init__(self, task_id_map):
         super().__init__()
@@ -66,6 +71,7 @@ class SearchDialog(QDialog):
                     self.selected_problem_index = int(aft_task_id.iloc[0])
         return self.selected_problem_index
 
+# Show the grid
 class GridWidget(QWidget):
     data_changed = pyqtSignal(np.ndarray)
     position_selected = pyqtSignal(list)
@@ -162,6 +168,7 @@ class GridWidget(QWidget):
             self.position_selected.emit(self.selected_positions)
             self.update()
 
+# Show the color palette
 class ColorPalette(QWidget):
     color_selected = pyqtSignal(int)
 
@@ -203,6 +210,7 @@ class ColorPalette(QWidget):
             self.selected_color_label.setText(f"Selected Color: {selected_color}")
             self.selected_color_display.setStyleSheet(f"background-color: {selected_color}")
 
+# Main UI to solve the ARC problems 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -248,13 +256,9 @@ class MainWindow(QMainWindow):
         main_test_button = QPushButton('Main Test', self)
         main_test_button.clicked.connect(self.load_main_test)
 
-        # search_test_button = QPushButton('Search Main Test', self)
-        # search_test_button.clicked.connect(self.search_main_test)
-
         layout.addWidget(QLabel(f'Welcome, {self.user_id}'))
         layout.addWidget(exercise_test_button)
         layout.addWidget(main_test_button)
-        # layout.addWidget(search_test_button)
 
         self.show()
 
@@ -358,19 +362,18 @@ class MainWindow(QMainWindow):
         self.test_layout.addWidget(QLabel('Your Solution (Test output)'))
         self.test_layout.addWidget(self.center_widget(self.output_widget))
 
-        # Checkboxes 추가
+        # Add heckboxes
         checkbox_layout = QHBoxLayout()
         self.mistake_checkbox = QCheckBox('Mistake')
         self.object_incompleteness_checkbox = QCheckBox('Object Incompleteness')
         self.dsl_incompleteness_checkbox = QCheckBox('DSL Incompleteness')
 
-        # 스타일 시트로 글씨 크기 조정 및 굵게 설정
+        # Set the font size of the checkboxes
         checkbox_style = "font-size: 24px;"
         self.mistake_checkbox.setStyleSheet(checkbox_style)
         self.object_incompleteness_checkbox.setStyleSheet(checkbox_style)
         self.dsl_incompleteness_checkbox.setStyleSheet(checkbox_style)
 
-        # 동일한 간격으로 체크박스 배치
         checkbox_layout.addWidget(self.mistake_checkbox)
         checkbox_layout.addSpacerItem(QSpacerItem(40, 20, QSizePolicy.Expanding, QSizePolicy.Minimum))
         checkbox_layout.addWidget(self.object_incompleteness_checkbox)
@@ -386,18 +389,15 @@ class MainWindow(QMainWindow):
 
         self.add_transformation_buttons()
 
-        # Memo Text Box 및 버튼 추가
+        # Add the memo input box 
         memo_layout = QHBoxLayout()
         self.memo_input = QTextEdit()
         self.memo_input.setFixedHeight(100)  # 높이를 4~5줄로 설정
-        # self.memo_button = QPushButton('Memo')
-        # self.memo_button.clicked.connect(self.save_memo)
         memo_layout.addWidget(QLabel('Memo:'))
         memo_layout.addWidget(self.memo_input)
-        # memo_layout.addWidget(self.memo_button)
         self.test_layout.addLayout(memo_layout)
 
-        # Search Text Box 및 버튼 추가
+        # Add Search Text Box
         search_layout = QHBoxLayout()
         self.search_label = QLabel('Search Problem (Index or ID): ')
         self.search_input = QLineEdit()
@@ -460,6 +460,7 @@ class MainWindow(QMainWindow):
         self.output_widget.selected_object = self.objects.get(self.selected_object, None)
         self.output_widget.update()
 
+    # Add DSL function lists
     def add_transformation_buttons(self):
         transformation_layout = QGridLayout()
         buttons = [
@@ -498,7 +499,7 @@ class MainWindow(QMainWindow):
 
     def create_step_increment_function(self, func, func_name):
         def wrapper():
-            if func != self.complete:  # complete 함수가 호출된 후에는 steps를 증가시키지 않도록 함
+            if func != self.complete:  
                 func()
                 self.steps += 1
                 self.step_label.setText(f'Step: {self.steps}')
@@ -561,7 +562,6 @@ class MainWindow(QMainWindow):
                     self.objects = objects
                 else:
                     raise e
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -581,7 +581,6 @@ class MainWindow(QMainWindow):
                     self.objects = objects
                 else:
                     raise e
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -592,7 +591,6 @@ class MainWindow(QMainWindow):
 
         if self.temp_state is not None:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, 'vertical_flip(temp_state)')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -603,7 +601,6 @@ class MainWindow(QMainWindow):
 
         if self.temp_state is not None:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, 'horizontal_flip(temp_state)')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -614,7 +611,6 @@ class MainWindow(QMainWindow):
 
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'move_right(self.temp_state, {self.selected_object})')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -625,7 +621,6 @@ class MainWindow(QMainWindow):
 
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'move_left(self.temp_state, {self.selected_object})')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -636,7 +631,6 @@ class MainWindow(QMainWindow):
 
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'move_up(self.temp_state, {self.selected_object})')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -647,7 +641,6 @@ class MainWindow(QMainWindow):
 
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'move_down(self.temp_state, {self.selected_object})')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -658,7 +651,6 @@ class MainWindow(QMainWindow):
 
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'rotate_right_obj(self.temp_state, {self.selected_object})')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -669,7 +661,6 @@ class MainWindow(QMainWindow):
 
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'rotate_left_obj(self.temp_state, {self.selected_object})')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -680,7 +671,6 @@ class MainWindow(QMainWindow):
 
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'vertical_flip_obj(self.temp_state, {self.selected_object})')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -691,7 +681,6 @@ class MainWindow(QMainWindow):
 
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'horizontal_flip_obj(self.temp_state, {self.selected_object})')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -705,7 +694,6 @@ class MainWindow(QMainWindow):
         if self.temp_state is not None and self.selected_positions and len(self.selected_positions) == 1:
             y, x = self.selected_positions[-1]
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'X_line(self.temp_state, {y}, {x}, {self.selected_color})')
-            # self.remove_overlapping_positions(special_mode=True)
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -720,7 +708,6 @@ class MainWindow(QMainWindow):
             y1, x1 = self.selected_positions[0]
             y2, x2 = self.selected_positions[1]
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'horizontal_line(self.temp_state, {y1}, {x1}, {y2}, {x2}, {self.selected_color})')
-            # self.remove_overlapping_positions(special_mode=True)
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -735,7 +722,6 @@ class MainWindow(QMainWindow):
             y1, x1 = self.selected_positions[0]
             y2, x2 = self.selected_positions[1]
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'vertical_line(self.temp_state, {y1}, {x1}, {y2}, {x2}, {self.selected_color})')
-            # self.remove_overlapping_positions(special_mode=True)
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -750,7 +736,6 @@ class MainWindow(QMainWindow):
             y1, x1 = self.selected_positions[0]
             y2, x2 = self.selected_positions[1]
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'diagonal_line(self.temp_state, {y1}, {x1}, {y2}, {x2}, {self.selected_color})')
-            # self.remove_overlapping_positions(special_mode=True)
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -763,7 +748,6 @@ class MainWindow(QMainWindow):
             return
         if self.temp_state is not None and self.selected_object:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, f'obj_color(self.temp_state, {self.selected_object}, {self.selected_color})')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
@@ -773,17 +757,16 @@ class MainWindow(QMainWindow):
         self.full_dsl.append('complete(self.temp_state)')
         if self.temp_state is not None:
             self.temp_state, self.objects = self.arc_task.env.step(self.temp_state, self.objects, 'complete(self.temp_state)')
-            # self.remove_overlapping_positions()
             self.update_display_objects()
             self.display_object_on_output_widget()
             self.output_widget.update_grid_size(self.temp_state)
             self.output_widget.update()
 
-            self.step_label.setText(f'Step: {self.steps}')  # Update the step label
+            self.step_label.setText(f'Step: {self.steps}') 
 
-            if self.problem_index + 1 >= len(self.data):  # 마지막 문제인 경우
+            if self.problem_index + 1 >= len(self.data): 
                 self.log_data() 
-                self.show_test_selection()  # 이전 Main Test와 Exercise Test 보여주는 부분으로 돌아감
+                self.show_test_selection() 
             else:
                 self.load_next_problem()
 
@@ -816,7 +799,6 @@ class MainWindow(QMainWindow):
             df.to_csv('result/human_log.csv', mode='a', header=False, index=False)
         self.dsl = []  # Reset the dsl list for the next problem
         self.full_dsl = []
-        # self.memo_text = None
         self.memo_input.clear()
 
     def load_problem(self, index=None):

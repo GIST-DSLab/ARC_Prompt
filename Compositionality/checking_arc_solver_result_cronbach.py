@@ -8,6 +8,7 @@ import json
 import gzip
 import pickle
 
+# Set the mode, method, start, and end values
 MODE = 'main'
 METHOD = 'CoT'
 START = 1
@@ -28,14 +29,12 @@ total_result_dict = {
         },
     }
 
+# Check the arc_solver_result and calculate the Cronbach's alpha
 def main(include_test_output, additional_info, method, mode, start, end):
-    # include_test_output = True
-    # additional_info = "Fast-Flexible"
     for i in range(start, end+1):
         df_filtered_problem = pd.read_csv('result/filtered_final_merged_logs.csv')
         df_add_info = pd.read_csv('data/add_info/add_info_tasks.csv')
 
-        # save_dir = f'result/[CoT-MC-LARC]test-output-{include_test_output}_additional-info-{additional_info}'
         save_dir = f'result/{method}/exp-{i}/[{mode}]test-output-{include_test_output}_additional-info-{additional_info}'
         arc_dir = f'data/arc_dataset/'
 
@@ -89,7 +88,6 @@ def main(include_test_output, additional_info, method, mode, start, end):
             with open(target_task_file_name, 'r') as f:
                 target_task = json.load(f)
 
-            # id와 problem_index가 일치하는지 체크
             check_id = df_filtered_problem[df_filtered_problem['problem'] == problem_index]['problem_id'].values[0].split('.')[0]
             check_problem_index = df_filtered_problem[df_filtered_problem['problem_id'] == problem_id+'.json']['problem'].values[0]
 
@@ -99,7 +97,7 @@ def main(include_test_output, additional_info, method, mode, start, end):
                 print('\n\n')
                 error_count += 1
                 continue
-            # id와 input grid가 일치하는지 체크
+
             with open(target_arc_task_file_name, 'r') as f:
                 target_arc_task = json.load(f)
 

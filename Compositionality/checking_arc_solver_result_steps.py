@@ -7,11 +7,13 @@ import json
 import gzip
 import pickle
 
+# Set the mode, method, start, and end values
 MODE = 'main'
 METHOD = 'CoT'
 START = 1
 END = 10
 
+# Check the arc_solver_result for each steps and calculate the average counts about the steps
 def main(i, include_test_output, additional_info, method, mode):
     df_filtered_problem = pd.read_csv('result/filtered_final_merged_logs.csv')
 

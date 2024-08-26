@@ -26,10 +26,6 @@ def main(i, include_test_output, additional_info, mode):
     input_price = 0.005 / 1_000
     output_price = 0.015 / 1_000
 
-    # include_test_output = False
-    # planning_mode = False
-    # additional_info = False
-
     args = argparse.Namespace(backend=openai.deployment_name, temperature=0.7, task='arc', naive_run=False, prompt_sample='standard', method_generate='sample', method_evaluate='value', method_select='greedy', n_generate_sample=3, n_evaluate_sample=1, n_select_sample=2)
     df_filtered_problem = pd.read_csv('result/filtered_final_merged_logs.csv')
     df_add_info = pd.read_csv('data/add_info/add_info_tasks.csv')
@@ -114,6 +110,7 @@ def main(i, include_test_output, additional_info, mode):
 
             else:
                 continue
+        # Handle exceptions and save the error log
         except InvalidObjectUsageError as e:
             InvalidObjectUsageError_flag = True
             save_exception_log(e, problem_index, problem_id, except_error_csv_file_path, InvalidObjectUsageError_flag,

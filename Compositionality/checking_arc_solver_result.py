@@ -8,11 +8,13 @@ import gzip
 import pickle
 import matplotlib.pyplot as plt
 
+# Set the mode, method, start, and end values
 MODE = 'main'
 METHOD = 'CoT'
 START = 1
 END = 10
 
+# Check the arc_solver_result for each experiment to calcuate the accuracy
 def main(i, include_test_output, additional_info, method, mode):
     df_filtered_problem = pd.read_csv('result/filtered_final_merged_logs.csv')
 
@@ -230,7 +232,7 @@ if __name__ == '__main__':
 
         results.append([i, name, correct_rate, correct_id_list, correct_index_list, correct_count, incorrect_count,total_error_flags])
 
-    # 평균 누적 그래프를 그립니다.
+    # Plotting the average cumulative graph
     for include_test_output in [False, True]:
         for additional_info in [False, "MC-LARC"]:
             name = cumulative_data_over_runs[include_test_output][additional_info]['Configuration']
@@ -244,7 +246,7 @@ if __name__ == '__main__':
     for i in range(len(cumulative_data_avg['Configuration'])):
         if 158 != round(sum([cumulative_data_avg[k][i] for k in cumulative_data_avg if k != 'Configuration']),1):
             print(f'Error: {include_test_output}, {additional_info}')
-            print(f'문제 있음.')
+            print(f'Have problem.')
             print(round(sum([cumulative_data_over_runs[include_test_output][additional_info][k][0] for k in cumulative_data_over_runs[include_test_output][additional_info] if k != 'Configuration']),1))
 
     df_cumulative_avg = pd.DataFrame(cumulative_data_avg)
