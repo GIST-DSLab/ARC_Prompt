@@ -123,6 +123,22 @@ The below figures represent all of the processes of the experiment.
 
 
 ## Results
+
+To measure the compositionality of the LLM, experiments were conducted on 158 tasks. The results, based on whether the test output and human description were provided, are shown in the table below.
+
+<div align="center">
+   
+|      | w/o Human Description     | w/ Human Description  | 
+|:-----:|:-----:|:-----:|
+| w/o Test Output     | 2%(5%)        | 8%(15%)      | 
+| w/ Test Output    | 9%(17%)       | 14%(29%)     | 
+
+</div>
+
+The above table is the average accuracy from 10 repeated experiment based on the presence or absence of test output and human descriptions. The accuracy values in parentheses are the estimates obtained when LLMs understand the given DSL perferctly.
+
+<!--
+
 The accuracy is based on solving the problems in the training set, 260 questions with the same input/output dimensions, with ToT prompts and DSLs.
 We also classify the tasks based on [ARC-Game](https://github.com/volotat/ARC-Game) and organize experimental results like below.
 
@@ -135,6 +151,8 @@ We also classify the tasks based on [ARC-Game](https://github.com/volotat/ARC-Ga
 | Accuracy | 0.000% | 0.006% | 0.000%  | 0.000% | 0.036% | 0.008% |
 
 </div>
+
+-->
 
 ## Etc
 We modify [tanchongmin's code](https://github.com/tanchongmin/ARC-Challenge) to make the visualization code and use it to visualize the ARC grid. 
