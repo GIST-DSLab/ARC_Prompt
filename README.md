@@ -90,7 +90,7 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 
 ## [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality)
 
-To measure the compositionality of the LLM, experiments were conducted on 158 problems. The results, based on whether the test output and human description were provided, are shown in the table below.
+To measure the compositionality of the LLM, experiments were conducted on 158 tasks. The results, based on whether the test output and human description were provided, are shown in the table below.
 
 <div align="center">
    
