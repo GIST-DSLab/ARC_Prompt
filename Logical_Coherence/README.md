@@ -123,9 +123,14 @@ contexts.**
 This concept is crucial in human cognitive processes as it facilitates the construction of sentence structures based on consistent logic, which is essential for solving various tasks. 
 Such an ability is particularly relevant to the rule inference required in ARC tasks, where the challenge is to identify common logical patterns among given examples and use them to deduce the most logically coherent answer.
 
+In LoTH, coherence is used in two senses. One is a system's ability to coherently apply a specific type of logical inference across all relevant instances, given it can perform that inference in some cases (inferential coherence), while the other is the ability to maintain logical coherence in the process and results of reasoning ([semantic coherence](https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/proseminars/Proseminar13/ConnectionistArchitecture.pdf))
 
 ## How to Experiment to Evaluate the Logical Coherence of LLM?
-To evaluate the logical coherence of LLM with ARC tasks, We used various prompt techniques such as CoT, LtM, and ToT.
+To evaluate the logical coherence of LLM with ARC tasks, we conducted two experiments.
+
+### Comparison Across Prompting Techniques about Semantic Coherence
+
+First is Comparison Acrross Prompt Techniques. It is to check the optimizing prompting to evaluate Logical Coherence experiments.
 
 The below figures explain the process.
 
@@ -143,6 +148,12 @@ Grey blocks illustrate prompt sets delivered to the LLM, including the sample ta
 Green blocks denote the final answer. CoT relies on a single grey block, indicating that the LLM strictly follows the provided sub-tasks. 
 Conversely, LtM and ToT prompt the LLM to generate and address sub-tasks sequentially, represented by decomposed results (red) and intermediate responses (blue). 
 ToT further distinguishes itself from LtM by evaluating multiple suggestions for sub-task handling and selecting the most effective one through a voting mechanism.
+
+### Inferential Coherence Experiments
+
+In Comparison Across Prompting Techniques about Semantic Coherence, CoT method outperform other prompting techniques. So we conducted experiments with CoT.
+
+Firstly, we tested the CoT arc solver on the ARC training tasks to identify tasks that were solved at least once. These tasks were used to evaluate the inferential coherence of the LLMs
 
 
 ## Results
