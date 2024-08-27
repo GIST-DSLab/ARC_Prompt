@@ -123,7 +123,7 @@ cd Compositionality
 ```
 2. Run python code
 ```
-python compositionality_test_tool.py
+python compositionality_human_test_tool.py
 ```
 3. Enter the user ID. This will be used later to record user logs in the CSV file.
 4. Click the 'Main Test,' but if you want to practice before taking the main test, then click the 'Exercise Test'. 
