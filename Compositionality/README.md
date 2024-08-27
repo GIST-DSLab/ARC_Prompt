@@ -19,6 +19,10 @@
 
 ```checking_arc_solver_result_cronbach.py```: calculating cronbach's alpha of main compositionality experiments.
 
+```checking_arc_solver_result_steps.py```: calculating main experiment steps for each condition(When LLM received test output or not/When LLM received human description or not)
+
+```checking_llm_dsl_understainding_result.py```: post-processing which task LLM solve or not.
+
 ```compositionality_humnan_test_tool.py```: a GUI tool for experimenting with compositionality in humans.
 
 ```cot_arc_solver.py```: main compositionality solver with CoT.
@@ -70,12 +74,13 @@ python cot_arc_solver.py
 ```
 5. Check the result of LLM DSL understanding experiment.
 ```
-python 
+python checking_llm_dsl_understanding_result.py
 ```
 6. Check the result of main compositionality experiment with CoT.
 ```
 python checking_arc_solver_result.py
 python checking_arc_solver_result_cronbach.py
+python checking_arc_solver_result.steps.py
 python analysis_tool_cot_result.py
 ```  
 7. Check the result of main compositionality experiment with ToT.
