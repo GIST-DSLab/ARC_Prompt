@@ -2,7 +2,7 @@
 
 ## Dropbox Link(Re-ARC Results)
 
-Re-arc results are too big to upload in github. So we upload dropbox and share [link](https://www.dropbox.com/scl/fo/5br3imwhi5wmksmpj8b90/ALXe718Fw08mKyOxhMYpP4E?rlkey=k8c03gf8avp6pvv2vnk64t507&st=31cizkym&dl=0) to download. If you want to use these results, then put in the result after download from the [dropbox link](https://www.dropbox.com/scl/fo/5br3imwhi5wmksmpj8b90/ALXe718Fw08mKyOxhMYpP4E?rlkey=k8c03gf8avp6pvv2vnk64t507&st=31cizkym&dl=0)
+Re-arc results are too big to upload in github. So we upload dropbox and share [link](https://www.dropbox.com/scl/fo/5br3imwhi5wmksmpj8b90/ALXe718Fw08mKyOxhMYpP4E?rlkey=ozbrvn2m89tb5wye6uw9s04zg&st=4pk4czbh&dl=0) to download. If you want to use these results, then put in the result after download from the [dropbox link](https://www.dropbox.com/scl/fo/5br3imwhi5wmksmpj8b90/ALXe718Fw08mKyOxhMYpP4E?rlkey=ozbrvn2m89tb5wye6uw9s04zg&st=4pk4czbh&dl=0)
 
 
 ## Directory Structure
