@@ -172,6 +172,17 @@ This section tests compositionality by treating ARC tasks as stepwise compositio
 
 
 ## How to Experiment to Evaluate Compositionality of LLM?
+
+We evaluate compositionaliy of LLM to verify whether LLMs understand the meaning of the functions provided for ARC tasks and whether they can combine the functions appropriately to produce the desired results. This experiemnt is "LLM DSL understaning" as shown in the image below.
+
+<img src="https://github.com/user-attachments/assets/84818418-bb7d-4cd6-9c9d-94ad9490038f"  width="100%" height="100%"/>
+
+After conducting the LLM DSL understanding experiment, we conducted the main compositionality experiment. This experiment evaluated the LLMs' compositionality by providing DSL information and requesting solutions for the given ARC tasks, as shown in the image below.
+
+<img src="https://github.com/user-attachments/assets/9d0fd07c-1a39-4186-a2f9-06b07ea12549"  width="100%" height="100%"/>
+
+<!--
+
 The experiment is conducted to determine the compositionality of the LLM using given DSLs.
 DSLs are given by ```tot\data\prototype_arc\dsl.txt``` with python-coded.
 DSLs and tasks are given by ```tot\prompts\arc.py```.
@@ -191,6 +202,7 @@ The below figures represent all of the processes of the experiment.
  The LLM solver observes the current state and chooses the DSL from the list. Then, the LLM validator evaluates the selected DSLs by score. 
  Based on the score, the top two states are sent to the next step.
 
+-->
 
 ## Results
 
