@@ -153,7 +153,7 @@ ToT further distinguishes itself from LtM by evaluating multiple suggestions for
 
 In Comparison Across Prompting Techniques about Semantic Coherence, CoT method outperform other prompting techniques. So we conducted experiments with CoT.
 
-Firstly, we tested the CoT arc solver on the ARC training tasks to identify tasks that were solved at least once. These tasks were used to evaluate the inferential coherence of the LLMs
+We tested the CoT arc solver on the ARC training tasks to identify tasks that were solved at least once. These tasks were used to evaluate the inferential coherence of the LLMs.
 
 
 ## Results
