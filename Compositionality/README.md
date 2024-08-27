@@ -27,7 +27,7 @@
 
 ```id_generator.py```: mapping ARC problem with corresponding task ID.
 
-```llm_dsl_understanding.py```: the experiments of LLM DSL understanding with CoT prompt
+```llm_dsl_understanding.py```: the experiments of LLM DSL understanding with CoT prompt and human logs from ```filtering_final_merged_logs.py```
 
 ```obj_create.py```: makes arc.json from arc_no_object.json to contain the object information from ```PnP.py```.
 
