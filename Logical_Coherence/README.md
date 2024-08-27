@@ -7,7 +7,7 @@
 |  ├─l2m: contains JSONL files for ARC tasks with LtM.
 |  ├─training: contains JSON files for ARC training tasks.
 |
-├─result: contains results and preprocessed data for each trial for each prompting technique.
+├─result: contains results and preprocessed data for each trial for each prompting technique and inferential coherence of LLMs.
 |
 ├─tot
 |  ├─methods: contains a code for prompting techniques such as generation, vote, parsing, and regularization parser.
@@ -17,11 +17,20 @@
 
 
 ## Explanation about Python Codes
+
+```analysis_wrong_re-arc.py```:
+
 ```acc_result.py```: classifies ARC tasks by difficulty from [ARC-Game](https://github.com/volotat/ARC-Game) and calculate results with csv files.
+
+```checking_prompting_result.py```: postprocess the result that made by ```cot_arc_solver.py```, ```ltm_arc_solver.py```, ```tot_arc_solver.py```
+
+```checking_prompting_result_cronbach.py```: calculate the cronbach's alph about results that made by ```cot_arc_solver.py```, ```ltm_arc_solver.py```, ```tot_arc_solver.py```
+
+```cot_arc_solver.py```: solves ARC tasks with Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)) and calculates accuracy of results.
 
 ```cot_making_prompt.py```: generates prompts for ```cot_arc_solver.py```.
 
-```cot_arc_solver.py```: solves ARC tasks with Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)) and calculates accuracy of results.
+```ltm_arc_solver.py```: solves ARC tasks with Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625)).
 
 ```ltm_decomposing.py```: decomposes ARC tasks into small step-by-step sub-tasks.
 
@@ -29,7 +38,9 @@
 
 ```ltm_metric.py```: preprocesses the result that made by ```ltm_arc_solver.py```.
 
-```ltm_arc_solver.py```: solves ARC tasks with Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625)).
+```postpreprocessing_re-arc_result.py```: postpreprocess result that made by ```cot_arc_solver.py``` with re-arc_correct mode.
+
+```making_histogram_re-arc_result.py```: make the histogram and accuracy from postprocessing result that made by ```postpreprocessing_re-arc_result.py```
 
 ```tot_arc_solver.py```: solves ARC tasks with Tree-of-Thoughts ([ToT](https://arxiv.org/abs/2305.10601)).
 
