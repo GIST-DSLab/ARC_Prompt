@@ -47,7 +47,10 @@
 
 
 ## Quick Start
-0. Check environment variables & move to the compositionality directory.
+
+### Common process
+
+1. Check environment variables & move to the compositionality directory.
 ```
 echo $AZURE_OPENAI_API_KEY
 echo $AZURE_OPENAI_ENDPOINT
@@ -55,46 +58,57 @@ echo $AZURE_OPENAI_DEPLOYMENT_NAME
 
 cd Compositionality
 ```
-1. Detect objects in ARC tasks.
+2. Detect objects in ARC tasks.
 ```
 python obj_create.py
 ```
-2. Filter logs that used LLM DSL understanding experiments
+
+### LLM DSL understanding experiment
+
+1. Filter logs that used LLM DSL understanding experiments
 ```
 python filtering_final_merged_logs.py
 ```
-3. Run the experiment of LLM DSL understanding.
+2. Run the experiment of LLM DSL understanding.
 ```
 python llm_dsl_understanding.py
 ```
-4. Run ARC solver with ToT or CoT.
+
+3. Check the result of LLM DSL understanding.
+```
+python checking_llm_dsl_understanding_result.py
+```
+
+### Main compositionality experiments
+
+1. Run ARC solver with ToT or CoT.
 ```
 python tot_arc_solver.py
 python cot_arc_solver.py
 ```
-5. Check the result of LLM DSL understanding experiment.
+2. Check the result of LLM DSL understanding experiment.
 ```
 python checking_llm_dsl_understanding_result.py
 ```
-6. Check the result of main compositionality experiment with CoT.
+3. Check the result of main compositionality experiment with CoT.
 ```
 python checking_arc_solver_result.py
 python checking_arc_solver_result_cronbach.py
 python checking_arc_solver_result.steps.py
 python analysis_tool_cot_result.py
 ```  
-7. Check the result of main compositionality experiment with ToT.
+4. Check the result of main compositionality experiment with ToT.
 ```
 python id_generator.py
 python output_grid.py
 python visualization.py
 ```
-8. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
+5. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
 ```
 xdg-open result/result_correct.html
 xdg-open result/result_incorrect.html
 ```
-9. Move to the origin directory.
+6. Move to the origin directory.
 ```
 cd ..
 ```
@@ -102,16 +116,16 @@ cd ..
 ## Quick Start - GUI testing tool
 If you want to the GUI tool for experimenting with compositionality in humans, then you can follow the steps below.
 
-0. move to the compositionality directory.
+1. move to the compositionality directory.
 ```
 cd Compositionality
 ```
-1. Run python code
+2. Run python code
 ```
 python compositionality_test_tool.py
 ```
-2. Enter the user ID. This will be used later to record user logs in the CSV file.
-3. Click the 'Main Test,' but if you want to practice before taking the main test, then click the 'Exercise Test'. 
+3. Enter the user ID. This will be used later to record user logs in the CSV file.
+4. Click the 'Main Test,' but if you want to practice before taking the main test, then click the 'Exercise Test'. 
 
 Detail about dsl button.
 * ```Rotate Left```, ```Rotate Right```, ```Flip Vertical```, and ```Flip Horizontal``` transform the entire grid.
