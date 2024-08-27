@@ -55,28 +55,41 @@ cd Compositionality
 ```
 python obj_create.py
 ```
-2. Run ARC solver.
+2. Filter logs that used LLM DSL understanding experiments
+```
+python filtering_final_merged_logs.py
+```
+3. Run the experiment of LLM DSL understanding.
+```
+python llm_dsl_understanding.py
+```
+4. Run ARC solver with ToT or CoT.
 ```
 python tot_arc_solver.py
+python cot_arc_solver.py
 ```
-3. Map the problem with Task ID.
+5. Check the result of LLM DSL understanding experiment.
+```
+python 
+```
+6. Check the result of main compositionality experiment with CoT.
+```
+python checking_arc_solver_result.py
+python checking_arc_solver_result_cronbach.py
+python analysis_tool_cot_result.py
+```  
+7. Check the result of main compositionality experiment with ToT.
 ```
 python id_generator.py
-```
-4. Generate the expected output grid for each ARC task.
-```
 python output_grid.py
-```
-5. Visualize results.
-```
 python visualization.py
 ```
-6. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
+8. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
 ```
 xdg-open result/result_correct.html
 xdg-open result/result_incorrect.html
 ```
-7. Move to the origin directory.
+9. Move to the origin directory.
 ```
 cd ..
 ```
