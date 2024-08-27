@@ -90,7 +90,20 @@ number of ARC tasks corresponding to each category is listed in the table, and t
 
 ## [Compositionality](https://github.com/GIST-DSLab/ARC_Prompt/tree/master/Compositionality)
 
+### LLM DSL understanding 
+
+The result of LLM DSL understaing experiment is 81% using weighted average accuracy with the number of tasks at each step as weight as shown in the equation.
+
+$$
+p = \frac{\sum_{n=1}^{10} w_n \cdot a_n}{\sum_{n=1}^{10} w_n}
+$$
+
+In this equation, $$\textbf{p}$$ refers to the single-step accuracy, $$w_n$$ represents the number of tasks at step $$\textbf{n}$$, and $$a_n$$ represents the accuracy at step $$\textbf{n}$$. Based on this, we estimated the single-step accuracy to be 81%.
+
+### Main Compoaitionality
+
 To measure the compositionality of the LLM, experiments were conducted on 158 tasks. The results, based on whether the test output and human description were provided, are shown in the table below.
+
 
 <div align="center">
    
@@ -101,7 +114,13 @@ To measure the compositionality of the LLM, experiments were conducted on 158 ta
 
 </div>
 
-The above table is the average accuracy from 10 repeated experiment based on the presence or absence of test output and human descriptions. The accuracy values in parentheses are the estimates obtained when LLMs understand the given DSL perferctly.
+The above table is the average accuracy from 10 repeated experiment based on the presence or absence of test output and human descriptions. The accuracy values in parentheses are the estimates obtained when LLMs understand the given DSL perferctly. We make the equation to estimate the result if LLM understand the given DSL perfectly.
+
+$$
+y = \frac{\sum_{n=1}^{10} w_n \cdot (p \cdot x)^n}{\sum_{n=1}^{10} w_n}
+$$
+
+In this equation, $$\textbf{n}$$ represents the number of steps, $$w_n$$ denotes the number of problems at step $$\textbf{n}$$, $$\textbf{p}$$ refers to the single-step accuracy, specifically the 0.81 performance obtained from LLM DSL understanding experiment, and $$\textbf{x}$$ indicates the difficulty of the problem. We assumed that the difficulty of the problem can vary depending on the information provided to the LLMs.
 
 
 <!--
