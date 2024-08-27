@@ -1,10 +1,5 @@
 # Logical Coherence
 
-## Dropbox Link(Re-ARC Results)
-
-Re-arc results are too big to upload in github. So we upload dropbox and share [link](https://www.dropbox.com/scl/fo/5br3imwhi5wmksmpj8b90/ALXe718Fw08mKyOxhMYpP4E?rlkey=ozbrvn2m89tb5wye6uw9s04zg&st=4pk4czbh&dl=0) to download. If you want to use these results, then **put in the result directory** after download from the [dropbox link](https://www.dropbox.com/scl/fo/5br3imwhi5wmksmpj8b90/ALXe718Fw08mKyOxhMYpP4E?rlkey=ozbrvn2m89tb5wye6uw9s04zg&st=4pk4czbh&dl=0)
-
-
 ## Directory Structure
 ```
 ├─data
@@ -69,7 +64,7 @@ cd Logical_Coherence
 1. Run ARC solver using Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)).
 ```
 python cot_making_prompt.py
-python cot_arc_solver.py
+python cot_arc_solver.py # You need to set the MODE to eval and then run it.
 ```
 2. Run ARC solver using Least-to-Most ([LtM](https://arxiv.org/abs/2205.10625)).
 ```
@@ -104,7 +99,7 @@ cd ..
 
 1. Run ARC solver using Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)) about ARC training dataset. 
 ```
-python cot_arc_solver.py # you set up the train mode
+python cot_arc_solver.py # You need to set the MODE to train and then run it.
 ```
 2. Run making re-arc prompting.
 ```
@@ -112,7 +107,7 @@ python cot_re-arc_making_prompt.py
 ```
 3. Run ARC solver using CoT with re-arc augmented problem pairs.
 ```
-python cot_arc_solver.py # you set up the re-arc_correct mode
+python cot_arc_solver.py # You need to set the MODE to re-arc_correct and then run it.
 ```
 4. Run postpreprocessing about the re-arc result.
 ```
