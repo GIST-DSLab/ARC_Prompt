@@ -181,8 +181,8 @@ the accuracy when both the results and the process are correct.
 
 We conducted five repeated experiments using CoT on 400 tasks from the ARC Training set. Then, for the tasks that were answered correctly at least once, we augmented 100 problems using re-arc and measured Inferential Coherence, repeating this experiment five times. The results are shown in the figure below
 
-![3 1_cdf-1](https://github.com/user-attachments/assets/80c3c380-4aac-43c6-9742-bdcc8b2fb7d0)|![3 1_pdf-1](https://github.com/user-attachments/assets/f9a372e4-f36c-47c4-acb7-b88a03520358)|
----|---|
+|![3 1_cdf-1](https://github.com/user-attachments/assets/80c3c380-4aac-43c6-9742-bdcc8b2fb7d0)|![3 1_pdf-1](https://github.com/user-attachments/assets/db212a43-8533-49d4-9647-df53b68b59cc)|
+|---|---|
 
 <!--
 
