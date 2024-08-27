@@ -91,29 +91,25 @@ python checking_llm_dsl_understanding_result.py
 python tot_arc_solver.py
 python cot_arc_solver.py
 ```
-2. Check the result of LLM DSL understanding experiment.
-```
-python checking_llm_dsl_understanding_result.py
-```
-3. Check the result of main compositionality experiment with CoT.
+2. Check the result of main compositionality experiment with CoT.
 ```
 python checking_arc_solver_result.py
 python checking_arc_solver_result_cronbach.py
 python checking_arc_solver_result.steps.py
 python analysis_tool_cot_result.py
 ```  
-4. Check the result of main compositionality experiment with ToT.
+3. Check the result of main compositionality experiment with ToT.
 ```
 python id_generator.py
 python output_grid.py
 python visualization.py
 ```
-5. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
+4. Check visualization results (HTML files) that are located in each subdirectory of the result directory.
 ```
 xdg-open result/result_correct.html
 xdg-open result/result_incorrect.html
 ```
-6. Move to the origin directory.
+5. Move to the origin directory.
 ```
 cd ..
 ```
