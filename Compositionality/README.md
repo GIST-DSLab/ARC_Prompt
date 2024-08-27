@@ -8,14 +8,26 @@
 |  ├─prompts: contains a prompt code used when each prompting technique generates suggestions or evaluates value.
 |  ├─tasks: contains codes that manage ARC tasks and their prompts.
 |
-├─result: contains results that consist of every step with selected DSLs
+├─result: contains results that consist of LLM DSL understanding and main compositionality experiments
 ```
 
 
 ## Explanation about Python Codes
-```compositionality_test_tool.py```: A GUI tool for experimenting with compositionality in humans.
+```analysis_tool_cot_result.py```: analysis tool to check the main experiments results that saved in result/CoT directory.
+
+```checkin_arc_solver_result.py```: calculating accuracy, variance and confidence interval of main compositionality experiments.
+
+```checking_arc_solver_result_cronbach.py```: calculating cronbach's alpha of main compositionality experiments.
+
+```compositionality_humnan_test_tool.py```: a GUI tool for experimenting with compositionality in humans.
+
+```cot_arc_solver.py```: main compositionality solver with CoT.
+
+```filtering_final_merged_logs.py```: filtering human logs that used when LLM DSL understanding experiments.
 
 ```id_generator.py```: mapping ARC problem with corresponding task ID.
+
+```llm_dsl_understanding.py```: the experiments of LLM DSL understanding with CoT prompt
 
 ```obj_create.py```: makes arc.json from arc_no_object.json to contain the object information from ```PnP.py```.
 
