@@ -18,11 +18,9 @@
 
 ## Explanation about Python Codes
 
-```analysis_wrong_re-arc.py```:
+```analysis_wrong_re-arc.py```: analyze the statistics of result that made by ```cot_arc_solver.py``` with re-arc_correct mode and create a grid pair image for the incorrect results that the LLM failed to solve at least once
 
-```acc_result.py```: classifies ARC tasks by difficulty from [ARC-Game](https://github.com/volotat/ARC-Game) and calculate results with csv files.
-
-```checking_prompting_result.py```: postprocess the result that made by ```cot_arc_solver.py```, ```ltm_arc_solver.py```, ```tot_arc_solver.py```
+```checking_prompting_result.py```: classifies ARC tasks by difficulty from [ARC-Game](https://github.com/volotat/ARC-Game) and calculate results with csv files.
 
 ```checking_prompting_result_cronbach.py```: calculate the cronbach's alph about results that made by ```cot_arc_solver.py```, ```ltm_arc_solver.py```, ```tot_arc_solver.py```
 
