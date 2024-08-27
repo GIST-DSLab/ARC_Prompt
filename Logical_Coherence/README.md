@@ -58,6 +58,8 @@ echo $AZURE_OPENAI_DEPLOYMENT_NAME
 
 cd Logical_Coherence
 ```
+### Comparison Across Prompting Techniques
+
 1. Run ARC solver using Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)).
 ```
 python cot_making_prompt.py
@@ -90,6 +92,29 @@ xdg-open result/\[ToT\]result_4/tot_result4_incorrect.html
 6. Move to the origin directory.
 ```
 cd ..
+```
+
+### Inferential Coherence of LLMs
+
+1. Run ARC solver using Chain-of-Thought ([CoT](https://arxiv.org/abs/2201.11903)) about ARC training dataset. 
+```
+python cot_arc_solver.py # you set up the train mode
+```
+2. Run making re-arc prompting.
+```
+python cot_re-arc_making_prompt.py
+```
+3. Run ARC solver using CoT with re-arc augmented problem pairs.
+```
+python cot_arc_solver.py # you set up the re-arc_correct mode
+```
+4. Run postpreprocessing about the re-arc result.
+```
+python postpreprocessing_re-arc_result.py
+```
+5. Make the statistics of result and histogram
+```
+python making_histogram_re-arc_result.py
 ```
 
 ## What is Logical Coherence?
