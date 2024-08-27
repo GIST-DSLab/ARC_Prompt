@@ -95,7 +95,7 @@ python cot_arc_solver.py
 ```
 python checking_arc_solver_result.py
 python checking_arc_solver_result_cronbach.py
-python checking_arc_solver_result.steps.py
+python checking_arc_solver_result_steps.py
 python analysis_tool_cot_result.py
 ```  
 3. Check the result of main compositionality experiment with ToT.
