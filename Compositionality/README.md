@@ -216,7 +216,7 @@ $$
 
 In this equation, $$\textbf{p}$$ refers to the single-step accuracy, $$w_n$$ represents the number of tasks at step $$\textbf{n}$$, and $$a_n$$ represents the accuracy at step $$\textbf{n}$$. Based on this, we estimated the single-step accuracy to be 81%.
 
-### Main Compoaitionality
+### Main Compositionality
 
 To measure the compositionality of the LLM, experiments were conducted on 158 tasks. The results, based on whether the test output and human description were provided, are shown in the table below.
 
