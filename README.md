@@ -3,7 +3,7 @@ This repository is the experiment code for "Reasoning Abilities of Large Languag
 
 > [Reasoning Abilities of Large Language Models: In-Depth Analysis on the Abstraction and Reasoning Corpus](https://arxiv.org/abs/2403.11793) </br>
 > </br>
-> Seungpil Lee*, Woochang Sim*, Donghyeon Shin*, Sanha Hwang, Wongyu Seo, Jiwon Park, Seokki Lee, Sejin Kim, Sundong Kim
+> Seungpil Lee*, Woochang Sim*, Donghyeon Shin*, Wongyu Seo, Jiwon Park, Seokki Lee, Sejin Kim, Sanha Hwang, Sundong Kim
 
 The existing methods for evaluating the inference abilities of Large Language Models (LLMs) have been result-centric,
 making it difficult to assess the inference process. We introduce a new approach using the Abstract
